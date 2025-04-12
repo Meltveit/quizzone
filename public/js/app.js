@@ -10,7 +10,8 @@ const appState = {
     currentQuiz: null,
     currentQuestionIndex: 0,
     currentPlayerIndex: 0,
-    selectedAnswerIndex: null,
+    playerAnswers: {}, // Object to store each player's answer for current question
+    answersChecked: false, // Flag to track if answers have been checked
     scores: {}
 };
 
@@ -40,6 +41,8 @@ const elements = {
     currentPlayerName: document.getElementById('current-player-name'),
     scoreboard: document.getElementById('scoreboard'),
     nextQuestionBtn: document.getElementById('next-question-btn'),
+    checkAnswersBtn: document.getElementById('check-answers-btn'),
+    playerAnswersContainer: document.getElementById('player-answers-container'),
     
     // Results Screen Elements
     winnerName: document.getElementById('winner-name'),
@@ -123,6 +126,7 @@ function setupEventListeners() {
         showScreen(elements.homeScreen);
     });
     elements.nextQuestionBtn.addEventListener('click', showNextQuestion);
+    elements.checkAnswersBtn.addEventListener('click', checkAnswers);
     
     // Results screen
     elements.playAgainBtn.addEventListener('click', () => {
@@ -233,6 +237,8 @@ function startQuiz() {
             appState.currentQuiz = quiz;
             appState.currentQuestionIndex = 0;
             appState.currentPlayerIndex = 0;
+            appState.playerAnswers = {}; // Reset player answers
+            appState.answersChecked = false;
             
             // Reset scores
             appState.players.forEach(player => {
@@ -250,6 +256,9 @@ function startQuiz() {
             
             // Update scoreboard
             renderScoreboard();
+            
+            // Render player answer selection
+            renderPlayerAnswerSelection();
         }
     );
 }
@@ -294,24 +303,149 @@ function renderCurrentQuestion() {
     
     // Add answer options
     question.options.forEach((option, index) => {
-        const optionElement = document.createElement('button');
+        const optionElement = document.createElement('div');
         optionElement.className = 'answer-option';
-        optionElement.textContent = option;
+        optionElement.innerHTML = `
+            <span class="inline-block w-6 h-6 text-center bg-indigo-100 rounded-full mr-2">${String.fromCharCode(65 + index)}</span>
+            ${option}
+        `;
         optionElement.dataset.index = index;
-        
-        optionElement.addEventListener('click', () => selectAnswer(index));
-        
         elements.answerOptions.appendChild(optionElement);
     });
     
-    // Update current player
-    elements.currentPlayerName.textContent = appState.players[appState.currentPlayerIndex];
-    
-    // Hide next question button
+    // Hide buttons
     elements.nextQuestionBtn.classList.add('hidden');
+    elements.checkAnswersBtn.classList.add('hidden');
     
-    // Reset selected answer
-    appState.selectedAnswerIndex = null;
+    // Reset player answers for new question
+    appState.playerAnswers = {};
+    appState.answersChecked = false;
+    
+    // Reset player answers display
+    renderPlayerAnswerSelection();
+}
+
+// Render the player answer selection interface
+function renderPlayerAnswerSelection() {
+    elements.playerAnswersContainer.innerHTML = '';
+    elements.currentPlayerName.textContent = '';
+    
+    // Create answer selection for each player
+    appState.players.forEach(player => {
+        const playerRow = document.createElement('div');
+        playerRow.className = 'player-answer-row flex items-center justify-between mb-2 p-3 bg-white rounded-lg shadow-sm';
+        
+        // Player name
+        const nameElement = document.createElement('div');
+        nameElement.className = 'player-name font-medium';
+        nameElement.textContent = player;
+        
+        // Answer selection buttons
+        const answerButtons = document.createElement('div');
+        answerButtons.className = 'answer-buttons flex space-x-2';
+        
+        const question = appState.currentQuiz[appState.currentQuestionIndex];
+        const options = ['A', 'B', 'C', 'D']; // Letter options
+        
+        // Only show as many options as we have answers
+        const numOptions = Math.min(options.length, question.options.length);
+        
+        for (let i = 0; i < numOptions; i++) {
+            const button = document.createElement('button');
+            
+            // Check if this player has already selected this answer
+            const isSelected = appState.playerAnswers[player] === i;
+            
+            button.className = `w-8 h-8 rounded-full text-sm font-medium ${
+                isSelected 
+                ? 'bg-indigo-600 text-white' 
+                : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+            }`;
+            button.textContent = options[i];
+            
+            // After answers are checked, style buttons according to correctness
+            if (appState.answersChecked) {
+                const correctIndex = question.correctIndex;
+                if (i === correctIndex) {
+                    button.className = 'w-8 h-8 rounded-full text-sm font-medium bg-green-600 text-white';
+                } else if (isSelected) {
+                    button.className = 'w-8 h-8 rounded-full text-sm font-medium bg-red-600 text-white';
+                }
+                
+                // Disable buttons after checking
+                button.disabled = true;
+            } else {
+                // Add click handler when not checked yet
+                button.addEventListener('click', () => selectPlayerAnswer(player, i));
+            }
+            
+            answerButtons.appendChild(button);
+        }
+        
+        playerRow.appendChild(nameElement);
+        playerRow.appendChild(answerButtons);
+        elements.playerAnswersContainer.appendChild(playerRow);
+    });
+    
+    // Show check answers button if all players have answered
+    const allPlayersAnswered = appState.players.every(player => 
+        appState.playerAnswers[player] !== undefined
+    );
+    
+    if (allPlayersAnswered && !appState.answersChecked) {
+        elements.checkAnswersBtn.classList.remove('hidden');
+    } else {
+        elements.checkAnswersBtn.classList.add('hidden');
+    }
+    
+    // Show next question button if answers have been checked
+    if (appState.answersChecked) {
+        elements.nextQuestionBtn.classList.remove('hidden');
+    } else {
+        elements.nextQuestionBtn.classList.add('hidden');
+    }
+}
+
+// Handle player answer selection
+function selectPlayerAnswer(player, answerIndex) {
+    // Store the selected answer
+    appState.playerAnswers[player] = answerIndex;
+    
+    // Update the UI to reflect the selection
+    renderPlayerAnswerSelection();
+}
+
+// Check all player answers
+function checkAnswers() {
+    const question = appState.currentQuiz[appState.currentQuestionIndex];
+    const correctIndex = question.correctIndex;
+    
+    // Update scores for correct answers
+    appState.players.forEach(player => {
+        if (appState.playerAnswers[player] === correctIndex) {
+            appState.scores[player]++;
+            
+            // Animate score update
+            animateScoreUpdate(player);
+        }
+    });
+    
+    // Mark answers as checked
+    appState.answersChecked = true;
+    
+    // Update scoreboard
+    renderScoreboard();
+    
+    // Update the UI to show correct/incorrect answers
+    renderPlayerAnswerSelection();
+    
+    // Highlight correct answer in the options list
+    const answerOptions = elements.answerOptions.querySelectorAll('.answer-option');
+    answerOptions.forEach((option, index) => {
+        if (index === correctIndex) {
+            option.classList.add('correct');
+        }
+    });
 }
 
 // Handle answer selection
@@ -371,24 +505,18 @@ function selectAnswer(index) {
     elements.nextQuestionBtn.classList.remove('hidden');
 }
 
-// Move to the next question or player
+// Move to the next question
 function showNextQuestion() {
-    // Increment player index
-    appState.currentPlayerIndex = (appState.currentPlayerIndex + 1) % appState.players.length;
+    appState.currentQuestionIndex++;
     
-    // If we've gone through all players, move to next question
-    if (appState.currentPlayerIndex === 0) {
-        appState.currentQuestionIndex++;
-        
-        // Check if quiz is complete
-        if (appState.currentQuestionIndex >= appState.currentQuiz.length) {
-            showResults();
-            return;
-        }
-        
-        // Update progress
-        updateQuizProgress();
+    // Check if quiz is complete
+    if (appState.currentQuestionIndex >= appState.currentQuiz.length) {
+        showResults();
+        return;
     }
+    
+    // Update progress
+    updateQuizProgress();
     
     // Render the next question
     renderCurrentQuestion();
@@ -516,7 +644,8 @@ function resetQuiz() {
     appState.currentQuiz = null;
     appState.currentQuestionIndex = 0;
     appState.currentPlayerIndex = 0;
-    appState.selectedAnswerIndex = null;
+    appState.playerAnswers = {};
+    appState.answersChecked = false;
     
     // Reset scores
     appState.players.forEach(player => {

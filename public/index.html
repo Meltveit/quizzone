@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E40HWE9G2K"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-E40HWE9G2K');
+    </script>
 </head>
 <body class="bg-gray-50 min-h-screen">
     <div id="app" class="container mx-auto px-4 py-6">
@@ -111,8 +119,11 @@
                 </div>
             </div>
             
-            <div class="current-player-info mb-6 p-4 bg-indigo-50 rounded-lg text-center">
-                <div class="text-lg font-medium">Nåværende spiller: <span id="current-player-name">Spiller 1</span></div>
+            <div class="player-answers bg-white rounded-lg shadow-md p-4 mb-6">
+                <h3 class="text-lg font-semibold mb-3">Spillernes svar</h3>
+                <div id="player-answers-container" class="space-y-2">
+                    <!-- Player answer selections will be added here dynamically -->
+                </div>
             </div>
             
             <div class="player-scores bg-white rounded-lg shadow-md p-4">
@@ -122,9 +133,14 @@
                 </div>
             </div>
             
-            <button id="next-question-btn" class="w-full py-3 bg-indigo-600 text-white font-medium rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none mt-6 hidden">
-                Neste spørsmål
-            </button>
+            <div class="mt-6 flex justify-center space-x-4">
+                <button id="check-answers-btn" class="px-4 py-2 bg-green-600 text-white font-medium rounded-lg shadow-md hover:bg-green-700 focus:outline-none hidden">
+                    Sjekk svar
+                </button>
+                <button id="next-question-btn" class="px-4 py-2 bg-indigo-600 text-white font-medium rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none hidden">
+                    Neste spørsmål
+                </button>
+            </div>
         </section>
         
         <!-- Results Screen -->
