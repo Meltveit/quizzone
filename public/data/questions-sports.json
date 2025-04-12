@@ -1,0 +1,212 @@
+[
+    {
+      "question": "Hvilket land vant fotball-VM for herrer i 2018?",
+      "correctAnswer": "Frankrike",
+      "incorrectAnswers": ["Brasil", "Tyskland", "Kroatia"],
+      "category": "Fotball",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvor mange spillere er det på banen i et fotballag?",
+      "correctAnswer": "11",
+      "incorrectAnswers": ["10", "12", "9"],
+      "category": "Fotball",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken idrett er Therese Johaug kjent for?",
+      "correctAnswer": "Langrenn",
+      "incorrectAnswers": ["Skiskyting", "Alpint", "Hopp"],
+      "category": "Vintersport",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken by arrangerte OL i 1994?",
+      "correctAnswer": "Lillehammer",
+      "incorrectAnswers": ["Oslo", "Albertville", "Nagano"],
+      "category": "OL",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvor mange poeng gir en touchdown i amerikansk fotball?",
+      "correctAnswer": "6",
+      "incorrectAnswers": ["7", "3", "2"],
+      "category": "Amerikansk fotball",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilket land har vunnet flest VM-gull i fotball for herrer?",
+      "correctAnswer": "Brasil",
+      "incorrectAnswers": ["Tyskland", "Italia", "Argentina"],
+      "category": "Fotball",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvor mange runder går en standard boksekamp på elitenivå?",
+      "correctAnswer": "12",
+      "incorrectAnswers": ["10", "15", "8"],
+      "category": "Boksing",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilket dyr er symbolet for Kolbotn IL?",
+      "correctAnswer": "Leopard",
+      "incorrectAnswers": ["Løve", "Tiger", "Bjørn"],
+      "category": "Norsk idrett",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Hva er den lengste distansen i friidrett på OL-programmet?",
+      "correctAnswer": "Maraton",
+      "incorrectAnswers": ["10000 meter", "5000 meter", "3000 meter hinder"],
+      "category": "Friidrett",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket lag har vunnet flest titler i Premier League?",
+      "correctAnswer": "Manchester United",
+      "incorrectAnswers": ["Liverpool", "Chelsea", "Manchester City"],
+      "category": "Fotball",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvor mange VM-gull har Ole Einar Bjørndalen?",
+      "correctAnswer": "13",
+      "incorrectAnswers": ["10", "15", "8"],
+      "category": "Skiskyting",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Hvilket land vant EM i fotball i 2020 (spilt i 2021)?",
+      "correctAnswer": "Italia",
+      "incorrectAnswers": ["England", "Spania", "Frankrike"],
+      "category": "Fotball",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken sport bruker en 'shuttlecock'?",
+      "correctAnswer": "Badminton",
+      "incorrectAnswers": ["Tennis", "Squash", "Bordtennis"],
+      "category": "Racketsport",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken fotballspiller har scoret flest mål i VM-historien?",
+      "correctAnswer": "Miroslav Klose",
+      "incorrectAnswers": ["Pelé", "Cristiano Ronaldo", "Lionel Messi"],
+      "category": "Fotball",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Hvor mange gull har Marit Bjørgen i OL?",
+      "correctAnswer": "8",
+      "incorrectAnswers": ["6", "10", "12"],
+      "category": "Vintersport",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken idrett utøver Karsten Warholm?",
+      "correctAnswer": "400 meter hekk",
+      "incorrectAnswers": ["Høydehopp", "Spydkast", "Maraton"],
+      "category": "Friidrett",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket år ble fotball-VM for herrer arrangert i Norge?",
+      "correctAnswer": "Aldri",
+      "incorrectAnswers": ["1994", "1978", "2002"],
+      "category": "Fotball",
+      "difficulty": "medium"
+    },
+    {
+      "question": "I hvilket land ble de første moderne olympiske leker arrangert?",
+      "correctAnswer": "Hellas",
+      "incorrectAnswers": ["Frankrike", "USA", "England"],
+      "category": "OL",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvem er kjent som 'The Greatest' i boksing?",
+      "correctAnswer": "Muhammad Ali",
+      "incorrectAnswers": ["Mike Tyson", "Floyd Mayweather", "Evander Holyfield"],
+      "category": "Boksing",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva kalles en poengstilling på 40-40 i tennis?",
+      "correctAnswer": "Deuce",
+      "incorrectAnswers": ["Double", "Draw", "Tie"],
+      "category": "Tennis",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken fotballspiller har vunnet flest Ballon d'Or (Gullballen)?",
+      "correctAnswer": "Lionel Messi",
+      "incorrectAnswers": ["Cristiano Ronaldo", "Michel Platini", "Johan Cruyff"],
+      "category": "Fotball",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvor mange spillere er det på et ishockeylag på isen samtidig?",
+      "correctAnswer": "6",
+      "incorrectAnswers": ["5", "7", "8"],
+      "category": "Ishockey",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilket norsk fotballag har tilnavnet 'Enga'?",
+      "correctAnswer": "Vålerenga",
+      "incorrectAnswers": ["Rosenborg", "Brann", "Molde"],
+      "category": "Norsk fotball",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem er den eneste norske fotballspilleren som har vunnet Champions League?",
+      "correctAnswer": "Erling Haaland",
+      "incorrectAnswers": ["Ole Gunnar Solskjær", "John Arne Riise", "Martin Ødegaard"],
+      "category": "Fotball",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken alpinist har vunnet flest verdenscuprenn gjennom tidene?",
+      "correctAnswer": "Ingemar Stenmark",
+      "incorrectAnswers": ["Marcel Hirscher", "Lindsey Vonn", "Mikaela Shiffrin"],
+      "category": "Alpint",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Hvor mange hull spilles i en standard golfrunde?",
+      "correctAnswer": "18",
+      "incorrectAnswers": ["9", "12", "24"],
+      "category": "Golf",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken fotballklubb har vunnet flest Champions League-titler?",
+      "correctAnswer": "Real Madrid",
+      "incorrectAnswers": ["Barcelona", "Bayern München", "Liverpool"],
+      "category": "Fotball",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvem har verdensrekorden på 100 meter for menn?",
+      "correctAnswer": "Usain Bolt",
+      "incorrectAnswers": ["Tyson Gay", "Asafa Powell", "Justin Gatlin"],
+      "category": "Friidrett",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket land er Roger Federer fra?",
+      "correctAnswer": "Sveits",
+      "incorrectAnswers": ["Østerrike", "Tyskland", "Sverige"],
+      "category": "Tennis",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken svømmer har vunnet flest OL-gull?",
+      "correctAnswer": "Michael Phelps",
+      "incorrectAnswers": ["Ryan Lochte", "Ian Thorpe", "Mark Spitz"],
+      "category": "Svømming",
+      "difficulty": "easy"
+    }
+  ]

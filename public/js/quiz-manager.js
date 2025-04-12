@@ -24,6 +24,7 @@ const quizManager = {
                     })
                     .then(data => {
                         this.questionDatabases[theme] = data;
+                        console.log(`Loaded ${theme} questions: ${data.length} items`);
                         return theme;
                     })
                     .catch(error => {
@@ -34,7 +35,19 @@ const quizManager = {
                     });
             });
             
+            // Wait for all promises to resolve
             await Promise.all(promises);
+            
+            // Validate that we have at least one database with questions
+            const hasQuestions = Object.values(this.questionDatabases).some(db => db && db.length > 0);
+            
+            if (!hasQuestions) {
+                console.warn('No question databases were loaded successfully. Using placeholders instead.');
+                // Initialize with placeholder questions as fallback
+                themes.forEach(theme => {
+                    this.questionDatabases[theme] = this.generatePlaceholderQuiz(20);
+                });
+            }
             
             if (callback && typeof callback === 'function') {
                 callback();
@@ -45,7 +58,7 @@ const quizManager = {
             // Initialize empty databases if loading fails
             const themes = ['easter', 'general', 'movies', 'sports', 'kids'];
             themes.forEach(theme => {
-                this.questionDatabases[theme] = [];
+                this.questionDatabases[theme] = this.generatePlaceholderQuiz(20);
             });
             
             if (callback && typeof callback === 'function') {
@@ -93,9 +106,27 @@ const quizManager = {
             }
         }
         
+        // If we still don't have enough questions, use placeholder questions
+        if (questions.length === 0) {
+            console.warn('No questions available. Using placeholders.');
+            questions = this.generatePlaceholderQuiz(count);
+            
+            // Return the placeholder questions and exit
+            if (callback && typeof callback === 'function') {
+                callback(questions);
+            }
+            return questions;
+        }
+        
         // Shuffle questions and take the requested count
         const shuffledQuestions = this.shuffleArray([...questions]);
-        const selectedQuestions = shuffledQuestions.slice(0, count);
+        const selectedQuestions = shuffledQuestions.slice(0, Math.min(count, shuffledQuestions.length));
+        
+        // If we still don't have enough questions, add placeholder questions
+        if (selectedQuestions.length < count) {
+            const placeholders = this.generatePlaceholderQuiz(count - selectedQuestions.length);
+            selectedQuestions.push(...placeholders);
+        }
         
         // Further shuffle each question's options
         const quizQuestions = selectedQuestions.map(q => {
@@ -139,14 +170,46 @@ const quizManager = {
     },
     
     // Create a placeholder question if needed
-    createPlaceholderQuestion: function() {
-        return {
-            question: "Eksempelspørsmål: Hva er hovedstaden i Norge?",
-            options: ["Stockholm", "Oslo", "København", "Helsinki"],
-            correctIndex: 1,
-            category: "Geografi",
-            difficulty: "easy"
-        };
+    createPlaceholderQuestion: function(index = 0) {
+        const placeholders = [
+            {
+                question: "Eksempelspørsmål: Hva er hovedstaden i Norge?",
+                options: ["Stockholm", "Oslo", "København", "Helsinki"],
+                correctIndex: 1,
+                category: "Geografi",
+                difficulty: "easy"
+            },
+            {
+                question: "Eksempelspørsmål: Hvilket dyr er kjent som 'skogens konge'?",
+                options: ["Bjørn", "Elg", "Ulv", "Gaupe"],
+                correctIndex: 0,
+                category: "Natur",
+                difficulty: "easy"
+            },
+            {
+                question: "Eksempelspørsmål: Hva er 7 x 8?",
+                options: ["54", "56", "49", "64"],
+                correctIndex: 1,
+                category: "Matematikk",
+                difficulty: "easy"
+            },
+            {
+                question: "Eksempelspørsmål: Hvilken farge er himmelen på en klar dag?",
+                options: ["Grønn", "Rød", "Blå", "Gul"],
+                correctIndex: 2,
+                category: "Natur",
+                difficulty: "easy"
+            },
+            {
+                question: "Eksempelspørsmål: Hvor mange dager er det i en uke?",
+                options: ["5", "6", "7", "8"],
+                correctIndex: 2,
+                category: "Generell kunnskap",
+                difficulty: "easy"
+            }
+        ];
+        
+        return placeholders[index % placeholders.length];
     },
     
     // Generate placeholder questions for testing
@@ -154,7 +217,7 @@ const quizManager = {
         const placeholders = [];
         
         for (let i = 0; i < count; i++) {
-            placeholders.push(this.createPlaceholderQuestion());
+            placeholders.push(this.createPlaceholderQuestion(i));
         }
         
         return placeholders;

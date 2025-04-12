@@ -38,6 +38,103 @@ const animations = {
         }
     },
     
+    // Create a flashing effect for correct answers
+    flashCorrectAnswer: function(element) {
+        element.classList.add('flash-correct');
+        setTimeout(() => {
+            element.classList.remove('flash-correct');
+        }, 1000);
+    },
+    
+    // Create a shaking effect for incorrect answers
+    shakeIncorrectAnswer: function(element) {
+        element.classList.add('shake-incorrect');
+        setTimeout(() => {
+            element.classList.remove('shake-incorrect');
+        }, 500);
+    },
+    
+    // Animate the progress bar
+    animateProgressBar: function(element, fromPercent, toPercent) {
+        // Set initial width
+        element.style.width = `${fromPercent}%`;
+        
+        // Trigger animation by setting new width after a small delay
+        setTimeout(() => {
+            element.style.width = `${toPercent}%`;
+        }, 50);
+    },
+    
+    // Create a pulse animation on an element
+    pulseElement: function(element, duration = 500) {
+        element.classList.add('pulse-animation');
+        setTimeout(() => {
+            element.classList.remove('pulse-animation');
+        }, duration);
+    },
+    
+    // Create a fade-in animation
+    fadeIn: function(element, delay = 0) {
+        element.style.opacity = '0';
+        element.style.display = 'block';
+        
+        setTimeout(() => {
+            element.style.transition = 'opacity 0.5s ease';
+            element.style.opacity = '1';
+        }, delay);
+    },
+    
+    // Create a fade-out animation
+    fadeOut: function(element, delay = 0, callback) {
+        element.style.opacity = '1';
+        
+        setTimeout(() => {
+            element.style.transition = 'opacity 0.5s ease';
+            element.style.opacity = '0';
+            
+            setTimeout(() => {
+                element.style.display = 'none';
+                if (callback && typeof callback === 'function') {
+                    callback();
+                }
+            }, 500);
+        }, delay);
+    },
+    
+    // Create a slide-in animation
+    slideIn: function(element, direction = 'right', delay = 0) {
+        const originalDisplay = element.style.display || 'block';
+        element.style.display = 'none';
+        
+        let initialTransform = '';
+        switch (direction) {
+            case 'left':
+                initialTransform = 'translateX(-100%)';
+                break;
+            case 'right':
+                initialTransform = 'translateX(100%)';
+                break;
+            case 'up':
+                initialTransform = 'translateY(-100%)';
+                break;
+            case 'down':
+                initialTransform = 'translateY(100%)';
+                break;
+        }
+        
+        setTimeout(() => {
+            element.style.transform = initialTransform;
+            element.style.opacity = '0';
+            element.style.display = originalDisplay;
+            
+            setTimeout(() => {
+                element.style.transition = 'transform 0.5s ease, opacity 0.5s ease';
+                element.style.transform = 'translate(0, 0)';
+                element.style.opacity = '1';
+            }, 50);
+        }, delay);
+    },
+    
     // Create a slide-out animation
     slideOut: function(element, direction = 'right', delay = 0, callback) {
         element.style.opacity = '1';
@@ -156,100 +253,4 @@ const animations = {
             element.style.transform = `scale(${toScale})`;
         }, delay);
     }
-}
-    // Create a flashing effect for correct answers
-    flashCorrectAnswer: function(element) {
-        element.classList.add('flash-correct');
-        setTimeout(() => {
-            element.classList.remove('flash-correct');
-        }, 1000);
-    },
-    
-    // Create a shaking effect for incorrect answers
-    shakeIncorrectAnswer: function(element) {
-        element.classList.add('shake-incorrect');
-        setTimeout(() => {
-            element.classList.remove('shake-incorrect');
-        }, 500);
-    },
-    
-    // Animate the progress bar
-    animateProgressBar: function(element, fromPercent, toPercent) {
-        // Set initial width
-        element.style.width = `${fromPercent}%`;
-        
-        // Trigger animation by setting new width after a small delay
-        setTimeout(() => {
-            element.style.width = `${toPercent}%`;
-        }, 50);
-    },
-    
-    // Create a pulse animation on an element
-    pulseElement: function(element, duration = 500) {
-        element.classList.add('pulse-animation');
-        setTimeout(() => {
-            element.classList.remove('pulse-animation');
-        }, duration);
-    },
-    
-    // Create a fade-in animation
-    fadeIn: function(element, delay = 0) {
-        element.style.opacity = '0';
-        element.style.display = 'block';
-        
-        setTimeout(() => {
-            element.style.transition = 'opacity 0.5s ease';
-            element.style.opacity = '1';
-        }, delay);
-    },
-    
-    // Create a fade-out animation
-    fadeOut: function(element, delay = 0, callback) {
-        element.style.opacity = '1';
-        
-        setTimeout(() => {
-            element.style.transition = 'opacity 0.5s ease';
-            element.style.opacity = '0';
-            
-            setTimeout(() => {
-                element.style.display = 'none';
-                if (callback && typeof callback === 'function') {
-                    callback();
-                }
-            }, 500);
-        }, delay);
-    },
-    
-    // Create a slide-in animation
-    slideIn: function(element, direction = 'right', delay = 0) {
-        const originalDisplay = element.style.display || 'block';
-        element.style.display = 'none';
-        
-        let initialTransform = '';
-        switch (direction) {
-            case 'left':
-                initialTransform = 'translateX(-100%)';
-                break;
-            case 'right':
-                initialTransform = 'translateX(100%)';
-                break;
-            case 'up':
-                initialTransform = 'translateY(-100%)';
-                break;
-            case 'down':
-                initialTransform = 'translateY(100%)';
-                break;
-        }
-        
-        setTimeout(() => {
-            element.style.transform = initialTransform;
-            element.style.opacity = '0';
-            element.style.display = originalDisplay;
-            
-            setTimeout(() => {
-                element.style.transition = 'transform 0.5s ease, opacity 0.5s ease';
-                element.style.transform = 'translate(0, 0)';
-                element.style.opacity = '1';
-            }, 50);
-        }, delay);
-    },
+};

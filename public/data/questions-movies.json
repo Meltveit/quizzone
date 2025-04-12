@@ -1,0 +1,213 @@
+[
+    {
+      "question": "Hvem spiller hovedrollen i 'Mission: Impossible' filmene?",
+      "correctAnswer": "Tom Cruise",
+      "incorrectAnswers": ["Brad Pitt", "Matt Damon", "Leonardo DiCaprio"],
+      "category": "Skuespillere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken film vant Oscar for beste film i 2020?",
+      "correctAnswer": "Parasite",
+      "incorrectAnswers": ["Joker", "1917", "Once Upon a Time in Hollywood"],
+      "category": "Prisutdelinger",
+      "difficulty": "medium"
+    },
+    {
+      "question": "I hvilken film finner vi karakteren Iron Man?",
+      "correctAnswer": "The Avengers",
+      "incorrectAnswers": ["Justice League", "The Dark Knight", "Deadpool"],
+      "category": "Superhelter",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem regisserte filmen 'Inception'?",
+      "correctAnswer": "Christopher Nolan",
+      "correctAnswers": ["Christopher Nolan"],
+      "incorrectAnswers": ["Steven Spielberg", "James Cameron", "Quentin Tarantino"],
+      "category": "Regissører",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilket år kom den første Star Wars-filmen?",
+      "correctAnswer": "1977",
+      "incorrectAnswers": ["1980", "1975", "1983"],
+      "category": "Filmhistorie",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hva er navnet på prinsessen i 'Frozen'?",
+      "correctAnswer": "Elsa",
+      "incorrectAnswers": ["Anna", "Moana", "Belle"],
+      "category": "Animasjon",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken skuespiller spiller Jack i 'Titanic'?",
+      "correctAnswer": "Leonardo DiCaprio",
+      "incorrectAnswers": ["Brad Pitt", "Johnny Depp", "Tom Hanks"],
+      "category": "Skuespillere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken film handler om en hai som terroriserer en badeby?",
+      "correctAnswer": "Jaws",
+      "incorrectAnswers": ["Deep Blue Sea", "The Meg", "Sharknado"],
+      "category": "Klassikere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem spiller Harry Potter i filmserien?",
+      "correctAnswer": "Daniel Radcliffe",
+      "incorrectAnswers": ["Rupert Grint", "Tom Felton", "Eddie Redmayne"],
+      "category": "Skuespillere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket land kommer filmen 'Parasitt' fra?",
+      "correctAnswer": "Sør-Korea",
+      "incorrectAnswers": ["Japan", "Kina", "Thailand"],
+      "category": "Internasjonal film",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken film starter med en scene der en ape kaster et bein i luften?",
+      "correctAnswer": "2001: En romodyssé",
+      "incorrectAnswers": ["Planet of the Apes", "King Kong", "Jumanji"],
+      "category": "Klassikere",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Hvem spiller Neo i 'The Matrix'?",
+      "correctAnswer": "Keanu Reeves",
+      "incorrectAnswers": ["Hugo Weaving", "Laurence Fishburne", "Matt Damon"],
+      "category": "Skuespillere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken film har taglinjen 'In space, no one can hear you scream'?",
+      "correctAnswer": "Alien",
+      "incorrectAnswers": ["Star Wars", "Gravity", "Interstellar"],
+      "category": "Science Fiction",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilket filmstudio laget 'Toy Story'?",
+      "correctAnswer": "Pixar",
+      "incorrectAnswers": ["DreamWorks", "Disney", "Illumination"],
+      "category": "Animasjon",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på første Harry Potter-filmen?",
+      "correctAnswer": "Harry Potter og De vises stein",
+      "incorrectAnswers": ["Harry Potter og Mysteriekammeret", "Harry Potter og Fangen fra Azkaban", "Harry Potter og Ildbegeret"],
+      "category": "Fantasy",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken skuespiller vant en Oscar for sin rolle i 'The Revenant'?",
+      "correctAnswer": "Leonardo DiCaprio",
+      "incorrectAnswers": ["Matthew McConaughey", "Tom Hardy", "Christian Bale"],
+      "category": "Prisutdelinger",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilket år kom første 'Jurassic Park' film?",
+      "correctAnswer": "1993",
+      "incorrectAnswers": ["1990", "1995", "1997"],
+      "category": "Filmhistorie",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hva er 'Rosebud' i filmen 'Citizen Kane'?",
+      "correctAnswer": "En kjelke",
+      "incorrectAnswers": ["En hund", "En rose", "Et smykke"],
+      "category": "Klassikere",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Hvilken film har karakterene Woody og Buzz Lightyear?",
+      "correctAnswer": "Toy Story",
+      "incorrectAnswers": ["Monsters Inc.", "Finding Nemo", "The Incredibles"],
+      "category": "Animasjon",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem spiller Wolverine i X-Men filmene?",
+      "correctAnswer": "Hugh Jackman",
+      "incorrectAnswers": ["Ryan Reynolds", "Chris Hemsworth", "Michael Fassbender"],
+      "category": "Superhelter",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken film vant flest Oscar-priser noensinne?",
+      "correctAnswer": "Titanic, Ben-Hur og Ringenes Herre: Atter en konge (11 hver)",
+      "incorrectAnswers": ["Avatar (9)", "Forrest Gump (6)", "La La Land (6)"],
+      "category": "Prisutdelinger",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Hva er navnet på den fiktive byen der Batman opererer?",
+      "correctAnswer": "Gotham City",
+      "incorrectAnswers": ["Metropolis", "Star City", "Central City"],
+      "category": "Superhelter",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken skuespiller spiller Forrest Gump?",
+      "correctAnswer": "Tom Hanks",
+      "incorrectAnswers": ["Robin Williams", "Kevin Costner", "Bill Murray"],
+      "category": "Skuespillere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "I hvilken by finner 'La La Land' sted?",
+      "correctAnswer": "Los Angeles",
+      "incorrectAnswers": ["New York", "Chicago", "San Francisco"],
+      "category": "Setting",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken film har en scene der hovedpersonen danser på et stort piano?",
+      "correctAnswer": "Big",
+      "incorrectAnswers": ["Fame", "Footloose", "Flashdance"],
+      "category": "Klassikere",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvem regisserte 'Pulp Fiction'?",
+      "correctAnswer": "Quentin Tarantino",
+      "incorrectAnswers": ["Martin Scorsese", "Steven Spielberg", "David Fincher"],
+      "category": "Regissører",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken planet kommer Superman fra?",
+      "correctAnswer": "Krypton",
+      "incorrectAnswers": ["Mars", "Venus", "Jupiter"],
+      "category": "Superhelter",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken film er basert på en roman av Stephen King og foregår i et fengsel?",
+      "correctAnswer": "The Shawshank Redemption",
+      "incorrectAnswers": ["The Green Mile", "Misery", "It"],
+      "category": "Boktilpasninger",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hva er John McClanes berømte replikk i 'Die Hard'?",
+      "correctAnswer": "Yippee-ki-yay, motherf****r",
+      "incorrectAnswers": ["I'll be back", "Go ahead, make my day", "Say hello to my little friend"],
+      "category": "Action",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken film har en syngende krabbe som synger 'Under the Sea'?",
+      "correctAnswer": "Den lille havfruen",
+      "incorrectAnswers": ["Findet Nemo", "Shark Tale", "Moana"],
+      "category": "Animasjon",
+      "difficulty": "easy"
+    }
+  ]

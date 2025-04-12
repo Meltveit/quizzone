@@ -1,0 +1,177 @@
+[
+    {
+      "question": "Hvilken farge får du hvis du blander gul og blå?",
+      "correctAnswer": "Grønn",
+      "incorrectAnswers": ["Lilla", "Oransje", "Brun"],
+      "category": "Farger",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva heter den største planeten i vårt solsystem?",
+      "correctAnswer": "Jupiter",
+      "incorrectAnswers": ["Saturn", "Mars", "Jorden"],
+      "category": "Verdensrommet",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken norsk barnebokfigur bor i Kardemomme by?",
+      "correctAnswer": "Tante Sofie",
+      "incorrectAnswers": ["Ole Brumm", "Doktor Proktor", "Lisa"],
+      "category": "Barnebøker",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hva er 5+7?",
+      "correctAnswer": "12",
+      "incorrectAnswers": ["11", "13", "10"],
+      "category": "Matematikk",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket dyr sier 'mjau'?",
+      "correctAnswer": "Katt",
+      "incorrectAnswers": ["Hund", "Ku", "Gris"],
+      "category": "Dyr",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken frukt er rød og vokser på trær?",
+      "correctAnswer": "Eple",
+      "incorrectAnswers": ["Banan", "Ananas", "Appelsin"],
+      "category": "Mat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva heter den mest kjente reinsdyret til julenissen?",
+      "correctAnswer": "Rudolf",
+      "incorrectAnswers": ["Comet", "Blitzen", "Dasher"],
+      "category": "Jul",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva kommer etter onsdag?",
+      "correctAnswer": "Torsdag",
+      "incorrectAnswers": ["Fredag", "Tirsdag", "Lørdag"],
+      "category": "Tid",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken Disney-film handler om en løve som blir konge?",
+      "correctAnswer": "Løvenes Konge",
+      "incorrectAnswers": ["Aladdin", "Frost", "Toy Story"],
+      "category": "Film",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvor mange bein har en edderkopp?",
+      "correctAnswer": "8",
+      "incorrectAnswers": ["6", "4", "10"],
+      "category": "Dyr",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hva er hovedstaden i Sverige?",
+      "correctAnswer": "Stockholm",
+      "incorrectAnswers": ["Göteborg", "Malmö", "Köpenhamn"],
+      "category": "Geografi",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken farge har himmelen på en klar dag?",
+      "correctAnswer": "Blå",
+      "incorrectAnswers": ["Grønn", "Grå", "Hvit"],
+      "category": "Natur",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken norsk by ligger ved Nidelva?",
+      "correctAnswer": "Trondheim",
+      "incorrectAnswers": ["Oslo", "Bergen", "Tromsø"],
+      "category": "Geografi",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hva er 3 x 4?",
+      "correctAnswer": "12",
+      "incorrectAnswers": ["6", "9", "15"],
+      "category": "Matematikk",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket dyr er 'Pumba' i Løvenes Konge?",
+      "correctAnswer": "Vortesvin",
+      "incorrectAnswers": ["Løve", "Surikat", "Hyene"],
+      "category": "Film",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hva heter det største kontinentet?",
+      "correctAnswer": "Asia",
+      "incorrectAnswers": ["Europa", "Afrika", "Amerika"],
+      "category": "Geografi",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken årstid kommer etter vinter?",
+      "correctAnswer": "Vår",
+      "incorrectAnswers": ["Sommer", "Høst", "En ny vinter"],
+      "category": "Årstider",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvor mange timer er det i ett døgn?",
+      "correctAnswer": "24",
+      "incorrectAnswers": ["12", "18", "36"],
+      "category": "Tid",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva het trollet som bodde under broen i eventyret?",
+      "correctAnswer": "Bukkene Bruse",
+      "incorrectAnswers": ["Askeladden", "Hans og Grete", "Rødhette"],
+      "category": "Eventyr",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hva er den minste verdien på en vanlig terning?",
+      "correctAnswer": "1",
+      "incorrectAnswers": ["0", "2", "3"],
+      "category": "Spill",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem fant opp lyspæren?",
+      "correctAnswer": "Thomas Edison",
+      "incorrectAnswers": ["Albert Einstein", "Isaac Newton", "Nikola Tesla"],
+      "category": "Oppfinnelser",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Hva heter det minste dyret i dyrekrysset?",
+      "correctAnswer": "Mus",
+      "incorrectAnswers": ["Ekorn", "Hare", "Rotte"],
+      "category": "Dyr",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken måned kommer etter april?",
+      "correctAnswer": "Mai",
+      "incorrectAnswers": ["Juni", "Mars", "Februar"],
+      "category": "Tid",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er et annet ord for mamma?",
+      "correctAnswer": "Mor",
+      "incorrectAnswers": ["Tante", "Bestemor", "Søster"],
+      "category": "Språk",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken fisk lever i havet og har rød-oransje farge?",
+      "correctAnswer": "Gullfisk",
+      "incorrectAnswers": ["Torsk", "Ørret", "Laks"],
+      "category": "Dyr",
+      "difficulty": "medium"
+    }
+  ]

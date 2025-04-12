@@ -273,6 +273,17 @@ function showScreen(screenToShow) {
 
 // Render the current question
 function renderCurrentQuestion() {
+    // Safety check - make sure we have quizzes loaded
+    if (!appState.currentQuiz || appState.currentQuiz.length === 0 || 
+        appState.currentQuestionIndex >= appState.currentQuiz.length) {
+        console.error('Unable to render question. Quiz not loaded or invalid question index.');
+        // Show an error message in the question area
+        elements.questionText.textContent = "Error: Could not load question. Please try again.";
+        elements.answerOptions.innerHTML = '';
+        elements.nextQuestionBtn.classList.remove('hidden');
+        return;
+    }
+    
     const question = appState.currentQuiz[appState.currentQuestionIndex];
     
     // Set question text
@@ -305,6 +316,13 @@ function renderCurrentQuestion() {
 
 // Handle answer selection
 function selectAnswer(index) {
+    // Safety check - make sure we have a valid question
+    if (!appState.currentQuiz || appState.currentQuiz.length === 0 || 
+        appState.currentQuestionIndex >= appState.currentQuiz.length) {
+        console.error('Unable to select answer. Quiz not loaded or invalid question index.');
+        return;
+    }
+    
     // Store the selected answer
     appState.selectedAnswerIndex = index;
     
@@ -314,6 +332,11 @@ function selectAnswer(index) {
     
     // Update UI to show correct/incorrect
     const answerOptions = elements.answerOptions.querySelectorAll('.answer-option');
+    
+    if (!answerOptions || answerOptions.length === 0) {
+        console.error('Answer options not found in the DOM');
+        return;
+    }
     
     answerOptions.forEach((option, i) => {
         // Add selected class to the clicked option
