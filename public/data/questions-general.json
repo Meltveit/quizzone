@@ -1,0 +1,212 @@
+[
+    {
+      "question": "Hva er hovedstaden i Norge?",
+      "correctAnswer": "Oslo",
+      "incorrectAnswers": ["Bergen", "Trondheim", "Stavanger"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvor mange fylker har Norge?",
+      "correctAnswer": "11",
+      "incorrectAnswers": ["9", "12", "15"],
+      "category": "Geografi",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilket år fikk Norge sin grunnlov?",
+      "correctAnswer": "1814",
+      "incorrectAnswers": ["1905", "1884", "1945"],
+      "category": "Historie",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilket fjell er Norges høyeste?",
+      "correctAnswer": "Galdhøpiggen",
+      "incorrectAnswers": ["Glittertinden", "Snøhetta", "Gaustatoppen"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva heter Norges lengste elv?",
+      "correctAnswer": "Glomma",
+      "incorrectAnswers": ["Lågen", "Otra", "Tana"],
+      "category": "Geografi",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken norsk forfatter skrev 'Sult'?",
+      "correctAnswer": "Knut Hamsun",
+      "incorrectAnswers": ["Henrik Ibsen", "Bjørnstjerne Bjørnson", "Sigrid Undset"],
+      "category": "Litteratur",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilket år ble Norge selvstendig fra Sverige?",
+      "correctAnswer": "1905",
+      "incorrectAnswers": ["1814", "1945", "1884"],
+      "category": "Historie",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hva er Norges nasjonalfugl?",
+      "correctAnswer": "Fossekall",
+      "incorrectAnswers": ["Kongeørn", "Nøtteskrike", "Lunde"],
+      "category": "Natur",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken norsk by er kjent som 'Regn-byen'?",
+      "correctAnswer": "Bergen",
+      "incorrectAnswers": ["Oslo", "Trondheim", "Stavanger"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket år fikk Norge olje for første gang?",
+      "correctAnswer": "1969",
+      "incorrectAnswers": ["1959", "1979", "1989"],
+      "category": "Historie",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Hva heter Norges største innsjø?",
+      "correctAnswer": "Mjøsa",
+      "incorrectAnswers": ["Femunden", "Tyrifjorden", "Randsfjorden"],
+      "category": "Geografi",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken norsk maler malte 'Skrik'?",
+      "correctAnswer": "Edvard Munch",
+      "incorrectAnswers": ["Christian Krohg", "J.C. Dahl", "Nikolai Astrup"],
+      "category": "Kunst",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er den mest folkerike byen i Norge etter Oslo?",
+      "correctAnswer": "Bergen",
+      "incorrectAnswers": ["Trondheim", "Stavanger", "Drammen"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken farge er på den norske redningsvesten?",
+      "correctAnswer": "Oransje",
+      "incorrectAnswers": ["Rød", "Gul", "Grønn"],
+      "category": "Hverdagskunnskap",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken norsk forfatter skrev om 'Kristin Lavransdatter'?",
+      "correctAnswer": "Sigrid Undset",
+      "incorrectAnswers": ["Camilla Collett", "Amalie Skram", "Knut Hamsun"],
+      "category": "Litteratur",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hva er Norges største øy?",
+      "correctAnswer": "Spitsbergen",
+      "incorrectAnswers": ["Hinnøya", "Senja", "Sørøya"],
+      "category": "Geografi",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvor mange striper har det norske flagget?",
+      "correctAnswer": "3",
+      "incorrectAnswers": ["2", "4", "5"],
+      "category": "Symboler",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken norsk by har den nordligste universitet i verden?",
+      "correctAnswer": "Tromsø",
+      "incorrectAnswers": ["Trondheim", "Bergen", "Bodø"],
+      "category": "Utdanning",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hva er Norges høyeste foss?",
+      "correctAnswer": "Vinnufossen",
+      "incorrectAnswers": ["Mardalsfossen", "Vøringsfossen", "Tvindefossen"],
+      "category": "Geografi",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Hvilken norsk TV-serie handlet om en fiktiv okkupasjon av Norge?",
+      "correctAnswer": "Okkupert",
+      "incorrectAnswers": ["Skam", "Ragnarok", "Mammon"],
+      "category": "Media",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilket år fikk Norge sin første kvinnelige statsminister?",
+      "correctAnswer": "1981",
+      "incorrectAnswers": ["1975", "1990", "2000"],
+      "category": "Politikk",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Hva er Norges nasjonalblomst?",
+      "correctAnswer": "Røsslyng",
+      "incorrectAnswers": ["Blåklokke", "Hvitveis", "Løvetann"],
+      "category": "Natur",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Hvilket fjord er Norges lengste?",
+      "correctAnswer": "Sognefjorden",
+      "incorrectAnswers": ["Hardangerfjorden", "Trondheimsfjorden", "Oslofjorden"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Når feiret Norge 100 år som selvstendig nasjon?",
+      "correctAnswer": "2005",
+      "incorrectAnswers": ["1994", "2000", "2014"],
+      "category": "Historie",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hva er det høyeste vannet i Norge?",
+      "correctAnswer": "Kjelvatnet",
+      "incorrectAnswers": ["Gjende", "Tyin", "Bygdin"],
+      "category": "Geografi",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Hvor mange olympiske gullmedaljer har Norge vunnet i vinter-OL?",
+      "correctAnswer": "Over 100",
+      "incorrectAnswers": ["Rundt 50", "Mindre enn 30", "Akkurat 75"],
+      "category": "Sport",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Hva kaller man den tradisjonelle norske genseren med mønster?",
+      "correctAnswer": "Lusekofte",
+      "incorrectAnswers": ["Lopapeysa", "Mariusgenser", "Fanakofte"],
+      "category": "Kultur",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Hvilken norsk band hadde hiten 'Take On Me'?",
+      "correctAnswer": "A-ha",
+      "incorrectAnswers": ["Röyksopp", "Seigmen", "deLillos"],
+      "category": "Musikk",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er det største dyret i norsk natur?",
+      "correctAnswer": "Elg",
+      "incorrectAnswers": ["Bjørn", "Ulv", "Jerv"],
+      "category": "Natur",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket dyr er på 200-kronersseddelen?",
+      "correctAnswer": "Torsk",
+      "incorrectAnswers": ["Ørn", "Elg", "Ørret"],
+      "category": "Symboler",
+      "difficulty": "medium"
+    }
+  ]
