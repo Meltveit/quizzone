@@ -23,13 +23,40 @@ const quizManager = {
                         return response.json();
                     })
                     .then(data => {
-                        this.questionDatabases[theme] = data;
-                        console.log(`Loaded ${theme} questions: ${data.length} items`);
+                        // Validate that the data is an array of questions with the expected properties
+                        if (Array.isArray(data) && data.length > 0) {
+                            // Check the first question for expected properties
+                            const firstQuestion = data[0];
+                            if (!firstQuestion.question || 
+                                !firstQuestion.correctAnswer ||
+                                !Array.isArray(firstQuestion.incorrectAnswers)) {
+                                console.warn(`${theme} questions have invalid format, attempting to fix:`);
+                                
+                                // Try to normalize the data format
+                                const normalizedData = data.map(q => {
+                                    return {
+                                        question: q.question || `Question ${Math.random().toString(36).substring(7)}`,
+                                        correctAnswer: q.correctAnswer || (q.options ? q.options[0] : "Answer"),
+                                        incorrectAnswers: Array.isArray(q.incorrectAnswers) ? q.incorrectAnswers : 
+                                                        (q.options ? q.options.slice(1) : ["Option A", "Option B", "Option C"]),
+                                        category: q.category || theme,
+                                        difficulty: q.difficulty || "medium"
+                                    }
+                                });
+                                
+                                this.questionDatabases[theme] = normalizedData;
+                                console.log(`Fixed and loaded ${theme} questions: ${normalizedData.length} items`);
+                            } else {
+                                this.questionDatabases[theme] = data;
+                                console.log(`Loaded ${theme} questions: ${data.length} items`);
+                            }
+                        } else {
+                            throw new Error(`Invalid data format for ${theme}`);
+                        }
                         return theme;
                     })
                     .catch(error => {
                         console.error(`Error loading ${theme} questions:`, error);
-                        // Create empty array if loading fails
                         this.questionDatabases[theme] = [];
                         return theme;
                     });
@@ -42,11 +69,7 @@ const quizManager = {
             const hasQuestions = Object.values(this.questionDatabases).some(db => db && db.length > 0);
             
             if (!hasQuestions) {
-                console.warn('No question databases were loaded successfully. Using placeholders instead.');
-                // Initialize with placeholder questions as fallback
-                themes.forEach(theme => {
-                    this.questionDatabases[theme] = this.generatePlaceholderQuiz(20);
-                });
+                console.error('No question databases were loaded successfully. Quiz cannot proceed.');
             }
             
             if (callback && typeof callback === 'function') {
@@ -54,12 +77,6 @@ const quizManager = {
             }
         } catch (error) {
             console.error('Error loading question databases:', error);
-            
-            // Initialize empty databases if loading fails
-            const themes = ['easter', 'general', 'movies', 'sports', 'kids'];
-            themes.forEach(theme => {
-                this.questionDatabases[theme] = this.generatePlaceholderQuiz(20);
-            });
             
             if (callback && typeof callback === 'function') {
                 callback();
@@ -94,39 +111,52 @@ const quizManager = {
             questions = this.questionDatabases[theme] || [];
         }
         
+        console.log(`Found ${questions.length} questions for theme: ${theme}`);
+        
+        // If we don't have any questions for this theme, try to load them again
+        if (questions.length === 0) {
+            console.warn(`No questions available for theme: ${theme}. Attempting to reload.`);
+            // Try to reload just this theme's database
+            fetch(`data/questions-${theme}.json`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Failed to load ${theme} questions`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log(`Successfully reloaded ${theme} questions: ${data.length} items`);
+                    this.questionDatabases[theme] = data;
+                    // Retry generating the quiz with the newly loaded questions
+                    this.generateQuiz(theme, difficulty, count, callback);
+                })
+                .catch(error => {
+                    console.error(`Error reloading ${theme} questions:`, error);
+                    // Alert user that no questions could be loaded
+                    if (callback && typeof callback === 'function') {
+                        callback([]);
+                    }
+                });
+            return;
+        }
+        
         // Filter by difficulty if not mixed
         if (difficulty !== 'mixed') {
-            questions = questions.filter(q => q.difficulty === difficulty);
-        }
-        
-        // If we don't have enough questions, fallback to using all questions
-        if (questions.length < count) {
-            if (theme !== 'mixed') {
-                questions = this.questionDatabases[theme] || [];
-            }
-        }
-        
-        // If we still don't have enough questions, use placeholder questions
-        if (questions.length === 0) {
-            console.warn('No questions available. Using placeholders.');
-            questions = this.generatePlaceholderQuiz(count);
+            const filteredQuestions = questions.filter(q => q.difficulty === difficulty);
             
-            // Return the placeholder questions and exit
-            if (callback && typeof callback === 'function') {
-                callback(questions);
+            // Only apply the filter if we have enough questions after filtering
+            if (filteredQuestions.length >= count || filteredQuestions.length >= questions.length * 0.5) {
+                questions = filteredQuestions;
+            } else {
+                console.warn(`Not enough questions with difficulty: ${difficulty}. Using all difficulties.`);
             }
-            return questions;
         }
+        
+        console.log(`After difficulty filter: ${questions.length} questions remaining`);
         
         // Shuffle questions and take the requested count
         const shuffledQuestions = this.shuffleArray([...questions]);
         const selectedQuestions = shuffledQuestions.slice(0, Math.min(count, shuffledQuestions.length));
-        
-        // If we still don't have enough questions, add placeholder questions
-        if (selectedQuestions.length < count) {
-            const placeholders = this.generatePlaceholderQuiz(count - selectedQuestions.length);
-            selectedQuestions.push(...placeholders);
-        }
         
         // Further shuffle each question's options
         const quizQuestions = selectedQuestions.map(q => {
@@ -134,7 +164,28 @@ const quizManager = {
             const question = { ...q };
             
             // Get all options including the correct answer
-            const options = [...question.incorrectAnswers, question.correctAnswer];
+            // Make sure incorrectAnswers is an array, with a fallback if it's not
+            const incorrectAnswers = Array.isArray(question.incorrectAnswers) 
+                ? question.incorrectAnswers 
+                : [];
+            
+            // If we have incorrectAnswers, use them with the correct answer
+            // Otherwise, generate some random options
+            let options;
+            if (incorrectAnswers.length > 0) {
+                options = [...incorrectAnswers, question.correctAnswer];
+            } else if (question.options) {
+                // If the question already has options property, use it
+                options = question.options;
+            } else {
+                // Create options based on the correct answer with dummy options
+                options = [
+                    question.correctAnswer,
+                    `Not ${question.correctAnswer}`,
+                    `Option C`,
+                    `Option D`
+                ];
+            }
             
             // Shuffle options
             const shuffledOptions = this.shuffleArray(options);
@@ -145,10 +196,10 @@ const quizManager = {
             return {
                 question: question.question,
                 options: shuffledOptions,
-                correctIndex: correctIndex,
-                category: question.category,
-                difficulty: question.difficulty
-            };
+                correctIndex: correctIndex >= 0 ? correctIndex : 0, // Default to first option if not found
+                category: question.category || 'General',
+                difficulty: question.difficulty || 'medium'
+            }
         });
         
         // Return the quiz questions
@@ -167,59 +218,5 @@ const quizManager = {
             [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
         }
         return shuffled;
-    },
-    
-    // Create a placeholder question if needed
-    createPlaceholderQuestion: function(index = 0) {
-        const placeholders = [
-            {
-                question: "Eksempelspørsmål: Hva er hovedstaden i Norge?",
-                options: ["Stockholm", "Oslo", "København", "Helsinki"],
-                correctIndex: 1,
-                category: "Geografi",
-                difficulty: "easy"
-            },
-            {
-                question: "Eksempelspørsmål: Hvilket dyr er kjent som 'skogens konge'?",
-                options: ["Bjørn", "Elg", "Ulv", "Gaupe"],
-                correctIndex: 0,
-                category: "Natur",
-                difficulty: "easy"
-            },
-            {
-                question: "Eksempelspørsmål: Hva er 7 x 8?",
-                options: ["54", "56", "49", "64"],
-                correctIndex: 1,
-                category: "Matematikk",
-                difficulty: "easy"
-            },
-            {
-                question: "Eksempelspørsmål: Hvilken farge er himmelen på en klar dag?",
-                options: ["Grønn", "Rød", "Blå", "Gul"],
-                correctIndex: 2,
-                category: "Natur",
-                difficulty: "easy"
-            },
-            {
-                question: "Eksempelspørsmål: Hvor mange dager er det i en uke?",
-                options: ["5", "6", "7", "8"],
-                correctIndex: 2,
-                category: "Generell kunnskap",
-                difficulty: "easy"
-            }
-        ];
-        
-        return placeholders[index % placeholders.length];
-    },
-    
-    // Generate placeholder questions for testing
-    generatePlaceholderQuiz: function(count) {
-        const placeholders = [];
-        
-        for (let i = 0; i < count; i++) {
-            placeholders.push(this.createPlaceholderQuestion(i));
-        }
-        
-        return placeholders;
     }
-};
+}
