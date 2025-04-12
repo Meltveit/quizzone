@@ -219,4 +219,7 @@ const quizManager = {
         }
         return shuffled;
     }
-}
+};
+
+// Make quizManager globally available
+window.quizManager = quizManager;

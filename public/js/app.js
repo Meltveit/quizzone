@@ -38,11 +38,10 @@ const elements = {
     progressFill: document.querySelector('.quiz-progress-fill'),
     questionText: document.getElementById('question-text'),
     answerOptions: document.getElementById('answer-options'),
-    currentPlayerName: document.getElementById('current-player-name'),
+    playerAnswersContainer: document.getElementById('player-answers-container'),
     scoreboard: document.getElementById('scoreboard'),
     nextQuestionBtn: document.getElementById('next-question-btn'),
     checkAnswersBtn: document.getElementById('check-answers-btn'),
-    playerAnswersContainer: document.getElementById('player-answers-container'),
     
     // Results Screen Elements
     winnerName: document.getElementById('winner-name'),
@@ -328,7 +327,6 @@ function renderCurrentQuestion() {
 // Render the player answer selection interface
 function renderPlayerAnswerSelection() {
     elements.playerAnswersContainer.innerHTML = '';
-    elements.currentPlayerName.textContent = '';
     
     // Create answer selection for each player
     appState.players.forEach(player => {
@@ -448,63 +446,6 @@ function checkAnswers() {
     });
 }
 
-// Handle answer selection
-function selectAnswer(index) {
-    // Safety check - make sure we have a valid question
-    if (!appState.currentQuiz || appState.currentQuiz.length === 0 || 
-        appState.currentQuestionIndex >= appState.currentQuiz.length) {
-        console.error('Unable to select answer. Quiz not loaded or invalid question index.');
-        return;
-    }
-    
-    // Store the selected answer
-    appState.selectedAnswerIndex = index;
-    
-    // Get the current question
-    const question = appState.currentQuiz[appState.currentQuestionIndex];
-    const correctIndex = question.correctIndex;
-    
-    // Update UI to show correct/incorrect
-    const answerOptions = elements.answerOptions.querySelectorAll('.answer-option');
-    
-    if (!answerOptions || answerOptions.length === 0) {
-        console.error('Answer options not found in the DOM');
-        return;
-    }
-    
-    answerOptions.forEach((option, i) => {
-        // Add selected class to the clicked option
-        if (i === index) {
-            option.classList.add('selected');
-        }
-        
-        // Disable all options
-        option.disabled = true;
-        
-        // Add correct/incorrect classes
-        if (i === correctIndex) {
-            option.classList.add('correct');
-        } else if (i === index && i !== correctIndex) {
-            option.classList.add('incorrect');
-        }
-    });
-    
-    // Update score if correct
-    if (index === correctIndex) {
-        const currentPlayer = appState.players[appState.currentPlayerIndex];
-        appState.scores[currentPlayer]++;
-        
-        // Animate score update
-        animateScoreUpdate(currentPlayer);
-        
-        // Update scoreboard
-        renderScoreboard();
-    }
-    
-    // Show next question button
-    elements.nextQuestionBtn.classList.remove('hidden');
-}
-
 // Move to the next question
 function showNextQuestion() {
     appState.currentQuestionIndex++;
@@ -602,7 +543,7 @@ function showResults() {
         resultItem.className = `flex justify-between items-center p-3 ${index < sortedPlayers.length - 1 ? 'border-b border-gray-200' : ''} ${index === 0 ? 'bg-indigo-50 rounded-md' : ''}`;
         resultItem.innerHTML = `
             <div class="flex items-center">
-                <span class="font-bold mr-3">${index+1}.</span>
+                <span class="font-bold mr-3">${player.position}.</span>
                 <span class="${index === 0 ? 'font-bold text-indigo-600' : ''}">${player.name}</span>
             </div>
             <div class="font-semibold">${player.score} poeng</div>
