@@ -1,289 +1,1542 @@
 [
     {
-      "question": "Hvilken dag feires påskeaften?",
-      "correctAnswer": "Lørdag",
-      "incorrectAnswers": ["Fredag", "Søndag", "Torsdag"],
+      "question": "Hvilken dag i påsken feirer vi at Jesus sto opp fra de døde?",
+      "correctAnswer": "Første påskedag",
+      "incorrectAnswers": ["Langfredag", "Skjærtorsdag", "Palmesøndag"],
       "category": "Påsketradisjoner",
       "difficulty": "easy"
     },
     {
-      "question": "Hva symboliserer egg i påskefeiringen?",
-      "correctAnswer": "Nytt liv",
-      "incorrectAnswers": ["Mat for våren", "Solens form", "Jordens form"],
-      "category": "Påskesymboler",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilken farge er tradisjonelt forbundet med påsken i Norge?",
+      "question": "Hva er den vanligste fargen på påskekyllinger?",
       "correctAnswer": "Gul",
-      "incorrectAnswers": ["Rød", "Blå", "Grønn"],
-      "category": "Påsketradisjoner",
-      "difficulty": "easy"
-    },
-    {
-      "question": "Hvilken dag feires skjærtorsdag?",
-      "correctAnswer": "Torsdag før påskedag",
-      "incorrectAnswers": ["Første torsdag i april", "Siste torsdag i mars", "Torsdag etter påskedag"],
-      "category": "Påsketradisjoner",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hva het høyden der Jesus ble korsfestet?",
-      "correctAnswer": "Golgata",
-      "incorrectAnswers": ["Sinai", "Olivenberdet", "Moria"],
-      "category": "Bibelhistorie",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilket dyr er spesielt forbundet med påsken?",
-      "correctAnswer": "Kylling",
-      "incorrectAnswers": ["Kanin", "Lam", "Due"],
+      "incorrectAnswers": ["Blå", "Rød", "Grønn"],
       "category": "Påskesymboler",
       "difficulty": "easy"
     },
     {
-      "question": "Hva var Jesu siste måltid?",
-      "correctAnswer": "Påskemåltidet",
-      "incorrectAnswers": ["Bryllupsfesten i Kana", "Fiskemiddagen med disiplene", "Sabbatsmåltidet"],
-      "category": "Bibelhistorie",
-      "difficulty": "medium"
+      "question": "Hvilket godteri er mest populært i påsken?",
+      "correctAnswer": "Sjokoladeegg",
+      "incorrectAnswers": ["Marsipan", "Seigmenn", "Kjærlighet på pinne"],
+      "category": "Påskemat",
+      "difficulty": "easy"
     },
     {
-      "question": "Hvilken tradisjonell påskeaktivitet er populær i Norge?",
-      "correctAnswer": "Å gå på ski",
-      "incorrectAnswers": ["Å plante trær", "Å lage påskeegg av plast", "Å dekorere kirker med blomster"],
+      "question": "Hvilken bibelsk person forrådte Jesus?",
+      "correctAnswer": "Judas",
+      "incorrectAnswers": ["Peter", "Paulus", "Johannes"],
+      "category": "Bibelhistorie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken ukedag blir skjærtorsdag alltid feiret på?",
+      "correctAnswer": "Torsdag",
+      "incorrectAnswers": ["Fredag", "Onsdag", "Tirsdag"],
       "category": "Påsketradisjoner",
       "difficulty": "easy"
     },
     {
-      "question": "Hva heter den tradisjonelle norske påskekrimmen fra NRK?",
-      "correctAnswer": "Påskekrimen",
-      "incorrectAnswers": ["Påskemysteriet", "Påskemordet", "Påskedetektiven"],
-      "category": "Påsketradisjoner",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilken ukedag er påskedag alltid?",
-      "correctAnswer": "Søndag",
-      "incorrectAnswers": ["Fredag", "Lørdag", "Mandag"],
+      "question": "Hva gjemmer påskeharen rundt omkring?",
+      "correctAnswer": "Påskeegg",
+      "incorrectAnswers": ["Godteri", "Leker", "Gulerøtter"],
       "category": "Påsketradisjoner",
       "difficulty": "easy"
     },
     {
-      "question": "Hva het disippelen som forrådte Jesus?",
-      "correctAnswer": "Judas Iskariot",
-      "incorrectAnswers": ["Peter", "Johannes", "Matteus"],
-      "category": "Bibelhistorie",
-      "difficulty": "medium"
+      "question": "Hvilket tre er kjent for sine gule 'gåsunger' om våren?",
+      "correctAnswer": "Seljetre",
+      "incorrectAnswers": ["Bjørk", "Eik", "Gran"],
+      "category": "Natur",
+      "difficulty": "easy"
     },
     {
-      "question": "Hvilket tradisjonelt godteri spises mye i Norge i påsken?",
-      "correctAnswer": "Kvikk Lunsj",
-      "incorrectAnswers": ["Marsipan", "Pepperkaker", "Sukkertøy"],
+      "question": "Hva spiser mange til lunsj på påskeaften?",
+      "correctAnswer": "Eggerøre",
+      "incorrectAnswers": ["Pizza", "Taco", "Pølser"],
+      "category": "Påskemat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken dag i påsken minnes vi Jesu siste måltid?",
+      "correctAnswer": "Skjærtorsdag",
+      "incorrectAnswers": ["Langfredag", "Palmesøndag", "Askeonsdag"],
+      "category": "Bibelhistorie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på den lange fastetiden som leder opp til påske?",
+      "correctAnswer": "Fasten",
+      "incorrectAnswers": ["Advent", "Pinsen", "Allehelgen"],
       "category": "Påsketradisjoner",
       "difficulty": "easy"
     },
     {
-      "question": "Hvilken governor dømte Jesus til døden?",
-      "correctAnswer": "Pontius Pilatus",
-      "incorrectAnswers": ["Herodes", "Augustus Caesar", "Nero"],
-      "category": "Bibelhistorie",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hva symboliserer palmeblader i påskefeiringen?",
-      "correctAnswer": "Seier",
-      "incorrectAnswers": ["Fred", "Håp", "Glede"],
+      "question": "Hvilken fugl er ofte avbildet sammen med påskekyllinger?",
+      "correctAnswer": "Høne",
+      "incorrectAnswers": ["And", "Gås", "Svane"],
       "category": "Påskesymboler",
-      "difficulty": "hard"
+      "difficulty": "easy"
     },
     {
-      "question": "Hva var spesielt med graven der Jesus ble lagt?",
-      "correctAnswer": "Den var ny og ubrukt",
-      "incorrectAnswers": ["Den var laget av gull", "Den var bygget av romerne", "Den var under et tre"],
+      "question": "Hva er en vanlig aktivitet for barn på påskeaften?",
+      "correctAnswer": "Påskeeggjakt",
+      "incorrectAnswers": ["Bygge snømann", "Grille pølser", "Spille fotball"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket ord beskriver tiden før påske da mange faster?",
+      "correctAnswer": "Fastetiden",
+      "incorrectAnswers": ["Adventstiden", "Juletiden", "Sommertiden"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken dag i påsken ble Jesus korsfestet?",
+      "correctAnswer": "Langfredag",
+      "incorrectAnswers": ["Skjærtorsdag", "Påskeaften", "Askeonsdag"],
       "category": "Bibelhistorie",
-      "difficulty": "hard"
-    },
-    {
-      "question": "Hva kalles uken før påske?",
-      "correctAnswer": "Den stille uke",
-      "incorrectAnswers": ["Fastetiden", "Påskeuken", "Hellig uke"],
-      "category": "Påsketradisjoner",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilken farge har tradisjonelle norske påskekyllinger?",
-      "correctAnswer": "Gul",
-      "incorrectAnswers": ["Hvit", "Brun", "Oransje"],
-      "category": "Påsketradisjoner",
       "difficulty": "easy"
     },
     {
-      "question": "Hvilken dag feires palmesøndag?",
-      "correctAnswer": "Søndagen før påskedag",
-      "incorrectAnswers": ["Første søndag i april", "Siste søndag i mars", "Søndagen etter påskedag"],
-      "category": "Påsketradisjoner",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hva er en typisk påskeaktivitet for barn i Norge?",
-      "correctAnswer": "Påskeegg-jakt",
-      "incorrectAnswers": ["Plante blomster", "Vaske huset", "Ringe i kirkeklokker"],
-      "category": "Påsketradisjoner",
+      "question": "Hva er inni Kinder-eggene?",
+      "correctAnswer": "Sjokolade og en leke",
+      "incorrectAnswers": ["Bare sjokolade", "Godteri", "Nøtter"],
+      "category": "Påskemat",
       "difficulty": "easy"
     },
     {
-      "question": "Hva betyr ordet 'påske' opprinnelig?",
-      "correctAnswer": "Passering/forbigåelse",
-      "incorrectAnswers": ["Oppstandelse", "Ferie", "Vår"],
-      "category": "Påskehistorie",
-      "difficulty": "hard"
-    },
-    {
-      "question": "Hvor mange dager er det fra påskedag til Kristi himmelfartsdag?",
-      "correctAnswer": "40 dager",
-      "incorrectAnswers": ["30 dager", "50 dager", "60 dager"],
-      "category": "Påsketradisjoner",
-      "difficulty": "hard"
-    },
-    {
-      "question": "Hva er et tradisjonelt påskegodt for norske barn?",
-      "correctAnswer": "Marsipanfigurer",
-      "incorrectAnswers": ["Pepperkaker", "Sukkerspinn", "Gummibamser"],
-      "category": "Påsketradisjoner",
-      "difficulty": "easy"
-    },
-    {
-      "question": "Hvilken påskehygge er tradisjonell i norske hjem?",
-      "correctAnswer": "Lese påskekrim",
-      "incorrectAnswers": ["Pynte juletrær", "Bake pepperkaker", "Se fotballkamper"],
-      "category": "Påsketradisjoner",
-      "difficulty": "easy"
-    },
-    {
-      "question": "Hvilken bok leses tradisjonelt i påsken av kristne?",
-      "correctAnswer": "Evangeliene",
-      "incorrectAnswers": ["Salmenes bok", "Åpenbaringen", "Mosebøkene"],
-      "category": "Påsketradisjoner",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilken mat er tradisjonell å spise på skjærtorsdag i Norge?",
-      "correctAnswer": "Grønn suppe",
-      "incorrectAnswers": ["Lammestek", "Fisk", "Påskeegg"],
-      "category": "Påsketradisjoner",
-      "difficulty": "hard"
-    },
-    {
-      "question": "Hvilken dag kalles 'langfredag' på engelsk?",
-      "correctAnswer": "Good Friday",
-      "incorrectAnswers": ["Long Friday", "Black Friday", "Holy Friday"],
-      "category": "Påsketradisjoner",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hva er en tradisjonell drikkevare i påsken i Norge?",
-      "correctAnswer": "Appelsinjuice",
-      "incorrectAnswers": ["Varm sjokolade", "Rødvin", "Kaffe"],
-      "category": "Påsketradisjoner",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hva er en typisk påskeblomst?",
+      "question": "Hvilken blomst er en tidlig vårblomst som ofte forbindes med påske?",
       "correctAnswer": "Påskelilje",
       "incorrectAnswers": ["Rose", "Tulipan", "Solsikke"],
       "category": "Påskesymboler",
       "difficulty": "easy"
     },
     {
-      "question": "Hvilket merke er kjent for sin påskekrim på emballasjen?",
-      "correctAnswer": "Kvikk Lunsj",
-      "incorrectAnswers": ["Freia melkesjokolade", "M", "Stratos"],
+      "question": "Hva er en tradisjonell påskedessert mange steder?",
+      "correctAnswer": "Marsipan",
+      "incorrectAnswers": ["Sjokoladepudding", "Eplekake", "Iskrem"],
+      "category": "Påskemat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken dag i påsken er mellom langfredag og første påskedag?",
+      "correctAnswer": "Påskeaften",
+      "incorrectAnswers": ["Andre påskedag", "Lille påskedag", "Skjærtorsdag"],
       "category": "Påsketradisjoner",
       "difficulty": "easy"
     },
     {
-      "question": "Hvilket fjell dro Jesus opp på for å be rett før han ble arrestert?",
-      "correctAnswer": "Oljeberget",
-      "incorrectAnswers": ["Sinai", "Tabor", "Karmel"],
+      "question": "Hvilket dyr blir ofte brukt som et symbol på fruktbarhet og nytt liv i påsken?",
+      "correctAnswer": "Hare",
+      "incorrectAnswers": ["Katt", "Hund", "Elefant"],
+      "category": "Påskesymboler",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva heter søndagen før påskeuken starter?",
+      "correctAnswer": "Palmesøndag",
+      "incorrectAnswers": ["Fastelavnssøndag", "Hvidesøndag", "Kristi himmelfartsdag"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken smak har de fleste gule påskekyllinger i godteri?",
+      "correctAnswer": "Banan",
+      "incorrectAnswers": ["Sitron", "Ananas", "Vanilje"],
+      "category": "Påskemat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva kan man pynte med i vinduet for å vise at det er påske?",
+      "correctAnswer": "Påskekyllinger eller egg",
+      "incorrectAnswers": ["Julestjerner", "Lys", "Flagg"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva gjorde Jesus ifølge Bibelen langfredag?",
+      "correctAnswer": "Han ble korsfestet",
+      "incorrectAnswers": ["Han red inn i Jerusalem", "Han spiste det siste måltid", "Han vasket disiplenes føtter"],
       "category": "Bibelhistorie",
-      "difficulty": "hard"
+      "difficulty": "easy"
     },
     {
-      "question": "Hva er en påskehare?",
-      "correctAnswer": "En mytisk figur som gjemmer påskeegg",
-      "incorrectAnswers": ["En hare som fødes i påsketiden", "En type påskemat", "Et stjernebilde synlig i påsken"],
+      "question": "Hvilket land har en tradisjon med å lese krimbøker i påsken ('påskekrim')?",
+      "correctAnswer": "Norge",
+      "incorrectAnswers": ["Sverige", "Danmark", "Finland"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken del av et egg spises vanligvis?",
+      "correctAnswer": "Plommen og hviten",
+      "incorrectAnswers": ["Bare plommen", "Bare hviten", "Skallet"],
+      "category": "Påskemat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er en 'påskekjerring'?",
+      "correctAnswer": "En utkledd person som gikk rundt på skjærtorsdag i gamle dager",
+      "incorrectAnswers": ["En trolldom", "En figur av strå", "En slags kake"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken farge har egget til en blåstrupe?",
+      "correctAnswer": "Blå",
+      "incorrectAnswers": ["Hvit", "Brun", "Grønn"],
+      "category": "Natur",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er en vanlig drikke til påskelunsjen?",
+      "correctAnswer": "Juice eller brus",
+      "incorrectAnswers": ["Kaffe", "Te", "Melk"],
+      "category": "Påskemat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er det motsatte av oppstandelse?",
+      "correctAnswer": "Død",
+      "incorrectAnswers": ["Fødsel", "Livet", "Søvn"],
+      "category": "Bibelhistorie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket materiale er de fleste sjokoladeegg laget av?",
+      "correctAnswer": "Sjokolade",
+      "incorrectAnswers": ["Plast", "Glass", "Tre"],
+      "category": "Påskemat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken type spill kan man spille med påskeegg (hvis de er hardkokte)?",
+      "correctAnswer": "Eggtrilling eller eggspikking",
+      "incorrectAnswers": ["Fotball", "Volleyball", "Bowling"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på den hagen der Jesus ble arrestert?",
+      "correctAnswer": "Getsemane",
+      "incorrectAnswers": ["Eden", "Babylon", "Sinai"],
+      "category": "Bibelhistorie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken måned faller som regel påsken i?",
+      "correctAnswer": "Mars eller april",
+      "incorrectAnswers": ["Februar", "Mai", "Juni"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva kan man bruke for å farge påskeegg?",
+      "correctAnswer": "Konditorfarge eller naturlige fargestoffer",
+      "incorrectAnswers": ["Maling", "Tusj", "Lim"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken form har de fleste påskeegg?",
+      "correctAnswer": "Oval",
+      "incorrectAnswers": ["Rund", "Firkantet", "Triangulær"],
       "category": "Påskesymboler",
       "difficulty": "easy"
     },
     {
-      "question": "Hva er en tradisjonell påskelek for barn?",
-      "correctAnswer": "Trille påskeegg",
-      "incorrectAnswers": ["Bygge snømann", "Plukke blomster", "Kaste ball"],
-      "category": "Påsketradisjoner",
-      "difficulty": "medium"
+      "question": "Hva er en annen betegnelse for palmesøndag?",
+      "correctAnswer": "Inngangen i Jerusalem",
+      "incorrectAnswers": ["Langfredag", "Askeonsdag", "Himmelfarten"],
+      "category": "Bibelhistorie",
+      "difficulty": "easy"
     },
     {
-      "question": "Hvor mange dager varer påskeferien vanligvis i norske skoler?",
-      "correctAnswer": "10 dager",
-      "incorrectAnswers": ["5 dager", "14 dager", "7 dager"],
-      "category": "Påsketradisjoner",
-      "difficulty": "medium"
+      "question": "Hvilket dyr legger ikke egg, men er likevel et påskesymbol?",
+      "correctAnswer": "Påskeharen",
+      "incorrectAnswers": ["Kylling", "Høne", "And"],
+      "category": "Påskesymboler",
+      "difficulty": "easy"
     },
     {
-      "question": "Hva er en kjent norsk fjellturområde i påsken?",
-      "correctAnswer": "Hemsedal",
-      "incorrectAnswers": ["Lofoten", "Preikestolen", "Trolltunga"],
-      "category": "Påsketradisjoner",
-      "difficulty": "medium"
+      "question": "Hva er en tradisjonell rett mange spiser til middag første påskedag?",
+      "correctAnswer": "Lam",
+      "incorrectAnswers": ["Kylling", "Torsk", "Reinsdyr"],
+      "category": "Påskemat",
+      "difficulty": "easy"
     },
     {
-      "question": "Hva er en typisk påskedessert i Norge?",
-      "correctAnswer": "Karamellpudding",
-      "incorrectAnswers": ["Riskrem", "Krumkake", "Multekrem"],
-      "category": "Påsketradisjoner",
-      "difficulty": "medium"
+      "question": "Hvilken smak har ofte de rosa påskekyllingene i godteri?",
+      "correctAnswer": "Bringebær",
+      "incorrectAnswers": ["Jordbær", "Kirsebær", "Banan"],
+      "category": "Påskemat",
+      "difficulty": "easy"
     },
     {
-      "question": "Hva er den tradisjonelle påskefargen i kirken?",
+      "question": "Hva kan man lage av mange hardkokte egg som er igjen etter påsken?",
+      "correctAnswer": "Eggsalat",
+      "incorrectAnswers": ["Omelett", "Kake", "Is"],
+      "category": "Påskemat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken apostel tvilte på Jesu oppstandelse før han fikk se ham?",
+      "correctAnswer": "Tomas",
+      "incorrectAnswers": ["Peter", "Johannes", "Matteus"],
+      "category": "Bibelhistorie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken type pynt kan man henge i påskebjørken?",
+      "correctAnswer": "Fjær og små påskefigurer",
+      "incorrectAnswers": ["Julekuler", "Lys", "Pepperkaker"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er et annet ord for 'kylling'?",
+      "correctAnswer": "Piu-piu",
+      "incorrectAnswers": ["Mø-mø", "Kvakk-kvakk", "Mjau-mjau"],
+      "category": "Påskesymboler",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken farge er ofte brukt for å symbolisere sorg på langfredag?",
+      "correctAnswer": "Svart",
+      "incorrectAnswers": ["Hvit", "Rød", "Blå"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er en populær aktivitet utendørs i påsken hvis været er fint?",
+      "correctAnswer": "Skitur eller en spasertur",
+      "incorrectAnswers": ["Bading", "Sykling", "Fotball"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken ingrediens er hovedbestanddelen i marsipan?",
+      "correctAnswer": "Mandler",
+      "incorrectAnswers": ["Hvetemel", "Egg", "Melk"],
+      "category": "Påskemat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på høytiden som feires 50 dager etter påske?",
+      "correctAnswer": "Pinse",
+      "incorrectAnswers": ["Kristi himmelfartsdag", "Allehelgensdag", "Advent"],
+      "category": "Bibelhistorie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken form har ofte påskeharen i sjokolade?",
+      "correctAnswer": "En hare",
+      "incorrectAnswers": ["En katt", "En hund", "En kylling"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er en 'påskevise'?",
+      "correctAnswer": "En sang som handler om påsken",
+      "incorrectAnswers": ["En fortelling", "En dans", "En lek"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken smak har ofte de grønne påskekyllingene i godteri?",
+      "correctAnswer": "Eple",
+      "incorrectAnswers": ["Sitron", "Lime", "Kiwi"],
+      "category": "Påskemat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva kan man bruke for å dekorere et påskebord?",
+      "correctAnswer": "Blomster, lys og påskefigurer",
+      "incorrectAnswers": ["Julekaker", "Halloween-figurer", "Skolebøker"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva gjorde Jesus ifølge Bibelen på skjærtorsdag sammen med disiplene sine?",
+      "correctAnswer": "Han spiste det siste måltidet",
+      "incorrectAnswers": ["Han ble korsfestet", "Han gikk på vannet", "Han steg opp til himmelen"],
+      "category": "Bibelhistorie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket ord brukes for å beskrive det at Jesus sto opp fra graven?",
+      "correctAnswer": "Oppstandelsen",
+      "incorrectAnswers": ["Frelselsen", "Gjenfødelsen", "Himmelfarten"],
+      "category": "Bibelhistorie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken type godteri er ofte formet som små egg?",
+      "correctAnswer": "Jelly beans",
+      "incorrectAnswers": ["Sjokolade", "Marsipan", "Karameller"],
+      "category": "Påskemat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er en tradisjonell påskelek der man knuser egg mot hverandre?",
+      "correctAnswer": "Eggspikking",
+      "incorrectAnswers": ["Egg-kast", "Eggkrig", "Egg-golf"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken apostel nektet for å kjenne Jesus tre ganger?",
+      "correctAnswer": "Peter",
+      "incorrectAnswers": ["Johannes", "Judas", "Tomas"],
+      "category": "Bibelhistorie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken type tre bruker man ofte til å lage påskebjørk?",
+      "correctAnswer": "Bjørk",
+      "incorrectAnswers": ["Gran", "Furu", "Eik"],
+      "category": "Natur",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er en vanlig frokost i påsken?",
+      "correctAnswer": "Rundstykker med godt pålegg og egg",
+      "incorrectAnswers": ["Havregrøt", "Cornflakes", "Pizza"],
+      "category": "Påskemat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken farge symboliserer renhet og nytt liv i påsken?",
       "correctAnswer": "Hvit",
-      "incorrectAnswers": ["Rød", "Blå", "Grønn"],
-      "category": "Påsketradisjoner",
-      "difficulty": "hard"
-    },
-    {
-      "question": "Hvilken fugl er assosiert med påske i Norge?",
-      "correctAnswer": "Kylling",
-      "incorrectAnswers": ["Due", "Stork", "Ørn"],
+      "incorrectAnswers": ["Svart", "Rød", "Brun"],
       "category": "Påskesymboler",
       "difficulty": "easy"
     },
     {
-      "question": "Hva er det tradisjonelle påskegodt for barn i Norge?",
-      "correctAnswer": "Godtepose med smågodt",
-      "incorrectAnswers": ["Sjokoladekaniner", "Sukkerspinn", "Pepperkaker"],
+      "question": "Hva er en populær aktivitet for mange familier i påsken?",
+      "correctAnswer": "Hyttetur",
+      "incorrectAnswers": ["Kinobesøk", "Shopping", "Dra til sydligere strøk"],
       "category": "Påsketradisjoner",
       "difficulty": "easy"
     },
     {
-      "question": "Hvilken sport er populær å se på TV i påsken i Norge?",
-      "correctAnswer": "Skiskyting",
-      "incorrectAnswers": ["Fotball", "Håndball", "Svømming"],
+      "question": "Hvilken nøtt er ofte brukt i marsipanegg?",
+      "correctAnswer": "Mandler",
+      "incorrectAnswers": ["Valnøtter", "Hasselnøtter", "Pistasjenøtter"],
+      "category": "Påskemat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på den dagen da Jesus red inn i Jerusalem på et esel?",
+      "correctAnswer": "Palmesøndag",
+      "incorrectAnswers": ["Skjærtorsdag", "Langfredag", "Askeonsdag"],
+      "category": "Bibelhistorie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket dyr er kjent for å legge egg i reir?",
+      "correctAnswer": "Fugler",
+      "incorrectAnswers": ["Slanger", "Frosker", "Fisker"],
+      "category": "Natur",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er en tradisjonell kake mange baker til påske?",
+      "correctAnswer": "Gulrotkake",
+      "incorrectAnswers": ["Sjokoladekake", "Eplekake", "Ostekake"],
+      "category": "Påskemat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken smak har ofte de oransje påskekyllingene i godteri?",
+      "correctAnswer": "Appelsin",
+      "incorrectAnswers": ["Mango", "Fersken", "Gulrot"],
+      "category": "Påskemat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva kan man bruke for å lage mønster på påskeegg?",
+      "correctAnswer": "Klistremerker eller tegne med tusj",
+      "incorrectAnswers": ["Spray", "Stiftemaskin", "Hammer og spiker"],
       "category": "Påsketradisjoner",
       "difficulty": "easy"
     },
     {
-      "question": "Hva er hovedingrediensen i tradisjonell påskefrokost?",
-      "correctAnswer": "Egg",
-      "incorrectAnswers": ["Brød", "Yoghurt", "Havregrøt"],
+      "question": "Hva ba Jesus om i Getsemane hage?",
+      "correctAnswer": "At han ikke skulle måtte gjennomgå lidelsen",
+      "incorrectAnswers": ["Mat og drikke", "Vennskap og kjærlighet", "Evig liv for alle"],
+      "category": "Bibelhistorie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken type underholdning er populært å se på TV i påsken i Norge?",
+      "correctAnswer": "Krim",
+      "incorrectAnswers": ["Romantiske komedier", "Barnefilmer", "Naturprogrammer"],
       "category": "Påsketradisjoner",
       "difficulty": "easy"
     },
     {
-      "question": "Når avgjøres datoen for påskedag?",
-      "correctAnswer": "Første søndag etter første fullmåne etter vårjevndøgn",
-      "incorrectAnswers": ["Siste søndag i mars", "Første søndag i april", "40 dager etter askeonsdag"],
+      "question": "Hva er det ytterste laget på et egg?",
+      "correctAnswer": "Skallet",
+      "incorrectAnswers": ["Plommen", "Hviten", "Hinnen"],
+      "category": "Natur",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er en 'påskelunsj'?",
+      "correctAnswer": "Et festlig måltid som spises midt på dagen i påsken",
+      "incorrectAnswers": ["En type kake", "En gave", "En dekorasjon"],
+      "category": "Påskemat",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken disippel var ikke til stede da Jesus viste seg for de andre etter oppstandelsen?",
+      "correctAnswer": "Tomas",
+      "incorrectAnswers": ["Peter", "Johannes", "Jakob"],
+      "category": "Bibelhistorie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken del av bjørkekvisten pynter man ofte med fjær på til påske?",
+      "correctAnswer": "Enden av kvisten",
+      "incorrectAnswers": ["Midten av kvisten", "Roten", "Bladene"],
       "category": "Påsketradisjoner",
-      "difficulty": "hard"
-    }
-  ]
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er et annet ord for en ung høne?",
+      "correctAnswer": "Unghøne",
+      "incorrectAnswers": ["Kylling", "Egg", "Gås"],
+      "category": "Natur",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken farge kan symbolisere glede og feiring i påsken?",
+      "correctAnswer": "Gul",
+      "incorrectAnswers": ["Svart", "Brun", "Grå"],
+      "category": "Påskesymboler",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er en morsom ting å gjøre med tomme sjokoladeegg-skall?",
+      "correctAnswer": "Lage små figurer eller fylle dem med annen godteri",
+      "incorrectAnswers": ["Kaste dem", "Spise dem", "Bruke dem som byggeklosser"],
+      "category": "Påsketradisjoner",
+      "difficulty": "easy"
+    },
+    {
+        "question": "Hvilken romersk prefekt dømte Jesus til døden?",
+        "correctAnswer": "Pontius Pilatus",
+        "incorrectAnswers": ["Herodes", "Caesar Augustus", "Nero"],
+        "category": "Bibelhistorie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type fisk er tradisjonelt å spise på langfredag i noen kulturer, som et tegn på bot?",
+        "correctAnswer": "Torsk",
+        "incorrectAnswers": ["Laks", "Makrell", "Tunfisk"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den salmen som ofte synges under påskegudstjenester og handler om Jesu oppstandelse?",
+        "correctAnswer": "Krist stod opp fra døde",
+        "incorrectAnswers": ["Deilig er jorden", "O store Gud", "Påskemorgen slukker sorgen"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket bibelsk sted var åstedet for Jesu korsfestelse?",
+        "correctAnswer": "Golgata",
+        "incorrectAnswers": ["Betlehem", "Nasaret", "Bethania"],
+        "category": "Bibelhistorie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken kjent påskeøy har gigantiske steinstatuer kalt 'moai'?",
+        "correctAnswer": "Påskeøya",
+        "incorrectAnswers": ["Hawaii", "Fiji", "Madagaskar"],
+        "category": "Geografi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken ingrediens, utenom egg, brukes ofte for å lage en fyldig eggerøre?",
+        "correctAnswer": "Fløte eller melk",
+        "incorrectAnswers": ["Bakepulver", "Sukker", "Sitronsaft"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken helligdag faller alltid på en mandag etter første påskedag?",
+        "correctAnswer": "Andre påskedag",
+        "incorrectAnswers": ["Palmesøndag", "Askeonsdag", "Kristi himmelfartsdag"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket engelsk ord for 'påske' har gitt navn til en spesiell type hatt som ofte bæres i påskeparader?",
+        "correctAnswer": "Easter",
+        "incorrectAnswers": ["Pascha", "Holy", "Resurrection"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken bibelsk kvinne var den første som ifølge Johannesevangeliet så den oppstandne Jesus?",
+        "correctAnswer": "Maria Magdalena",
+        "incorrectAnswers": ["Maria (Jesu mor)", "Martha", "Salome"],
+        "category": "Bibelhistorie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken tradisjonell rett, laget av innmat fra lam, spises i noen deler av Norge i påsken?",
+        "correctAnswer": "Skav",
+        "incorrectAnswers": ["Lutefisk", "Smalahove", "Pinnekjøtt"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken farge har egget til en rødstrupe?",
+        "correctAnswer": "Lyseblått med rødbrune flekker",
+        "incorrectAnswers": ["Rødt", "Brunt", "Grønt"],
+        "category": "Natur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type brød spiste Jesus og disiplene under det siste måltidet?",
+        "correctAnswer": "Usyret brød",
+        "incorrectAnswers": ["Rugbrød", "Surdeigbrød", "Focaccia"],
+        "category": "Bibelhistorie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den jødiske høytiden som feires samtidig med påsken og minnes israelittenes utgang fra Egypt?",
+        "correctAnswer": "Pesach",
+        "incorrectAnswers": ["Hanukkah", "Yom Kippur", "Rosh Hashanah"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken smak har de lilla påskekyllingene i godteri ofte?",
+        "correctAnswer": "Solbær eller lakris",
+        "incorrectAnswers": ["Drue", "Blåbær", "Fiol"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type tre ble ifølge tradisjonen brukt til Jesu kors?",
+        "correctAnswer": "Det er usikkert, men ulike tradisjoner nevner forskjellige tresorter",
+        "incorrectAnswers": ["Eik", "Sedertre", "Oliventre"],
+        "category": "Bibelhistorie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er en 'påskeblomst' som kommer tidlig og har klokkeformede blomster?",
+        "correctAnswer": "Vårløk (Scilla)",
+        "incorrectAnswers": ["Tulipan", "Rose", "Lilje"],
+        "category": "Natur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken ingrediens gir marsipan sin karakteristiske smak?",
+        "correctAnswer": "Bittermandler eller mandelessens",
+        "incorrectAnswers": ["Vanilje", "Sitron", "Kanel"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken dag i påskeuken kalles også for 'hvit tirsdag' i noen tradisjoner?",
+        "correctAnswer": "Tirsdag i påskeuken",
+        "incorrectAnswers": ["Første påskedag", "Andre påskedag", "Skjærtorsdag"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket dyr i Australia legger egg og har et nebb som en and?",
+        "correctAnswer": "Nebbdyret",
+        "incorrectAnswers": ["Kenguru", "Koala", "Emu"],
+        "category": "Natur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken bibelsk person hjalp Jesus med å bære korset sitt?",
+        "correctAnswer": "Simon fra Kyrene",
+        "incorrectAnswers": ["Johannes", "Paulus", "Nikodemus"],
+        "category": "Bibelhistorie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type godteri er ofte formet som små harer?",
+        "correctAnswer": "Sjokoladeharer",
+        "incorrectAnswers": ["Vingummi", "Lakrisbiter", "Lakrisharer"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er en 'påskekrans'?",
+        "correctAnswer": "En dekorativ krans laget av for eksempel grener, egg og fjær, som henges opp",
+        "incorrectAnswers": ["En type kake", "En type godteri", "En blomsterbukett"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken smak har de blå påskekyllingene i godteri ofte?",
+        "correctAnswer": "Blåbær eller bringebær",
+        "incorrectAnswers": ["Sitron", "Eple", "Ferskenskum"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type ost er populær å ha på påskebrødet?",
+        "correctAnswer": "Gulost i forskjellige varianter",
+        "incorrectAnswers": ["Blåmuggost", "Geitost", "Kremost"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva betyr ordet 'pasjon' i forbindelse med påsken?",
+        "correctAnswer": "Jesu lidelse og død",
+        "incorrectAnswers": ["Kjærlighet", "Oppstandelse", "Tilgivelse"],
+        "category": "Bibelhistorie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken tradisjonell drikk, laget av malt, humle og vann, nytes av mange i påsken?",
+        "correctAnswer": "Øl",
+        "incorrectAnswers": ["Vin", "Mjød", "Sider"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken farge har egget til en gråspurv?",
+        "correctAnswer": "Hvitaktig med grå eller brune flekker",
+        "incorrectAnswers": ["Helt hvitt", "Blått", "Grønt"],
+        "category": "Natur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er en 'påskepynt' som ligner på et lite rede?",
+        "correctAnswer": "Påskeboller med små figurer i",
+        "incorrectAnswers": ["Påskeegg", "Påsketre", "Påskehare"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva var det siste Jesus sa på korset ifølge Johannesevangeliet?",
+        "correctAnswer": "Det er fullbrakt!",
+        "incorrectAnswers": ["Min Gud, min Gud, hvorfor har du forlatt meg?", "Far, i dine hender overgir jeg min ånd", "Jeg tørster"],
+        "category": "Bibelhistorie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type kjeks er populær å spise sammen med påskeegg?",
+        "correctAnswer": "Saltkjeks eller kjeks med nøytral smak",
+        "incorrectAnswers": ["Pepperkaker", "Sjokoladekjeks", "Havrekjeks"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken lek, utenom eggtrilling, kan man leke med hardkokte egg?",
+        "correctAnswer": "Eggestafett (balansere egg på en skje)",
+        "incorrectAnswers": ["Egg-toss", "Egg-gjemsel", "Egg-fotball"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken romersk soldat stakk et spyd i siden til Jesus for å bekrefte at han var død?",
+        "correctAnswer": "Longinus",
+        "incorrectAnswers": ["Pilatus", "Herodes", "Caiaphas"],
+        "category": "Bibelhistorie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken månefase påvirker tidspunktet for når påsken faller?",
+        "correctAnswer": "Fullmåne",
+        "incorrectAnswers": ["Nymåne", "Halvmåne", "Ingen månefase"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type papir kan man bruke for å lage fargerike 'påskekyllinger' som henger?",
+        "correctAnswer": "Kreppapir",
+        "incorrectAnswers": ["Silkepapir", "Pergamentpapir", "Avispapir"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken form har ofte påskeserviettene?",
+        "correctAnswer": "Ofte firkantet, men kan også være brettet i morsomme former",
+        "incorrectAnswers": ["Alltid rund", "Alltid oval", "Alltid trekantet"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er en 'prosesjon' som kan finne sted på palmesøndag?",
+        "correctAnswer": "En høytidelig vandring med palmeblader",
+        "incorrectAnswers": ["En type dans", "En sang", "En matlaging"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket fiktivt dyr blir noen ganger forvekslet med påskeharen?",
+        "correctAnswer": "Påskemus",
+        "incorrectAnswers": ["Påskehund", "Påskekatt", "Påskekanin"],
+        "category": "Påskesymboler",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type kjøtt, utenom lam, er vanlig på påskebordet i noen familier?",
+        "correctAnswer": "Kalkun eller skinke",
+        "incorrectAnswers": ["Kylling", "Oksekjøtt", "Svinekjøtt"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken smak har ofte de hvite påskekyllingene i godteri?",
+        "correctAnswer": "Vanilje eller ananas",
+        "incorrectAnswers": ["Kokos", "Sitron", "Eple"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva kan man bruke for å lage et 'rede' til påskeeggene?",
+        "correctAnswer": "Høy, gress eller papirstrimler",
+        "incorrectAnswers": ["Bomull", "Plastikk", "Skumgummi"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken by var Jesus i da han ble arrestert?",
+        "correctAnswer": "Jerusalem",
+        "incorrectAnswers": ["Betlehem", "Nasaret", "Kapernaum"],
+        "category": "Bibelhistorie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type dekorasjon kan man lage ved å blåse ut innholdet av egg og male skallet?",
+        "correctAnswer": "Påskeeggpynt til å henge opp",
+        "incorrectAnswers": ["Eggeskåler", "Påskekaker", "Blomstervaser"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er et annet ord for en ung hane?",
+        "correctAnswer": "Kyllinghane eller hanekylling",
+        "incorrectAnswers": ["Tupp", "Fjærkre", "Hannfugl"],
+        "category": "Natur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken farge symboliserer håp i kristendommen og forbindes også med påsken?",
+        "correctAnswer": "Grønn",
+        "incorrectAnswers": ["Rød", "Blå", "Gul"],
+        "category": "Påskesymboler",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type utflukt er populær i påsken for å nyte våren?",
+        "correctAnswer": "Piknik",
+        "incorrectAnswers": ["Skiturer", "Svømmeturer", "Båtturer"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken frukt brukes ofte i påskekaker for å gi en frisk smak?",
+        "correctAnswer": "Sitron",
+        "incorrectAnswers": ["Eple", "Banan", "Pære"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den åttende dagen etter påske, som i tidlig kristendom ble sett på som en forlengelse av påskefeiringen?",
+        "correctAnswer": "Kvitesøndag",
+        "incorrectAnswers": ["Himmelfarten", "Pinse", "Trinitatis"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken form har ofte påskelysene?",
+        "correctAnswer": "Stearinlys i forskjellige former, noen ganger som egg eller kyllinger",
+        "incorrectAnswers": ["Alltid runde", "Alltid kvadratiske", "Alltid trekantede"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er en 'påskehilsen' man kan sende til noen?",
+        "correctAnswer": "En hyggelig melding eller et kort med påskemotiv",
+        "incorrectAnswers": ["En sang", "En dans", "Et dikt"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken smak har ofte de gule påskeharene i godteri?",
+        "correctAnswer": "Banan",
+        "incorrectAnswers": ["Sitron", "Ananas", "Eple"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva kan man bruke for å lage morsomme ansikter på hardkokte egg?",
+        "correctAnswer": "Tusj eller små spiselige øyne",
+        "incorrectAnswers": ["Knapper", "Perler", "Lim"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken disippel forrådte Jesus for 30 sølvpenger?",
+        "correctAnswer": "Judas Iskariot",
+        "incorrectAnswers": ["Peter", "Tomas", "Johannes"],
+        "category": "Bibelhistorie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type håndarbeid er populært å gjøre med påskemotiver?",
+        "correctAnswer": "Strikking eller hekling av påskepynt",
+        "incorrectAnswers": ["Veving", "Smiing", "Keramikk"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er en vanlig ingrediens i påskesnop, som gir en myk konsistens?",
+        "correctAnswer": "Gelatin",
+        "incorrectAnswers": ["Mel", "Bakepulver", "Natron"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken tradisjonell lek med egg innebærer å rulle dem ned en bakke?",
+        "correctAnswer": "Eggrulling",
+        "incorrectAnswers": ["Eggsanking", "Eggkast", "Eggstafett"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken personlighet i Det nye testamentet var gift med Pontius Pilatus og hadde en drøm om Jesus?",
+        "correctAnswer": "Kona til Pilatus",
+        "incorrectAnswers": ["Maria Magdalena", "Martha", "Elisabeth"],
+        "category": "Bibelhistorie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type blomst, utenom påskeliljer, blomstrer tidlig om våren og har en sterk duft?",
+        "correctAnswer": "Hyasint",
+        "incorrectAnswers": ["Rose", "Tulipan", "Lilje"],
+        "category": "Natur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er en vanlig aktivitet for ungdommer i påsken?",
+        "correctAnswer": "Samlinger med venner eller festivalbesøk",
+        "incorrectAnswers": ["Lesing", "Lekser", "Søvn"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken farge kan symbolisere kongelighet og Jesu guddommelighet i påsken?",
+        "correctAnswer": "Lilla eller purpur",
+        "incorrectAnswers": ["Grønn", "Blå", "Rød"],
+        "category": "Påskesymboler",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er en populær destinasjon for en påskeferie for mange nordmenn?",
+        "correctAnswer": "Fjellet for skiturer",
+        "incorrectAnswers": ["Syden", "Storby", "Hjemme"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type nøtter er ofte brukt i påskesjokolade utenom mandler?",
+        "correctAnswer": "Hasselnøtter",
+        "incorrectAnswers": ["Cashewnøtter", "Pistasjenøtter", "Valnøtter"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den dagen Jesus ble korsfestet?",
+        "correctAnswer": "Langfredag",
+        "incorrectAnswers": ["Skjærtorsdag", "Påskeaften", "Palmesøndag"],
+        "category": "Bibelhistorie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket dyr er kjent for å bygge reir av pinner høyt oppe i trær?",
+        "correctAnswer": "Fugler som rovfugler eller storker",
+        "incorrectAnswers": ["Mus", "Ekorn", "Kaniner"],
+        "category": "Natur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er en tradisjonell dessert som inneholder egg og fløte og serveres kald?",
+        "correctAnswer": "Crème brûlée",
+        "incorrectAnswers": ["Gulrotkake", "Pepperkaker", "Risalamande"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken smak har ofte de rosa påskeharene i godteri?",
+        "correctAnswer": "Bringebær",
+        "incorrectAnswers": ["Jordbær", "Kirsebær", "Vannmelon"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva kan man bruke for å lage et 'påsketre' innendørs?",
+        "correctAnswer": "Grener fra trær pyntet med egg og annen pynt",
+        "incorrectAnswers": ["Plastikk-trær", "Kunstige trær", "Papirtrær"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva var ifølge Bibelen det første måltidet Jesus spiste med disiplene etter oppstandelsen?",
+        "correctAnswer": "Et måltid med fisk og brød",
+        "incorrectAnswers": ["Lam", "Honning", "Vin og brød"],
+        "category": "Bibelhistorie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type film er populær å se på TV i påsken, i tillegg til krim?",
+        "correctAnswer": "Familiefilmer eller historiske dramaer",
+        "incorrectAnswers": ["Skrekkfilmer", "Dokumentarer", "Westernfilmer"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er den harde ytre beskyttelsen rundt et fugleegg?",
+        "correctAnswer": "Skallet",
+        "incorrectAnswers": ["Hinnen", "Plommen", "Hviten"],
+        "category": "Natur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er en 'påskekaffe'?",
+        "correctAnswer": "Kaffe som gjerne nytes sammen med påskegodt og kaker",
+        "incorrectAnswers": ["En spesiell kaffetype", "Kaffe med spesielle krydder", "Kaffe som drikkes kun i påsken"],
+        "category": "Påskemat",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken disippel ble valgt til å erstatte Judas etter hans forræderi?",
+        "correctAnswer": "Mattias",
+        "incorrectAnswers": ["Markus", "Lukas", "Paulus"],
+        "category": "Bibelhistorie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type materiale brukes ofte til å lage kunstige påskefjær?",
+        "correctAnswer": "Plast eller tekstil",
+        "incorrectAnswers": ["Metall", "Tre", "Glass"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er et annet ord for en gruppe kyllinger?",
+        "correctAnswer": "Et kull eller en flokk",
+        "incorrectAnswers": ["En samling", "En familie", "En gjeng"],
+        "category": "Natur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken farge kan symbolisere solen og lyset som kommer med våren og påsken?",
+        "correctAnswer": "Oransje",
+        "incorrectAnswers": ["Svart", "Brun", "Grå"],
+        "category": "Påskesymboler",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er en kreativ måte å gjemme påskeegg på utendørs?",
+        "correctAnswer": "I blomsterpotter, under steiner eller i fuglekasser",
+        "incorrectAnswers": ["I bilen", "I kjøleskapet", "I TVen"],
+        "category": "Påsketradisjoner",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken tidlig kirkefader argumenterte for at påskefeiringen burde være knyttet til vårdagjevndøgn og ikke nødvendigvis følge den jødiske pesach-kalenderen?",
+        "correctAnswer": "Irenaeus av Lyon",
+        "incorrectAnswers": ["Augustin av Hippo", "Tertullian", "Origenes"],
+        "category": "Påskehistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type gjær brukes tradisjonelt i noen påskebrød for å gi dem en lett og luftig tekstur, og har en symbolsk betydning knyttet til oppstandelsen?",
+        "correctAnswer": "Surdeigskultur",
+        "incorrectAnswers": ["Tørrgjær", "Fersk gjær", "Bakepulver"],
+        "category": "Påskemat",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket historisk konsil på 300-tallet e.Kr. fastla den felles datoen for påskefeiringen i den kristne kirken?",
+        "correctAnswer": "Kirkemøtet i Nikea",
+        "incorrectAnswers": ["Kirkemøtet i Konstantinopel", "Kirkemøtet i Efesos", "Kirkemøtet i Chalkedon"],
+        "category": "Påskehistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken bibelsk profet forutså Jesu lidelse og død i detalj, ofte referert til i forbindelse med langfredag?",
+        "correctAnswer": "Jesaja",
+        "incorrectAnswers": ["Jeremia", "Esekiel", "Daniel"],
+        "category": "Bibelhistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken unik geologisk formasjon på Påskeøya har en spesiell tilknytning til de gamle ritualene og solobservasjonene rundt vårjevndøgn?",
+        "correctAnswer": "Orongo-seremonisenteret",
+        "incorrectAnswers": ["Rano Kau-krateret", "Anakena-stranden", "Rano Raraku-steinbruddet"],
+        "category": "Påskehistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken biokjemisk prosess er ansvarlig for fargeskiftet i eggeplommen når et egg kokes lenge?",
+        "correctAnswer": "Dannelsen av jernsulfid",
+        "incorrectAnswers": ["Karamellisering", "Maillard-reaksjonen", "Oksydering av lutein"],
+        "category": "Naturvitenskap",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken teologisk doktrine om Jesu død og oppstandelse understreker dens betydning som en seier over synd og død, ofte fremhevet i påskeprekenene?",
+        "correctAnswer": "Soningslæren",
+        "incorrectAnswers": ["Transubstansiasjonslæren", "Predestinasjonslæren", "Trinitarianismen"],
+        "category": "Bibelhistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket spesifikt ornament, ofte laget av perler eller broderi, ble tradisjonelt festet til 'Easter bonnets' som et symbol på vårens ankomst og nytt liv?",
+        "correctAnswer": "Små blomstermotiver eller fuglereder",
+        "incorrectAnswers": ["Kors og ankere", "Fjær og bånd", "Medaljonger"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken av Jesu disipler var ifølge apokryfe skrifter en kvinne, og spilte en viktig rolle i de tidlige fortellingene om oppstandelsen?",
+        "correctAnswer": "Maria Magdalena",
+        "incorrectAnswers": ["Salome", "Maria (Jesu mor)", "Martha"],
+        "category": "Bibelhistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type tradisjonell norsk matrett, basert på tørket og saltet lammekjøtt, kunne historisk sett være en del av påskemåltidet etter en lang vinter?",
+        "correctAnswer": "Fenalår",
+        "incorrectAnswers": ["Rakfisk", "Pinnekjøtt", "Smalahove"],
+        "category": "Påskemat",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket pigment er hovedsakelig ansvarlig for den blå fargen i eggeskall hos noen fuglearter?",
+        "correctAnswer": "Oocyanin",
+        "incorrectAnswers": ["Melanin", "Klorofyll", "Antocyanin"],
+        "category": "Naturvitenskap",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type usyret brød, med spesielle riller og hull, er tradisjonelt for pesach og har en symbolsk betydning også i kristen påskefeiring?",
+        "correctAnswer": "Matzah",
+        "incorrectAnswers": ["Pita", "Focaccia", "Naan"],
+        "category": "Påskemat",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken historisk hendelse i Jerusalem, som skjedde rundt påsketider, førte til en stor tilstrømning av mennesker og var bakgrunnen for Jesu inntog?",
+        "correctAnswer": "Den årlige pilegrimsreisen til Jerusalem for pesach",
+        "incorrectAnswers": ["Romernes maktovertagelse", "Templets gjenoppbygging", "En populær markedsdag"],
+        "category": "Bibelhistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken kjemisk forbindelse gir lakris sin karakteristiske smak, som noen ganger finnes i lilla påskegodteri?",
+        "correctAnswer": "Glycyrrhizin",
+        "incorrectAnswers": ["Vanillin", "Mentol", "Anethol"],
+        "category": "Naturvitenskap",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type treverk ble ansett som spesielt hellig i antikken og kunne ha blitt brukt i religiøse seremonier rundt påsketider i forskjellige kulturer?",
+        "correctAnswer": "Eik",
+        "incorrectAnswers": ["Bjørk", "Furu", "Alm"],
+        "category": "Påskehistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken tidlig vårblomst, med en koppformet krone omgitt av kronblader, har navn som betyr 'narcissus' og er knyttet til myter om forfengelighet og død?",
+        "correctAnswer": "Påskelilje (Narcissus)",
+        "incorrectAnswers": ["Tulipan", "Krokus", "Hyasint"],
+        "category": "Påskesymboler",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket polysakkarid er hovedbestanddelen i mandler og bidrar til marsipanens tekstur?",
+        "correctAnswer": "Cellulose",
+        "incorrectAnswers": ["Stivelse", "Pektin", "Glykogen"],
+        "category": "Naturvitenskap",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken dag i påskeuken markerer ifølge noen tradisjoner minnet om da Jesus renset tempelet i Jerusalem?",
+        "correctAnswer": "Mandag i påskeuken",
+        "incorrectAnswers": ["Tirsdag i påskeuken", "Onsdag i påskeuken", "Skjærtorsdag"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket australsk pattedyr, i tillegg til nebbdyret, legger egg?",
+        "correctAnswer": "Maurpinnsvinet",
+        "incorrectAnswers": ["Koala", "Kenguru", "Tasmansk djevel"],
+        "category": "Natur",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken romersk skikkelse beordret ifølge Det nye testamentet at Jesu grav skulle forsegles og bevoktes?",
+        "correctAnswer": "Pontius Pilatus",
+        "incorrectAnswers": ["Herodes", "Tiberius", "Kaifas"],
+        "category": "Bibelhistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type konfekt, laget av sukker og eggehvite, formes ofte som små fugler eller egg til påske?",
+        "correctAnswer": "Marengs",
+        "incorrectAnswers": ["Fudge", "Trøffel", "Nougat"],
+        "category": "Påskemat",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type tradisjonell dekorasjon, laget av fargede fjær festet til bjørkekvister, symboliserer liv og vår i mange nordiske land?",
+        "correctAnswer": "Påskris",
+        "incorrectAnswers": ["Fjærkrans", "Bjørkekors", "Livets tre"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket fargestoff i blåbær gir dem deres karakteristiske farge og kan finnes i blått påskegodteri?",
+        "correctAnswer": "Antocyaniner",
+        "incorrectAnswers": ["Karotenoider", "Klorofyll", "Flavonoider"],
+        "category": "Naturvitenskap",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type ost, med en mild og kremaktig smak, serveres tradisjonelt i noen påskefrokoster i Mellom-Europa?",
+        "correctAnswer": "Kvarg eller cottage cheese",
+        "incorrectAnswers": ["Brie", "Gouda", "Cheddar"],
+        "category": "Påskemat",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva betyr det latinske uttrykket 'Resurrexit sicut dixit'?",
+        "correctAnswer": "Han er oppstått, slik han sa",
+        "incorrectAnswers": ["Han kommer tilbake", "Han er frelseren", "Han er livets brød"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type alkoholholdig drikk, laget av gjæret fruktjuice, kan være en del av påskefeiringen i noen kulturer?",
+        "correctAnswer": "Cider",
+        "incorrectAnswers": ["Musserende vin", "Portvin", "Likør"],
+        "category": "Påskemat",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket mineral er hovedbestanddelen i fugleegeggskall?",
+        "correctAnswer": "Kalsiumkarbonat",
+        "incorrectAnswers": ["Silisiumdioksid", "Kalsiumfosfat", "Magnesiumoksid"],
+        "category": "Naturvitenskap",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på de små, ofte fargede, sukkerkulene som brukes til å pynte påskekaker og godteri?",
+        "correctAnswer": "Strøssel eller nonpareils",
+        "incorrectAnswers": ["Perler", "Glitter", "Sukkerdrops"],
+        "category": "Påskemat",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket arameisk ord brukte Jesus i Getsemane da han ba til Gud?",
+        "correctAnswer": "Abba",
+        "incorrectAnswers": ["Eloi", "Eli", "Adonai"],
+        "category": "Bibelhistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type kjeks, ofte med smak av sitrus eller krydder, bakes tradisjonelt i noen land til påske?",
+        "correctAnswer": "Shortbread eller sprø kjeks",
+        "incorrectAnswers": ["Havrekjeks", "Digestive", "Saltkjeks"],
+        "category": "Påskemat",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken lek med hardkokte egg innebærer å forsøke å knuse andres egg uten at ditt eget går i stykker?",
+        "correctAnswer": "Eggstot",
+        "incorrectAnswers": ["Egg-kast", "Egg-trilling", "Egg-dans"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken historisk skikkelse, nevnt i Bibelen, donerte graven som Jesus ble lagt i?",
+        "correctAnswer": "Josef fra Arimatea",
+        "incorrectAnswers": ["Nikodemus", "Lasarus", "Simon fra Kyrene"],
+        "category": "Bibelhistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken astronomisk begivenhet markerer begynnelsen på våren og er avgjørende for fastsettelsen av påskedatoen?",
+        "correctAnswer": "Vårdagjevndøgn",
+        "incorrectAnswers": ["Vintersolverv", "Sommersolverv", "Høstjevndøgn"],
+        "category": "Astronomisk",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type fargestoff, utvunnet fra planter, ble historisk brukt for å gi påskeegg en rødlig farge?",
+        "correctAnswer": "Krapprot",
+        "incorrectAnswers": ["Indigo", "Safran", "Purpur"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken geometrisk form har ofte mønstrene på tradisjonelle påskeegg i Øst-Europa, som er dekorert med voksresistteknikk?",
+        "correctAnswer": "Ofte intrikate, symmetriske mønstre med symbolsk betydning",
+        "incorrectAnswers": ["Tilfeldige abstrakte former", "Enkle sirkler og linjer", "Realistiske dyremotiver"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type prosesjon, som gjenspeiler Jesu inntog i Jerusalem, finner sted i noen katolske tradisjoner på palmesøndag?",
+        "correctAnswer": "Palmeprosesjon",
+        "incorrectAnswers": ["Lystog", "Stasjonsandakt", "Kjertemesse"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket mytologisk vesen fra germansk folketro ble noen ganger assosiert med våren og fruktbarhet, og kan ha påvirket bildet av påskeharen?",
+        "correctAnswer": "Ostara",
+        "incorrectAnswers": ["Freyja", "Frigg", "Idun"],
+        "category": "Påskehistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type kjøttkraft, ofte laget på lammebein, brukes i noen tradisjonelle påskeretter i middelhavsområdet?",
+        "correctAnswer": "Lammekraft eller -buljong",
+        "incorrectAnswers": ["Kyllingkraft", "Kalvekraft", "Grønnsakskraft"],
+        "category": "Påskemat",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket organisk syre finnes i bringebær og gir dem deres karakteristiske smak, og kan finnes i rosa påskegodteri?",
+        "correctAnswer": "Sitronsyre og ellaginsyre",
+        "incorrectAnswers": ["Eddiksyre", "Askorbinsyre", "Salicylsyre"],
+        "category": "Naturvitenskap",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type materiale, utenom høy, kan brukes til å lage et dekorativt rede for påskeegg som ser mer moderne ut?",
+        "correctAnswer": "Sisaltau eller farget papir",
+        "incorrectAnswers": ["Plastikk", "Metall", "Keramikk"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken høyprest i Jerusalem spilte en sentral rolle i rettssaken mot Jesus?",
+        "correctAnswer": "Kaifas",
+        "incorrectAnswers": ["Annas", "Herodes", "Gamaliel"],
+        "category": "Bibelhistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type kunstform, der man skjærer intrikate mønstre i eggeskall, er populær i noen østeuropeiske land rundt påsketider?",
+        "correctAnswer": "Pisanka-kunst",
+        "incorrectAnswers": ["Eggmaleri", "Eggteater", "Eggskulptur"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er det vitenskapelige navnet på tamhøna?",
+        "correctAnswer": "Gallus gallus domesticus",
+        "incorrectAnswers": ["Anas platyrhynchos", "Meleagris gallopavo", "Coturnix japonica"],
+        "category": "Naturvitenskap",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken historisk hendelse i Irland knyttes til innføringen av kristendommen og feires rundt påsketider?",
+        "correctAnswer": "St. Patricks ankomst til Irland",
+        "incorrectAnswers": ["Slaget ved Clontarf", "Cromwells invasjon", "Den store sultkatastrofen"],
+        "category": "Påskehistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type utendørsaktivitet, der man leter etter skjulte gjenstander ved hjelp av ledetråder, kan gjøres med påsketema?",
+        "correctAnswer": "Påske-orientering eller rebusløp",
+        "incorrectAnswers": ["Fjellklatring", "Skihopping", "Rafting"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket krydder, med en varm og aromatisk smak, brukes noen ganger i påskebakst for å gi en spesiell vri?",
+        "correctAnswer": "Kardemomme",
+        "incorrectAnswers": ["Ingefær", "Allehånde", "Muskat"],
+        "category": "Påskemat",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken teologisk term beskriver Jesu himmelfart, som skjedde 40 dager etter oppstandelsen?",
+        "correctAnswer": "Himmelfartsdagen",
+        "incorrectAnswers": ["Transfigurasjonen", "Inkarnasjonen", "Epifanien"],
+        "category": "Bibelhistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type lys, ofte stort og dekorert, tennes i påskenatten for å symbolisere Kristi oppstandelse som lyset i verden?",
+        "correctAnswer": "Påskelyset",
+        "incorrectAnswers": ["Adventslyset", "Julestjernen", "Lysmessen"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type folkelig teaterforestilling, som gjenforteller Jesu lidelse og død, fremføres i noen katolske samfunn i påskeuken?",
+        "correctAnswer": "Pasjonsspill",
+        "incorrectAnswers": ["Mysteriedrama", "Liturgisk dans", "Påskemesse"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type godteri, med en seig konsistens og ofte smak av frukt, er populært i USA rundt påsketider?",
+        "correctAnswer": "Peeps",
+        "incorrectAnswers": ["Jelly Beans", "Lakrisbiter", "Sjokoladeegg"],
+        "category": "Påskemat",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type redskap brukes tradisjonelt for å knuse eggeskallet under eggspikking i noen kulturer?",
+        "correctAnswer": "En mynt eller en spiker",
+        "incorrectAnswers": ["En kniv", "En gaffel", "En skje"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken av Jesu disipler var en toller før han ble kalt av Jesus?",
+        "correctAnswer": "Matteus",
+        "incorrectAnswers": ["Tomas", "Peter", "Johannes"],
+        "category": "Bibelhistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type vev brukes ofte til å lage delikate påskeblomster som dekorasjon?",
+        "correctAnswer": "Silkepapir eller tyll",
+        "incorrectAnswers": ["Bomull", "Ull", "Lin"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket naturlig søtningsmiddel, utvunnet fra sevjen til visse trær, kan brukes i veganske påskegodterier?",
+        "correctAnswer": "Lønnesirup",
+        "incorrectAnswers": ["Honning", "Melasse", "Stevia"],
+        "category": "Påskemat",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken tradisjonell påskelek i noen land innebærer å kaste egg så de lander uten å knuse?",
+        "correctAnswer": "Eggkast",
+        "incorrectAnswers": ["Egggjemsel", "Eggstafett", "Eggdans"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken romersk keiser gjorde kristendommen til statsreligion i Romerriket, noe som påvirket feiringen av påsken?",
+        "correctAnswer": "Theodosius den store",
+        "incorrectAnswers": ["Konstantin den store", "Justinian", "Nero"],
+        "category": "Påskehistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type tidlig vårblomst har små, blå klokker og sprer seg ofte i store tepper?",
+        "correctAnswer": "Blåveis",
+        "incorrectAnswers": ["Krokus", "Snøklokke", "Vinterblom"],
+        "category": "Natur",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type sosial sammenkomst, med fokus på god mat og drikke, er vanlig å arrangere i påsken for venner og familie?",
+        "correctAnswer": "Påskebrunsj",
+        "incorrectAnswers": ["Middag", "Buffet", "Cocktailparty"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken edelsten har en farge som tradisjonelt symboliserer lidenskap og kan knyttes til langfredag?",
+        "correctAnswer": "Rubin",
+        "incorrectAnswers": ["Safir", "Smaragd", "Diamant"],
+        "category": "Påskesymboler",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type overnatting er populær for påskeferie i Norge, spesielt for de som ønsker å gå på ski?",
+        "correctAnswer": "Hytte på fjellet",
+        "incorrectAnswers": ["Hotell", "Campingvogn", "Telt"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type nøtteolje brukes noen ganger i påskebakst for å gi en rikere smak?",
+        "correctAnswer": "Valnøttolje",
+        "incorrectAnswers": ["Jordnøttolje", "Sesamolje", "Kokosolje"],
+        "category": "Påskemat",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er det hebraiske ordet for 'hvile' og er knyttet til sabbaten, som var dagen etter langfredag?",
+        "correctAnswer": "Shabbat",
+        "incorrectAnswers": ["Shalom", "Pesach", "Kiddush"],
+        "category": "Bibelhistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket insekt gjennomgår en metamorfose fra larve til puppe til voksen, og kan symbolisere forvandling og nytt liv i påskesammenheng?",
+        "correctAnswer": "Sommerfugl",
+        "incorrectAnswers": ["Maur", "Flue", "Veps"],
+        "category": "Påskesymboler",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken tradisjonell søt gjærdeigskake, ofte med rosiner og kandisert frukt, spises i Italia til påske?",
+        "correctAnswer": "Colomba Pasquale",
+        "incorrectAnswers": ["Panettone", "Tiramisu", "Cannoli"],
+        "category": "Påskemat",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type bær gir en dyp lilla farge og kan brukes til å farge påskegodteri naturlig?",
+        "correctAnswer": "Bjørnebær",
+        "incorrectAnswers": ["Blåbær", "Solbær", "Multer"],
+        "category": "Påskemat",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type håndarbeidsteknikk, der man fester små gjenstander på en overflate, kan brukes til å dekorere påskeegg?",
+        "correctAnswer": "Decoupage",
+        "incorrectAnswers": ["Brodering", "Veving", "Strikking"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken bibelsk tekst forteller om vandringen til Emmaus, der to disipler møtte den oppstandne Jesus uten å kjenne ham igjen?",
+        "correctAnswer": "Lukasevangeliet 24:13-35",
+        "incorrectAnswers": ["Matteusevangeliet", "Markusevangeliet", "Johannesevangeliet"],
+        "category": "Bibelhistorie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken type musikk fremføres ofte under påskegudstjenester, som for eksempel Händels 'Messias'?",
+        "correctAnswer": "Oratorium",
+        "incorrectAnswers": ["Kantate", "Opera", "Symfoni"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken del av fugleegget inneholder mesteparten av fettet og kolesterolet?",
+        "correctAnswer": "Plommen",
+        "incorrectAnswers": ["Hviten", "Skallet", "Hinnen"],
+        "category": "Naturvitenskap",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den stillheten som tradisjonelt observeres i katolske kirker fra langfredag ettermiddag til påskenatt?",
+        "correctAnswer": "Den store stillhet",
+        "incorrectAnswers": ["Det store mørket", "Sorgens tid", "Fasteperioden"],
+        "category": "Påsketradisjoner",
+        "difficulty": "hard"
+      }
+    ]

@@ -2,19 +2,32 @@
 <html lang="no">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval'; script-src * 'self' data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src * 'self' data: blob: 'unsafe-inline'; img-src * 'self' data: blob: 'unsafe-inline'; frame-src * 'self' data: blob: ; style-src * 'self' data: blob: 'unsafe-inline'; font-src * 'self' data: blob: 'unsafe-inline'; worker-src * 'self' data: blob: 'unsafe-inline';">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Om QuizZone - Hvordan spille</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E40HWE9G2K"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        // Kun last inn Google Analytics hvis vi er online
+        if (navigator.onLine && !window.location.href.includes('file://')) {
+          // Dynamisk last inn Google Analytics script
+          const gaScript = document.createElement('script');
+          gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-E40HWE9G2K';
+          gaScript.async = true;
+          document.head.appendChild(gaScript);
+          
+          // Initialiser Google Analytics
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-E40HWE9G2K');
+        }
+      </script>
 
-      gtag('config', 'G-E40HWE9G2K');
-    </script>
+<script src="https://my.rtmark.net/p.js?f=sync&lr=1&partner=e955cc05d4a884acda36acc75c5e2150b5800bd5e62521dff9c1a3ae95339f7a" defer></script>
+<noscript><img src="https://my.rtmark.net/img.gif?f=sync&lr=1&partner=e955cc05d4a884acda36acc75c5e2150b5800bd5e62521dff9c1a3ae95339f7a" width="1" height="1" /></noscript>
+
 </head>
 <body class="bg-gray-50 min-h-screen">
     <div class="container mx-auto px-4 py-6">
@@ -35,21 +48,41 @@
             
             <h3 class="text-xl font-semibold mt-6 mb-3">Slik kommer du i gang:</h3>
             <ol class="list-decimal pl-6 mb-6 space-y-2">
-                <li><span class="font-medium">Velg tema:</span> Velg mellom påske, allmennkunnskap, film & TV, sport eller barn.</li>
-                <li><span class="font-medium">Velg vanskelighetsgrad:</span> Sett vanskelighetsgraden til lett, middels, vanskelig eller blandet.</li>
-                <li><span class="font-medium">Velg antall spørsmål:</span> Bestem hvor mange spørsmål quizen skal inneholde.</li>
-                <li><span class="font-medium">Legg til spillere:</span> Legg til minst én spiller for å starte quizen.</li>
+                <li><span class="font-medium">Velg tema:</span> Velg mellom påske, allmennkunnskap, film & TV, sport, barn eller blandet tema for en variert opplevelse.</li>
+                <li><span class="font-medium">Velg vanskelighetsgrad:</span> Sett vanskelighetsgraden til lett, middels, vanskelig eller blandet. Vanskelighetsgraden tilpasser seg spillernes nivå.</li>
+                <li><span class="font-medium">Velg antall spørsmål:</span> Bestem hvor mange spørsmål quizen skal inneholde - fra korte runder med 5 spørsmål til lengre utfordringer med 25 spørsmål.</li>
+                <li><span class="font-medium">Legg til spillere:</span> Legg til minst én spiller for å starte quizen. Du kan legge til så mange spillere som du ønsker!</li>
                 <li><span class="font-medium">Start quizen:</span> Klikk på "Start Quiz" og test dine kunnskaper!</li>
             </ol>
             
             <h3 class="text-xl font-semibold mt-6 mb-3">Spilleregler:</h3>
             <ul class="list-disc pl-6 mb-6 space-y-2">
-                <li>Hver spiller svarer på ett spørsmål om gangen i tur.</li>
+                <li>Hver spiller ser spørsmålet på skjermen og velger sitt svar blant alternativene.</li>
+                <li>Alle spillere svarer på hvert spørsmål - enten i tur på samme enhet, eller samtidig fra egne enheter hvis dere spiller sammen.</li>
                 <li>For hvert riktig svar får spilleren ett poeng.</li>
-                <li>Du får ikke minuspoeng for feil svar.</li>
-                <li>Etter hvert svar, klikk på "Neste spørsmål" for å gå videre.</li>
-                <li>Når alle spørsmålene er besvart, vises resultatene.</li>
-                <li>Spilleren med flest poeng vinner!</li>
+                <li>Feil svar gir ingen minuspoeng, så det lønner seg alltid å gjette hvis man er usikker!</li>
+                <li>Etter at alle har svart, kan du se de riktige svarene ved å klikke på "Sjekk svar".</li>
+                <li>Klikk deretter på "Neste spørsmål" for å gå videre.</li>
+                <li>Når alle spørsmålene er besvart, vises resultatene med en stilig seiersseremoni.</li>
+                <li>Spilleren med flest poeng vinner - og får en flott feiring med konfetti!</li>
+            </ul>
+            
+            <h3 class="text-xl font-semibold mt-6 mb-3">Kategoriforklaring:</h3>
+            <ul class="list-disc pl-6 mb-6 space-y-2">
+                <li><span class="font-medium">Påske:</span> Spørsmål om påsketradisjoner, påskesymboler, påskemat og bibelhistorie knyttet til påsken.</li>
+                <li><span class="font-medium">Allmennkunnskap:</span> Generelle kunnskapsspørsmål om geografi, historie, vitenskap og kultur.</li>
+                <li><span class="font-medium">Film & TV:</span> Spørsmål om filmer, skuespillere, TV-serier og filmindustrien.</li>
+                <li><span class="font-medium">Sport:</span> Spørsmål om ulike sportsgrener, idrettsutøvere, turneringer og rekorder.</li>
+                <li><span class="font-medium">Barn:</span> Enklere spørsmål som passer for yngre deltakere, om dyr, farger, tall og barneprogrammer.</li>
+                <li><span class="font-medium">Blandet:</span> En kombinasjon av spørsmål fra alle kategoriene for maksimal variasjon.</li>
+            </ul>
+            
+            <h3 class="text-xl font-semibold mt-6 mb-3">Vanskelighetsgrader:</h3>
+            <ul class="list-disc pl-6 mb-6 space-y-2">
+                <li><span class="font-medium">Lett:</span> Perfekt for barn eller for en avslappet quiz med vennegjengen. Alle kan være med!</li>
+                <li><span class="font-medium">Middels:</span> Passe utfordrende for de fleste - du må ha litt kunnskap, men spørsmålene er ikke for avanserte.</li>
+                <li><span class="font-medium">Vanskelig:</span> For de virkelige quiz-entusiastene! Disse spørsmålene krever dybdekunnskap og kan overraske selv erfarne spillere.</li>
+                <li><span class="font-medium">Blandet:</span> En god miks av alle vanskelighetsgrader - noe for alle!</li>
             </ul>
             
             <h3 class="text-xl font-semibold mt-6 mb-3">Tips for en god spillopplevelse:</h3>
@@ -57,8 +90,10 @@
                 <li>Prøv forskjellige temaer for å finne dine styrker og svakheter.</li>
                 <li>Begynn med "lett" vanskelighetsgrad og jobb deg oppover.</li>
                 <li>Utfordre venner og familie - quiz er morsomst sammen!</li>
-                <li>Prøv "Blandet" tema for en variert opplevelse.</li>
+                <li>Bytt på hvem som leser spørsmålene høyt for å få en mer sosial opplevelse.</li>
                 <li>For barnequiz, velg temaet "Barn" med "Lett" vanskelighetsgrad.</li>
+                <li>Sett en tidsbegrensning for svar hvis du vil gjøre det ekstra spennende.</li>
+                <li>Bruk storskjerm hvis dere er mange som spiller sammen - det gjør opplevelsen enda bedre!</li>
             </ul>
             
             <div class="bg-indigo-50 p-4 rounded-lg border border-indigo-100">
@@ -71,6 +106,11 @@
             <a href="index.html" class="inline-block px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none transition">
                 Start en quiz nå!
             </a>
+        </div>
+        
+        <div class="mt-8 text-center text-gray-600 text-sm">
+            <p>Har du spørsmål, feedback eller forslag til forbedringer?</p>
+            <p>Send en e-post til <a href="mailto:Christopher@b2bsocial.no" class="text-indigo-600 hover:underline">Christopher@b2bsocial.no</a></p>
         </div>
     </div>
 </body>

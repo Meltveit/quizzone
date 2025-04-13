@@ -3,18 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval'; script-src * 'self' data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src * 'self' data: blob: 'unsafe-inline'; img-src * 'self' data: blob: 'unsafe-inline'; frame-src * 'self' data: blob: ; style-src * 'self' data: blob: 'unsafe-inline'; font-src * 'self' data: blob: 'unsafe-inline'; worker-src * 'self' data: blob: 'unsafe-inline';">
     <title>QuizZone - Den ultimate quizopplevelsen</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E40HWE9G2K"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-E40HWE9G2K');
+      // Kun last inn Google Analytics hvis vi er online
+      if (navigator.onLine && !window.location.href.includes('file://')) {
+        // Dynamisk last inn Google Analytics script
+        const gaScript = document.createElement('script');
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-E40HWE9G2K';
+        gaScript.async = true;
+        document.head.appendChild(gaScript);
+        
+        // Initialiser Google Analytics
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-E40HWE9G2K');
+      }
     </script>
+
+<script src="https://my.rtmark.net/p.js?f=sync&lr=1&partner=e955cc05d4a884acda36acc75c5e2150b5800bd5e62521dff9c1a3ae95339f7a" defer></script>
+<noscript><img src="https://my.rtmark.net/img.gif?f=sync&lr=1&partner=e955cc05d4a884acda36acc75c5e2150b5800bd5e62521dff9c1a3ae95339f7a" width="1" height="1" /></noscript>
+
 </head>
 <body class="bg-gray-50 min-h-screen">
     <div id="app" class="container mx-auto px-4 py-6">

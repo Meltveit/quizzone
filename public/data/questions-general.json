@@ -1,212 +1,1563 @@
 [
     {
-      "question": "Hva er hovedstaden i Norge?",
+      "question": "Hvilken skandinavisk by var kjent som Christiania frem til 1925?",
       "correctAnswer": "Oslo",
-      "incorrectAnswers": ["Bergen", "Trondheim", "Stavanger"],
+      "incorrectAnswers": ["Stockholm", "København", "Bergen"],
       "category": "Geografi",
       "difficulty": "easy"
     },
     {
-      "question": "Hvor mange fylker har Norge?",
-      "correctAnswer": "11",
-      "incorrectAnswers": ["9", "12", "15"],
-      "category": "Geografi",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilket år fikk Norge sin grunnlov?",
-      "correctAnswer": "1814",
-      "incorrectAnswers": ["1905", "1884", "1945"],
-      "category": "Historie",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilket fjell er Norges høyeste?",
-      "correctAnswer": "Galdhøpiggen",
-      "incorrectAnswers": ["Glittertinden", "Snøhetta", "Gaustatoppen"],
-      "category": "Geografi",
+      "question": "Hvilket grunnstoff har kjemisk symbol Fe?",
+      "correctAnswer": "Jern",
+      "incorrectAnswers": ["Fluor", "Fosfor", "Kalium"],
+      "category": "Naturvitenskap",
       "difficulty": "easy"
     },
     {
-      "question": "Hva heter Norges lengste elv?",
-      "correctAnswer": "Glomma",
-      "incorrectAnswers": ["Lågen", "Otra", "Tana"],
-      "category": "Geografi",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilken norsk forfatter skrev 'Sult'?",
-      "correctAnswer": "Knut Hamsun",
-      "incorrectAnswers": ["Henrik Ibsen", "Bjørnstjerne Bjørnson", "Sigrid Undset"],
-      "category": "Litteratur",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilket år ble Norge selvstendig fra Sverige?",
-      "correctAnswer": "1905",
-      "incorrectAnswers": ["1814", "1945", "1884"],
-      "category": "Historie",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hva er Norges nasjonalfugl?",
-      "correctAnswer": "Fossekall",
-      "incorrectAnswers": ["Kongeørn", "Nøtteskrike", "Lunde"],
-      "category": "Natur",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilken norsk by er kjent som 'Regn-byen'?",
-      "correctAnswer": "Bergen",
-      "incorrectAnswers": ["Oslo", "Trondheim", "Stavanger"],
-      "category": "Geografi",
-      "difficulty": "easy"
-    },
-    {
-      "question": "Hvilket år fikk Norge olje for første gang?",
-      "correctAnswer": "1969",
-      "incorrectAnswers": ["1959", "1979", "1989"],
-      "category": "Historie",
-      "difficulty": "hard"
-    },
-    {
-      "question": "Hva heter Norges største innsjø?",
-      "correctAnswer": "Mjøsa",
-      "incorrectAnswers": ["Femunden", "Tyrifjorden", "Randsfjorden"],
-      "category": "Geografi",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilken norsk maler malte 'Skrik'?",
+      "question": "Hvem malte 'Skrik'?",
       "correctAnswer": "Edvard Munch",
-      "incorrectAnswers": ["Christian Krohg", "J.C. Dahl", "Nikolai Astrup"],
+      "incorrectAnswers": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet"],
       "category": "Kunst",
       "difficulty": "easy"
     },
     {
-      "question": "Hva er den mest folkerike byen i Norge etter Oslo?",
-      "correctAnswer": "Bergen",
-      "incorrectAnswers": ["Trondheim", "Stavanger", "Drammen"],
+      "question": "Hva er navnet på den internasjonale flyplassen utenfor London med koden LHR?",
+      "correctAnswer": "Heathrow",
+      "incorrectAnswers": ["Gatwick", "Stansted", "Luton"],
       "category": "Geografi",
       "difficulty": "easy"
     },
     {
-      "question": "Hvilken farge er på den norske redningsvesten?",
-      "correctAnswer": "Oransje",
-      "incorrectAnswers": ["Rød", "Gul", "Grønn"],
-      "category": "Hverdagskunnskap",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilken norsk forfatter skrev om 'Kristin Lavransdatter'?",
-      "correctAnswer": "Sigrid Undset",
-      "incorrectAnswers": ["Camilla Collett", "Amalie Skram", "Knut Hamsun"],
-      "category": "Litteratur",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hva er Norges største øy?",
-      "correctAnswer": "Spitsbergen",
-      "incorrectAnswers": ["Hinnøya", "Senja", "Sørøya"],
-      "category": "Geografi",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvor mange striper har det norske flagget?",
-      "correctAnswer": "3",
-      "incorrectAnswers": ["2", "4", "5"],
-      "category": "Symboler",
-      "difficulty": "easy"
-    },
-    {
-      "question": "Hvilken norsk by har den nordligste universitet i verden?",
-      "correctAnswer": "Tromsø",
-      "incorrectAnswers": ["Trondheim", "Bergen", "Bodø"],
-      "category": "Utdanning",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hva er Norges høyeste foss?",
-      "correctAnswer": "Vinnufossen",
-      "incorrectAnswers": ["Mardalsfossen", "Vøringsfossen", "Tvindefossen"],
-      "category": "Geografi",
-      "difficulty": "hard"
-    },
-    {
-      "question": "Hvilken norsk TV-serie handlet om en fiktiv okkupasjon av Norge?",
-      "correctAnswer": "Okkupert",
-      "incorrectAnswers": ["Skam", "Ragnarok", "Mammon"],
-      "category": "Media",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilket år fikk Norge sin første kvinnelige statsminister?",
-      "correctAnswer": "1981",
-      "incorrectAnswers": ["1975", "1990", "2000"],
-      "category": "Politikk",
-      "difficulty": "hard"
-    },
-    {
-      "question": "Hva er Norges nasjonalblomst?",
-      "correctAnswer": "Røsslyng",
-      "incorrectAnswers": ["Blåklokke", "Hvitveis", "Løvetann"],
-      "category": "Natur",
-      "difficulty": "hard"
-    },
-    {
-      "question": "Hvilket fjord er Norges lengste?",
-      "correctAnswer": "Sognefjorden",
-      "incorrectAnswers": ["Hardangerfjorden", "Trondheimsfjorden", "Oslofjorden"],
+      "question": "Hvilket hav ligger mellom Europa og Nord-Amerika?",
+      "correctAnswer": "Atlanterhavet",
+      "incorrectAnswers": ["Stillehavet", "Indiahavet", "Middelhavet"],
       "category": "Geografi",
       "difficulty": "easy"
     },
     {
-      "question": "Når feiret Norge 100 år som selvstendig nasjon?",
-      "correctAnswer": "2005",
-      "incorrectAnswers": ["1994", "2000", "2014"],
+      "question": "Hva er valutaen i Japan?",
+      "correctAnswer": "Yen",
+      "incorrectAnswers": ["Won", "Yuan", "Ringgit"],
+      "category": "Økonomi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken italiensk by er kjent for sine kanaler og gondoler?",
+      "correctAnswer": "Venezia",
+      "incorrectAnswers": ["Roma", "Milano", "Napoli"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket år fant slaget ved Stiklestad sted?",
+      "correctAnswer": "1030",
+      "incorrectAnswers": ["1066", "1014", "1130"],
       "category": "Historie",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
-      "question": "Hva er det høyeste vannet i Norge?",
-      "correctAnswer": "Kjelvatnet",
-      "incorrectAnswers": ["Gjende", "Tyin", "Bygdin"],
+      "question": "Hva er det kjemiske symbolet for vann?",
+      "correctAnswer": "H2O",
+      "incorrectAnswers": ["CO2", "O2", "NaCl"],
+      "category": "Naturvitenskap",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken kjent forfatter skrev boken 'Hundre års ensomhet'?",
+      "correctAnswer": "Gabriel García Márquez",
+      "incorrectAnswers": ["Ernest Hemingway", "Jorge Luis Borges", "Mario Vargas Llosa"],
+      "category": "Litteratur",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på den skotske innsjøen som angivelig huser et berømt sjøuhyre?",
+      "correctAnswer": "Loch Ness",
+      "incorrectAnswers": ["Loch Lomond", "Loch Tay", "Loch Awe"],
       "category": "Geografi",
-      "difficulty": "hard"
+      "difficulty": "easy"
     },
     {
-      "question": "Hvor mange olympiske gullmedaljer har Norge vunnet i vinter-OL?",
-      "correctAnswer": "Over 100",
-      "incorrectAnswers": ["Rundt 50", "Mindre enn 30", "Akkurat 75"],
-      "category": "Sport",
-      "difficulty": "hard"
+      "question": "Hvilken planet i vårt solsystem har flest måner per dags dato?",
+      "correctAnswer": "Saturn",
+      "incorrectAnswers": ["Jupiter", "Uranus", "Neptun"],
+      "category": "Astronomi",
+      "difficulty": "easy"
     },
     {
-      "question": "Hva kaller man den tradisjonelle norske genseren med mønster?",
-      "correctAnswer": "Lusekofte",
-      "incorrectAnswers": ["Lopapeysa", "Mariusgenser", "Fanakofte"],
-      "category": "Kultur",
-      "difficulty": "medium"
+      "question": "Hva er navnet på den fjellkjeden som strekker seg langs vestkysten av Sør-Amerika?",
+      "correctAnswer": "Andesfjellene",
+      "incorrectAnswers": ["Rocky Mountains", "Alpene", "Himalaya"],
+      "category": "Geografi",
+      "difficulty": "easy"
     },
     {
-      "question": "Hvilken norsk band hadde hiten 'Take On Me'?",
-      "correctAnswer": "A-ha",
-      "incorrectAnswers": ["Röyksopp", "Seigmen", "deLillos"],
+      "question": "Hvilken berømt fysiker formulerte relativitetsteorien?",
+      "correctAnswer": "Albert Einstein",
+      "incorrectAnswers": ["Isaac Newton", "Niels Bohr", "Stephen Hawking"],
+      "category": "Vitenskap",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er hovedstaden i Australia?",
+      "correctAnswer": "Canberra",
+      "incorrectAnswers": ["Sydney", "Melbourne", "Perth"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket instrument spilles ved å stryke en bue over strenger?",
+      "correctAnswer": "Fiolin",
+      "incorrectAnswers": ["Piano", "Trompet", "Gitar"],
       "category": "Musikk",
       "difficulty": "easy"
     },
     {
-      "question": "Hva er det største dyret i norsk natur?",
-      "correctAnswer": "Elg",
-      "incorrectAnswers": ["Bjørn", "Ulv", "Jerv"],
-      "category": "Natur",
+      "question": "Hvilken kjent oppdagelsesreisende ledet den første vellykkede europeiske sjøveien til India?",
+      "correctAnswer": "Vasco da Gama",
+      "incorrectAnswers": ["Christofer Columbus", "Ferdinand Magellan", "James Cook"],
+      "category": "Historie",
       "difficulty": "easy"
     },
     {
-      "question": "Hvilket dyr er på 200-kronersseddelen?",
-      "correctAnswer": "Torsk",
-      "incorrectAnswers": ["Ørn", "Elg", "Ørret"],
-      "category": "Symboler",
-      "difficulty": "medium"
-    }
-  ]
+      "question": "Hva er navnet på den varme havstrømmen som påvirker klimaet i Vest-Norge?",
+      "correctAnswer": "Golfstrømmen",
+      "incorrectAnswers": ["Humboldt-strømmen", "Benguela-strømmen", "Labrador-strømmen"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken gresk bokstav brukes ofte for å betegne vinkler i matematikken?",
+      "correctAnswer": "Theta",
+      "incorrectAnswers": ["Alpha", "Beta", "Gamma"],
+      "category": "Matematikk",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem var den første kvinnen i verdensrommet?",
+      "correctAnswer": "Valentina Tereshkova",
+      "incorrectAnswers": ["Sally Ride", "Svetlana Savitskaya", "Christina Koch"],
+      "category": "Historie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på den iberiske halvøyas to hovedland?",
+      "correctAnswer": "Spania og Portugal",
+      "incorrectAnswers": ["Frankrike og Spania", "Italia og Hellas", "Portugal og Marokko"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket grunnstoff er mest utbredt i jordens atmosfære?",
+      "correctAnswer": "Nitrogen",
+      "incorrectAnswers": ["Oksygen", "Argon", "Karbondioksid"],
+      "category": "Naturvitenskap",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken amerikansk by er kjent for Golden Gate Bridge?",
+      "correctAnswer": "San Francisco",
+      "incorrectAnswers": ["New York", "Los Angeles", "Chicago"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er det høyeste fjellet i Skandinavia?",
+      "correctAnswer": "Galdhøpiggen",
+      "incorrectAnswers": ["Glittertind", "Kebnekaise", "Snøhetta"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken kjent maler har en stil som ofte kalles 'surrealisme'?",
+      "correctAnswer": "Salvador Dalí",
+      "incorrectAnswers": ["Pablo Picasso", "Henri Matisse", "Claude Monet"],
+      "category": "Kunst",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på den lange elven som renner gjennom Egypt?",
+      "correctAnswer": "Nilen",
+      "incorrectAnswers": ["Tigris", "Eufrat", "Amazonas"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket år startet andre verdenskrig?",
+      "correctAnswer": "1939",
+      "incorrectAnswers": ["1938", "1940", "1941"],
+      "category": "Historie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er det kjemiske symbolet for gull?",
+      "correctAnswer": "Au",
+      "incorrectAnswers": ["Ag", "Fe", "Cu"],
+      "category": "Naturvitenskap",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken kjent britisk forfatter skapte figuren James Bond?",
+      "correctAnswer": "Ian Fleming",
+      "incorrectAnswers": ["Agatha Christie", "Arthur Conan Doyle", "Roald Dahl"],
+      "category": "Litteratur",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på det høyeste fjellet i Afrika?",
+      "correctAnswer": "Kilimanjaro",
+      "incorrectAnswers": ["Mount Kenya", "Toubkal", "Ras Dashen"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken europeisk by er kjent for sitt øl og Grand Place?",
+      "correctAnswer": "Brussel",
+      "incorrectAnswers": ["Amsterdam", "Praha", "München"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket grunnstoff er hovedbestanddelen i diamant?",
+      "correctAnswer": "Karbon",
+      "incorrectAnswers": ["Silisium", "Oksygen", "Hydrogen"],
+      "category": "Naturvitenskap",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem holdt talen 'I Have a Dream' under borgerrettighetsbevegelsen i USA?",
+      "correctAnswer": "Martin Luther King Jr.",
+      "incorrectAnswers": ["Malcolm X", "Rosa Parks", "Barack Obama"],
+      "category": "Historie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på den største innsjøen i Nord-Amerika (etter areal)?",
+      "correctAnswer": "Øvresjøen",
+      "incorrectAnswers": ["Michigansjøen", "Huronsjøen", "Eriesjøen"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken kjent komponist skrev 'Für Elise'?",
+      "correctAnswer": "Ludwig van Beethoven",
+      "incorrectAnswers": ["Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Frédéric Chopin"],
+      "category": "Musikk",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken elv renner gjennom Paris?",
+      "correctAnswer": "Seinen",
+      "incorrectAnswers": ["Rhinen", "Rhône", "Loire"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket år ble Norge selvstendig fra Sverige?",
+      "correctAnswer": "1905",
+      "incorrectAnswers": ["1814", "1884", "1945"],
+      "category": "Historie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er det kjemiske symbolet for sølv?",
+      "correctAnswer": "Ag",
+      "incorrectAnswers": ["Si", "Au", "Sv"],
+      "category": "Naturvitenskap",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken kjent forfatter skrev romanen '1984'?",
+      "correctAnswer": "George Orwell",
+      "incorrectAnswers": ["Aldous Huxley", "Ray Bradbury", "H.G. Wells"],
+      "category": "Litteratur",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på fjellkjeden som skiller Europa fra Asia?",
+      "correctAnswer": "Uralfjellene",
+      "incorrectAnswers": ["Alpene", "Kaukasus", "Karpatene"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken by var vertskap for sommer-OL i 2012?",
+      "correctAnswer": "London",
+      "incorrectAnswers": ["Beijing", "Rio de Janeiro", "Tokyo"],
+      "category": "Sport",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket grunnstoff utgjør mesteparten av luften vi puster inn?",
+      "correctAnswer": "Nitrogen",
+      "incorrectAnswers": ["Oksygen", "Karbondioksid", "Argon"],
+      "category": "Naturvitenskap",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken amerikansk stat er kjent for Hollywood?",
+      "correctAnswer": "California",
+      "incorrectAnswers": ["Florida", "New York", "Texas"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på den største ørkenen i verden (etter areal)?",
+      "correctAnswer": "Antarktis",
+      "incorrectAnswers": ["Sahara", "Gobiørkenen", "Arabiaørkenen"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken kjent musiker er kjent som 'The King of Rock and Roll'?",
+      "correctAnswer": "Elvis Presley",
+      "incorrectAnswers": ["Michael Jackson", "Freddie Mercury", "John Lennon"],
+      "category": "Musikk",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken elv renner gjennom Berlin?",
+      "correctAnswer": "Spree",
+      "incorrectAnswers": ["Elben", "Donau", "Rhinen"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket år ble Berlinmuren revet?",
+      "correctAnswer": "1989",
+      "incorrectAnswers": ["1979", "1991", "1995"],
+      "category": "Historie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er det kjemiske symbolet for bly?",
+      "correctAnswer": "Pb",
+      "incorrectAnswers": ["Pl", "Bl", "By"],
+      "category": "Naturvitenskap",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken kjent forfatter skrev teaterstykket 'Hamlet'?",
+      "correctAnswer": "William Shakespeare",
+      "incorrectAnswers": ["Henrik Ibsen", "Oscar Wilde", "Arthur Miller"],
+      "category": "Litteratur",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på fjellkjeden som strekker seg tvers over Nord-Amerika?",
+      "correctAnswer": "Rocky Mountains",
+      "incorrectAnswers": ["Appalachene", "Sierra Nevada", "Andesfjellene"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken by er kjent for Colosseum?",
+      "correctAnswer": "Roma",
+      "incorrectAnswers": ["Athen", "Napoli", "Venezia"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket grunnstoff er essensielt for dannelsen av røde blodceller?",
+      "correctAnswer": "Jern",
+      "incorrectAnswers": ["Kalsium", "Natrium", "Kalium"],
+      "category": "Naturvitenskap",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken amerikansk by er kjent for jazzmusikk?",
+      "correctAnswer": "New Orleans",
+      "incorrectAnswers": ["Chicago", "New York", "Memphis"],
+      "category": "Musikk",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på det største kontinentet på jorden?",
+      "correctAnswer": "Asia",
+      "incorrectAnswers": ["Afrika", "Nord-Amerika", "Europa"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken kjent maler har en stil med roterende stjerner og kraftige penselstrøk?",
+      "correctAnswer": "Vincent van Gogh",
+      "incorrectAnswers": ["Claude Monet", "Paul Cézanne", "Pablo Picasso"],
+      "category": "Kunst",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken elv renner gjennom London?",
+      "correctAnswer": "Themsen",
+      "incorrectAnswers": ["Seinen", "Tajo", "Po"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket år ble Norges grunnlov undertegnet på Eidsvoll?",
+      "correctAnswer": "1814",
+      "incorrectAnswers": ["1905", "1762", "1821"],
+      "category": "Historie",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er det kjemiske symbolet for kvikksølv?",
+      "correctAnswer": "Hg",
+      "incorrectAnswers": ["Qs", "Mg", "Km"],
+      "category": "Naturvitenskap",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken kjent forfatter skrev barneboken 'Alice i Eventyrland'?",
+      "correctAnswer": "Lewis Carroll",
+      "incorrectAnswers": ["J.K. Rowling", "Roald Dahl", "C.S. Lewis"],
+      "category": "Litteratur",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på fjellkjeden som danner 'ryggraden' i Italia?",
+      "correctAnswer": "Appenninene",
+      "incorrectAnswers": ["Alpene", "Dolomittene", "Jurafjellene"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken by er kjent for Eiffeltårnet?",
+      "correctAnswer": "Paris",
+      "incorrectAnswers": ["London", "Berlin", "Roma"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket grunnstoff brukes i glødetråden i tradisjonelle lyspærer?",
+      "correctAnswer": "Wolfram",
+      "incorrectAnswers": ["Aluminium", "Kobber", "Karbon"],
+      "category": "Naturvitenskap",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken amerikansk stat er kjent for Grand Canyon?",
+      "correctAnswer": "Arizona",
+      "incorrectAnswers": ["Nevada", "Colorado", "Utah"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på det nest største kontinentet på jorden?",
+      "correctAnswer": "Afrika",
+      "incorrectAnswers": ["Nord-Amerika", "Sør-Amerika", "Europa"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken kjent komponist skrev 'Halleluja'-koret i Messias?",
+      "correctAnswer": "Georg Friedrich Händel",
+      "incorrectAnswers": ["Johann Sebastian Bach", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven"],
+      "category": "Musikk",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken elv renner gjennom Budapest?",
+      "correctAnswer": "Donau",
+      "incorrectAnswers": ["Rhinen", "Volga", "Elben"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket år ble de olympiske lekene gjenopplivet i moderne tid?",
+      "correctAnswer": "1896",
+      "incorrectAnswers": ["1900", "1912", "1924"],
+      "category": "Sport",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er det kjemiske symbolet for tinn?",
+      "correctAnswer": "Sn",
+      "incorrectAnswers": ["Ti", "Tn", "Ta"],
+      "category": "Naturvitenskap",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken kjent forfatter skrev romanen 'Moby Dick'?",
+      "correctAnswer": "Herman Melville",
+      "incorrectAnswers": ["Mark Twain", "Ernest Hemingway", "F. Scott Fitzgerald"],
+      "category": "Litteratur",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på fjellkjeden som skiller Frankrike fra Spania?",
+      "correctAnswer": "Pyreneene",
+      "incorrectAnswers": ["Alpene", "Karpatene", "Jurafjellene"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken by er kjent for Akropolis?",
+      "correctAnswer": "Athen",
+      "incorrectAnswers": ["Roma", "Kairo", "Istanbul"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilket grunnstoff er den viktigste bestanddelen i naturlig gass?",
+      "correctAnswer": "Metan",
+      "incorrectAnswers": ["Propan", "Hydrogen", "Helium"],
+      "category": "Naturvitenskap",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken amerikansk stat er kjent for Silicon Valley?",
+      "correctAnswer": "California",
+      "incorrectAnswers": ["Washington", "Texas", "New York"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på det minste kontinentet på jorden?",
+      "correctAnswer": "Australia",
+      "incorrectAnswers": ["Europa", "Antarktis", "Sør-Amerika"],
+      "category": "Geografi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken kjent komponist skrev operaen 'Tryllefløyten'?",
+      "correctAnswer": "Wolfgang Amadeus Mozart",
+      "incorrectAnswers": ["Giuseppe Verdi", "Richard Wagner", "Giacomo Puccini"],
+      "category": "Musikk",
+      "difficulty": "easy"
+    },
+    {
+        "question": "Hvilken europeisk union ble etablert ved Maastricht-traktaten?",
+        "correctAnswer": "Den europeiske union (EU)",
+        "incorrectAnswers": ["Det europeiske økonomiske fellesskap (EØF)", "Den europeiske frihandelssammenslutning (EFTA)", "Nordisk råd"],
+        "category": "Politikk",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den geologiske tidsperioden da dinosaurene dominerte jorden?",
+        "correctAnswer": "Mesozoikum",
+        "incorrectAnswers": ["Paleozoikum", "Kenozoikum", "Prekambrium"],
+        "category": "Geologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvem regnes som 'far til atomteorien'?",
+        "correctAnswer": "John Dalton",
+        "incorrectAnswers": ["Ernest Rutherford", "Niels Bohr", "J.J. Thomson"],
+        "category": "Vitenskap",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket land er hjemmet til nasjonalparken Serengeti?",
+        "correctAnswer": "Tanzania",
+        "incorrectAnswers": ["Kenya", "Sør-Afrika", "Namibia"],
+        "category": "Geografi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den skandinaviske mytologien sin versjon av himmelen for falne krigere?",
+        "correctAnswer": "Valhall",
+        "incorrectAnswers": ["Hel", "Folkvang", "Asgard"],
+        "category": "Mytologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken berømt roman begynner med setningen: 'Det var de beste av tider, det var de verste av tider...'?",
+        "correctAnswer": "To byer",
+        "incorrectAnswers": ["Store forventninger", "David Copperfield", "Oliver Twist"],
+        "category": "Litteratur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er SI-enheten for elektrisk strøm?",
+        "correctAnswer": "Ampere",
+        "incorrectAnswers": ["Volt", "Watt", "Ohm"],
+        "category": "Vitenskap",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket instrument er sentralt i musikksjangeren flamenco?",
+        "correctAnswer": "Gitar",
+        "incorrectAnswers": ["Fiolin", "Trompet", "Piano"],
+        "category": "Musikk",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken kjent vitenskapsmann formulerte lovene for klassisk mekanikk og gravitasjon?",
+        "correctAnswer": "Isaac Newton",
+        "incorrectAnswers": ["Albert Einstein", "Galileo Galilei", "Johannes Kepler"],
+        "category": "Vitenskap",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den største øya i Middelhavet?",
+        "correctAnswer": "Sicilia",
+        "incorrectAnswers": ["Kreta", "Kypros", "Sardinia"],
+        "category": "Geografi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken historisk hendelse startet med skuddene i Sarajevo i 1914?",
+        "correctAnswer": "Første verdenskrig",
+        "incorrectAnswers": ["Andre verdenskrig", "Den russiske revolusjon", "Balkankrigene"],
+        "category": "Historie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på det innerste, faste laget av jorden?",
+        "correctAnswer": "Indre kjerne",
+        "incorrectAnswers": ["Ytre kjerne", "Mantelen", "Jordskorpen"],
+        "category": "Geologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken kjent filosof er kjent for utsagnet 'Jeg tenker, derfor er jeg' (Cogito, ergo sum)?",
+        "correctAnswer": "René Descartes",
+        "incorrectAnswers": ["Immanuel Kant", "Friedrich Nietzsche", "Aristoteles"],
+        "category": "Filosofi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket land er kjent for terrakottahæren?",
+        "correctAnswer": "Kina",
+        "incorrectAnswers": ["Japan", "India", "Egypt"],
+        "category": "Historie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den norrøne guden for torden og lyn?",
+        "correctAnswer": "Tor",
+        "incorrectAnswers": ["Odin", "Loke", "Frøy"],
+        "category": "Mytologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken roman av Jane Austen handler om søstrene Elinor og Marianne Dashwood?",
+        "correctAnswer": "Fornuft og følelse",
+        "incorrectAnswers": ["Stolthet og fordom", "Emma", "Overtalelse"],
+        "category": "Litteratur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er SI-enheten for energi?",
+        "correctAnswer": "Joule",
+        "incorrectAnswers": ["Watt", "Newton", "Pascal"],
+        "category": "Vitenskap",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket musikkinstrument er assosiert med jazzlegenden Louis Armstrong?",
+        "correctAnswer": "Trompet",
+        "incorrectAnswers": ["Saksofon", "Piano", "Klarinett"],
+        "category": "Musikk",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken teori forklarer hvordan kontinenter har beveget seg over jordens overflate?",
+        "correctAnswer": "Platetektonikk",
+        "incorrectAnswers": ["Kvantemekanikk", "Evolusjonsteori", "Gravitasjonsteori"],
+        "category": "Geologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den største innsjøen i Afrika?",
+        "correctAnswer": "Victoriasjøen",
+        "incorrectAnswers": ["Tanganyikasjøen", "Malawisjøen", "Tsjadsjøen"],
+        "category": "Geografi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken konflikt ble utkjempet mellom Nord- og Sør-Korea fra 1950 til 1953?",
+        "correctAnswer": "Koreakrigen",
+        "incorrectAnswers": ["Vietnamkrigen", "Kinesisk-japanske krig", "Den kalde krigen"],
+        "category": "Historie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på det ytre, flytende laget av jordens kjerne?",
+        "correctAnswer": "Ytre kjerne",
+        "incorrectAnswers": ["Indre kjerne", "Mantelen", "Astenosfæren"],
+        "category": "Geologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken kjent psykolog utviklet teorien om psykoanalyse?",
+        "correctAnswer": "Sigmund Freud",
+        "incorrectAnswers": ["Carl Jung", "B.F. Skinner", "Jean Piaget"],
+        "category": "Psykologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket land er kjent for Machu Picchu?",
+        "correctAnswer": "Peru",
+        "incorrectAnswers": ["Mexico", "Chile", "Bolivia"],
+        "category": "Geografi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på Odins hest i norrøn mytologi?",
+        "correctAnswer": "Sleipner",
+        "incorrectAnswers": ["Fenris", "Hugin", "Gungner"],
+        "category": "Mytologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken roman av F. Scott Fitzgerald skildrer 'The Jazz Age'?",
+        "correctAnswer": "Den store Gatsby",
+        "incorrectAnswers": ["Tender is the Night", "This Side of Paradise", "The Beautiful and Damned"],
+        "category": "Litteratur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er SI-enheten for frekvens?",
+        "correctAnswer": "Hertz",
+        "incorrectAnswers": ["Decibel", "Watt", "Farad"],
+        "category": "Vitenskap",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket musikkinstrument er kjent for sin bruk i irsk folkemusikk?",
+        "correctAnswer": "Fiolin",
+        "incorrectAnswers": ["Harpe", "Tromme", "Fløyte"],
+        "category": "Musikk",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken prosess bruker planter for å omdanne lysenergi til kjemisk energi?",
+        "correctAnswer": "Fotosyntese",
+        "incorrectAnswers": ["Respirasjon", "Fermentering", "Translokasjon"],
+        "category": "Biologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den lengste elven i Nord-Amerika?",
+        "correctAnswer": "Missouri-Mississippi",
+        "incorrectAnswers": ["Rio Grande", "Colorado", "Yukon"],
+        "category": "Geografi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken historisk begivenhet førte til opprettelsen av staten Israel i 1948?",
+        "correctAnswer": "FNs delingsplan for Palestina",
+        "incorrectAnswers": ["Seksdagerskrigen", "Oktoberkriger", "Suezkrisen"],
+        "category": "Historie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på det midterste laget av jorden, som ligger mellom kjernen og jordskorpen?",
+        "correctAnswer": "Mantelen",
+        "incorrectAnswers": ["Litosfæren", "Astenosfæren", "Mesosfæren"],
+        "category": "Geologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken kjent filosof er kjent for sin kritikk av den rene fornuft?",
+        "correctAnswer": "Immanuel Kant",
+        "incorrectAnswers": ["Søren Kierkegaard", "Friedrich Nietzsche", "Jean-Jacques Rousseau"],
+        "category": "Filosofi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket land er kjent for Taj Mahal?",
+        "correctAnswer": "India",
+        "incorrectAnswers": ["Pakistan", "Iran", "Irak"],
+        "category": "Geografi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den norrøne gudinnen for kjærlighet og fruktbarhet?",
+        "correctAnswer": "Frøya",
+        "incorrectAnswers": ["Idun", "Siv", "Frigg"],
+        "category": "Mytologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken roman av George Orwell er en satire over totalitære regimer?",
+        "correctAnswer": "Animal Farm",
+        "incorrectAnswers": ["1984", "Burmese Days", "Keep the Aspidistra Flying"],
+        "category": "Litteratur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er SI-enheten for trykk?",
+        "correctAnswer": "Pascal",
+        "incorrectAnswers": ["Newton", "Bar", "Atmosfære"],
+        "category": "Vitenskap",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket musikkinstrument er kjent for sin bruk i klassisk indisk musikk?",
+        "correctAnswer": "Sitar",
+        "incorrectAnswers": ["Tabla", "Harmonium", "Veena"],
+        "category": "Musikk",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type stråling består av heliumkjerner?",
+        "correctAnswer": "Alfastråling",
+        "incorrectAnswers": ["Betastråling", "Gammastråling", "Nøytronstråling"],
+        "category": "Fysikk",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den høyeste fjellkjeden i verden?",
+        "correctAnswer": "Himalaya",
+        "incorrectAnswers": ["Andesfjellene", "Rocky Mountains", "Alpene"],
+        "category": "Geografi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken krig ble utkjempet mellom Storbritannia og Kina på midten av 1800-tallet på grunn av opiumhandel?",
+        "correctAnswer": "Opiumskrigene",
+        "incorrectAnswers": ["Boxeropprøret", "Taipingopprøret", "Den kinesisk-japanske krig"],
+        "category": "Historie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på det ytterste, faste laget av jorden?",
+        "correctAnswer": "Jordskorpen",
+        "incorrectAnswers": ["Litosfæren", "Mantelen", "Astenosfæren"],
+        "category": "Geologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken kjent økonom skrev 'Kapitalen'?",
+        "correctAnswer": "Karl Marx",
+        "incorrectAnswers": ["Adam Smith", "John Maynard Keynes", "David Ricardo"],
+        "category": "Økonomi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket land er kjent for sine tulipaner og vindmøller?",
+        "correctAnswer": "Nederland",
+        "incorrectAnswers": ["Belgia", "Danmark", "Tyskland"],
+        "category": "Geografi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den norrøne guden for visdom, poesi og magi?",
+        "correctAnswer": "Odin",
+        "incorrectAnswers": ["Balder", "Heimdall", "Brage"],
+        "category": "Mytologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken roman av Ernest Hemingway handler om en gammel fisker og en stor marlin?",
+        "correctAnswer": "Den gamle mannen og havet",
+        "incorrectAnswers": ["Farvel til våpnene", "For hvem ringer klokkene", "Å ha og ikke ha"],
+        "category": "Litteratur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er SI-enheten for elektrisk motstand?",
+        "correctAnswer": "Ohm",
+        "incorrectAnswers": ["Volt", "Ampere", "Watt"],
+        "category": "Vitenskap",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket musikkinstrument er kjent for sin bruk i reggae-musikk?",
+        "correctAnswer": "Bassgitar",
+        "incorrectAnswers": ["Trommer", "Keyboard", "Saxofon"],
+        "category": "Musikk",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type sky kjennetegnes av sitt tynne, trådaktige utseende høyt oppe i atmosfæren?",
+        "correctAnswer": "Cirrusskyer",
+        "incorrectAnswers": ["Cumulusskyer", "Stratusskyer", "Nimbusskyer"],
+        "category": "Meteorologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den største ørkenen i Afrika?",
+        "correctAnswer": "Sahara",
+        "incorrectAnswers": ["Kalahari", "Namib", "Nubian"],
+        "category": "Geografi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken konflikt på 1600-tallet involverte store deler av Europa og resulterte i freden i Westfalen?",
+        "correctAnswer": "Tredveårskrigen",
+        "incorrectAnswers": ["Hundreårskrigen", "Napoleonskrigene", "Den spanske arvefølgekrigen"],
+        "category": "Historie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på det laget i atmosfæren som inneholder ozonlaget?",
+        "correctAnswer": "Stratosfæren",
+        "incorrectAnswers": ["Troposfæren", "Mesosfæren", "Termosfæren"],
+        "category": "Meteorologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken kjent fysiker utviklet kvantemekanikken sammen med andre?",
+        "correctAnswer": "Max Planck",
+        "incorrectAnswers": ["Albert Einstein", "Richard Feynman", "Paul Dirac"],
+        "category": "Fysikk",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket land er kjent for sine kenguruer og koalaer?",
+        "correctAnswer": "Australia",
+        "incorrectAnswers": ["New Zealand", "Indonesia", "Papua New Guinea"],
+        "category": "Geografi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på Lokes barn med jotnekvinnen Angerboda i norrøn mytologi?",
+        "correctAnswer": "Fenrisulven, Midgardsormen og Hel",
+        "incorrectAnswers": ["Sleipner, Hugin og Munin", "Balder, Hod og Hermod", "Frey, Frøya og Njord"],
+        "category": "Mytologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken roman av Virginia Woolf utforsker bevissthetsstrøm-teknikken?",
+        "correctAnswer": "Mrs Dalloway",
+        "incorrectAnswers": ["To the Lighthouse", "Orlando", "The Waves"],
+        "category": "Litteratur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er SI-enheten for kapasitans?",
+        "correctAnswer": "Farad",
+        "incorrectAnswers": ["Coulomb", "Henry", "Tesla"],
+        "category": "Vitenskap",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket musikkinstrument er kjent for sin bruk i tango-musikk?",
+        "correctAnswer": "Bandoneon",
+        "incorrectAnswers": ["Gitar", "Piano", "Fiolin"],
+        "category": "Musikk",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type værfenomen kjennetegnes av en roterende søyle av luft som strekker seg fra en sky til bakken?",
+        "correctAnswer": "Tornado",
+        "incorrectAnswers": ["Orkan", "Tyfon", "Hagl"],
+        "category": "Meteorologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den lengste elven i Sør-Amerika?",
+        "correctAnswer": "Amazonas",
+        "incorrectAnswers": ["Orinoco", "Paraná", "Rio de la Plata"],
+        "category": "Geografi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken revolusjon i 1789 førte til avskaffelsen av monarkiet i Frankrike?",
+        "correctAnswer": "Den franske revolusjonen",
+        "incorrectAnswers": ["Den amerikanske revolusjonen", "Den industrielle revolusjon", "Den russiske revolusjonen"],
+        "category": "Historie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på det laveste laget i atmosfæren der mesteparten av været foregår?",
+        "correctAnswer": "Troposfæren",
+        "incorrectAnswers": ["Stratosfæren", "Mesosfæren", "Termosfæren"],
+        "category": "Meteorologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken kjent biolog formulerte evolusjonsteorien basert på naturlig utvalg?",
+        "correctAnswer": "Charles Darwin",
+        "incorrectAnswers": ["Gregor Mendel", "Louis Pasteur", "Alfred Russel Wallace"],
+        "category": "Biologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket land er kjent for sine samurai-krigere?",
+        "correctAnswer": "Japan",
+        "incorrectAnswers": ["Kina", "Korea", "Vietnam"],
+        "category": "Historie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den norrøne broen som forbinder Åsgard med Midgard?",
+        "correctAnswer": "Bifrost",
+        "incorrectAnswers": ["Gjallarbroen", "Yggdrasil", "Sleipner"],
+        "category": "Mytologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken roman av Gabriel García Márquez handler om slekten Buendía i den fiktive byen Macondo?",
+        "correctAnswer": "Hundre års ensomhet",
+        "incorrectAnswers": ["Kjærlighet i koleraens tid", "Ingen skriver til obersten", "Høsten til patriarken"],
+        "category": "Litteratur",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er SI-enheten for induktans?",
+        "correctAnswer": "Henry",
+        "incorrectAnswers": ["Weber", "Farad", "Ohm"],
+        "category": "Vitenskap",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket musikkinstrument er kjent for sin bruk i skotsk folkemusikk?",
+        "correctAnswer": "Sekkepipe",
+        "incorrectAnswers": ["Fele", "Harpe", "Bodhrán"],
+        "category": "Musikk",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken type nedbør består av iskrystaller?",
+        "correctAnswer": "Snø",
+        "incorrectAnswers": ["Regn", "Hagl", "Sludd"],
+        "category": "Meteorologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den største innsjøen i verden (etter volum og dyp)?",
+        "correctAnswer": "Bajkalsjøen",
+        "incorrectAnswers": ["Det kaspiske hav", "Victoriasjøen", "Øversjøen"],
+        "category": "Geografi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken konflikt på 1990-tallet førte til oppløsningen av Jugoslavia?",
+        "correctAnswer": "Jugoslavia-krigene",
+        "incorrectAnswers": ["Den kalde krigen", "Golfkrigen", "Kosovo-krigen"],
+        "category": "Historie",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på det laget i atmosfæren over stratosfæren, hvor temperaturen øker med høyden?",
+        "correctAnswer": "Mesosfæren",
+        "incorrectAnswers": ["Troposfæren", "Termosfæren", "Exosfæren"],
+        "category": "Meteorologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken kjent kjemiker er kjent for sitt periodiske system av grunnstoffene?",
+        "correctAnswer": "Dmitrij Mendelejev",
+        "incorrectAnswers": ["Marie Curie", "Antoine Lavoisier", "John Dalton"],
+        "category": "Kjemi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilket land er kjent for sine gamle mayaruiner som Chichén Itzá?",
+        "correctAnswer": "Mexico",
+        "incorrectAnswers": ["Peru", "Guatemala", "Honduras"],
+        "category": "Geografi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hva er navnet på den norrøne verdensasken som forbinder de ni verdener?",
+        "correctAnswer": "Yggdrasil",
+        "incorrectAnswers": ["Bifrost", "Gjallarhorn", "Mimirs brønn"],
+        "category": "Mytologi",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Hvilken traktat markerte slutten på den første engelsk-nederlandske krigen i 1654?",
+        "correctAnswer": "Westminster-traktaten",
+        "incorrectAnswers": ["Utrechtavtalen", "Breda-traktaten", "Paris-traktaten"],
+        "category": "Historie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den eneste primaten som er endemisk til Europa?",
+        "correctAnswer": "Berberape",
+        "incorrectAnswers": ["Makak", "Kapusinape", "Lemur"],
+        "category": "Zoologi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken matematiker beviste Fermats siste teorem?",
+        "correctAnswer": "Andrew Wiles",
+        "incorrectAnswers": ["Grigori Perelman", "Terence Tao", "Edward Witten"],
+        "category": "Matematikk",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den dypeste delen av verdenshavene, som ligger i Marianergropen?",
+        "correctAnswer": "Challengerdypet",
+        "incorrectAnswers": ["Horizondypet", "Vitjazdypet", "Trieste-punktet"],
+        "category": "Geografi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken filosof utviklet begrepet 'Übermensch'?",
+        "correctAnswer": "Friedrich Nietzsche",
+        "incorrectAnswers": ["Immanuel Kant", "Søren Kierkegaard", "Jean-Paul Sartre"],
+        "category": "Filosofi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den eneste fuglearten som ikke har vinger?",
+        "correctAnswer": "Kiwi",
+        "incorrectAnswers": ["Struts", "Emu", "Pingvin"],
+        "category": "Zoologi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket år ble den kinesiske folkerepublikken proklamert?",
+        "correctAnswer": "1949",
+        "incorrectAnswers": ["1945", "1953", "1959"],
+        "category": "Historie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den kjemiske reaksjonen der en ester spaltes ved hjelp av vann?",
+        "correctAnswer": "Hydrolyse",
+        "incorrectAnswers": ["Kondensasjon", "Esterifisering", "Hydrogenering"],
+        "category": "Kjemi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken forfatter skrev romanen 'Finnegans våkenatt' (Finnegans Wake)?",
+        "correctAnswer": "James Joyce",
+        "incorrectAnswers": ["Virginia Woolf", "Samuel Beckett", "T.S. Eliot"],
+        "category": "Litteratur",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den høyeste vulkanen i verden målt fra havbunnen?",
+        "correctAnswer": "Mauna Kea",
+        "incorrectAnswers": ["Mount Everest", "Chimborazo", "Kilimanjaro"],
+        "category": "Geografi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken historisk hendelse er kjent som 'Langknivenes natt'?",
+        "correctAnswer": "Utrenskningen av SA-ledere i Nazi-Tyskland i 1934",
+        "incorrectAnswers": ["Bartholomeusnattens massakre", "Kristallnatten", "Stockholms blodbad"],
+        "category": "Historie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den geologiske perioden som etterfulgte kritt-tiden og markerte begynnelsen på pattedyrdominansen?",
+        "correctAnswer": "Paleogen",
+        "incorrectAnswers": ["Neogen", "Kvartær", "Kenozoikum"],
+        "category": "Geologi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken fysiker formulerte prinsippet om at det er umulig å samtidig vite både posisjonen og bevegelsesmengden til en partikkel med full nøyaktighet?",
+        "correctAnswer": "Werner Heisenberg",
+        "incorrectAnswers": ["Niels Bohr", "Max Planck", "Erwin Schrödinger"],
+        "category": "Fysikk",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den største korallreven i verden?",
+        "correctAnswer": "Great Barrier Reef",
+        "incorrectAnswers": ["Mesoamerikanske rev", "Røde havets korallrev", "Nye Kaledonias rev"],
+        "category": "Geografi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken filosof er kjent for sin 'allegori om hulen'?",
+        "correctAnswer": "Platon",
+        "incorrectAnswers": ["Aristoteles", "Sokrates", "Heraklit"],
+        "category": "Filosofi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den eneste giftige slangearten som er endemisk til Nord-Europa?",
+        "correctAnswer": "Huggorm",
+        "incorrectAnswers": ["Slettsnok", "Buorm", "Klapperslange"],
+        "category": "Zoologi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket år fant slaget ved Dien Bien Phu sted?",
+        "correctAnswer": "1954",
+        "incorrectAnswers": ["1950", "1962", "1968"],
+        "category": "Historie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på prosessen der et fast stoff går direkte over til gassfase uten å bli flytende?",
+        "correctAnswer": "Sublimasjon",
+        "incorrectAnswers": ["Fordampning", "Kondensasjon", "Fortetting"],
+        "category": "Kjemi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken forfatter skrev diktet 'The Waste Land'?",
+        "correctAnswer": "T.S. Eliot",
+        "incorrectAnswers": ["W.B. Yeats", "Ezra Pound", "Wallace Stevens"],
+        "category": "Litteratur",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på det høyeste fjellet i Andesfjellene?",
+        "correctAnswer": "Aconcagua",
+        "incorrectAnswers": ["Huascarán", "Chimborazo", "Cotopaxi"],
+        "category": "Geografi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken historisk hendelse er kjent som 'Boston Tea Party'?",
+        "correctAnswer": "Protestaksjonen i Boston i 1773 mot britisk skattlegging",
+        "incorrectAnswers": ["Signeringen av den amerikanske uavhengighetserklæringen", "Slaget ved Lexington og Concord", "Bostonmassakren"],
+        "category": "Historie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den geologiske epoken som er kjent som 'istiden'?",
+        "correctAnswer": "Pleistocen",
+        "incorrectAnswers": ["Holocen", "Pliocen", "Oligocen"],
+        "category": "Geologi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken matematiker utviklet teorien om spillteori?",
+        "correctAnswer": "John von Neumann",
+        "incorrectAnswers": ["Alan Turing", "Kurt Gödel", "Paul Erdős"],
+        "category": "Matematikk",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på det dypeste punktet i Atlanterhavet?",
+        "correctAnswer": "Puerto Rico-gropen",
+        "incorrectAnswers": ["Romanche-dypet", "Sør-Sandwich-gropen", "Cayman-gropen"],
+        "category": "Geografi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken filosof er kjent for sin teori om 'de fire årsakene'?",
+        "correctAnswer": "Aristoteles",
+        "incorrectAnswers": ["Platon", "Sokrates", "Plotin"],
+        "category": "Filosofi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket år ble Sovjetunionen oppløst?",
+        "correctAnswer": "1991",
+        "incorrectAnswers": ["1989", "1992", "1990"],
+        "category": "Historie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den kjemiske prosessen der en organisk forbindelse reagerer med oksygen og produserer karbondioksid og vann, samtidig som det frigjøres energi?",
+        "correctAnswer": "Forbrenning",
+        "incorrectAnswers": ["Respirasjon", "Fermentering", "Oksidasjon"],
+        "category": "Kjemi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken forfatter skrev romanen 'Hvite tenner' (White Teeth)?",
+        "correctAnswer": "Zadie Smith",
+        "incorrectAnswers": ["Salman Rushdie", "Arundhati Roy", "Kazuo Ishiguro"],
+        "category": "Litteratur",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken historisk hendelse førte direkte til USAs inntreden i andre verdenskrig?",
+        "correctAnswer": "Angrepet på Pearl Harbor",
+        "incorrectAnswers": ["Slaget om Stalingrad", "D-dagen", "Slaget om Midway"],
+        "category": "Historie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den geologiske perioden som er kjent for 'kambrisk eksplosjon'?",
+        "correctAnswer": "Kambrium",
+        "incorrectAnswers": ["Ordovicium", "Silur", "Prekambrium"],
+        "category": "Geologi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken fysiker er kjent for sin hypotese om eksistensen av Higgs-bosonet?",
+        "correctAnswer": "Peter Higgs",
+        "incorrectAnswers": ["Stephen Hawking", "Richard Feynman", "Murray Gell-Mann"],
+        "category": "Fysikk",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på det dypeste punktet i Det indiske hav?",
+        "correctAnswer": "Javagropen",
+        "incorrectAnswers": ["Diamantina-dypet", "Madagaskar-bassenget", "Arabiahav-dypet"],
+        "category": "Geografi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken filosof er kjent for sin idé om 'det kategoriske imperativ'?",
+        "correctAnswer": "Immanuel Kant",
+        "incorrectAnswers": ["John Stuart Mill", "David Hume", "G.W.F. Hegel"],
+        "category": "Filosofi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den eneste giftige øglearten som finnes i USA?",
+        "correctAnswer": "Gilaøgle",
+        "incorrectAnswers": ["Skinke", "Kameleón", "Leguan"],
+        "category": "Zoologi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket år fant Tsjernobyl-ulykken sted?",
+        "correctAnswer": "1986",
+        "incorrectAnswers": ["1979", "1990", "1982"],
+        "category": "Historie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den kjemiske reaksjonen der to eller flere mindre molekyler kombineres til et større molekyl?",
+        "correctAnswer": "Polymerisasjon",
+        "incorrectAnswers": ["Hydrolyse", "Kondensasjon", "Reduktase"],
+        "category": "Kjemi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken forfatter skrev romanen 'Orlando'?",
+        "correctAnswer": "Virginia Woolf",
+        "incorrectAnswers": ["E.M. Forster", "D.H. Lawrence", "Jane Austen"],
+        "category": "Litteratur",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på det høyeste fjellet i Australia?",
+        "correctAnswer": "Mount Kosciuszko",
+        "incorrectAnswers": ["Mount Townsend", "Mount Bartle Frere", "Mount Bogong"],
+        "category": "Geografi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken historisk hendelse er kjent som 'Oktoberrevolusjonen'?",
+        "correctAnswer": "Bolsjevikrevolusjonen i Russland i 1917",
+        "incorrectAnswers": ["Den franske revolusjonen", "Den amerikanske revolusjonen", "Den industrielle revolusjon"],
+        "category": "Historie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den geologiske perioden som er kjent for de første dinosaurene?",
+        "correctAnswer": "Trias",
+        "incorrectAnswers": ["Jura", "Kritt", "Perm"],
+        "category": "Geologi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken matematiker er kjent for sine bidrag til informasjonsteori, spesielt begrepet entropi?",
+        "correctAnswer": "Claude Shannon",
+        "incorrectAnswers": ["Alan Turing", "John Nash", "George Boole"],
+        "category": "Matematikk",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på det dypeste punktet i Stillehavet (bortsett fra Challengerdypet)?",
+        "correctAnswer": "Sirena Deep",
+        "incorrectAnswers": ["Vitjazdypet", "Horizon Deep", "Tonga-gropen"],
+        "category": "Geografi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken filosof er kjent for sin teori om 'eksistensialisme er humanisme'?",
+        "correctAnswer": "Jean-Paul Sartre",
+        "incorrectAnswers": ["Albert Camus", "Simone de Beauvoir", "Martin Heidegger"],
+        "category": "Filosofi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den eneste nordamerikanske pungdyrarten nord for Mexico?",
+        "correctAnswer": "Virginiaopossum",
+        "incorrectAnswers": ["Sørlig pungmus", "Ringhalepossum", "Nordlig myrpungdyr"],
+        "category": "Zoologi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den kjemiske prosessen der en metallisk overflate reagerer med oksygen og danner et oksid?",
+        "correctAnswer": "Korrosjon",
+        "incorrectAnswers": ["Katalyse", "Elektrolyse", "Reduksjon"],
+        "category": "Kjemi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken forfatter skrev romanen 'Middlemarch'?",
+        "correctAnswer": "George Eliot",
+        "incorrectAnswers": ["Charles Dickens", "Thomas Hardy", "Jane Austen"],
+        "category": "Litteratur",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på det høyeste fjellet i Nord-Amerika?",
+        "correctAnswer": "Denali",
+        "incorrectAnswers": ["Mount Logan", "Pico de Orizaba", "Mount Saint Elias"],
+        "category": "Geografi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken historisk hendelse er kjent som 'Den store depresjonen'?",
+        "correctAnswer": "Den økonomiske krisen som rammet store deler av verden på 1930-tallet",
+        "incorrectAnswers": ["Børskrakket i 1987", "Finanskrisen i 2008", "Oljekrisen på 1970-tallet"],
+        "category": "Historie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den geologiske perioden som er kjent for de første blomsterplantene?",
+        "correctAnswer": "Kritt",
+        "incorrectAnswers": ["Jura", "Trias", "Perm"],
+        "category": "Geologi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken fysiker er kjent for sin tolkning av kvantemekanikken som involverer mange verdener?",
+        "correctAnswer": "Hugh Everett III",
+        "incorrectAnswers": ["Niels Bohr", "Richard Feynman", "David Bohm"],
+        "category": "Fysikk",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på det dypeste punktet i Polhavet (Arktis)?",
+        "correctAnswer": "Molloydypet",
+        "incorrectAnswers": ["Lena-dypet", "Barents-dypet", "Fram-bassenget"],
+        "category": "Geografi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken filosof er kjent for sin kritikk av utilitarismen i 'A Theory of Justice'?",
+        "correctAnswer": "John Rawls",
+        "incorrectAnswers": ["Robert Nozick", "Martha Nussbaum", "Peter Singer"],
+        "category": "Filosofi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den eneste arten i slekten Ornithorhynchus?",
+        "correctAnswer": "Nebbdyr",
+        "incorrectAnswers": ["Echidna", "Koala", "Tasmansk djevel"],
+        "category": "Zoologi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket år fant Cubakrisen sted?",
+        "correctAnswer": "1962",
+        "incorrectAnswers": ["1959", "1965", "1972"],
+        "category": "Historie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den kjemiske prosessen der en syre og en base reagerer og danner salt og vann?",
+        "correctAnswer": "Nøytralisasjon",
+        "incorrectAnswers": ["Hydrolyse", "Kondensasjon", "Ionisering"],
+        "category": "Kjemi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken forfatter skrev romanen 'Beloved'?",
+        "correctAnswer": "Toni Morrison",
+        "incorrectAnswers": ["Alice Walker", "Maya Angelou", "Zora Neale Hurston"],
+        "category": "Litteratur",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken historisk hendelse er kjent som 'Den industrielle revolusjonen'?",
+        "correctAnswer": "Perioden med store teknologiske, sosiale og økonomiske endringer som startet i Storbritannia på slutten av 1700-tallet",
+        "incorrectAnswers": ["Oppfinnelsen av dampmaskinen", "Overgangen fra jordbruk til industri i USA", "Oppfinnelsen av samlebåndet"],
+        "category": "Historie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den geologiske perioden som er kjent for de første menneskeapene?",
+        "correctAnswer": "Miocen",
+        "incorrectAnswers": ["Oligocen", "Pleistocen", "Pliocen"],
+        "category": "Geologi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken matematiker er kjent for sine bidrag til topologi, spesielt Poincaré-formodningen?",
+        "correctAnswer": "Henri Poincaré",
+        "incorrectAnswers": ["Grigori Perelman", "William Thurston", "Stephen Smale"],
+        "category": "Matematikk",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på det dypeste punktet i Sørishavet (Antarktis)?",
+        "correctAnswer": "Sørsandwichgropen",
+        "incorrectAnswers": ["Weddelldypet", "Scotia-dypet", "Bellingshausen-dypet"],
+        "category": "Geografi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den eneste giftige primaten?",
+        "correctAnswer": "Treglori",
+        "incorrectAnswers": ["Aye-aye", "Tarsier", "Spalax"],
+        "category": "Zoologi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilket år ble apartheid-lovene opphevet i Sør-Afrika?",
+        "correctAnswer": "1991",
+        "incorrectAnswers": ["1986", "1994", "1989"],
+        "category": "Historie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den kjemiske prosessen der en organisk forbindelse inneholder en karbon-karbon dobbeltbinding eller trippelbinding reagerer og tilfører atomer til disse bindingene?",
+        "correctAnswer": "Addisjonsreaksjon",
+        "incorrectAnswers": ["Substitusjon", "Eliminasjon", "Esterifisering"],
+        "category": "Kjemi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på det høyeste fjellet i Europa (hvis man regner Kaukasusfjellene som en del av Europa)?",
+        "correctAnswer": "Elbrus",
+        "incorrectAnswers": ["Mont Blanc", "Matterhorn", "Monte Rosa"],
+        "category": "Geografi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken historisk hendelse er kjent som 'Den kalde krigen'?",
+        "correctAnswer": "Den geopolitiske spenningen mellom USA og Sovjetunionen og deres allierte fra midten av 1940-tallet til begynnelsen av 1990-tallet",
+        "incorrectAnswers": ["Kubakrsen", "Vietnamkrigen", "Berlinmurens fall"],
+        "category": "Historie",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den geologiske perioden som er kjent for de første fuglene?",
+        "correctAnswer": "Jura",
+        "incorrectAnswers": ["Kritt", "Trias", "Karbon"],
+        "category": "Geologi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den dypeste innsjøen i verden?",
+        "correctAnswer": "Bajkalsjøen",
+        "incorrectAnswers": ["Tanganyikasjøen", "Kaspihavet", "Vostoksjøen"],
+        "category": "Geografi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken filosof er kjent for sin teori om 'fremmedgjøring' i det kapitalistiske samfunnet?",
+        "correctAnswer": "Karl Marx",
+        "incorrectAnswers": ["Max Weber", "Friedrich Engels", "Theodor Adorno"],
+        "category": "Filosofi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den største aktive vulkanen i Europa?",
+        "correctAnswer": "Etna",
+        "incorrectAnswers": ["Vesuv", "Stromboli", "Santorini"],
+        "category": "Geografi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken fysiker formulerte kvanteteorien for elektromagnetisk stråling?",
+        "correctAnswer": "Max Planck",
+        "incorrectAnswers": ["Niels Bohr", "Werner Heisenberg", "Albert Einstein"],
+        "category": "Fysikk",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den kjemiske prosessen der karbohydrater brytes ned til alkohol og karbondioksid?",
+        "correctAnswer": "Fermentering",
+        "incorrectAnswers": ["Fotosyntese", "Destillasjon", "Respirasjon"],
+        "category": "Kjemi",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hvilken forfatter skrev verket 'Ulysses'?",
+        "correctAnswer": "James Joyce",
+        "incorrectAnswers": ["Virginia Woolf", "F. Scott Fitzgerald", "Ernest Hemingway"],
+        "category": "Litteratur",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Hva er navnet på den eldste eksisterende skrevne rettskode?",
+        "correctAnswer": "Hammurabis lover",
+        "incorrectAnswers": ["Magna Carta", "De tolv tavlers lov", "Justinians lover"],
+        "category": "Historie",
+        "difficulty": "hard"
+      }
+    ]

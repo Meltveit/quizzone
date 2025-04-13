@@ -1,213 +1,1542 @@
 [
     {
-      "question": "Hvem spiller hovedrollen i 'Mission: Impossible' filmene?",
-      "correctAnswer": "Tom Cruise",
-      "incorrectAnswers": ["Brad Pitt", "Matt Damon", "Leonardo DiCaprio"],
+      "question": "Hvem spilte hovedrollen som Harry Potter i filmserien med samme navn?",
+      "correctAnswer": "Daniel Radcliffe",
+      "incorrectAnswers": ["Rupert Grint", "Tom Felton", "Emma Watson"],
       "category": "Skuespillere",
       "difficulty": "easy"
     },
     {
-      "question": "Hvilken film vant Oscar for beste film i 2020?",
-      "correctAnswer": "Parasite",
-      "incorrectAnswers": ["Joker", "1917", "Once Upon a Time in Hollywood"],
-      "category": "Prisutdelinger",
-      "difficulty": "medium"
+      "question": "Hvilken Disney-film handler om en løveunge som heter Simba?",
+      "correctAnswer": "Løvenes konge",
+      "incorrectAnswers": ["Dumbo", "Jungelboken", "Tarzan"],
+      "category": "Disney",
+      "difficulty": "easy"
     },
     {
-      "question": "I hvilken film finner vi karakteren Iron Man?",
-      "correctAnswer": "The Avengers",
-      "incorrectAnswers": ["Justice League", "The Dark Knight", "Deadpool"],
+      "question": "Hva er navnet på politimannen spilt av Bruce Willis i 'Die Hard'-filmene?",
+      "correctAnswer": "John McClane",
+      "incorrectAnswers": ["Jack Ryan", "James Bond", "John Wick"],
+      "category": "Actionfilmer",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken TV-serie handler om seks venner som bor i New York og tilbringer mye tid på en kaffebar kalt Central Perk?",
+      "correctAnswer": "Venner",
+      "incorrectAnswers": ["How I Met Your Mother", "Seinfeld", "The Big Bang Theory"],
+      "category": "TV-serier",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken film vant Oscar for beste film i 2020?",
+      "correctAnswer": "Parasitt",
+      "incorrectAnswers": ["1917", "Joker", "Once Upon a Time in Hollywood"],
+      "category": "Prisutdelinger",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem regisserte filmen 'Titanic'?",
+      "correctAnswer": "James Cameron",
+      "incorrectAnswers": ["Steven Spielberg", "Christopher Nolan", "Martin Scorsese"],
+      "category": "Regissører",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på romskipet i 'Star Trek'-serien?",
+      "correctAnswer": "USS Enterprise",
+      "incorrectAnswers": ["Millennium Falcon", "Discovery One", "Nostromo"],
+      "category": "Sci-Fi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken animasjonsfilm handler om en fisk som heter Nemo som blir borte?",
+      "correctAnswer": "Oppdrag Nemo",
+      "incorrectAnswers": ["Haien som visste for mye", "Akvarium", "Finding Dory"],
+      "category": "Animasjon",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem spilte rollen som Iron Man i Marvel Cinematic Universe?",
+      "correctAnswer": "Robert Downey Jr.",
+      "incorrectAnswers": ["Chris Evans", "Chris Hemsworth", "Mark Ruffalo"],
       "category": "Superhelter",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken TV-serie handler om en kjemilærer som begynner å produsere metamfetamin?",
+      "correctAnswer": "Breaking Bad",
+      "incorrectAnswers": ["The Walking Dead", "Better Call Saul", "Narcos"],
+      "category": "TV-serier",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken film har slagordet 'May the Force be with you'?",
+      "correctAnswer": "Star Wars",
+      "incorrectAnswers": ["Star Trek", "Guardians of the Galaxy", "Avatar"],
+      "category": "Sci-Fi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på prinsessen som spiser et forgiftet eple i en kjent Disney-film?",
+      "correctAnswer": "Snøhvit",
+      "incorrectAnswers": ["Askepott", "Tornerose", "Belle"],
+      "category": "Disney",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem regisserte filmen 'Jurassic Park'?",
+      "correctAnswer": "Steven Spielberg",
+      "incorrectAnswers": ["James Cameron", "George Lucas", "Christopher Nolan"],
+      "category": "Regissører",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken TV-serie handler om en gruppe ungdommer som jakter på monstre i byen Hawkins?",
+      "correctAnswer": "Stranger Things",
+      "incorrectAnswers": ["The Haunting of Hill House", "Riverdale", "The Umbrella Academy"],
+      "category": "TV-serier",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken film vant Oscar for beste film i 2021?",
+      "correctAnswer": "Nomadland",
+      "incorrectAnswers": ["The Trial of the Chicago 7", "Mank", "Minari"],
+      "category": "Prisutdelinger",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem spilte rollen som Katniss Everdeen i 'The Hunger Games'-filmene?",
+      "correctAnswer": "Jennifer Lawrence",
+      "incorrectAnswers": ["Emma Watson", "Shailene Woodley", "Sophie Turner"],
+      "category": "Skuespillere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken animasjonsfilm handler om leker som kommer til liv når eieren deres ikke er til stede?",
+      "correctAnswer": "Toy Story",
+      "incorrectAnswers": ["Monsters Inc.", "The Incredibles", "Cars"],
+      "category": "Animasjon",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på det fiktive landet der 'Ringenes herre'-trilogien finner sted?",
+      "correctAnswer": "Midgard",
+      "incorrectAnswers": ["Narnia", "Westeros", "Azeroth"],
+      "category": "Fantasy",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken TV-serie handler om en lege som reiser i tid i en blå politiboks?",
+      "correctAnswer": "Doctor Who",
+      "incorrectAnswers": ["Sherlock", "Outlander", "Torchwood"],
+      "category": "TV-serier",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken film vant Oscar for beste film i 2022?",
+      "correctAnswer": "CODA",
+      "incorrectAnswers": ["The Power of the Dog", "Dune", "Belfast"],
+      "category": "Prisutdelinger",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem spilte rollen som Jack Dawson i filmen 'Titanic'?",
+      "correctAnswer": "Leonardo DiCaprio",
+      "incorrectAnswers": ["Brad Pitt", "Matt Damon", "Johnny Depp"],
+      "category": "Skuespillere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken Disney-film handler om en ung jente som bor i Arendelle og har en søster med magiske iskrefter?",
+      "correctAnswer": "Frost",
+      "incorrectAnswers": ["Brave", "Rapunzel", "Moana"],
+      "category": "Disney",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem regisserte filmen 'Pulp Fiction'?",
+      "correctAnswer": "Quentin Tarantino",
+      "incorrectAnswers": ["Martin Scorsese", "David Fincher", "Francis Ford Coppola"],
+      "category": "Regissører",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken TV-serie handler om en familie som driver en restaurant i Philadelphia?",
+      "correctAnswer": "It's Always Sunny in Philadelphia",
+      "incorrectAnswers": ["Friends", "Cheers", "Brooklyn Nine-Nine"],
+      "category": "TV-serier",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken film vant Oscar for beste film i 2023?",
+      "correctAnswer": "Everything Everywhere All at Once",
+      "incorrectAnswers": ["The Fabelmans", "The Banshees of Inisherin", "All Quiet on the Western Front"],
+      "category": "Prisutdelinger",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem spilte rollen som James Bond i filmen 'Casino Royale' fra 2006?",
+      "correctAnswer": "Daniel Craig",
+      "incorrectAnswers": ["Pierce Brosnan", "Sean Connery", "Roger Moore"],
+      "category": "Skuespillere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken animasjonsfilm handler om en gammel mann som reiser i et hus festet til ballonger?",
+      "correctAnswer": "Se opp",
+      "incorrectAnswers": ["Inside Out", "Ratatouille", "WALL-E"],
+      "category": "Animasjon",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på planeten hvor Luke Skywalker vokser opp i 'Star Wars'?",
+      "correctAnswer": "Tatooine",
+      "incorrectAnswers": ["Naboo", "Hoth", "Endor"],
+      "category": "Sci-Fi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken TV-serie handler om en gruppe overlevende etter et flystyrt på en mystisk øy?",
+      "correctAnswer": "Lost",
+      "incorrectAnswers": ["The 100", "Survivor", "Castaway"],
+      "category": "TV-serier",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken film vant Oscar for beste film i 2024?",
+      "correctAnswer": "Oppenheimer",
+      "incorrectAnswers": ["Barbie", "Poor Things", "Killers of the Flower Moon"],
+      "category": "Prisutdelinger",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem spilte rollen som Wonder Woman i filmen fra 2017?",
+      "correctAnswer": "Gal Gadot",
+      "incorrectAnswers": ["Scarlett Johansson", "Jennifer Lawrence", "Brie Larson"],
+      "category": "Superhelter",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken Disney-film handler om en havfrue som drømmer om å bli menneske?",
+      "correctAnswer": "Den lille havfruen",
+      "incorrectAnswers": ["Vaiana", "Frost", "Pocahontas"],
+      "category": "Disney",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem regisserte filmtrilogien 'Ringenes herre'?",
+      "correctAnswer": "Peter Jackson",
+      "incorrectAnswers": ["J.J. Abrams", "George Lucas", "Christopher Nolan"],
+      "category": "Regissører",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken TV-serie handler om en familie som driver en narkotikavirksomhet i Ozarks?",
+      "correctAnswer": "Ozark",
+      "incorrectAnswers": ["Breaking Bad", "Narcos", "The Americans"],
+      "category": "TV-serier",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken film har karakteren Darth Vader?",
+      "correctAnswer": "Star Wars",
+      "incorrectAnswers": ["Star Trek", "The Avengers", "Guardians of the Galaxy"],
+      "category": "Sci-Fi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem spilte rollen som Hermione Granger i 'Harry Potter'-filmene?",
+      "correctAnswer": "Emma Watson",
+      "incorrectAnswers": ["Bonnie Wright", "Emma Stone", "Keira Knightley"],
+      "category": "Skuespillere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken animasjonsfilm handler om en kokkerotte som drømmer om å bli en stor kokk i Paris?",
+      "correctAnswer": "Ratatouille",
+      "incorrectAnswers": ["Finding Nemo", "Up", "WALL-E"],
+      "category": "Animasjon",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på byen hvor Batman opererer?",
+      "correctAnswer": "Gotham City",
+      "incorrectAnswers": ["Metropolis", "Central City", "Star City"],
+      "category": "Superhelter",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken TV-serie handler om en gruppe tenåringer som løser mysterier i byen Riverdale?",
+      "correctAnswer": "Riverdale",
+      "incorrectAnswers": ["Pretty Little Liars", "13 Reasons Why", "Teen Wolf"],
+      "category": "TV-serier",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem spilte rollen som The Joker i filmen 'The Dark Knight'?",
+      "correctAnswer": "Heath Ledger",
+      "incorrectAnswers": ["Joaquin Phoenix", "Jack Nicholson", "Jared Leto"],
+      "category": "Skuespillere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken Disney-film handler om en ung kvinne som redder Kina?",
+      "correctAnswer": "Mulan",
+      "incorrectAnswers": ["Pocahontas", "Frozen", "Brave"],
+      "category": "Disney",
       "difficulty": "easy"
     },
     {
       "question": "Hvem regisserte filmen 'Inception'?",
       "correctAnswer": "Christopher Nolan",
-      "correctAnswers": ["Christopher Nolan"],
-      "incorrectAnswers": ["Steven Spielberg", "James Cameron", "Quentin Tarantino"],
+      "incorrectAnswers": ["James Cameron", "Steven Spielberg", "Martin Scorsese"],
       "category": "Regissører",
-      "difficulty": "medium"
+      "difficulty": "easy"
     },
     {
-      "question": "Hvilket år kom den første Star Wars-filmen?",
-      "correctAnswer": "1977",
-      "incorrectAnswers": ["1980", "1975", "1983"],
-      "category": "Filmhistorie",
-      "difficulty": "medium"
+      "question": "Hvilken TV-serie handler om en familie som driver en begravelsesbyrå i Los Angeles?",
+      "correctAnswer": "Seks fot under",
+      "incorrectAnswers": ["Breaking Bad", "Dexter", "The Sopranos"],
+      "category": "TV-serier",
+      "difficulty": "easy"
     },
     {
-      "question": "Hva er navnet på prinsessen i 'Frozen'?",
-      "correctAnswer": "Elsa",
-      "incorrectAnswers": ["Anna", "Moana", "Belle"],
+      "question": "Hvilken film har karakteren Tony Montana?",
+      "correctAnswer": "Scarface",
+      "incorrectAnswers": ["The Godfather", "Goodfellas", "Casino"],
+      "category": "Klassikere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem spilte rollen som Frodo Baggins i 'Ringenes herre'-filmene?",
+      "correctAnswer": "Elijah Wood",
+      "incorrectAnswers": ["Daniel Radcliffe", "Orlando Bloom", "Viggo Mortensen"],
+      "category": "Skuespillere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken animasjonsfilm handler om et esel og en drage som blir venner med en grønn troll?",
+      "correctAnswer": "Shrek",
+      "incorrectAnswers": ["Kung Fu Panda", "How to Train Your Dragon", "Madagascar"],
       "category": "Animasjon",
       "difficulty": "easy"
     },
     {
-      "question": "Hvilken skuespiller spiller Jack i 'Titanic'?",
-      "correctAnswer": "Leonardo DiCaprio",
-      "incorrectAnswers": ["Brad Pitt", "Johnny Depp", "Tom Hanks"],
+      "question": "Hva er navnet på planeten til Supermann?",
+      "correctAnswer": "Krypton",
+      "incorrectAnswers": ["Asgard", "Kree", "Tatooine"],
+      "category": "Superhelter",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken TV-serie handler om en gruppe kvinner i et kvinnefengsel?",
+      "correctAnswer": "Orange Is the New Black",
+      "incorrectAnswers": ["Prison Break", "Wentworth", "The Wire"],
+      "category": "TV-serier",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem spilte rollen som Sarah Connor i 'Terminator'-filmene?",
+      "correctAnswer": "Linda Hamilton",
+      "incorrectAnswers": ["Sigourney Weaver", "Carrie Fisher", "Geena Davis"],
       "category": "Skuespillere",
       "difficulty": "easy"
     },
     {
-      "question": "Hvilken film handler om en hai som terroriserer en badeby?",
-      "correctAnswer": "Jaws",
-      "incorrectAnswers": ["Deep Blue Sea", "The Meg", "Sharknado"],
-      "category": "Klassikere",
+      "question": "Hvilken film handler om en ung jente som bor på landsbygda og blir venn med en skogånd?",
+      "correctAnswer": "Min nabo Totoro",
+      "incorrectAnswers": ["Kikis budservice", "Chihiro og heksene", "Prinsesse Mononoke"],
+      "category": "Animasjon",
       "difficulty": "easy"
     },
     {
-      "question": "Hvem spiller Harry Potter i filmserien?",
-      "correctAnswer": "Daniel Radcliffe",
-      "incorrectAnswers": ["Rupert Grint", "Tom Felton", "Eddie Redmayne"],
-      "category": "Skuespillere",
+      "question": "Hvem regisserte filmen 'E.T. the Extra-Terrestrial'?",
+      "correctAnswer": "Steven Spielberg",
+      "incorrectAnswers": ["George Lucas", "James Cameron", "Robert Zemeckis"],
+      "category": "Regissører",
       "difficulty": "easy"
     },
     {
-      "question": "Hvilket land kommer filmen 'Parasitt' fra?",
-      "correctAnswer": "Sør-Korea",
-      "incorrectAnswers": ["Japan", "Kina", "Thailand"],
-      "category": "Internasjonal film",
-      "difficulty": "medium"
+      "question": "Hvilken TV-serie handler om en gruppe leger på et sykehus i Seattle?",
+      "correctAnswer": "Grey's Anatomy",
+      "incorrectAnswers": ["ER", "House", "Scrubs"],
+      "category": "TV-serier",
+      "difficulty": "easy"
     },
     {
-      "question": "Hvilken film starter med en scene der en ape kaster et bein i luften?",
-      "correctAnswer": "2001: En romodyssé",
-      "incorrectAnswers": ["Planet of the Apes", "King Kong", "Jumanji"],
-      "category": "Klassikere",
-      "difficulty": "hard"
+      "question": "Hvilken film har karakteren Hannibal Lecter?",
+      "correctAnswer": "Nattsvermeren",
+      "incorrectAnswers": ["Seven", "No Country for Old Men", "American Psycho"],
+      "category": "Thrillere",
+      "difficulty": "easy"
     },
     {
-      "question": "Hvem spiller Neo i 'The Matrix'?",
+      "question": "Hvem spilte rollen som Neo i 'The Matrix'-filmene?",
       "correctAnswer": "Keanu Reeves",
-      "incorrectAnswers": ["Hugo Weaving", "Laurence Fishburne", "Matt Damon"],
+      "incorrectAnswers": ["Will Smith", "Brad Pitt", "Tom Cruise"],
       "category": "Skuespillere",
       "difficulty": "easy"
     },
     {
-      "question": "Hvilken film har taglinjen 'In space, no one can hear you scream'?",
-      "correctAnswer": "Alien",
-      "incorrectAnswers": ["Star Wars", "Gravity", "Interstellar"],
-      "category": "Science Fiction",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilket filmstudio laget 'Toy Story'?",
-      "correctAnswer": "Pixar",
-      "incorrectAnswers": ["DreamWorks", "Disney", "Illumination"],
+      "question": "Hvilken animasjonsfilm handler om en ung gutt som trener drager?",
+      "correctAnswer": "How to Train Your Dragon",
+      "incorrectAnswers": ["The Croods", "Brave", "Frozen"],
       "category": "Animasjon",
       "difficulty": "easy"
     },
     {
-      "question": "Hva er navnet på første Harry Potter-filmen?",
-      "correctAnswer": "Harry Potter og De vises stein",
-      "incorrectAnswers": ["Harry Potter og Mysteriekammeret", "Harry Potter og Fangen fra Azkaban", "Harry Potter og Ildbegeret"],
+      "question": "Hva er navnet på skolen hvor Harry Potter går?",
+      "correctAnswer": "Galtvort",
+      "incorrectAnswers": ["Durmstrang", "Beauxbatons", "Ilvermorny"],
       "category": "Fantasy",
       "difficulty": "easy"
     },
     {
-      "question": "Hvilken skuespiller vant en Oscar for sin rolle i 'The Revenant'?",
-      "correctAnswer": "Leonardo DiCaprio",
-      "incorrectAnswers": ["Matthew McConaughey", "Tom Hardy", "Christian Bale"],
-      "category": "Prisutdelinger",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilket år kom første 'Jurassic Park' film?",
-      "correctAnswer": "1993",
-      "incorrectAnswers": ["1990", "1995", "1997"],
-      "category": "Filmhistorie",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hva er 'Rosebud' i filmen 'Citizen Kane'?",
-      "correctAnswer": "En kjelke",
-      "incorrectAnswers": ["En hund", "En rose", "Et smykke"],
-      "category": "Klassikere",
-      "difficulty": "hard"
-    },
-    {
-      "question": "Hvilken film har karakterene Woody og Buzz Lightyear?",
-      "correctAnswer": "Toy Story",
-      "incorrectAnswers": ["Monsters Inc.", "Finding Nemo", "The Incredibles"],
-      "category": "Animasjon",
+      "question": "Hvilken TV-serie handler om en gruppe advokater i New York?",
+      "correctAnswer": "Suits",
+      "incorrectAnswers": ["The Good Wife", "Boston Legal", "Law & Order"],
+      "category": "TV-serier",
       "difficulty": "easy"
     },
     {
-      "question": "Hvem spiller Wolverine i X-Men filmene?",
-      "correctAnswer": "Hugh Jackman",
-      "incorrectAnswers": ["Ryan Reynolds", "Chris Hemsworth", "Michael Fassbender"],
-      "category": "Superhelter",
-      "difficulty": "easy"
-    },
-    {
-      "question": "Hvilken film vant flest Oscar-priser noensinne?",
-      "correctAnswer": "Titanic, Ben-Hur og Ringenes Herre: Atter en konge (11 hver)",
-      "incorrectAnswers": ["Avatar (9)", "Forrest Gump (6)", "La La Land (6)"],
-      "category": "Prisutdelinger",
-      "difficulty": "hard"
-    },
-    {
-      "question": "Hva er navnet på den fiktive byen der Batman opererer?",
-      "correctAnswer": "Gotham City",
-      "incorrectAnswers": ["Metropolis", "Star City", "Central City"],
-      "category": "Superhelter",
-      "difficulty": "easy"
-    },
-    {
-      "question": "Hvilken skuespiller spiller Forrest Gump?",
-      "correctAnswer": "Tom Hanks",
-      "incorrectAnswers": ["Robin Williams", "Kevin Costner", "Bill Murray"],
+      "question": "Hvem spilte rollen som Ellen Ripley i 'Alien'-filmene?",
+      "correctAnswer": "Sigourney Weaver",
+      "incorrectAnswers": ["Linda Hamilton", "Carrie Fisher", "Jamie Lee Curtis"],
       "category": "Skuespillere",
       "difficulty": "easy"
     },
     {
-      "question": "I hvilken by finner 'La La Land' sted?",
-      "correctAnswer": "Los Angeles",
-      "incorrectAnswers": ["New York", "Chicago", "San Francisco"],
-      "category": "Setting",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilken film har en scene der hovedpersonen danser på et stort piano?",
-      "correctAnswer": "Big",
-      "incorrectAnswers": ["Fame", "Footloose", "Flashdance"],
-      "category": "Klassikere",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvem regisserte 'Pulp Fiction'?",
-      "correctAnswer": "Quentin Tarantino",
-      "incorrectAnswers": ["Martin Scorsese", "Steven Spielberg", "David Fincher"],
-      "category": "Regissører",
-      "difficulty": "medium"
-    },
-    {
-      "question": "Hvilken planet kommer Superman fra?",
-      "correctAnswer": "Krypton",
-      "incorrectAnswers": ["Mars", "Venus", "Jupiter"],
-      "category": "Superhelter",
+      "question": "Hvilken Disney-film handler om en ung kvinne som utforsker havet for å redde øya sin?",
+      "correctAnswer": "Vaiana",
+      "incorrectAnswers": ["Frozen", "The Little Mermaid", "Brave"],
+      "category": "Disney",
       "difficulty": "easy"
     },
     {
-      "question": "Hvilken film er basert på en roman av Stephen King og foregår i et fengsel?",
-      "correctAnswer": "The Shawshank Redemption",
-      "incorrectAnswers": ["The Green Mile", "Misery", "It"],
-      "category": "Boktilpasninger",
-      "difficulty": "medium"
+      "question": "Hvem regisserte filmen 'The Shawshank Redemption'?",
+      "correctAnswer": "Frank Darabont",
+      "incorrectAnswers": ["Steven Spielberg", "Martin Scorsese", "Quentin Tarantino"],
+      "category": "Regissører",
+      "difficulty": "easy"
     },
     {
-      "question": "Hva er John McClanes berømte replikk i 'Die Hard'?",
-      "correctAnswer": "Yippee-ki-yay, motherf****r",
-      "incorrectAnswers": ["I'll be back", "Go ahead, make my day", "Say hello to my little friend"],
-      "category": "Action",
-      "difficulty": "medium"
+      "question": "Hvilken TV-serie handler om en familie som driver en pizzarestaurant i New Jersey og har problemer med mafiaen?",
+      "correctAnswer": "The Sopranos",
+      "incorrectAnswers": ["Breaking Bad", "The Wire", "Boardwalk Empire"],
+      "category": "TV-serier",
+      "difficulty": "easy"
     },
     {
-      "question": "Hvilken film har en syngende krabbe som synger 'Under the Sea'?",
-      "correctAnswer": "Den lille havfruen",
-      "incorrectAnswers": ["Findet Nemo", "Shark Tale", "Moana"],
+      "question": "Hvilken film har karakteren Forrest Gump?",
+      "correctAnswer": "Forrest Gump",
+      "incorrectAnswers": ["Rain Man", "The Green Mile", "Cast Away"],
+      "category": "Klassikere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem spilte rollen som Indiana Jones i filmserien med samme navn?",
+      "correctAnswer": "Harrison Ford",
+      "incorrectAnswers": ["Sean Connery", "Michael Douglas", "Kurt Russell"],
+      "category": "Skuespillere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hva er navnet på romskipet til Han Solo i 'Star Wars'?",
+      "correctAnswer": "Millennium Falcon",
+      "incorrectAnswers": ["X-Wing", "TIE Fighter", "Star Destroyer"],
+      "category": "Sci-Fi",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken TV-serie handler om en gruppe ansatte på et papirfirma i Scranton, Pennsylvania?",
+      "correctAnswer": "The Office",
+      "incorrectAnswers": ["Parks and Recreation", "30 Rock", "Brooklyn Nine-Nine"],
+      "category": "TV-serier",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem spilte rollen som Mia Wallace i filmen 'Pulp Fiction'?",
+      "correctAnswer": "Uma Thurman",
+      "incorrectAnswers": ["Nicole Kidman", "Julianne Moore", "Cameron Diaz"],
+      "category": "Skuespillere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken Disney-film handler om en ung kvinne som blir holdt fanget i et tårn med veldig langt hår?",
+      "correctAnswer": "To på rømmen",
+      "incorrectAnswers": ["Brave", "Frozen", "Mulan"],
+      "category": "Disney",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem regisserte filmen 'Goodfellas'?",
+      "correctAnswer": "Martin Scorsese",
+      "incorrectAnswers": ["Francis Ford Coppola", "Brian De Palma", "Quentin Tarantino"],
+      "category": "Regissører",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken TV-serie handler om en gruppe studenter på en eliteskole i Upper East Side på Manhattan?",
+      "correctAnswer": "Gossip Girl",
+      "incorrectAnswers": ["Pretty Little Liars", "90210", "The OC"],
+      "category": "TV-serier",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvem spilte rollen som Gandalf i 'Ringenes herre'-filmene?",
+      "correctAnswer": "Ian McKellen",
+      "incorrectAnswers": ["Christopher Lee", "Michael Gambon", "Patrick Stewart"],
+      "category": "Skuespillere",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Hvilken animasjonsfilm handler om en robot som rydder opp søppel på en forlatt jordklode?",
+      "correctAnswer": "WALL-E",
+      "incorrectAnswers": ["The Incredibles", "Robots", "Big Hero 6"],
       "category": "Animasjon",
       "difficulty": "easy"
-    }
-  ]
+    },
+    {
+      "question": "Hva er navnet på byen hvor TV-serien 'The Simpsons' finner sted?",
+      "correctAnswer": "Springfield",
+      "incorrectAnswers": ["Quahog", "South Park", "Arlen"],
+      "category": "TV-serier",
+      "difficulty": "easy"
+    },
+    {
+    "question": "Hvilken film regissert av Stanley Kubrick har undertittelen 'How I Learned to Stop Worrying and Love the Bomb'?",
+    "correctAnswer": "Dr. Strangelove",
+    "incorrectAnswers": ["Full Metal Jacket", "2001: En romodyssé", "Paths of Glory"],
+    "category": "Filmklassikere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvem komponerte det ikoniske temaet til filmen 'Psycho'?",
+    "correctAnswer": "Bernard Herrmann",
+    "incorrectAnswers": ["John Williams", "Hans Zimmer", "Danny Elfman"],
+    "category": "Filmmusikk",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken TV-serie introduserte karakteren Walter White før han ble 'Heisenberg'?",
+    "correctAnswer": "Breaking Bad",
+    "incorrectAnswers": ["Better Call Saul", "The Walking Dead", "Ozark"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken skuespiller vant Oscar for beste mannlige hovedrolle for sin tolkning av Freddie Mercury i filmen 'Bohemian Rhapsody'?",
+    "correctAnswer": "Rami Malek",
+    "incorrectAnswers": ["Christian Bale", "Bradley Cooper", "Viggo Mortensen"],
+    "category": "Prisutdelinger",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken film fra 1994, regissert av Quentin Tarantino, har en ikke-lineær fortelling og flere sammenvevde historier?",
+    "correctAnswer": "Pulp Fiction",
+    "incorrectAnswers": ["Reservoir Dogs", "Jackie Brown", "Kill Bill"],
+    "category": "Filmklassikere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvem skapte TV-serien 'The Twilight Zone'?",
+    "correctAnswer": "Rod Serling",
+    "incorrectAnswers": ["Alfred Hitchcock", "Steven Spielberg", "Gene Roddenberry"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken animasjonsfilm fra Studio Ghibli handler om en ung jente som flytter til landet og blir venn med ånder?",
+    "correctAnswer": "Min nabo Totoro",
+    "incorrectAnswers": ["Chihiro og heksene", "Kikis budservice", "Prinsesse Mononoke"],
+    "category": "Animasjon",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken skuespillerinne spilte rollen som Sarah Connor i filmen 'Terminator 2: Judgment Day'?",
+    "correctAnswer": "Linda Hamilton",
+    "incorrectAnswers": ["Sigourney Weaver", "Jamie Lee Curtis", "Carrie Fisher"],
+    "category": "Skuespillere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hva er navnet på den fiktive byen i TV-serien 'Twin Peaks'?",
+    "correctAnswer": "Twin Peaks",
+    "incorrectAnswers": ["Black Lodge", "Wayward Pines", "Silent Hill"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken film fra 1982, regissert av Ridley Scott, er basert på romanen 'Do Androids Dream of Electric Sheep?'?",
+    "correctAnswer": "Blade Runner",
+    "incorrectAnswers": ["Alien", "The Thing", "Tron"],
+    "category": "Sci-Fi",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvem komponerte musikken til 'Star Wars'-sagaen?",
+    "correctAnswer": "John Williams",
+    "incorrectAnswers": ["Hans Zimmer", "Howard Shore", "Danny Elfman"],
+    "category": "Filmmusikk",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken TV-serie handler om en antiheltisk mafiaboss som går i terapi?",
+    "correctAnswer": "The Sopranos",
+    "incorrectAnswers": ["Breaking Bad", "Mad Men", "Boardwalk Empire"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken skuespiller vant Oscar for beste mannlige hovedrolle for sin tolkning av Joker i filmen 'Joker' fra 2019?",
+    "correctAnswer": "Joaquin Phoenix",
+    "incorrectAnswers": ["Robert De Niro", "Leonardo DiCaprio", "Adam Driver"],
+    "category": "Prisutdelinger",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hva er navnet på det hemmelige regjeringsprosjektet i TV-serien 'Stranger Things'?",
+    "correctAnswer": "Hawkins National Laboratory",
+    "incorrectAnswers": ["Project MKUltra", "The Upside Down", "Starcourt Initiative"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken film fra 1999, regissert av David Fincher, har en uforutsigbar slutt og handler om en anonym forteller som blir involvert i en undergrunnsklubb?",
+    "correctAnswer": "Fight Club",
+    "incorrectAnswers": ["The Game", "Seven", "The Sixth Sense"],
+    "category": "Filmklassikere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvem skapte TV-serien 'The Wire'?",
+    "correctAnswer": "David Simon",
+    "incorrectAnswers": ["Vince Gilligan", "David Chase", "Aaron Sorkin"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken animasjonsfilm fra Pixar handler om en robot som forelsker seg i en annen robot på en forlatt jordklode?",
+    "correctAnswer": "WALL-E",
+    "incorrectAnswers": ["Up", "Finding Nemo", "Toy Story"],
+    "category": "Animasjon",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken skuespiller spilte rollen som Marty McFly i 'Tilbake til fremtiden'-trilogien?",
+    "correctAnswer": "Michael J. Fox",
+    "incorrectAnswers": ["Tom Cruise", "Matthew Broderick", "Johnny Depp"],
+    "category": "Skuespillere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hva er navnet på baren hvor hovedpersonene i TV-serien 'Cheers' tilbringer mye tid?",
+    "correctAnswer": "Cheers",
+    "incorrectAnswers": ["MacLaren's Pub", "Paddy's Pub", "The Winchester"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken film fra 1960, regissert av Alfred Hitchcock, er kjent for sin dusjscene?",
+    "correctAnswer": "Psycho",
+    "incorrectAnswers": ["Vertigo", "North by Northwest", "Rear Window"],
+    "category": "Filmklassikere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvem regisserte filmen 'Lawrence of Arabia'?",
+    "correctAnswer": "David Lean",
+    "incorrectAnswers": ["Steven Spielberg", "Stanley Kubrick", "Francis Ford Coppola"],
+    "category": "Regissører",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken TV-serie handler om en gruppe overlevende etter en zombieapokalypse?",
+    "correctAnswer": "The Walking Dead",
+    "incorrectAnswers": ["Fear the Walking Dead", "Z Nation", "The Last of Us"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken skuespillerinne vant Oscar for beste kvinnelige hovedrolle for sin tolkning av dronning Elizabeth II i filmen 'The Queen'?",
+    "correctAnswer": "Helen Mirren",
+    "incorrectAnswers": ["Judi Dench", "Meryl Streep", "Cate Blanchett"],
+    "category": "Prisutdelinger",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hva er navnet på det fiktive landet i TV-serien 'Game of Thrones' hvor mesteparten av handlingen finner sted?",
+    "correctAnswer": "Westeros",
+    "incorrectAnswers": ["Essos", "Braavos", "Valyria"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken film fra 2001, regissert av Jean-Pierre Jeunet, handler om en sjenert servitør i Paris?",
+    "correctAnswer": "Amélie",
+    "incorrectAnswers": ["Chocolat", "Moulin Rouge", "Delicatessen"],
+    "category": "Internasjonale filmer",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvem skapte TV-serien 'Seinfeld'?",
+    "correctAnswer": "Larry David og Jerry Seinfeld",
+    "incorrectAnswers": ["Jerry Seinfeld alene", "Larry David og Jason Alexander", "Chuck Lorre"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken animasjonsfilm fra Disney handler om en ung løve som må gjenvinne tronen sin?",
+    "correctAnswer": "Løvenes konge",
+    "incorrectAnswers": ["Tarzan", "Jungelboken", "Dumbo"],
+    "category": "Animasjon",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken skuespiller spilte rollen som Han Solo i den originale 'Star Wars'-trilogien?",
+    "correctAnswer": "Harrison Ford",
+    "incorrectAnswers": ["Mark Hamill", "Alec Guinness", "Carrie Fisher"],
+    "category": "Skuespillere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hva er navnet på politistasjonen i TV-serien 'Brooklyn Nine-Nine'?",
+    "correctAnswer": "99th Precinct",
+    "incorrectAnswers": ["78th Precinct", "Brooklyn PD", "Precinct 99"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken film fra 1972, regissert av Francis Ford Coppola, regnes som en av de største gangsterfilmene noensinne?",
+    "correctAnswer": "The Godfather",
+    "incorrectAnswers": ["Goodfellas", "Scarface", "The Untouchables"],
+    "category": "Filmklassikere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvem regisserte filmen 'Schindler's List'?",
+    "correctAnswer": "Steven Spielberg",
+    "incorrectAnswers": ["Martin Scorsese", "Stanley Kubrick", "Roman Polanski"],
+    "category": "Regissører",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken TV-serie handler om en gruppe kvinner i et kvinnefengsel?",
+    "correctAnswer": "Orange Is the New Black",
+    "incorrectAnswers": ["Prison Break", "Wentworth", "Bad Girls"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken skuespillerinne vant Oscar for beste kvinnelige hovedrolle for sin tolkning av Scarlett O'Hara i filmen 'Gone with the Wind'?",
+    "correctAnswer": "Vivien Leigh",
+    "incorrectAnswers": ["Katharine Hepburn", "Ingrid Bergman", "Bette Davis"],
+    "category": "Prisutdelinger",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hva er navnet på det fiktive selskapet i TV-serien 'Mad Men' hvor hovedpersonen Don Draper jobber?",
+    "correctAnswer": "Sterling Cooper",
+    "incorrectAnswers": ["Draper & Associates", "Madison Avenue Inc.", "Grey Advertising"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken film fra 1997, regissert av James Cameron, har en ikonisk scene på baugen av et skip?",
+    "correctAnswer": "Titanic",
+    "incorrectAnswers": ["The Abyss", "True Lies", "Master and Commander"],
+    "category": "Filmklassikere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvem skapte TV-serien 'Buffy the Vampire Slayer'?",
+    "correctAnswer": "Joss Whedon",
+    "incorrectAnswers": ["J.J. Abrams", "Kevin Williamson", "Ryan Murphy"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken animasjonsfilm fra Pixar handler om en gammel mann som reiser i et hus festet til ballonger?",
+    "correctAnswer": "Se opp",
+    "incorrectAnswers": ["Monsters Inc.", "Finding Nemo", "Toy Story 2"],
+    "category": "Animasjon",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken skuespiller spilte rollen som Jack Torrance i filmen 'The Shining'?",
+    "correctAnswer": "Jack Nicholson",
+    "incorrectAnswers": ["Robert De Niro", "Al Pacino", "Dustin Hoffman"],
+    "category": "Skuespillere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hva er navnet på det fiktive sykehuset i TV-serien 'ER'?",
+    "correctAnswer": "County General Hospital",
+    "incorrectAnswers": ["Chicago Memorial", "Mercy West", "Chicago Hope"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken film fra 1990, regissert av Martin Scorsese, handler om en gangster som klatrer i gradene i mafiaen?",
+    "correctAnswer": "Goodfellas",
+    "incorrectAnswers": ["Casino", "The Departed", "The Untouchables"],
+    "category": "Filmklassikere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvem regisserte filmen 'The Good, the Bad and the Ugly'?",
+    "correctAnswer": "Sergio Leone",
+    "incorrectAnswers": ["Clint Eastwood", "John Ford", "Quentin Tarantino"],
+    "category": "Regissører",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken TV-serie handler om en familie som driver en narkotikavirksomhet i Ozarks?",
+    "correctAnswer": "Ozark",
+    "incorrectAnswers": ["Breaking Bad", "Narcos", "The Americans"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken skuespiller vant Oscar for beste mannlige hovedrolle for sin tolkning av Vito Corleone i filmen 'The Godfather'?",
+    "correctAnswer": "Marlon Brando",
+    "incorrectAnswers": ["Al Pacino", "Robert De Niro", "James Caan"],
+    "category": "Prisutdelinger",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hva er navnet på den fiktive byen i TV-serien 'The Simpsons'?",
+    "correctAnswer": "Springfield",
+    "incorrectAnswers": ["Shelbyville", "Capital City", "Ogdenville"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken film fra 1985, regissert av Robert Zemeckis, handler om en tenåring som reiser i tid med en DeLorean?",
+    "correctAnswer": "Tilbake til fremtiden",
+    "incorrectAnswers": ["Bill & Ted's Excellent Adventure", "The Terminator", "12 Monkeys"],
+    "category": "Filmklassikere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvem skapte TV-serien 'Lost'?",
+    "correctAnswer": "J.J. Abrams, Jeffrey Lieber og Damon Lindelof",
+    "incorrectAnswers": ["Vince Gilligan", "David Simon", "Aaron Sorkin"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken animasjonsfilm fra Disney handler om en ung kvinne som redder Kina?",
+    "correctAnswer": "Mulan",
+    "incorrectAnswers": ["Pocahontas", "Moana", "Brave"],
+    "category": "Animasjon",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken skuespiller spilte rollen som Hannibal Lecter i filmen 'Nattsvermeren' (The Silence of the Lambs)?",
+    "correctAnswer": "Anthony Hopkins",
+    "incorrectAnswers": ["Jack Nicholson", "Christopher Walken", "Robert De Niro"],
+    "category": "Skuespillere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hva er navnet på den fiktive planeten hjem til rasen Na'vi i filmen 'Avatar'?",
+    "correctAnswer": "Pandora",
+    "incorrectAnswers": ["Naboo", "Arrakis", "Cybertron"],
+    "category": "Sci-Fi",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken film fra 2000, regissert av Ridley Scott, handler om en romersk general som blir gjort til slave?",
+    "correctAnswer": "Gladiator",
+    "incorrectAnswers": ["Troy", "300", "Alexander"],
+    "category": "Filmklassikere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvem regisserte filmen 'Eternal Sunshine of the Spotless Mind'?",
+    "correctAnswer": "Michel Gondry",
+    "incorrectAnswers": ["Charlie Kaufman", "Spike Jonze", "David O. Russell"],
+    "category": "Regissører",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken TV-serie handler om en gruppe ansatte på et papirfirma i Scranton, Pennsylvania?",
+    "correctAnswer": "The Office",
+    "incorrectAnswers": ["Parks and Recreation", "30 Rock", "Brooklyn Nine-Nine"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken skuespillerinne vant Oscar for beste kvinnelige birolle for sin tolkning av Katharine Hepburn i filmen 'The Aviator'?",
+    "correctAnswer": "Cate Blanchett",
+    "incorrectAnswers": ["Meryl Streep", "Kate Winslet", "Nicole Kidman"],
+    "category": "Prisutdelinger",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hva er navnet på det fiktive universet hvor TV-serien 'Battlestar Galactica' finner sted?",
+    "correctAnswer": "Battlestar Galactica-universet",
+    "incorrectAnswers": ["Kobol", "De tolv koloniene", "Caprica-solsystemet"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken film fra 1995, regissert av Bryan Singer, har en berømt 'twist'-slutt?",
+    "correctAnswer": "The Usual Suspects",
+    "incorrectAnswers": ["Se7en", "The Sixth Sense", "Fight Club"],
+    "category": "Filmklassikere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvem skapte TV-serien 'Breaking Bad'?",
+    "correctAnswer": "Vince Gilligan",
+    "incorrectAnswers": ["David Simon", "Matthew Weiner", "Aaron Sorkin"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken animasjonsfilm fra Pixar handler om en kokkerotte som drømmer om å bli en stor kokk i Paris?",
+    "correctAnswer": "Ratatouille",
+    "incorrectAnswers": ["WALL-E", "Up", "Inside Out"],
+    "category": "Animasjon",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken skuespiller spilte rollen som Tyler Durden i filmen 'Fight Club'?",
+    "correctAnswer": "Brad Pitt",
+    "incorrectAnswers": ["Edward Norton", "Jared Leto", "Matt Damon"],
+    "category": "Skuespillere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hva er navnet på den fiktive byen hvor TV-serien 'Veronica Mars' finner sted?",
+    "correctAnswer": "Neptune",
+    "incorrectAnswers": ["Sunnydale", "Twin Peaks", "Port Charles"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken film fra 1993, regissert av Steven Spielberg, bringer dinosaurer til live med banebrytende spesialeffekter?",
+    "correctAnswer": "Jurassic Park",
+    "incorrectAnswers": ["E.T.", "A.I.", "The Lost World"],
+    "category": "Filmklassikere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvem regisserte filmen 'Memento'?",
+    "correctAnswer": "Christopher Nolan",
+    "incorrectAnswers": ["David Fincher", "Darren Aronofsky", "Denis Villeneuve"],
+    "category": "Regissører",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken TV-serie handler om en gruppe venner som bor i New York og tilbringer mye tid på en kaffebar kalt Central Perk?",
+    "correctAnswer": "Venner",
+    "incorrectAnswers": ["Seinfeld", "How I Met Your Mother", "Will & Grace"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken skuespillerinne vant Oscar for beste kvinnelige birolle for sin tolkning av Miranda Priestly i filmen 'The Devil Wears Prada'?",
+    "correctAnswer": "Meryl Streep",
+    "incorrectAnswers": ["Anne Hathaway", "Emily Blunt", "Glenn Close"],
+    "category": "Prisutdelinger",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hva er navnet på det fiktive kongeriket i animasjonsfilmen 'Frost' (Frozen)?",
+    "correctAnswer": "Arendelle",
+    "incorrectAnswers": ["Corona", "Avalor", "Maldonia"],
+    "category": "Animasjon",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken film fra 1976, regissert av Sidney Lumet, handler om en desperat TV-anker som blir en medie-sensasjon?",
+    "correctAnswer": "Network",
+    "incorrectAnswers": ["All the President's Men", "Taxi Driver", "Rocky"],
+    "category": "Filmklassikere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvem skapte TV-serien 'The X-Files'?",
+    "correctAnswer": "Chris Carter",
+    "incorrectAnswers": ["J.J. Abrams", "Joss Whedon", "Rod Serling"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken animasjonsfilm fra Studio Ghibli handler om en ung jente som blir forvandlet til en 90 år gammel dame?",
+    "correctAnswer": "Det levende slottet",
+    "incorrectAnswers": ["Chihiro og heksene", "Prinsesse Mononoke", "Kikis budservice"],
+    "category": "Animasjon",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken skuespiller spilte rollen som Luke Skywalker i den originale 'Star Wars'-trilogien?",
+    "correctAnswer": "Mark Hamill",
+    "incorrectAnswers": ["Harrison Ford", "Carrie Fisher", "Alec Guinness"],
+    "category": "Skuespillere",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hva er navnet på den fiktive byen hvor TV-serien 'Buffy the Vampire Slayer' finner sted?",
+    "correctAnswer": "Sunnydale",
+    "incorrectAnswers": ["Mystic Falls", "Smallville", "Riverdale"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken film fra 2006, regissert av Guillermo del Toro, blander fantasy og krigsdrama?",
+    "correctAnswer": "Pans labyrint",
+    "incorrectAnswers": ["Hellboy", "The Shape of Water", "Pacific Rim"],
+    "category": "Internasjonale filmer",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvem regisserte filmen 'No Country for Old Men'?",
+    "correctAnswer": "Joel og Ethan Coen",
+    "incorrectAnswers": ["Quentin Tarantino", "David Fincher", "Paul Thomas Anderson"],
+    "category": "Regissører",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken TV-serie handler om en gruppe leger på et sykehus i Seattle?",
+    "correctAnswer": "Grey's Anatomy",
+    "incorrectAnswers": ["House", "Scrubs", "ER"],
+    "category": "TV-serier",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken skuespiller vant Oscar for beste mannlige hovedrolle for sin tolkning av Ray Charles i filmen 'Ray'?",
+    "correctAnswer": "Jamie Foxx",
+    "incorrectAnswers": ["Denzel Washington", "Morgan Freeman", "Will Smith"],
+    "category": "Prisutdelinger",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hva er navnet på det fiktive universet hvor TV-serien 'Star Trek: The Original Series' finner sted?",
+    "correctAnswer": "Star Trek-universet",
+    "incorrectAnswers": ["Alpha Quadrant", "United Federation of Planets", "Milky Way Galaxy"],
+    "category": "Sci-Fi",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hvilken film fra 1927 regissert av F.W. Murnau regnes som en tidlig mesterverk innen ekspresjonistisk film og hadde originalt tittelen 'Sunrise: A Song of Two Humans'?",
+    "correctAnswer": "Sunrise",
+    "incorrectAnswers": ["Nosferatu", "Metropolis", "The Cabinet of Dr. Caligari"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken avantgarde-film fra 1929 av Luis Buñuel og Salvador Dalí er kjent for sin sjokkerende billedbruk, inkludert en scene med et øye som blir skåret over?",
+    "correctAnswer": "Un chien andalou",
+    "incorrectAnswers": ["L'Age d'Or", "Las Hurdes", "Le Sang d'un Poète"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken skuespiller vant Oscar for beste birolle for sin eneste scene i filmen 'Network' (1976)?",
+    "correctAnswer": "Beatrice Straight",
+    "incorrectAnswers": ["Faye Dunaway", "Ned Beatty", "William Holden"],
+    "category": "Prisutdelinger",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1950 regissert av Akira Kurosawa populariserte bruken av ikke-lineær fortelling og flere perspektiver på en hendelse?",
+    "correctAnswer": "Rashomon",
+    "incorrectAnswers": ["Seven Samurai", "Ikiru", "Throne of Blood"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem var hovedforfatteren bak TV-serien 'The Prisoner' fra 1967-1968, og spilte også hovedrollen som Number Six?",
+    "correctAnswer": "Patrick McGoohan",
+    "incorrectAnswers": ["Rod Serling", "George Markstein", "David Tomblin"],
+    "category": "TV-serier",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken animasjonsfilm fra 1973 regissert av René Laloux er basert på romanen 'Oms en série' av Stefan Wul og har en særegen surrealistisk stil?",
+    "correctAnswer": "La Planète sauvage",
+    "incorrectAnswers": ["Gandahar", "Les Maîtres du temps", "Fantastic Planet"],
+    "category": "Animasjon",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken skuespillerinne spilte rollen som Pris Stratton i filmen 'Blade Runner' (1982)?",
+    "correctAnswer": "Daryl Hannah",
+    "incorrectAnswers": ["Sean Young", "Joanna Cassidy", "Rutger Hauer"],
+    "category": "Skuespillere",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1962 regissert av Chris Marker er bygget nesten utelukkende av stillbilder og forteller en historie om tidsreiser og hukommelse?",
+    "correctAnswer": "La Jetée",
+    "incorrectAnswers": ["Sans Soleil", "Level Five", "A Grin Without a Cat"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem komponerte musikken til Sergio Leones 'Dollars'-trilogi?",
+    "correctAnswer": "Ennio Morricone",
+    "incorrectAnswers": ["Nino Rota", "Bernard Herrmann", "John Williams"],
+    "category": "Filmmusikk",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken TV-serie fra 1990-tallet, skapt av David Lynch og Mark Frost, hadde en spin-off-film med tittelen 'Fire Walk with Me'?",
+    "correctAnswer": "Twin Peaks",
+    "incorrectAnswers": ["Northern Exposure", "Picket Fences", "Wild Palms"],
+    "category": "TV-serier",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken skuespiller vant Oscar for beste mannlige hovedrolle for sin tolkning av Lawrence of Arabia i filmen med samme navn (1962)?",
+    "correctAnswer": "Peter O'Toole",
+    "incorrectAnswers": ["Alec Guinness", "Omar Sharif", "Anthony Quinn"],
+    "category": "Prisutdelinger",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1954 regissert av Akira Kurosawa handler om syv samurai som forsvarer en landsby mot banditter?",
+    "correctAnswer": "De syv samurai",
+    "incorrectAnswers": ["Yojimbo", "Rashomon", "Throne of Blood"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem skapte TV-serien 'Carnivàle' som gikk på HBO fra 2003 til 2005?",
+    "correctAnswer": "Daniel Knauf",
+    "incorrectAnswers": ["David Milch", "Alan Ball", "David Simon"],
+    "category": "TV-serier",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken skuespiller spilte rollen som Roy Batty i filmen 'Blade Runner' (1982)?",
+    "correctAnswer": "Rutger Hauer",
+    "incorrectAnswers": ["Harrison Ford", "Edward James Olmos", "Sean Young"],
+    "category": "Skuespillere",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hva er navnet på den dystopiske republikken som er sentral i TV-serien 'The Handmaid's Tale'?",
+    "correctAnswer": "Gilead",
+    "incorrectAnswers": ["Panem", "Oceania", "New Canaan"],
+    "category": "TV-serier",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1975 regissert av Chantal Akerman består for det meste av lange, statiske bilder av en kvinnes daglige rutiner?",
+    "correctAnswer": "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles",
+    "incorrectAnswers": ["Je Tu Il Elle", "Les Rendez-vous d'Anna", "Toute une nuit"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem var filmfotografen på Stanley Kubricks '2001: A Space Odyssey'?",
+    "correctAnswer": "Geoffrey Unsworth",
+    "incorrectAnswers": ["John Alcott", "Gordon Willis", "Vittorio Storaro"],
+    "category": "Filmskaping",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken TV-serie fra 1960-tallet handlet om en hemmelig agent som brukte en rekke gadgets forkledd som hverdagslige objekter?",
+    "correctAnswer": "Get Smart",
+    "incorrectAnswers": ["Mission: Impossible", "The Man from U.N.C.L.E.", "I Spy"],
+    "category": "TV-serier",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken skuespillerinne vant Oscar for beste kvinnelige hovedrolle for sin tolkning av Annie Wilkes i filmen 'Misery' (1990)?",
+    "correctAnswer": "Kathy Bates",
+    "incorrectAnswers": ["Jodie Foster", "Meryl Streep", "Jessica Lange"],
+    "category": "Prisutdelinger",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1959 regissert av Alain Resnais er kjent for sin ikke-lineære fortelling og utforskning av minne og glemsel?",
+    "correctAnswer": "Hiroshima mon amour",
+    "incorrectAnswers": ["Last Year at Marienbad", "Night and Fog", "Je t'aime, je t'aime"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem skapte TV-serien 'Deadwood' som gikk på HBO fra 2004 til 2006?",
+    "correctAnswer": "David Milch",
+    "incorrectAnswers": ["David Simon", "David Chase", "Vince Gilligan"],
+    "category": "TV-serier",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken animasjonsfilm fra 1988 regissert av Isao Takahata skildrer livet på landsbygda i Japan under andre verdenskrig fra et barns perspektiv?",
+    "correctAnswer": "Grave of the Fireflies",
+    "incorrectAnswers": ["My Neighbor Totoro", "Akira", "Only Yesterday"],
+    "category": "Animasjon",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1925 regissert av Sergei Eisenstein er et stumfilmmesterverk kjent for sin revolusjonære montasjeteknikk, spesielt scenen på Odessa-trappen?",
+    "correctAnswer": "Battleship Potemkin",
+    "incorrectAnswers": ["October", "Strike", "Alexander Nevsky"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem var den primære komponisten for filmene til Federico Fellini?",
+    "correctAnswer": "Nino Rota",
+    "incorrectAnswers": ["Ennio Morricone", "Bernard Herrmann", "Philip Glass"],
+    "category": "Filmmusikk",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken TV-serie fra 1980-tallet handlet om en mystisk fremmed som reiste fra by til by og hjalp folk i nød?",
+    "correctAnswer": "Highway to Heaven",
+    "incorrectAnswers": ["Quantum Leap", "The Incredible Hulk", "The A-Team"],
+    "category": "TV-serier",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken skuespillerinne vant Oscar for beste kvinnelige hovedrolle for sin tolkning av Mildred Pierce i filmen med samme navn (1945)?",
+    "correctAnswer": "Joan Crawford",
+    "incorrectAnswers": ["Bette Davis", "Ingrid Bergman", "Katharine Hepburn"],
+    "category": "Prisutdelinger",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1966 regissert av Gillo Pontecorvo skildrer Algeries kamp for uavhengighet fra Frankrike?",
+    "correctAnswer": "Slaget om Alger",
+    "incorrectAnswers": ["Z", "The Battle of Algiers", "The Lost Honor of Katharina Blum"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem skapte TV-serien 'Babylon 5' som gikk fra 1994 til 1998?",
+    "correctAnswer": "J. Michael Straczynski",
+    "incorrectAnswers": ["Gene Roddenberry", "Ronald D. Moore", "Joss Whedon"],
+    "category": "TV-serier",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hva er navnet på den fiktive byen hvor TV-serien 'The Shield' finner sted og er kjent for høy kriminalitet?",
+    "correctAnswer": "Farmington",
+    "incorrectAnswers": ["Charming", "Oceanside", "Compton"],
+    "category": "TV-serier",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1941 regissert av Orson Welles er ofte ansett som en av de største filmene som noensinne er laget og er kjent for sin bruk av dyp fokus?",
+    "correctAnswer": "Citizen Kane",
+    "incorrectAnswers": ["The Magnificent Ambersons", "Touch of Evil", "The Lady from Shanghai"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken TV-serie fra 1990-tallet handlet om en ung kvinne med psykokinetiske evner som jobbet for en hemmelig regjeringsorganisasjon?",
+    "correctAnswer": "Dark Angel",
+    "incorrectAnswers": ["Alias", "La Femme Nikita", "Buffy the Vampire Slayer"],
+    "category": "TV-serier",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken skuespillerinne vant Oscar for beste kvinnelige hovedrolle for sin tolkning av Marge Gunderson i filmen 'Fargo' (1996)?",
+    "correctAnswer": "Frances McDormand",
+    "incorrectAnswers": ["Meryl Streep", "Susan Sarandon", "Emily Watson"],
+    "category": "Prisutdelinger",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1987 regissert av Wim Wenders handler om engler som observerer menneskelivet i Berlin før murens fall?",
+    "correctAnswer": "Himmelen over Berlin",
+    "incorrectAnswers": ["Paris, Texas", "Until the End of the World", "Faraway, So Close!"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem skapte TV-serien 'Firefly' som gikk på Fox i 2002?",
+    "correctAnswer": "Joss Whedon",
+    "incorrectAnswers": ["J.J. Abrams", "Ronald D. Moore", "Tim Minear"],
+    "category": "TV-serier",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken skuespiller spilte rollen som Jack Torrance i filmen 'The Shining'?",
+    "correctAnswer": "Jack Nicholson",
+    "incorrectAnswers": ["Robert De Niro", "Al Pacino", "Dustin Hoffman"],
+    "category": "Skuespillere",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1939 regissert av Victor Fleming er kjent for sin bruk av Technicolor og ikoniske karakterer som Dorothy Gale?",
+    "correctAnswer": "The Wizard of Oz",
+    "incorrectAnswers": ["Gone with the Wind", "The Adventures of Robin Hood", "Snow White and the Seven Dwarfs"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem var den siste regissøren som fullførte en film med Marilyn Monroe i hovedrollen før hennes død?",
+    "correctAnswer": "John Huston",
+    "incorrectAnswers": ["Billy Wilder", "Joshua Logan", "George Cukor"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken skuespillerinne vant Oscar for beste kvinnelige hovedrolle for sin tolkning av Clarice Starling i filmen 'Nattsvermeren' (The Silence of the Lambs)?",
+    "correctAnswer": "Jodie Foster",
+    "incorrectAnswers": ["Kathy Bates", "Geena Davis", "Susan Sarandon"],
+    "category": "Prisutdelinger",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1963 regissert av Federico Fellini er en selvbiografisk drømmeaktig refleksjon over en regissørs kreative krise?",
+    "correctAnswer": "8½",
+    "incorrectAnswers": ["La Dolce Vita", "Amarcord", "Nights of Cabiria"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem skapte TV-serien 'Battlestar Galactica' (2004-2009)?",
+    "correctAnswer": "Ronald D. Moore",
+    "incorrectAnswers": ["Glen A. Larson", "J. Michael Straczynski", "Joss Whedon"],
+    "category": "TV-serier",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken skuespiller spilte rollen som den anonyme fortelleren i filmen 'Fight Club'?",
+    "correctAnswer": "Edward Norton",
+    "incorrectAnswers": ["Brad Pitt", "Jared Leto", "Helena Bonham Carter"],
+    "category": "Skuespillere",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1979 regissert av Andrei Tarkovsky er en poetisk science fiction-film basert på en roman av Stanisław Lem?",
+    "correctAnswer": "Stalker",
+    "incorrectAnswers": ["Solaris", "The Mirror", "Nostalghia"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem var den siste regissøren som fullførte en film med James Dean i hovedrollen før hans død?",
+    "correctAnswer": "George Stevens",
+    "incorrectAnswers": ["Nicholas Ray", "Elia Kazan", "Fred Zinnemann"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken TV-serie fra 1990-tallet handlet om en gruppe unge mennesker i Seattle under grunge-bølgen?",
+    "correctAnswer": "My So-Called Life",
+    "incorrectAnswers": ["Freaks and Geeks", "Party of Five", "Dawson's Creek"],
+    "category": "TV-serier",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken skuespillerinne vant Oscar for beste kvinnelige hovedrolle for sin tolkning av Christina i filmen 'Guess Who's Coming to Dinner' (1967)?",
+    "correctAnswer": "Katharine Hepburn",
+    "incorrectAnswers": ["Audrey Hepburn", "Elizabeth Taylor", "Anne Bancroft"],
+    "category": "Prisutdelinger",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1988 regissert av Terry Gilliam handler om en mann som rømmer fra en byråkratisk verden inn i sine egne fantasier?",
+    "correctAnswer": "Brazil",
+    "incorrectAnswers": ["Time Bandits", "The Adventures of Baron Munchausen", "12 Monkeys"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem skapte TV-serien 'The Good Place'?",
+    "correctAnswer": "Michael Schur",
+    "incorrectAnswers": ["Greg Daniels", "Dan Harmon", "Tina Fey"],
+    "category": "TV-serier",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken skuespiller spilte rollen som Travis Bickle i filmen 'Taxi Driver'?",
+    "correctAnswer": "Robert De Niro",
+    "incorrectAnswers": ["Al Pacino", "Dustin Hoffman", "Jack Nicholson"],
+    "category": "Skuespillere",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1982 regissert av Rainer Werner Fassbinder handler om en kvinne som blir utnyttet og undertrykt i et dysfunksjonelt forhold?",
+    "correctAnswer": "Die Sehnsucht der Veronika Voss",
+    "incorrectAnswers": ["Lola", "Berlin Alexanderplatz", "Ali: Fear Eats the Soul"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem var den primære filmfotografen for mange av filmene til Ingmar Bergman?",
+    "correctAnswer": "Sven Nykvist",
+    "incorrectAnswers": ["Gunnar Fischer", "Vilmos Zsigmond", "Gordon Willis"],
+    "category": "Filmskaping",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken skuespiller vant Oscar for beste mannlige hovedrolle for sin tolkning av Maximus i filmen 'Gladiator' (2000)?",
+    "correctAnswer": "Russell Crowe",
+    "incorrectAnswers": ["Joaquin Phoenix", "Denzel Washington", "Tom Hanks"],
+    "category": "Prisutdelinger",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1957 regissert av Ingmar Bergman handler om en ridder som spiller sjakk med Døden?",
+    "correctAnswer": "Det syvende segl",
+    "incorrectAnswers": ["Wild Strawberries", "Smultronstället", "Persona"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem regisserte filmen 'Vertigo' fra 1958?",
+    "correctAnswer": "Alfred Hitchcock",
+    "incorrectAnswers": ["Orson Welles", "Billy Wilder", "Howard Hawks"],
+    "category": "Regissører",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken skuespiller spilte rollen som Daniel Plainview i filmen 'There Will Be Blood' (2007)?",
+    "correctAnswer": "Daniel Day-Lewis",
+    "incorrectAnswers": ["Philip Seymour Hoffman", "Javier Bardem", "Paul Dano"],
+    "category": "Skuespillere",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken japansk regissør er kjent for filmer som 'Tokyo Story' og 'Late Spring'?",
+    "correctAnswer": "Yasujirō Ozu",
+    "incorrectAnswers": ["Akira Kurosawa", "Kenji Mizoguchi", "Mikio Naruse"],
+    "category": "Regissører",
+    "difficulty": "hard"
+  },
+  {
+    "question": "I hvilken film fra 1957 spiller Toshiro Mifune rollen som en samurai som hjelper bønder med å forsvare landsbyen sin?",
+    "correctAnswer": "Throne of Blood",
+    "incorrectAnswers": ["Seven Samurai", "Yojimbo", "Rashomon"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem regisserte filmen 'Cléo from 5 to 7' (1962)?",
+    "correctAnswer": "Agnès Varda",
+    "incorrectAnswers": ["François Truffaut", "Jean-Luc Godard", "Alain Resnais"],
+    "category": "Regissører",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken kultfilm fra 1977 regissert av David Lynch handler om en mann med en deformert datter?",
+    "correctAnswer": "Eraserhead",
+    "incorrectAnswers": ["Blue Velvet", "The Elephant Man", "Lost Highway"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem regisserte filmen 'M' fra 1931, en av de første filmene om en seriemorder?",
+    "correctAnswer": "Fritz Lang",
+    "incorrectAnswers": ["F.W. Murnau", "G.W. Pabst", "Robert Wiene"],
+    "category": "Regissører",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken skuespiller portretterte den legendariske silent film-komikeren Charlie Chaplin i filmen 'Chaplin' (1992)?",
+    "correctAnswer": "Robert Downey Jr.",
+    "incorrectAnswers": ["Johnny Depp", "Eddie Murphy", "Jim Carrey"],
+    "category": "Skuespillere",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem regisserte den italienske neorealistiske filmen 'Sykkeltyvene' (Bicycle Thieves) fra 1948?",
+    "correctAnswer": "Vittorio De Sica",
+    "incorrectAnswers": ["Roberto Rossellini", "Federico Fellini", "Luchino Visconti"],
+    "category": "Regissører",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem spilte hovedrollen i 'The Great Dictator', Charlie Chaplins første talefilm?",
+    "correctAnswer": "Charlie Chaplin",
+    "incorrectAnswers": ["Buster Keaton", "Harold Lloyd", "Stan Laurel"],
+    "category": "Skuespillere",
+    "difficulty": "hard"
+  },
+  {
+    "question": "I hvilken film fra 1973 spiller Marlon Brando en aldrende mafiasjef ved navn Don Corleone?",
+    "correctAnswer": "The Godfather",
+    "incorrectAnswers": ["The Godfather Part II", "Mean Streets", "Once Upon a Time in America"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken fransk film fra 1960 regissert av Jean-Luc Godard er en hyllest til film noir og amerikansk gangsterfilm?",
+    "correctAnswer": "Breathless",
+    "incorrectAnswers": ["Jules and Jim", "Les Quatre Cents Coups", "Shoot the Piano Player"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem komponerte musikken til filmen 'Vertigo' (1958)?",
+    "correctAnswer": "Bernard Herrmann",
+    "incorrectAnswers": ["Alfred Newman", "Max Steiner", "Miklos Rozsa"],
+    "category": "Filmmusikk",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken eksperimentell filmskaper er kjent for sin 'Qatsi'-trilogi med filmene 'Koyaanisqatsi', 'Powaqqatsi' og 'Naqoyqatsi'?",
+    "correctAnswer": "Godfrey Reggio",
+    "incorrectAnswers": ["Stan Brakhage", "Kenneth Anger", "Maya Deren"],
+    "category": "Filmskaping",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilket filmselskap produserte 'Casablanca' (1942)?",
+    "correctAnswer": "Warner Bros.",
+    "incorrectAnswers": ["MGM", "Paramount Pictures", "RKO Radio Pictures"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken film fra 1952 regissert av John Ford viser landskapet Monument Valley som kulisse for et western-drama?",
+    "correctAnswer": "The Searchers",
+    "incorrectAnswers": ["The Man Who Shot Liberty Valance", "Rio Grande", "Stagecoach"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem komponerte musikken til filmen 'Jaws' (1975)?",
+    "correctAnswer": "John Williams",
+    "incorrectAnswers": ["Jerry Goldsmith", "Hans Zimmer", "Ennio Morricone"],
+    "category": "Filmmusikk",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken animator og filmskaper er kjent for filmer som 'Persepolis' og 'The Breadwinner'?",
+    "correctAnswer": "Marjane Satrapi",
+    "incorrectAnswers": ["Sylvain Chomet", "Michel Ocelot", "Tomm Moore"],
+    "category": "Animasjon",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken fransk filmskaper er kjent for å ha oppfunnet 'cinéma vérité'-stilen med filmer som 'Chronicle of a Summer'?",
+    "correctAnswer": "Jean Rouch",
+    "incorrectAnswers": ["François Truffaut", "Alain Resnais", "Agnès Varda"],
+    "category": "Filmhistorie",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvem spilte hoverdollen i David Leans 'Lawrence of Arabia' (1962)?",
+    "correctAnswer": "Peter O'Toole",
+    "incorrectAnswers": ["Anthony Quinn", "Omar Sharif", "Alec Guinness"],
+    "category": "Skuespillere",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken studio produserte de fleste av Hayao Miyazakis animasjonsfilmer?",
+    "correctAnswer": "Studio Ghibli",
+    "incorrectAnswers": ["Toei Animation", "Madhouse", "Production I.G"],
+    "category": "Animasjon",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hvilken regissør skapte filmen 'Last Year at Marienbad' (1961)?",
+    "correctAnswer": "Alain Resnais",
+    "incorrectAnswers": ["Michelangelo Antonioni", "Federico Fellini", "Luis Buñuel"],
+    "category": "Regissører",
+    "difficulty": "hard"
+  }
+]
