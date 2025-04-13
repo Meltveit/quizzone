@@ -221,5 +221,11 @@ const quizManager = {
     }
 };
 
-// Make quizManager globally available
+// Make quizManager globally available - modified to ensure it's defined
+// This ensures it's accessible even if there's an error elsewhere in the file
 window.quizManager = quizManager;
+
+// Also expose it in the global scope for script tags loading
+if (typeof globalThis !== 'undefined') {
+    globalThis.quizManager = quizManager;
+}

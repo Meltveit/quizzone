@@ -57,10 +57,68 @@ const elements = {
     confettiContainer: document.getElementById('confetti-container')
 };
 
+// Ensure quizManager is available
+function ensureQuizManager() {
+    if (typeof window.quizManager === 'undefined') {
+        console.warn('quizManager not found in window. Checking for global quizManager...');
+        
+        if (typeof quizManager === 'undefined') {
+            console.error('quizManager not found. Creating a fallback implementation.');
+            
+            // Create a fallback quizManager with minimal implementation
+            window.quizManager = {
+                questionDatabases: {
+                    easter: [], general: [], movies: [], sports: [], kids: []
+                },
+                loadQuestionDatabases: function(callback) {
+                    console.warn('Using fallback loadQuestionDatabases function');
+                    if (callback && typeof callback === 'function') {
+                        callback();
+                    }
+                },
+                generateQuiz: function(theme, difficulty, count, callback) {
+                    console.warn('Using fallback generateQuiz function');
+                    // Generate some dummy questions as a fallback
+                    const dummyQuestions = [
+                        {
+                            question: "This is a sample question as the quiz manager failed to load properly.",
+                            options: ["Answer A", "Answer B", "Answer C", "Answer D"],
+                            correctIndex: 0,
+                            category: "General",
+                            difficulty: "medium"
+                        }
+                    ];
+                    
+                    if (callback && typeof callback === 'function') {
+                        callback(dummyQuestions);
+                    }
+                    return dummyQuestions;
+                },
+                shuffleArray: function(array) {
+                    return [...array].sort(() => Math.random() - 0.5);
+                }
+            };
+        } else {
+            // If quizManager exists but not in window, add it to window
+            window.quizManager = quizManager;
+        }
+    }
+    
+    return window.quizManager;
+}
+
 // Initialize the application
 function initApp() {
+    // Ensure quizManager is available
+    ensureQuizManager();
+    
     // Set up event listeners
     setupEventListeners();
+    
+    // Load question databases in the background
+    window.quizManager.loadQuestionDatabases(() => {
+        console.log('Question databases loaded successfully.');
+    });
     
     // Initialize the start quiz button state
     updateStartQuizState();
@@ -227,12 +285,21 @@ function updateStartQuizState() {
 
 // Start a new quiz
 function startQuiz() {
+    // Make sure quizManager is available
+    const quizManagerInstance = ensureQuizManager();
+    
     // Generate quiz questions
-    quizManager.generateQuiz(
+    quizManagerInstance.generateQuiz(
         appState.selectedTheme,
         appState.difficulty,
         appState.questionCount,
         quiz => {
+            if (!quiz || quiz.length === 0) {
+                console.error('No questions were returned from the quiz generator');
+                alert('Failed to load quiz questions. Please try again or choose a different theme.');
+                return;
+            }
+            
             appState.currentQuiz = quiz;
             appState.currentQuestionIndex = 0;
             appState.currentPlayerIndex = 0;
@@ -509,8 +576,56 @@ function animateScoreUpdate(playerName) {
 
 // Show the results screen
 function showResults() {
-    // Calculate results
-    const sortedPlayers = scoreManager.calculateResults(appState.players, appState.scores);
+    // Ensure scoreManager is available
+    if (typeof scoreManager === 'undefined' || !scoreManager.calculateResults) {
+        console.error('scoreManager not found or missing calculateResults method');
+        
+        // Create a fallback score calculation
+        const calculateResults = function(players, scores) {
+            const playerResults = players.map(player => {
+                return {
+                    name: player,
+                    score: scores[player] || 0
+                };
+            });
+            
+            // Sort by score (highest first)
+            playerResults.sort((a, b) => b.score - a.score);
+            
+            // Assign positions (handling ties)
+            let currentPosition = 1;
+            let previousScore = null;
+            let skipPositions = 0;
+            
+            playerResults.forEach((player, index) => {
+                if (index === 0) {
+                    // First player is always position 1
+                    player.position = 1;
+                    previousScore = player.score;
+                } else {
+                    // Check if tied with previous player
+                    if (player.score === previousScore) {
+                        player.position = currentPosition;
+                        skipPositions++;
+                    } else {
+                        // Skip positions for ties
+                        currentPosition += skipPositions + 1;
+                        player.position = currentPosition;
+                        skipPositions = 0;
+                    }
+                    previousScore = player.score;
+                }
+            });
+            
+            return playerResults;
+        };
+        
+        // Use the fallback function
+        var sortedPlayers = calculateResults(appState.players, appState.scores);
+    } else {
+        // Use the actual scoreManager
+        var sortedPlayers = scoreManager.calculateResults(appState.players, appState.scores);
+    }
     
     // Update UI with results
     if (sortedPlayers.length > 0) {
@@ -555,29 +670,69 @@ function showResults() {
     // Show results screen
     showScreen(elements.resultsScreen);
     
-    // Create confetti animation
-    animations.createConfetti(elements.confettiContainer);
+    // Check if animations module is available
+    if (typeof animations !== 'undefined' && animations.createConfetti) {
+        // Create confetti animation
+        animations.createConfetti(elements.confettiContainer);
+    } else {
+        console.warn('Animations module not found or missing createConfetti method');
+        // Basic fallback for confetti
+        createBasicConfetti();
+    }
     
     // Trigger results animations
     setTimeout(() => {
-        document.querySelector('.trophy-animation').classList.add('show-trophy');
+        const trophyEl = document.querySelector('.trophy-animation');
+        if (trophyEl) trophyEl.classList.add('show-trophy');
         
         setTimeout(() => {
-            document.querySelector('.victory-title').classList.add('show-title');
+            const titleEl = document.querySelector('.victory-title');
+            if (titleEl) titleEl.classList.add('show-title');
             
             setTimeout(() => {
-                document.querySelector('.podium-container').classList.add('show-podium');
+                const podiumEl = document.querySelector('.podium-container');
+                if (podiumEl) podiumEl.classList.add('show-podium');
                 
                 setTimeout(() => {
-                    document.querySelector('.results-list').classList.add('show-results');
+                    const resultsEl = document.querySelector('.results-list');
+                    if (resultsEl) resultsEl.classList.add('show-results');
                     
                     setTimeout(() => {
-                        document.querySelector('.action-buttons').classList.add('show-buttons');
+                        const buttonsEl = document.querySelector('.action-buttons');
+                        if (buttonsEl) buttonsEl.classList.add('show-buttons');
                     }, 300);
                 }, 300);
             }, 300);
         }, 300);
     }, 500);
+}
+
+// Basic fallback for confetti if animations module is missing
+function createBasicConfetti() {
+    const confettiContainer = elements.confettiContainer;
+    if (!confettiContainer) return;
+    
+    const colors = ['#f94144', '#f3722c', '#f8961e', '#f9c74f', '#90be6d', '#43aa8b', '#577590'];
+    
+    for (let i = 0; i < 50; i++) {
+        const piece = document.createElement('div');
+        piece.className = 'confetti-piece';
+        
+        const leftPos = Math.random() * 100;
+        const animationDelay = Math.random() * 5;
+        const color = colors[Math.floor(Math.random() * colors.length)];
+        
+        piece.style.left = `${leftPos}%`;
+        piece.style.backgroundColor = color;
+        piece.style.width = `${Math.random() * 10 + 5}px`;
+        piece.style.height = `${Math.random() * 15 + 5}px`;
+        piece.style.position = 'absolute';
+        piece.style.top = '-20px';
+        piece.style.animation = `fall 8s linear infinite`;
+        piece.style.animationDelay = `${animationDelay}s`;
+        
+        confettiContainer.appendChild(piece);
+    }
 }
 
 // Reset the quiz state
@@ -594,12 +749,20 @@ function resetQuiz() {
     });
     
     // Reset animations
-    document.querySelector('.trophy-animation').classList.remove('show-trophy');
-    document.querySelector('.victory-title').classList.remove('show-title');
-    document.querySelector('.podium-container').classList.remove('show-podium');
-    document.querySelector('.results-list').classList.remove('show-results');
-    document.querySelector('.action-buttons').classList.remove('show-buttons');
+    const trophyEl = document.querySelector('.trophy-animation');
+    const titleEl = document.querySelector('.victory-title');
+    const podiumEl = document.querySelector('.podium-container');
+    const resultsEl = document.querySelector('.results-list');
+    const buttonsEl = document.querySelector('.action-buttons');
+    
+    if (trophyEl) trophyEl.classList.remove('show-trophy');
+    if (titleEl) titleEl.classList.remove('show-title');
+    if (podiumEl) podiumEl.classList.remove('show-podium');
+    if (resultsEl) resultsEl.classList.remove('show-results');
+    if (buttonsEl) buttonsEl.classList.remove('show-buttons');
     
     // Clear confetti
-    elements.confettiContainer.innerHTML = '';
+    if (elements.confettiContainer) {
+        elements.confettiContainer.innerHTML = '';
+    }
 }
