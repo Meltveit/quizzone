@@ -1,4 +1,4 @@
-// Quiz Management for QuizZone - Optimized Version
+// Quiz Management for QuizZone - With Internationalization Support
 const quizManager = {
     // Question databases (will be loaded on-demand)
     questionDatabases: {
@@ -22,43 +22,36 @@ const quizManager = {
                 return this.questionDatabases[theme];
             }
             
-            // Load only the requested theme
-            const response = await fetch(`data/questions-${theme}.json`);
-            if (!response.ok) {
-                throw new Error(`Failed to load ${theme} questions`);
+            // Use i18n to get the correct URL with language
+            let url = `data/questions-${theme}.json`;
+            
+            // If i18n is available, use it to get the language-specific URL
+            if (window.i18n) {
+                url = window.i18n.getQuestionDatabaseUrl(theme);
+            } else if (window.location.hostname.includes('quizzone.eu')) {
+                // Fallback if i18n is not loaded yet but we're on the English domain
+                url = `data/questions-${theme}-en.json`;
             }
             
-            const data = await response.json();
+            // Load the question database
+            const response = await fetch(url);
             
-            // Validate that the data is an array of questions with expected properties
-            if (Array.isArray(data) && data.length > 0) {
-                // Check first question for expected properties
-                const firstQuestion = data[0];
-                if (!firstQuestion.question || 
-                    !firstQuestion.correctAnswer ||
-                    !Array.isArray(firstQuestion.incorrectAnswers)) {
-                    console.warn(`${theme} questions have invalid format, attempting to fix`);
-                    
-                    // Normalize the data format
-                    const normalizedData = data.map(q => {
-                        return {
-                            question: q.question || `Question ${Math.random().toString(36).substring(7)}`,
-                            correctAnswer: q.correctAnswer || (q.options ? q.options[0] : "Answer"),
-                            incorrectAnswers: Array.isArray(q.incorrectAnswers) ? q.incorrectAnswers : 
-                                            (q.options ? q.options.slice(1) : ["Option A", "Option B", "Option C"]),
-                            category: q.category || theme,
-                            difficulty: q.difficulty || "medium"
-                        }
-                    });
-                    
-                    this.questionDatabases[theme] = normalizedData;
-                    console.log(`Fixed and loaded ${theme} questions: ${normalizedData.length} items`);
-                } else {
-                    this.questionDatabases[theme] = data;
-                    console.log(`Loaded ${theme} questions: ${data.length} items`);
+            // If language-specific file fails, try the default one
+            if (!response.ok && url.includes('-en.json')) {
+                console.warn(`Failed to load English questions for ${theme}, falling back to Norwegian`);
+                const fallbackResponse = await fetch(`data/questions-${theme}.json`);
+                
+                if (!fallbackResponse.ok) {
+                    throw new Error(`Failed to load ${theme} questions`);
                 }
+                
+                const data = await fallbackResponse.json();
+                this.questionDatabases[theme] = this.validateAndNormalizeData(data, theme);
+            } else if (!response.ok) {
+                throw new Error(`Failed to load ${theme} questions`);
             } else {
-                throw new Error(`Invalid data format for ${theme}`);
+                const data = await response.json();
+                this.questionDatabases[theme] = this.validateAndNormalizeData(data, theme);
             }
             
             if (callback && typeof callback === 'function') {
@@ -76,6 +69,36 @@ const quizManager = {
             
             return [];
         }
+    },
+    
+    // Validate and normalize question data
+    validateAndNormalizeData: function(data, theme) {
+        // Validate that the data is an array of questions with expected properties
+        if (Array.isArray(data) && data.length > 0) {
+            // Check first question for expected properties
+            const firstQuestion = data[0];
+            if (!firstQuestion.question || 
+                !firstQuestion.correctAnswer ||
+                !Array.isArray(firstQuestion.incorrectAnswers)) {
+                console.warn(`${theme} questions have invalid format, attempting to fix`);
+                
+                // Normalize the data format
+                return data.map(q => {
+                    return {
+                        question: q.question || `Question ${Math.random().toString(36).substring(7)}`,
+                        correctAnswer: q.correctAnswer || (q.options ? q.options[0] : "Answer"),
+                        incorrectAnswers: Array.isArray(q.incorrectAnswers) ? q.incorrectAnswers : 
+                                        (q.options ? q.options.slice(1) : ["Option A", "Option B", "Option C"]),
+                        category: q.category || theme,
+                        difficulty: q.difficulty || "medium"
+                    }
+                });
+            }
+        } else {
+            throw new Error(`Invalid data format for ${theme}`);
+        }
+        
+        return data;
     },
     
     // For backward compatibility

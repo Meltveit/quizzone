@@ -13,7 +13,8 @@
         playerAnswers: {},
         answersChecked: false,
         scores: {},
-        isLoading: false
+        isLoading: false,
+        language: null // Store language preference
     };
 
     // DOM elements cache
@@ -28,10 +29,16 @@
 
     // Initialize the application
     function initApp() {
+        // Initialize internationalization if available
+        if (window.i18n) {
+            window.i18n.init();
+        }
+        
         cacheElements();
         setupEventListeners();
         updateStartQuizState();
         loadSavedState();
+        updateUIWithTranslations();
     }
 
     // Cache DOM elements for better performance
@@ -71,8 +78,194 @@
             playAgainBtn: $('#play-again-btn'),
             homeBtn: $('#home-btn'),
             confettiContainer: $('#confetti-container'),
-            loadingIndicator: $('#loading-indicator')
+            loadingIndicator: $('#loading-indicator'),
+            appTitle: $('.text-4xl.font-bold.text-indigo-600'),
+            appSubtitle: $('.text-lg.text-gray-600'),
+            langSelector: $('#language-selector'),
+            howToPlayLink: $('a[href="about.html"]')
         };
+    }
+
+    // Update UI with translations based on current language
+    function updateUIWithTranslations() {
+        if (!window.i18n) return;
+        
+        // Update app title and subtitle
+        if (elements.appTitle) {
+            elements.appTitle.textContent = window.i18n.get('appTitle');
+        }
+        
+        if (elements.appSubtitle) {
+            elements.appSubtitle.textContent = window.i18n.get('appSubtitle');
+        }
+        
+        // Update language selector
+        if (elements.langSelector) {
+            elements.langSelector.value = window.i18n.currentLanguage;
+        }
+        
+        // Update theme buttons
+        elements.themeButtons.forEach(button => {
+            const theme = button.dataset.theme;
+            const nameElement = button.querySelector('span:not(.text-2xl)');
+            if (nameElement && theme) {
+                nameElement.textContent = window.i18n.get(theme);
+            }
+        });
+        
+        // Update section titles
+        const themeSectionTitle = document.querySelector('.bg-white h2:first-of-type');
+        if (themeSectionTitle) {
+            themeSectionTitle.textContent = window.i18n.get('selectTheme');
+        }
+        
+        const settingsSectionTitle = document.querySelector('.bg-white:nth-of-type(2) h2');
+        if (settingsSectionTitle) {
+            settingsSectionTitle.textContent = window.i18n.get('quizSettings');
+        }
+        
+        const playersSectionTitle = document.querySelector('.bg-white:nth-of-type(3) h2');
+        if (playersSectionTitle) {
+            playersSectionTitle.textContent = window.i18n.get('players');
+        }
+        
+        // Update difficulty label and options
+        const difficultyLabel = document.querySelector('label[for="difficulty"]');
+        if (difficultyLabel) {
+            difficultyLabel.textContent = window.i18n.get('difficulty');
+        }
+        
+        if (elements.difficultySelect) {
+            const options = elements.difficultySelect.querySelectorAll('option');
+            const difficulties = ['difficultyEasy', 'difficultyMedium', 'difficultyHard', 'difficultyMixed'];
+            
+            options.forEach((option, index) => {
+                if (index < difficulties.length) {
+                    option.textContent = window.i18n.get(difficulties[index]);
+                }
+            });
+        }
+        
+        // Update question count label and options
+        const questionCountLabel = document.querySelector('label[for="question-count"]');
+        if (questionCountLabel) {
+            questionCountLabel.textContent = window.i18n.get('questionCount');
+        }
+        
+        if (elements.questionCountSelect) {
+            const options = elements.questionCountSelect.querySelectorAll('option');
+            options.forEach(option => {
+                const count = option.value;
+                option.textContent = window.i18n.get('questionsFormat', { count });
+            });
+        }
+        
+        // Update input placeholder
+        if (elements.newPlayerName) {
+            elements.newPlayerName.placeholder = window.i18n.get('addPlayerPlaceholder');
+        }
+        
+        // Update add player button
+        if (elements.addPlayerBtn) {
+            elements.addPlayerBtn.textContent = window.i18n.get('addPlayer');
+        }
+        
+        // Update minimum player text
+        const minPlayerText = document.querySelector('.text-sm.text-gray-600');
+        if (minPlayerText) {
+            minPlayerText.textContent = window.i18n.get('addPlayerMinimum');
+        }
+        
+        // Update start quiz button
+        if (elements.startQuizBtn) {
+            elements.startQuizBtn.textContent = appState.isLoading ? 
+                window.i18n.get('loading') : window.i18n.get('startQuiz');
+        }
+        
+        // Update loading indicator text
+        if (elements.loadingIndicator) {
+            const loadingText = elements.loadingIndicator.querySelector('span');
+            if (loadingText) {
+                loadingText.textContent = window.i18n.get('loadingQuestions');
+            }
+        }
+        
+        // Update back button
+        if (elements.backToHomeBtn) {
+            const backText = elements.backToHomeBtn.lastChild;
+            if (backText) {
+                backText.textContent = window.i18n.get('back');
+            }
+        }
+        
+        // Update quiz progress text
+        const progressText = document.querySelector('.quiz-progress-text');
+        if (progressText && elements.currentQuestionEl && elements.totalQuestionsEl) {
+            const currentQ = elements.currentQuestionEl.textContent;
+            const totalQ = elements.totalQuestionsEl.textContent;
+            progressText.innerHTML = `${window.i18n.get('question')} <span id="current-question">${currentQ}</span>/${window.i18n.get('of')} <span id="total-questions">${totalQ}</span>`;
+        }
+        
+        // Update check answers and next question buttons
+        if (elements.checkAnswersBtn) {
+            elements.checkAnswersBtn.textContent = window.i18n.get('checkAnswers');
+        }
+        
+        if (elements.nextQuestionBtn) {
+            elements.nextQuestionBtn.textContent = window.i18n.get('nextQuestion');
+        }
+        
+        // Update results screen
+        if (elements.resultsScreen) {
+            const congratsText = elements.resultsScreen.querySelector('h1.text-4xl');
+            if (congratsText && elements.winnerName) {
+                const winnerName = elements.winnerName.textContent;
+                congratsText.innerHTML = `${window.i18n.get('congratulations')} <span id="winner-name" class="text-indigo-600">${winnerName}</span>!`;
+            }
+            
+            const allResultsTitle = elements.resultsScreen.querySelector('h2.text-xl');
+            if (allResultsTitle) {
+                allResultsTitle.textContent = window.i18n.get('allResults');
+            }
+            
+            // Update points text
+            if (elements.fullResults) {
+                const pointsTexts = elements.fullResults.querySelectorAll('.font-semibold');
+                pointsTexts.forEach(el => {
+                    const score = el.textContent.split(' ')[0];
+                    el.textContent = `${score} ${window.i18n.get('points')}`;
+                });
+            }
+            
+            // Update podium points text
+            const updatePointsText = (element) => {
+                if (element) {
+                    const score = element.textContent.split(' ')[0];
+                    element.textContent = `${score} ${window.i18n.get('points')}`;
+                }
+            };
+            
+            updatePointsText(elements.firstPlaceScore);
+            updatePointsText(elements.secondPlaceScore);
+            updatePointsText(elements.thirdPlaceScore);
+            
+            // Update action buttons
+            if (elements.playAgainBtn) {
+                elements.playAgainBtn.textContent = window.i18n.get('playAgain');
+            }
+            
+            if (elements.homeBtn) {
+                elements.homeBtn.textContent = window.i18n.get('backToHome');
+            }
+        }
+        
+        // Update the "How to Play" link - we need to append language parameter
+        if (elements.howToPlayLink) {
+            const aboutUrl = new URL(elements.howToPlayLink.href, window.location.href);
+            aboutUrl.searchParams.set('lang', window.i18n.currentLanguage);
+            elements.howToPlayLink.href = aboutUrl.pathname + aboutUrl.search;
+            elements.howToPlayLink.textContent = window.i18n.get('howToPlay');
+        }
     }
 
     // Load saved state from storage
@@ -97,13 +290,32 @@
                     elements.questionCountSelect.value = savedState.questionCount;
                 }
                 
+                // Load language preference if available
+                if (savedState.language && window.i18n) {
+                    window.i18n.setLanguage(savedState.language);
+                }
+                
                 renderPlayersList();
             }
         }
     }
 
-    // Set up all event listeners
     function setupEventListeners() {
+        // Add language switcher event listener if present
+        if (elements.langSelector) {
+            elements.langSelector.addEventListener('change', (e) => {
+                if (window.i18n) {
+                    window.i18n.setLanguage(e.target.value);
+                    // Save language preference
+                    if (typeof storageManager !== 'undefined') {
+                        appState.language = e.target.value;
+                        storageManager.saveAppState(appState);
+                    }
+                    updateUIWithTranslations();
+                }
+            });
+        }
+        
         const themeContainer = elements.themeButtons[0]?.parentNode;
         if (themeContainer) {
             themeContainer.addEventListener('click', (e) => {
@@ -209,7 +421,11 @@
             button.classList.toggle('selected', button.dataset.theme === theme);
         });
         
+        // Save language preference along with other state
         if (typeof storageManager !== 'undefined') {
+            if (window.i18n) {
+                appState.language = window.i18n.currentLanguage;
+            }
             storageManager.saveAppState(appState);
         }
         
@@ -289,7 +505,9 @@
         updateStartQuizState();
         
         if (elements.startQuizBtn) {
-            elements.startQuizBtn.textContent = isLoading ? 'Laster...' : 'Start Quiz';
+            elements.startQuizBtn.textContent = isLoading ? 
+                (window.i18n ? window.i18n.get('loading') : 'Laster...') : 
+                (window.i18n ? window.i18n.get('startQuiz') : 'Start Quiz');
             elements.startQuizBtn.disabled = isLoading;
         }
         
@@ -334,7 +552,9 @@
             renderPlayerAnswerSelection();
         } catch (error) {
             console.error('Failed to start quiz:', error);
-            alert('Failed to load quiz questions. Please try again or choose a different theme.');
+            alert(window.i18n ? 
+                window.i18n.get('error.failedToLoad') : 
+                'Failed to load quiz questions. Please try again or choose a different theme.');
         } finally {
             showLoadingState(false);
         }
@@ -604,9 +824,12 @@
         sortedPlayers.forEach(player => {
             const scoreItem = document.createElement('div');
             scoreItem.className = 'score-item';
+            
+            const pointsText = window.i18n ? window.i18n.get('points') : 'poeng';
+            
             scoreItem.innerHTML = `
                 <span class="player-name">${player}</span>
-                <span class="player-score" data-player="${player}">${appState.scores[player]} poeng</span>
+                <span class="player-score" data-player="${player}">${appState.scores[player]} ${pointsText}</span>
             `;
             
             fragment.appendChild(scoreItem);
@@ -665,26 +888,29 @@
         
         showScreen(elements.resultsScreen);
         
+        // Get the points text based on language
+        const pointsText = window.i18n ? window.i18n.get('points') : 'poeng';
+        
         if (sortedPlayers.length > 0) {
             if (elements.winnerName) elements.winnerName.textContent = sortedPlayers[0].name;
             if (elements.firstPlaceName) elements.firstPlaceName.textContent = sortedPlayers[0].name;
-            if (elements.firstPlaceScore) elements.firstPlaceScore.textContent = `${sortedPlayers[0].score} poeng`;
+            if (elements.firstPlaceScore) elements.firstPlaceScore.textContent = `${sortedPlayers[0].score} ${pointsText}`;
         }
         
         if (sortedPlayers.length > 1) {
             if (elements.secondPlaceName) elements.secondPlaceName.textContent = sortedPlayers[1].name;
-            if (elements.secondPlaceScore) elements.secondPlaceScore.textContent = `${sortedPlayers[1].score} poeng`;
+            if (elements.secondPlaceScore) elements.secondPlaceScore.textContent = `${sortedPlayers[1].score} ${pointsText}`;
         } else {
             if (elements.secondPlaceName) elements.secondPlaceName.textContent = "—";
-            if (elements.secondPlaceScore) elements.secondPlaceScore.textContent = "0 poeng";
+            if (elements.secondPlaceScore) elements.secondPlaceScore.textContent = `0 ${pointsText}`;
         }
         
         if (sortedPlayers.length > 2) {
             if (elements.thirdPlaceName) elements.thirdPlaceName.textContent = sortedPlayers[2].name;
-            if (elements.thirdPlaceScore) elements.thirdPlaceScore.textContent = `${sortedPlayers[2].score} poeng`;
+            if (elements.thirdPlaceScore) elements.thirdPlaceScore.textContent = `${sortedPlayers[2].score} ${pointsText}`;
         } else {
             if (elements.thirdPlaceName) elements.thirdPlaceName.textContent = "—";
-            if (elements.thirdPlaceScore) elements.thirdPlaceScore.textContent = "0 poeng";
+            if (elements.thirdPlaceScore) elements.thirdPlaceScore.textContent = `0 ${pointsText}`;
         }
         
         const fragment = document.createDocumentFragment();
@@ -697,7 +923,7 @@
                     <span class="font-bold mr-3">${player.position}.</span>
                     <span class="${index === 0 ? 'font-bold text-indigo-600' : ''}">${player.name}</span>
                 </div>
-                <div class="font-semibold">${player.score} poeng</div>
+                <div class="font-semibold">${player.score} ${pointsText}</div>
             `;
             
             fragment.appendChild(resultItem);
