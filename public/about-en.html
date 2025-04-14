@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'self' data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval'; script-src * 'self' data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src * 'self' data: blob: 'unsafe-inline'; img-src * 'self' data: blob: 'unsafe-inline'; frame-src * 'self' data: blob: ; style-src * 'self' data: blob: 'unsafe-inline'; font-src * 'self' data: blob: 'unsafe-inline'; worker-src * 'self' data: blob: 'unsafe-inline';">
+        <title>About QuizZone - Learn how to play our fun quiz app</title>
+        <meta name="description" content="Learn how to play QuizZone with friends and family. Simple rules, various difficulty levels and themes for all ages. Start your quiz today!">
+        <meta name="keywords" content="quiz game rules, quiz app, how to play quiz, quiz with friends, English questions, family quiz, work team">
+        
+        <!-- Favicon for browser tab -->
+        <link rel="icon" type="image/x-icon" href="/assets/images/icon_east.ico">
+    
+        <!-- Apple Touch Icon -->
+        <link rel="apple-touch-icon" href="/assets/images/icon_east.png">
+    
+        <!-- Microsoft Windows Tiles -->
+        <meta name="msapplication-TileImage" content="/assets/images/icon_east.png">
+    
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://quizzone.eu/about.html">
+        <meta property="og:title" content="About QuizZone - How to play">
+        <meta property="og:description" content="Learn how to play QuizZone with friends and family. Simple rules, various difficulty levels and themes for all ages.">
+        <meta property="og:image" content="https://quizzone.eu/assets/images/icon_east.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+    
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://quizzone.eu/about.html">
+        <meta property="twitter:title" content="About QuizZone - How to play">
+        <meta property="twitter:description" content="Learn how to play QuizZone with friends and family. Simple rules, various difficulty levels and themes for all ages.">
+        <meta property="twitter:image" content="https://quizzone.eu/assets/images/icon_east.png">
+    
+        <!-- Preload critical resources -->
+        <link rel="preload" href="css/styles.css" as="style">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2602658229657216" crossorigin="anonymous"></script>
+        
+        <!-- Defer loading of non-critical JavaScript -->
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+        
+        <!-- Internationalization module -->
+        <script src="js/i18n.js"></script>
+        
+        <!-- Optimized Analytics loading -->
+        <script>
+            // Only load Google Analytics if online and not running locally
+            if (navigator.onLine && !window.location.href.includes('file://')) {
+                // Create a non-blocking analytics loading function
+                const loadAnalytics = () => {
+                    const gaScript = document.createElement('script');
+                    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-E40HWE9G2K';
+                    gaScript.async = true;
+                    document.head.appendChild(gaScript);
+                    
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-E40HWE9G2K', {
+                        'send_page_view': false, // Manually send page views for better control
+                        'anonymize_ip': true     // Enhances privacy
+                    });
+                    
+                    // Send pageview after page has loaded
+                    if (document.readyState === 'complete') {
+                        gtag('event', 'page_view');
+                    } else {
+                        window.addEventListener('load', () => {
+                            gtag('event', 'page_view');
+                        });
+                    }
+                };
+                
+                // Defer analytics loading
+                if (window.requestIdleCallback) {
+                    requestIdleCallback(loadAnalytics);
+                } else {
+                    setTimeout(loadAnalytics, 2000); // Fallback for browsers without requestIdleCallback
+                }
+            }
+        </script>
+    </head>
+<body class="bg-gray-50 min-h-screen">
+    <div class="container mx-auto px-4 py-6">
+        <div class="mb-6 flex items-center">
+            <a href="index.html" class="text-indigo-600 flex items-center">
+                <i class="fas fa-arrow-left mr-2" aria-hidden="true"></i> Back to home
+            </a>
+        </div>
+        
+        <div class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-indigo-600 mb-2">QuizZone</h1>
+            <p class="text-lg text-gray-600">How to play</p>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+            <h2 class="text-2xl font-semibold mb-4">Welcome to QuizZone!</h2>
+            <p class="mb-4">QuizZone is a fun and engaging quiz app where you can test your knowledge alone or compete with friends across various themes.</p>
+            
+            <h3 class="text-xl font-semibold mt-6 mb-3">How to get started:</h3>
+            <ol class="list-decimal pl-6 mb-6 space-y-2">
+                <li><span class="font-medium">Choose a theme:</span> Select between Easter, General Knowledge, Movies & TV, Sports, Kids, or a Mixed theme for a varied experience.</li>
+                <li><span class="font-medium">Select difficulty:</span> Set the difficulty to Easy, Medium, Hard, or Mixed. The difficulty adjusts to the players' level.</li>
+                <li><span class="font-medium">Choose number of questions:</span> Decide how many questions the quiz should contain - from short rounds with 5 questions to longer challenges with 25 questions.</li>
+                <li><span class="font-medium">Add players:</span> Add at least one player to start the quiz. You can add as many players as you want!</li>
+                <li><span class="font-medium">Start the quiz:</span> Click "Start Quiz" and test your knowledge!</li>
+            </ol>
+            
+            <h3 class="text-xl font-semibold mt-6 mb-3">Game rules:</h3>
+            <ul class="list-disc pl-6 mb-6 space-y-2">
+                <li>Each player sees the question on the screen and chooses their answer from the options.</li>
+                <li>All players answer each question - either taking turns on the same device, or simultaneously from their own devices if you're playing together.</li>
+                <li>For each correct answer, the player gets one point.</li>
+                <li>Incorrect answers don't result in minus points, so it's always worth guessing if you're unsure!</li>
+                <li>After everyone has answered, you can see the correct answers by clicking "Check Answers".</li>
+                <li>Then click "Next Question" to continue.</li>
+                <li>When all questions have been answered, the results are displayed with a stylish victory ceremony.</li>
+                <li>The player with the most points wins - and gets a great celebration with confetti!</li>
+            </ul>
+            
+            <h3 class="text-xl font-semibold mt-6 mb-3">Category explanation:</h3>
+            <ul class="list-disc pl-6 mb-6 space-y-2">
+                <li><span class="font-medium">Easter:</span> Questions about Easter traditions, Easter symbols, Easter food, and Biblical history related to Easter.</li>
+                <li><span class="font-medium">General Knowledge:</span> General knowledge questions about geography, history, science, and culture.</li>
+                <li><span class="font-medium">Movies & TV:</span> Questions about films, actors, TV series, and the film industry.</li>
+                <li><span class="font-medium">Sports:</span> Questions about various sports, athletes, tournaments, and records.</li>
+                <li><span class="font-medium">Kids:</span> Simpler questions suitable for younger participants, about animals, colors, numbers, and children's programs.</li>
+                <li><span class="font-medium">Mixed:</span> A combination of questions from all categories for maximum variety.</li>
+            </ul>
+            
+            <h3 class="text-xl font-semibold mt-6 mb-3">Difficulty levels:</h3>
+            <ul class="list-disc pl-6 mb-6 space-y-2">
+                <li><span class="font-medium">Easy:</span> Perfect for children or for a relaxed quiz with friends. Everyone can participate!</li>
+                <li><span class="font-medium">Medium:</span> Appropriately challenging for most people - you need some knowledge, but the questions aren't too advanced.</li>
+                <li><span class="font-medium">Hard:</span> For the real quiz enthusiasts! These questions require in-depth knowledge and can surprise even experienced players.</li>
+                <li><span class="font-medium">Mixed:</span> A good mix of all difficulty levels - something for everyone!</li>
+            </ul>
+            
+            <h3 class="text-xl font-semibold mt-6 mb-3">Tips for a good gaming experience:</h3>
+            <ul class="list-disc pl-6 mb-6 space-y-2">
+                <li>Try different themes to find your strengths and weaknesses.</li>
+                <li>Start with "Easy" difficulty and work your way up.</li>
+                <li>Challenge friends and family - quizzes are most fun together!</li>
+                <li>Take turns reading the questions aloud for a more social experience.</li>
+                <li>For children's quizzes, choose the "Kids" theme with "Easy" difficulty.</li>
+                <li>Set a time limit for answers if you want to make it extra exciting.</li>
+                <li>Use a large screen if you're playing together in a group - it makes the experience even better!</li>
+            </ul>
+            
+            <div class="bg-indigo-50 p-4 rounded-lg border border-indigo-100">
+                <h3 class="text-lg font-semibold text-indigo-700 mb-2">Did you know?</h3>
+                <p class="text-indigo-900">Research shows that regular quiz participation can improve memory, stimulate the brain, and even reduce the risk of cognitive problems later in life. It's not just fun, but also good for your brain!</p>
+            </div>
+        </div>
+        
+        <div class="text-center">
+            <a href="index.html" class="inline-block px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none transition">
+                Start a quiz now!
+            </a>
+        </div>
+        
+        <div class="mt-8 text-center text-gray-600 text-sm">
+            <p>Do you have questions, feedback, or suggestions for improvements?</p>
+            <p>Send an email to <a href="mailto:Christopher@b2bsocial.no" class="text-indigo-600 hover:underline">Christopher@b2bsocial.no</a></p>
+        </div>
+    </div>
+
+    <!-- Ensure language is set correctly -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Force English for this page
+            if (window.i18n) {
+                window.i18n.setLanguage('en');
+            }
+        });
+    </script>
+</body>
+</html>

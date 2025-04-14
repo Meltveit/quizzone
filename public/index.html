@@ -108,7 +108,10 @@
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
         
         <!-- Ads script with defer -->
-        <script defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2602658229657216" crossorigin="anonymous"></script>
+        <script defer src="https://pagead.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2602658229657216" crossorigin="anonymous"></script>
+        
+        <!-- Internationalization module (should be loaded early) -->
+        <script src="js/i18n.js"></script>
         
         <!-- Defer loading of non-critical JavaScript -->
         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
@@ -146,56 +149,56 @@
         <!-- Home Screen -->
         <section id="home-screen" class="screen active">
             <div class="text-center mb-8">
-                <h1 class="text-4xl font-bold text-indigo-600 mb-2">QuizZone</h1>
-                <p class="text-lg text-gray-600">Den ultimate quizopplevelsen</p>
-                <a href="about.html" class="inline-block mt-2 text-indigo-500 hover:text-indigo-700 transition">
+                <h1 class="text-4xl font-bold text-indigo-600 mb-2" data-i18n="appTitle">QuizZone</h1>
+                <p class="text-lg text-gray-600" data-i18n="appSubtitle">Den ultimate quizopplevelsen</p>
+                <a href="about.html" class="inline-block mt-2 text-indigo-500 hover:text-indigo-700 transition" data-i18n="howToPlay">
                     <i class="fas fa-info-circle mr-1" aria-hidden="true"></i> Hvordan spille
                 </a>
             </div>
             
             <div class="bg-white rounded-lg shadow-md p-6 mb-6">
-                <h2 class="text-xl font-semibold mb-4">Velg quiz-tema</h2>
+                <h2 class="text-xl font-semibold mb-4" data-i18n="selectTheme">Velg quiz-tema</h2>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                     <button class="theme-btn p-4 rounded-lg bg-indigo-100 hover:bg-indigo-200 transition" data-theme="easter">
                         <span class="text-2xl mb-1" aria-hidden="true">🐣</span>
-                        <span class="block font-medium">Påske</span>
+                        <span class="block font-medium" data-i18n="easter">Påske</span>
                     </button>
                     <button class="theme-btn p-4 rounded-lg bg-indigo-100 hover:bg-indigo-200 transition" data-theme="general">
                         <span class="text-2xl mb-1" aria-hidden="true">🧠</span>
-                        <span class="block font-medium">Allmennkunnskap</span>
+                        <span class="block font-medium" data-i18n="general">Allmennkunnskap</span>
                     </button>
                     <button class="theme-btn p-4 rounded-lg bg-indigo-100 hover:bg-indigo-200 transition" data-theme="movies">
                         <span class="text-2xl mb-1" aria-hidden="true">🎬</span>
-                        <span class="block font-medium">Film &amp; TV</span>
+                        <span class="block font-medium" data-i18n="movies">Film &amp; TV</span>
                     </button>
                     <button class="theme-btn p-4 rounded-lg bg-indigo-100 hover:bg-indigo-200 transition" data-theme="sports">
                         <span class="text-2xl mb-1" aria-hidden="true">⚽</span>
-                        <span class="block font-medium">Sport</span>
+                        <span class="block font-medium" data-i18n="sports">Sport</span>
                     </button>
                     <button class="theme-btn p-4 rounded-lg bg-indigo-100 hover:bg-indigo-200 transition" data-theme="kids">
                         <span class="text-2xl mb-1" aria-hidden="true">👶</span>
-                        <span class="block font-medium">Barn</span>
+                        <span class="block font-medium" data-i18n="kids">Barn</span>
                     </button>
                     <button class="theme-btn p-4 rounded-lg bg-indigo-100 hover:bg-indigo-200 transition" data-theme="mixed">
                         <span class="text-2xl mb-1" aria-hidden="true">🎲</span>
-                        <span class="block font-medium">Blandet</span>
+                        <span class="block font-medium" data-i18n="mixed">Blandet</span>
                     </button>
                 </div>
             </div>
             
             <div class="bg-white rounded-lg shadow-md p-6 mb-6">
-                <h2 class="text-xl font-semibold mb-4">Quiz-innstillinger</h2>
+                <h2 class="text-xl font-semibold mb-4" data-i18n="quizSettings">Quiz-innstillinger</h2>
                 <div class="mb-4">
-                    <label class="block text-gray-700 mb-2" for="difficulty">Vanskelighetsgrad:</label>
+                    <label class="block text-gray-700 mb-2" for="difficulty" data-i18n="difficulty">Vanskelighetsgrad:</label>
                     <select id="difficulty" class="w-full p-2 border border-gray-300 rounded-md">
-                        <option value="easy">Lett</option>
-                        <option value="medium" selected>Middels</option>
-                        <option value="hard">Vanskelig</option>
-                        <option value="mixed">Blandet</option>
+                        <option value="easy" data-i18n="difficultyEasy">Lett</option>
+                        <option value="medium" selected data-i18n="difficultyMedium">Middels</option>
+                        <option value="hard" data-i18n="difficultyHard">Vanskelig</option>
+                        <option value="mixed" data-i18n="difficultyMixed">Blandet</option>
                     </select>
                 </div>
                 <div class="mb-4">
-                    <label class="block text-gray-700 mb-2" for="question-count">Antall spørsmål:</label>
+                    <label class="block text-gray-700 mb-2" for="question-count" data-i18n="questionCount">Antall spørsmål:</label>
                     <select id="question-count" class="w-full p-2 border border-gray-300 rounded-md">
                         <option value="5">5 spørsmål</option>
                         <option value="10" selected>10 spørsmål</option>
@@ -207,25 +210,25 @@
             </div>
             
             <div class="bg-white rounded-lg shadow-md p-6 mb-6">
-                <h2 class="text-xl font-semibold mb-4">Spillere</h2>
+                <h2 class="text-xl font-semibold mb-4" data-i18n="players">Spillere</h2>
                 <div id="players-list" class="mb-4">
                     <!-- Player entries will be added here dynamically -->
                 </div>
                 <div class="flex border rounded-md mb-4 overflow-hidden">
-                    <input type="text" id="new-player-name" placeholder="Legg til spiller..." class="flex-grow p-2 border-none focus:outline-none" aria-label="Spillernavn">
-                    <button id="add-player-btn" class="bg-indigo-600 text-white px-4 py-2 hover:bg-indigo-700 transition">Legg til</button>
+                    <input type="text" id="new-player-name" data-i18n-placeholder="addPlayerPlaceholder" placeholder="Legg til spiller..." class="flex-grow p-2 border-none focus:outline-none" aria-label="Spillernavn">
+                    <button id="add-player-btn" class="bg-indigo-600 text-white px-4 py-2 hover:bg-indigo-700 transition" data-i18n="addPlayer">Legg til</button>
                 </div>
-                <p class="text-sm text-gray-600">Legg til minst én spiller for å starte quizen.</p>
+                <p class="text-sm text-gray-600" data-i18n="addPlayerMinimum">Legg til minst én spiller for å starte quizen.</p>
             </div>
             
-            <button id="start-quiz-btn" class="w-full py-3 bg-indigo-600 text-white font-medium rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed transition">
+            <button id="start-quiz-btn" class="w-full py-3 bg-indigo-600 text-white font-medium rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed transition" data-i18n="startQuiz">
                 Start Quiz
             </button>
             
             <!-- Loading indicator -->
             <div id="loading-indicator" class="hidden flex justify-center items-center mt-4">
                 <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600"></div>
-                <span class="ml-2">Laster spørsmål...</span>
+                <span class="ml-2" data-i18n="loadingQuestions">Laster spørsmål...</span>
             </div>
         </section>
         
@@ -233,9 +236,9 @@
         <section id="quiz-screen" class="screen hidden">
             <div class="mb-6 flex items-center justify-between">
                 <button id="back-to-home" class="text-indigo-600 flex items-center">
-                    <i class="fas fa-arrow-left mr-2" aria-hidden="true"></i> Tilbake
+                    <i class="fas fa-arrow-left mr-2" aria-hidden="true"></i> <span data-i18n="back">Tilbake</span>
                 </button>
-                <div class="quiz-progress-text text-gray-600">Spørsmål <span id="current-question">1</span>/<span id="total-questions">10</span></div>
+                <div class="quiz-progress-text text-gray-600"><span data-i18n="question">Spørsmål</span> <span id="current-question">1</span>/<span id="total-questions">10</span></div>
             </div>
             
             <div class="bg-white rounded-lg shadow-md p-6 mb-6">
@@ -251,24 +254,24 @@
             </div>
             
             <div class="player-answers bg-white rounded-lg shadow-md p-4 mb-6">
-                <h3 class="text-lg font-semibold mb-3">Spillernes svar</h3>
+                <h3 class="text-lg font-semibold mb-3" data-i18n="playerAnswers">Spillernes svar</h3>
                 <div id="player-answers-container" class="space-y-2">
                     <!-- Player answer selections will be added here dynamically -->
                 </div>
             </div>
             
             <div class="player-scores bg-white rounded-lg shadow-md p-4">
-                <h3 class="text-lg font-semibold mb-3">Poengstilling</h3>
+                <h3 class="text-lg font-semibold mb-3" data-i18n="playerScores">Poengstilling</h3>
                 <div id="scoreboard" class="space-y-2">
                     <!-- Scoreboard entries will be added here dynamically -->
                 </div>
             </div>
             
             <div class="mt-6 flex justify-center space-x-4">
-                <button id="check-answers-btn" class="px-4 py-2 bg-green-600 text-white font-medium rounded-lg shadow-md hover:bg-green-700 focus:outline-none hidden">
+                <button id="check-answers-btn" class="px-4 py-2 bg-green-600 text-white font-medium rounded-lg shadow-md hover:bg-green-700 focus:outline-none hidden" data-i18n="checkAnswers">
                     Sjekk svar
                 </button>
-                <button id="next-question-btn" class="px-4 py-2 bg-indigo-600 text-white font-medium rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none hidden">
+                <button id="next-question-btn" class="px-4 py-2 bg-indigo-600 text-white font-medium rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none hidden" data-i18n="nextQuestion">
                     Neste spørsmål
                 </button>
             </div>
@@ -287,7 +290,7 @@
                 
                 <!-- Victory title -->
                 <h1 class="text-4xl font-bold mb-8 text-center transition-all duration-1000 victory-title">
-                    Gratulerer med seieren, <span id="winner-name" class="text-indigo-600">Vinner</span>!
+                    <span data-i18n="congratulations">Gratulerer med seieren,</span> <span id="winner-name" class="text-indigo-600">Vinner</span>!
                 </h1>
                 
                 <!-- Podium -->
@@ -322,7 +325,7 @@
                 
                 <!-- Full results -->
                 <div class="w-full max-w-md transition-all duration-1000 delay-500 results-list">
-                    <h2 class="text-xl font-semibold mb-4 text-center">Alle resultater</h2>
+                    <h2 class="text-xl font-semibold mb-4 text-center" data-i18n="allResults">Alle resultater</h2>
                     <div id="full-results" class="bg-white rounded-lg shadow-md p-4">
                         <!-- Full results will be added here dynamically -->
                     </div>
@@ -330,10 +333,10 @@
                 
                 <!-- Action buttons -->
                 <div class="mt-8 flex gap-4 transition-all duration-1000 delay-700 action-buttons">
-                    <button id="play-again-btn" class="px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50">
+                    <button id="play-again-btn" class="px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50" data-i18n="playAgain">
                         Spill igjen
                     </button>
-                    <button id="home-btn" class="px-6 py-3 bg-gray-200 text-gray-800 font-medium rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50">
+                    <button id="home-btn" class="px-6 py-3 bg-gray-200 text-gray-800 font-medium rounded-lg shadow-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50" data-i18n="backToHome">
                         Tilbake til hjem
                     </button>
                 </div>
