@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 /* Custom theme variables */
-:root {
+@theme {
   /* Indigo palette in OKLCH */
   --color-indigo-50: oklch(0.96 0.03 266.7);
   --color-indigo-100: oklch(0.94 0.04 267.5);
@@ -36,8 +36,6 @@
   /* Base spacing unit */
   --spacing: 0.25rem;
 }
-
-/* Main Styles for QuizZone */
 
 /* Screen Transitions */
 .screen {
