@@ -1,76 +1,89 @@
 <!DOCTYPE html>
 <html lang="no">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval'; script-src * 'self' data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src * 'self' data: blob: 'unsafe-inline'; img-src * 'self' data: blob: 'unsafe-inline'; frame-src * 'self' data: blob: ; style-src * 'self' data: blob: 'unsafe-inline'; font-src * 'self' data: blob: 'unsafe-inline'; worker-src * 'self' data: blob: 'unsafe-inline';">
-    <title>Om QuizZone - Lær hvordan du spiller vår morsomme quiz-app</title>
-    <meta name="description" content="Lær hvordan du spiller QuizZone med venner og familie. Enkle regler, ulike vanskelighetsgrader og temaer for alle aldre. Start din quiz i dag!">
-    <meta name="keywords" content="quiz spill regler, quiz-app, hvordan spille quiz, quiz med venner, norske spørsmål, familiequiz, jobbelag">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'self' data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval'; script-src * 'self' data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src * 'self' data: blob: 'unsafe-inline'; img-src * 'self' data: blob: 'unsafe-inline'; frame-src * 'self' data: blob: ; style-src * 'self' data: blob: 'unsafe-inline'; font-src * 'self' data: blob: 'unsafe-inline'; worker-src * 'self' data: blob: 'unsafe-inline';">
+        <title>Om QuizZone - Lær hvordan du spiller vår morsomme quiz-app</title>
+        <meta name="description" content="Lær hvordan du spiller QuizZone med venner og familie. Enkle regler, ulike vanskelighetsgrader og temaer for alle aldre. Start din quiz i dag!">
+        <meta name="keywords" content="quiz spill regler, quiz-app, hvordan spille quiz, quiz med venner, norske spørsmål, familiequiz, jobbelag">
+        
+        <!-- Favicon for browser tab -->
+        <link rel="icon" type="image/x-icon" href="/assets/images/icon_east.ico">
     
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://quizzone.no/about.html">
-    <meta property="og:title" content="Om QuizZone - Hvordan spille">
-    <meta property="og:description" content="Lær hvordan du spiller QuizZone med venner og familie. Enkle regler, ulike vanskelighetsgrader og temaer for alle aldre.">
-    <meta property="og:image" content="https://quizzone.no/images/quizzone-about-preview.jpg">
+        <!-- Apple Touch Icon -->
+        <link rel="apple-touch-icon" href="/assets/images/icon_east.png">
     
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://quizzone.no/about.html">
-    <meta property="twitter:title" content="Om QuizZone - Hvordan spille">
-    <meta property="twitter:description" content="Lær hvordan du spiller QuizZone med venner og familie. Enkle regler, ulike vanskelighetsgrader og temaer for alle aldre.">
-    <meta property="twitter:image" content="https://quizzone.no/images/quizzone-about-preview.jpg">
+        <!-- Microsoft Windows Tiles -->
+        <meta name="msapplication-TileImage" content="/assets/images/icon_east.png">
     
-    <!-- Preload critical resources -->
-    <link rel="preload" href="css/styles.css" as="style">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2602658229657216"
-     crossorigin="anonymous"></script>
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://quizzone.no/about.html">
+        <meta property="og:title" content="Om QuizZone - Hvordan spille">
+        <meta property="og:description" content="Lær hvordan du spiller QuizZone med venner og familie. Enkle regler, ulike vanskelighetsgrader og temaer for alle aldre.">
+        <meta property="og:image" content="https://quizzone.no/assets/images/icon_east.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512"> <!-- Juster til faktisk bredde hvis kjent -->
+        <meta property="og:image:height" content="512"> <!-- Juster til faktisk høyde hvis kjent -->
     
-    <!-- Defer loading of non-critical JavaScript -->
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://quizzone.no/about.html">
+        <meta property="twitter:title" content="Om QuizZone - Hvordan spille">
+        <meta property="twitter:description" content="Lær hvordan du spiller QuizZone med venner og familie. Enkle regler, ulike vanskelighetsgrader og temaer for alle aldre.">
+        <meta property="twitter:image" content="https://quizzone.no/assets/images/icon_east.png">
     
-    <!-- Optimized Analytics loading -->
-    <script>
-        // Only load Google Analytics if online and not running locally
-        if (navigator.onLine && !window.location.href.includes('file://')) {
-            // Create a non-blocking analytics loading function
-            const loadAnalytics = () => {
-                const gaScript = document.createElement('script');
-                gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-E40HWE9G2K';
-                gaScript.async = true;
-                document.head.appendChild(gaScript);
-                
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-E40HWE9G2K', {
-                    'send_page_view': false, // Manually send page views for better control
-                    'anonymize_ip': true     // Enhances privacy
-                });
-                
-                // Send pageview after page has loaded
-                if (document.readyState === 'complete') {
-                    gtag('event', 'page_view');
-                } else {
-                    window.addEventListener('load', () => {
-                        gtag('event', 'page_view');
+        <!-- Preload critical resources -->
+        <link rel="preload" href="css/styles.css" as="style">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2602658229657216" crossorigin="anonymous"></script>
+        
+        <!-- Defer loading of non-critical JavaScript -->
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+        
+        <!-- Optimized Analytics loading -->
+        <script>
+            // Only load Google Analytics if online and not running locally
+            if (navigator.onLine && !window.location.href.includes('file://')) {
+                // Create a non-blocking analytics loading function
+                const loadAnalytics = () => {
+                    const gaScript = document.createElement('script');
+                    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-E40HWE9G2K';
+                    gaScript.async = true;
+                    document.head.appendChild(gaScript);
+                    
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-E40HWE9G2K', {
+                        'send_page_view': false, // Manually send page views for better control
+                        'anonymize_ip': true     // Enhances privacy
                     });
+                    
+                    // Send pageview after page has loaded
+                    if (document.readyState === 'complete') {
+                        gtag('event', 'page_view');
+                    } else {
+                        window.addEventListener('load', () => {
+                            gtag('event', 'page_view');
+                        });
+                    }
+                };
+                
+                // Defer analytics loading
+                if (window.requestIdleCallback) {
+                    requestIdleCallback(loadAnalytics);
+                } else {
+                    setTimeout(loadAnalytics, 2000); // Fallback for browsers without requestIdleCallback
                 }
-            };
-            
-            // Defer analytics loading
-            if (window.requestIdleCallback) {
-                requestIdleCallback(loadAnalytics);
-            } else {
-                setTimeout(loadAnalytics, 2000); // Fallback for browsers without requestIdleCallback
             }
-        }
-    </script>
-</head>
+        </script>
+    </head>
 <body class="bg-gray-50 min-h-screen">
     <div class="container mx-auto px-4 py-6">
         <div class="mb-6 flex items-center">
