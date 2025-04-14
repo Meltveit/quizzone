@@ -1,6 +1,6 @@
-// Quiz Management for QuizZone
+// Quiz Management for QuizZone - Optimized Version
 const quizManager = {
-    // Question databases (will be loaded from JSON files)
+    // Question databases (will be loaded on-demand)
     questionDatabases: {
         easter: null,
         general: null,
@@ -9,142 +9,135 @@ const quizManager = {
         kids: null
     },
     
-    // Initialize by loading question databases
-    loadQuestionDatabases: async function(callback) {
+    // Load a specific question database 
+    loadQuestionDatabase: async function(theme, callback) {
         try {
-            // Load all question databases in parallel
-            const themes = ['easter', 'general', 'movies', 'sports', 'kids'];
-            const promises = themes.map(theme => {
-                return fetch(`data/questions-${theme}.json`)
-                    .then(response => {
-                        if (!response.ok) {
-                            throw new Error(`Failed to load ${theme} questions`);
+            console.log(`Loading question database for theme: ${theme}`);
+            // If already loaded, use the cached version
+            if (this.questionDatabases[theme] && this.questionDatabases[theme].length > 0) {
+                console.log(`Using cached questions for theme: ${theme}`);
+                if (callback && typeof callback === 'function') {
+                    callback(this.questionDatabases[theme]);
+                }
+                return this.questionDatabases[theme];
+            }
+            
+            // Load only the requested theme
+            const response = await fetch(`data/questions-${theme}.json`);
+            if (!response.ok) {
+                throw new Error(`Failed to load ${theme} questions`);
+            }
+            
+            const data = await response.json();
+            
+            // Validate that the data is an array of questions with expected properties
+            if (Array.isArray(data) && data.length > 0) {
+                // Check first question for expected properties
+                const firstQuestion = data[0];
+                if (!firstQuestion.question || 
+                    !firstQuestion.correctAnswer ||
+                    !Array.isArray(firstQuestion.incorrectAnswers)) {
+                    console.warn(`${theme} questions have invalid format, attempting to fix`);
+                    
+                    // Normalize the data format
+                    const normalizedData = data.map(q => {
+                        return {
+                            question: q.question || `Question ${Math.random().toString(36).substring(7)}`,
+                            correctAnswer: q.correctAnswer || (q.options ? q.options[0] : "Answer"),
+                            incorrectAnswers: Array.isArray(q.incorrectAnswers) ? q.incorrectAnswers : 
+                                            (q.options ? q.options.slice(1) : ["Option A", "Option B", "Option C"]),
+                            category: q.category || theme,
+                            difficulty: q.difficulty || "medium"
                         }
-                        return response.json();
-                    })
-                    .then(data => {
-                        // Validate that the data is an array of questions with the expected properties
-                        if (Array.isArray(data) && data.length > 0) {
-                            // Check the first question for expected properties
-                            const firstQuestion = data[0];
-                            if (!firstQuestion.question || 
-                                !firstQuestion.correctAnswer ||
-                                !Array.isArray(firstQuestion.incorrectAnswers)) {
-                                console.warn(`${theme} questions have invalid format, attempting to fix:`);
-                                
-                                // Try to normalize the data format
-                                const normalizedData = data.map(q => {
-                                    return {
-                                        question: q.question || `Question ${Math.random().toString(36).substring(7)}`,
-                                        correctAnswer: q.correctAnswer || (q.options ? q.options[0] : "Answer"),
-                                        incorrectAnswers: Array.isArray(q.incorrectAnswers) ? q.incorrectAnswers : 
-                                                        (q.options ? q.options.slice(1) : ["Option A", "Option B", "Option C"]),
-                                        category: q.category || theme,
-                                        difficulty: q.difficulty || "medium"
-                                    }
-                                });
-                                
-                                this.questionDatabases[theme] = normalizedData;
-                                console.log(`Fixed and loaded ${theme} questions: ${normalizedData.length} items`);
-                            } else {
-                                this.questionDatabases[theme] = data;
-                                console.log(`Loaded ${theme} questions: ${data.length} items`);
-                            }
-                        } else {
-                            throw new Error(`Invalid data format for ${theme}`);
-                        }
-                        return theme;
-                    })
-                    .catch(error => {
-                        console.error(`Error loading ${theme} questions:`, error);
-                        this.questionDatabases[theme] = [];
-                        return theme;
                     });
-            });
-            
-            // Wait for all promises to resolve
-            await Promise.all(promises);
-            
-            // Validate that we have at least one database with questions
-            const hasQuestions = Object.values(this.questionDatabases).some(db => db && db.length > 0);
-            
-            if (!hasQuestions) {
-                console.error('No question databases were loaded successfully. Quiz cannot proceed.');
+                    
+                    this.questionDatabases[theme] = normalizedData;
+                    console.log(`Fixed and loaded ${theme} questions: ${normalizedData.length} items`);
+                } else {
+                    this.questionDatabases[theme] = data;
+                    console.log(`Loaded ${theme} questions: ${data.length} items`);
+                }
+            } else {
+                throw new Error(`Invalid data format for ${theme}`);
             }
             
             if (callback && typeof callback === 'function') {
-                callback();
+                callback(this.questionDatabases[theme]);
             }
+            
+            return this.questionDatabases[theme];
         } catch (error) {
-            console.error('Error loading question databases:', error);
+            console.error(`Error loading ${theme} questions:`, error);
+            this.questionDatabases[theme] = [];
             
             if (callback && typeof callback === 'function') {
-                callback();
+                callback([]);
             }
+            
+            return [];
+        }
+    },
+    
+    // For backward compatibility
+    loadQuestionDatabases: async function(callback) {
+        console.log('Legacy loadQuestionDatabases called - this method is deprecated');
+        if (callback && typeof callback === 'function') {
+            callback();
         }
     },
     
     // Generate a quiz based on theme, difficulty, and count
-    generateQuiz: function(theme, difficulty, count, callback) {
-        // Check if databases are loaded, if not load them first
-        if (!this.questionDatabases.general) {
-            this.loadQuestionDatabases(() => {
-                this.generateQuiz(theme, difficulty, count, callback);
-            });
-            return;
-        }
+    generateQuiz: async function(theme, difficulty, count, callback) {
+        console.log(`Generating quiz: theme=${theme}, difficulty=${difficulty}, count=${count}`);
         
-        let questions = [];
-        
-        // Get questions based on theme
+        // For mixed theme, load all databases as needed
         if (theme === 'mixed') {
-            // For mixed theme, get questions from all databases
-            const allQuestions = [];
+            const availableThemes = ['easter', 'general', 'movies', 'sports', 'kids'];
+            const loadThemePromises = [];
+            
+            for (const themeToLoad of availableThemes) {
+                // Only load themes that haven't been loaded already
+                if (!this.questionDatabases[themeToLoad] || this.questionDatabases[themeToLoad].length === 0) {
+                    loadThemePromises.push(this.loadQuestionDatabase(themeToLoad));
+                }
+            }
+            
+            if (loadThemePromises.length > 0) {
+                await Promise.all(loadThemePromises);
+            }
+            
+            let allQuestions = [];
             Object.keys(this.questionDatabases).forEach(dbTheme => {
                 if (this.questionDatabases[dbTheme] && this.questionDatabases[dbTheme].length > 0) {
-                    allQuestions.push(...this.questionDatabases[dbTheme]);
+                    allQuestions = allQuestions.concat(this.questionDatabases[dbTheme]);
                 }
             });
-            questions = allQuestions;
+            
+            return this.processQuestions(allQuestions, difficulty, count, callback);
         } else {
-            // Get questions from the specific theme
-            questions = this.questionDatabases[theme] || [];
+            // Load specific theme
+            const questions = await this.loadQuestionDatabase(theme);
+            return this.processQuestions(questions, difficulty, count, callback);
+        }
+    },
+    
+    // Process questions based on difficulty and count
+    processQuestions: function(questions, difficulty, count, callback) {
+        if (!questions || questions.length === 0) {
+            console.warn('No questions available for this theme');
+            if (callback && typeof callback === 'function') {
+                callback([]);
+            }
+            return [];
         }
         
-        console.log(`Found ${questions.length} questions for theme: ${theme}`);
-        
-        // If we don't have any questions for this theme, try to load them again
-        if (questions.length === 0) {
-            console.warn(`No questions available for theme: ${theme}. Attempting to reload.`);
-            // Try to reload just this theme's database
-            fetch(`data/questions-${theme}.json`)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`Failed to load ${theme} questions`);
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    console.log(`Successfully reloaded ${theme} questions: ${data.length} items`);
-                    this.questionDatabases[theme] = data;
-                    // Retry generating the quiz with the newly loaded questions
-                    this.generateQuiz(theme, difficulty, count, callback);
-                })
-                .catch(error => {
-                    console.error(`Error reloading ${theme} questions:`, error);
-                    // Alert user that no questions could be loaded
-                    if (callback && typeof callback === 'function') {
-                        callback([]);
-                    }
-                });
-            return;
-        }
+        console.log(`Found ${questions.length} questions to process`);
         
         // Filter by difficulty if not mixed
         if (difficulty !== 'mixed') {
             const filteredQuestions = questions.filter(q => q.difficulty === difficulty);
             
-            // Only apply the filter if we have enough questions after filtering
+            // Only apply filter if we have enough questions after filtering
             if (filteredQuestions.length >= count || filteredQuestions.length >= questions.length * 0.5) {
                 questions = filteredQuestions;
             } else {
@@ -221,8 +214,7 @@ const quizManager = {
     }
 };
 
-// Make quizManager globally available - modified to ensure it's defined
-// This ensures it's accessible even if there's an error elsewhere in the file
+// Make quizManager globally available
 window.quizManager = quizManager;
 
 // Also expose it in the global scope for script tags loading

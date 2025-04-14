@@ -1,8 +1,6 @@
 (function() {
     "use strict";
 
-    console.log('Script start');
-
     // Global state for the application
     const appState = {
         selectedTheme: null,
@@ -14,13 +12,12 @@
         currentPlayerIndex: 0,
         playerAnswers: {},
         answersChecked: false,
-        scores: {}
+        scores: {},
+        isLoading: false
     };
-    console.log('appState initialized:', appState);
 
     // DOM elements cache
     let elements = {};
-    console.log('elements initialized:', elements);
 
     // Initialize the app when DOM is fully loaded
     if (document.readyState === 'loading') {
@@ -29,92 +26,20 @@
         initApp();
     }
 
-    // Ensure quizManager is available
-    function ensureQuizManager() {
-        if (typeof window.quizManager === 'undefined') {
-            console.warn('quizManager not found in window. Checking for global quizManager...');
-            
-            if (typeof quizManager === 'undefined') {
-                console.error('quizManager not found. Creating a fallback implementation.');
-                
-                window.quizManager = {
-                    questionDatabases: {
-                        easter: [], general: [], movies: [], sports: [], kids: []
-                    },
-                    loadQuestionDatabases: function(callback) {
-                        console.warn('Using fallback loadQuestionDatabases function');
-                        if (callback && typeof callback === 'function') {
-                            callback();
-                        }
-                    },
-                    generateQuiz: function(theme, difficulty, count, callback) {
-                        console.warn('Using fallback generateQuiz function');
-                        const dummyQuestions = [
-                            {
-                                question: "This is a sample question as the quiz manager failed to load properly.",
-                                options: ["Answer A", "Answer B", "Answer C", "Answer D"],
-                                correctIndex: 0,
-                                category: "General",
-                                difficulty: "medium"
-                            }
-                        ];
-                        
-                        if (callback && typeof callback === 'function') {
-                            callback(dummyQuestions);
-                        }
-                        return dummyQuestions;
-                    },
-                    shuffleArray: function(array) {
-                        return [...array].sort(() => Math.random() - 0.5);
-                    }
-                };
-            } else {
-                window.quizManager = quizManager;
-            }
-        }
-        
-        return window.quizManager;
-    }
-
     // Initialize the application
     function initApp() {
-        console.log('initApp called, appState:', appState, 'elements:', elements);
-        
-        if (typeof elements === 'undefined') {
-            console.error('elements is undefined in initApp');
-            elements = {};
-        }
-        if (typeof appState === 'undefined') {
-            console.error('appState is undefined in initApp');
-            return;
-        }
-
         cacheElements();
-        ensureQuizManager();
         setupEventListeners();
         updateStartQuizState();
         loadSavedState();
-        
-        setTimeout(() => {
-            window.quizManager.loadQuestionDatabases(() => {
-                console.log('Question databases loaded successfully.');
-            });
-        }, 1000);
     }
 
     // Cache DOM elements for better performance
     function cacheElements() {
-        console.log('cacheElements called, elements before:', elements);
-        
-        if (typeof elements === 'undefined') {
-            console.error('elements is undefined in cacheElements, reinitializing');
-            elements = {};
-        }
-
         const $ = document.querySelector.bind(document);
         const $$ = document.querySelectorAll.bind(document);
 
-        Object.assign(elements, {
+        elements = {
             homeScreen: $('#home-screen'),
             quizScreen: $('#quiz-screen'),
             resultsScreen: $('#results-screen'),
@@ -145,14 +70,9 @@
             fullResults: $('#full-results'),
             playAgainBtn: $('#play-again-btn'),
             homeBtn: $('#home-btn'),
-            confettiContainer: $('#confetti-container')
-        });
-
-        console.log('cacheElements completed, elements after:', elements);
-
-        if (!elements.homeScreen || !elements.quizScreen || !elements.resultsScreen) {
-            console.warn('Some critical DOM elements were not found:', elements);
-        }
+            confettiContainer: $('#confetti-container'),
+            loadingIndicator: $('#loading-indicator')
+        };
     }
 
     // Load saved state from storage
@@ -192,8 +112,6 @@
                     selectTheme(themeButton.dataset.theme);
                 }
             });
-        } else {
-            console.warn('Theme container not found for event listener setup');
         }
         
         if (elements.difficultySelect) {
@@ -217,6 +135,7 @@
         if (elements.addPlayerBtn) {
             elements.addPlayerBtn.addEventListener('click', addPlayer);
         }
+        
         if (elements.newPlayerName) {
             elements.newPlayerName.addEventListener('keypress', event => {
                 if (event.key === 'Enter') {
@@ -240,14 +159,17 @@
         if (elements.startQuizBtn) {
             elements.startQuizBtn.addEventListener('click', startQuiz);
         }
+        
         if (elements.backToHomeBtn) {
             elements.backToHomeBtn.addEventListener('click', () => {
                 showScreen(elements.homeScreen);
             });
         }
+        
         if (elements.nextQuestionBtn) {
             elements.nextQuestionBtn.addEventListener('click', showNextQuestion);
         }
+        
         if (elements.checkAnswersBtn) {
             elements.checkAnswersBtn.addEventListener('click', checkAnswers);
         }
@@ -258,6 +180,7 @@
                 startQuiz();
             });
         }
+        
         if (elements.homeBtn) {
             elements.homeBtn.addEventListener('click', () => {
                 resetQuiz();
@@ -331,10 +254,7 @@
     }
 
     function renderPlayersList() {
-        if (!elements.playersList) {
-            console.warn('playersList element not found');
-            return;
-        }
+        if (!elements.playersList) return;
         
         const fragment = document.createDocumentFragment();
         
@@ -356,8 +276,7 @@
 
     // Update start quiz button state
     function updateStartQuizState() {
-        console.log('updateStartQuizState called, appState:', appState);
-        const canStart = appState.selectedTheme && appState.players.length > 0;
+        const canStart = appState.selectedTheme && appState.players.length > 0 && !appState.isLoading;
         if (elements.startQuizBtn) {
             elements.startQuizBtn.disabled = !canStart;
             elements.startQuizBtn.classList.toggle('opacity-50', !canStart);
@@ -365,50 +284,60 @@
         }
     }
 
-    function startQuiz() {
-        if (!elements.startQuizBtn) return;
+    function showLoadingState(isLoading) {
+        appState.isLoading = isLoading;
+        updateStartQuizState();
         
-        elements.startQuizBtn.textContent = 'Laster...';
-        elements.startQuizBtn.disabled = true;
+        if (elements.startQuizBtn) {
+            elements.startQuizBtn.textContent = isLoading ? 'Laster...' : 'Start Quiz';
+            elements.startQuizBtn.disabled = isLoading;
+        }
         
-        const quizManagerInstance = ensureQuizManager();
+        if (elements.loadingIndicator) {
+            elements.loadingIndicator.style.display = isLoading ? 'flex' : 'none';
+        }
+    }
+
+    async function startQuiz() {
+        showLoadingState(true);
         
-        requestAnimationFrame(() => {
-            quizManagerInstance.generateQuiz(
+        try {
+            if (!window.quizManager) {
+                throw new Error('Quiz manager not found');
+            }
+            
+            const quiz = await window.quizManager.generateQuiz(
                 appState.selectedTheme,
                 appState.difficulty,
-                appState.questionCount,
-                quiz => {
-                    if (!quiz || quiz.length === 0) {
-                        console.error('No questions were returned from the quiz generator');
-                        alert('Failed to load quiz questions. Please try again or choose a different theme.');
-                        elements.startQuizBtn.textContent = 'Start Quiz';
-                        elements.startQuizBtn.disabled = false;
-                        return;
-                    }
-                    
-                    appState.currentQuiz = quiz;
-                    appState.currentQuestionIndex = 0;
-                    appState.currentPlayerIndex = 0;
-                    appState.playerAnswers = {};
-                    appState.answersChecked = false;
-                    
-                    appState.players.forEach(player => {
-                        appState.scores[player] = 0;
-                    });
-                    
-                    showScreen(elements.quizScreen);
-                    
-                    renderCurrentQuestion();
-                    updateQuizProgress();
-                    renderScoreboard();
-                    renderPlayerAnswerSelection();
-                    
-                    elements.startQuizBtn.textContent = 'Start Quiz';
-                    elements.startQuizBtn.disabled = false;
-                }
+                appState.questionCount
             );
-        });
+            
+            if (!quiz || quiz.length === 0) {
+                throw new Error('No questions were returned from the quiz generator');
+            }
+            
+            appState.currentQuiz = quiz;
+            appState.currentQuestionIndex = 0;
+            appState.currentPlayerIndex = 0;
+            appState.playerAnswers = {};
+            appState.answersChecked = false;
+            
+            appState.players.forEach(player => {
+                appState.scores[player] = 0;
+            });
+            
+            showScreen(elements.quizScreen);
+            
+            renderCurrentQuestion();
+            updateQuizProgress();
+            renderScoreboard();
+            renderPlayerAnswerSelection();
+        } catch (error) {
+            console.error('Failed to start quiz:', error);
+            alert('Failed to load quiz questions. Please try again or choose a different theme.');
+        } finally {
+            showLoadingState(false);
+        }
     }
 
     function showScreen(screenToShow) {
@@ -437,9 +366,6 @@
             }
             if (elements.answerOptions) {
                 elements.answerOptions.innerHTML = '';
-            }
-            if (elements.nextQuestionBtn) {
-                elements.nextQuestionBtn.classList.remove('hidden');
             }
             return;
         }
@@ -496,6 +422,10 @@
             nameElement.className = 'player-name font-medium';
             nameElement.textContent = player;
             
+            if (appState.players[appState.currentPlayerIndex] === player && !appState.answersChecked) {
+                nameElement.classList.add('current-player');
+            }
+            
             const answerButtons = document.createElement('div');
             answerButtons.className = 'answer-buttons flex space-x-2';
             
@@ -550,7 +480,15 @@
         
         if (elements.checkAnswersBtn) {
             elements.checkAnswersBtn.classList.toggle('hidden', !allPlayersAnswered || appState.answersChecked);
+            
+            // Add pulse animation if all players have answered
+            if (allPlayersAnswered && !appState.answersChecked) {
+                elements.checkAnswersBtn.classList.add('pulse');
+            } else {
+                elements.checkAnswersBtn.classList.remove('pulse');
+            }
         }
+        
         if (elements.nextQuestionBtn) {
             elements.nextQuestionBtn.classList.toggle('hidden', !appState.answersChecked);
         }
@@ -570,13 +508,18 @@
 
     function selectPlayerAnswer(player, answerIndex) {
         appState.playerAnswers[player] = answerIndex;
+        
+        // If this is the current player, advance to next player
+        if (appState.players[appState.currentPlayerIndex] === player) {
+            appState.currentPlayerIndex = (appState.currentPlayerIndex + 1) % appState.players.length;
+        }
+        
         renderPlayerAnswerSelection();
     }
 
     function selectCurrentPlayerAnswer(answerIndex) {
         const currentPlayer = appState.players[appState.currentPlayerIndex];
         selectPlayerAnswer(currentPlayer, answerIndex);
-        appState.currentPlayerIndex = (appState.currentPlayerIndex + 1) % appState.players.length;
     }
 
     function checkAnswers() {
@@ -607,7 +550,10 @@
             answerOptions.forEach((option, index) => {
                 if (index === correctIndex) {
                     option.classList.add('correct');
-                    option.setAttribute('aria-label', 'Correct answer');
+                    animations?.flashCorrectAnswer?.(option);
+                } else if (Object.values(appState.playerAnswers).includes(index)) {
+                    option.classList.add('incorrect');
+                    animations?.shakeIncorrectAnswer?.(option);
                 }
             });
         }
@@ -621,6 +567,7 @@
             return;
         }
         
+        appState.currentPlayerIndex = 0;
         updateQuizProgress();
         renderCurrentQuestion();
     }
@@ -680,46 +627,40 @@
     }
 
     function showResults() {
-        if (typeof scoreManager === 'undefined' || !scoreManager.calculateResults) {
-            console.error('scoreManager not found or missing calculateResults method');
-            
-            const calculateResults = function(players, scores) {
-                const playerResults = players.map(player => {
-                    return {
-                        name: player,
-                        score: scores[player] || 0
-                    };
-                });
-                
-                playerResults.sort((a, b) => b.score - a.score);
-                
-                let currentPosition = 1;
-                let previousScore = null;
-                let skipPositions = 0;
-                
-                playerResults.forEach((player, index) => {
-                    if (index === 0) {
-                        player.position = 1;
-                        previousScore = player.score;
-                    } else {
-                        if (player.score === previousScore) {
-                            player.position = currentPosition;
-                            skipPositions++;
-                        } else {
-                            currentPosition += skipPositions + 1;
-                            player.position = currentPosition;
-                            skipPositions = 0;
-                        }
-                        previousScore = player.score;
-                    }
-                });
-                
-                return playerResults;
-            };
-            
-            var sortedPlayers = calculateResults(appState.players, appState.scores);
+        // Use scoreManager if available, otherwise fallback to internal calculation
+        let sortedPlayers;
+        
+        if (typeof scoreManager !== 'undefined' && scoreManager.calculateResults) {
+            sortedPlayers = scoreManager.calculateResults(appState.players, appState.scores);
         } else {
-            var sortedPlayers = scoreManager.calculateResults(appState.players, appState.scores);
+            // Fallback implementation
+            sortedPlayers = appState.players.map(player => ({
+                name: player,
+                score: appState.scores[player] || 0
+            }));
+            
+            sortedPlayers.sort((a, b) => b.score - a.score);
+            
+            let currentPosition = 1;
+            let previousScore = null;
+            let skipPositions = 0;
+            
+            sortedPlayers.forEach((player, index) => {
+                if (index === 0) {
+                    player.position = 1;
+                    previousScore = player.score;
+                } else {
+                    if (player.score === previousScore) {
+                        player.position = currentPosition;
+                        skipPositions++;
+                    } else {
+                        currentPosition += skipPositions + 1;
+                        player.position = currentPosition;
+                        skipPositions = 0;
+                    }
+                    previousScore = player.score;
+                }
+            });
         }
         
         showScreen(elements.resultsScreen);
@@ -788,18 +729,41 @@
         if (typeof animations !== 'undefined' && animations.createConfetti) {
             animations.createConfetti(elements.confettiContainer);
         } else {
-            console.warn('Animations module not found or missing createConfetti method');
-            createBasicConfetti();
+            // Fallback implementation
+            const confettiContainer = elements.confettiContainer;
+            if (!confettiContainer) return;
+            
+            const colors = ['#f94144', '#f3722c', '#f8961e', '#f9c74f', '#90be6d', '#43aa8b', '#577590'];
+            const fragment = document.createDocumentFragment();
+            
+            for (let i = 0; i < 50; i++) {
+                const piece = document.createElement('div');
+                piece.className = 'confetti-piece';
+                
+                const leftPos = Math.random() * 100;
+                const animationDelay = Math.random() * 5;
+                const color = colors[Math.floor(Math.random() * colors.length)];
+                
+                piece.style.left = `${leftPos}%`;
+                piece.style.backgroundColor = color;
+                piece.style.width = `${Math.random() * 10 + 5}px`;
+                piece.style.height = `${Math.random() * 15 + 5}px`;
+                piece.style.animationDelay = `${animationDelay}s`;
+                
+                fragment.appendChild(piece);
+            }
+            
+            confettiContainer.appendChild(fragment);
         }
     }
 
     function animateResultsElements() {
         const animationSequence = [
-            { selector: '.trophy-animation', className: 'show-trophy', delay: 500 },
-            { selector: '.victory-title', className: 'show-title', delay: 800 },
-            { selector: '.podium-container', className: 'show-podium', delay: 1100 },
-            { selector: '.results-list', className: 'show-results', delay: 1400 },
-            { selector: '.action-buttons', className: 'show-buttons', delay: 1700 }
+            { selector: '.trophy-animation', className: 'show-trophy', delay: 300 },
+            { selector: '.victory-title', className: 'show-title', delay: 600 },
+            { selector: '.podium-container', className: 'show-podium', delay: 900 },
+            { selector: '.results-list', className: 'show-results', delay: 1200 },
+            { selector: '.action-buttons', className: 'show-buttons', delay: 1500 }
         ];
         
         animationSequence.forEach(item => {
@@ -808,33 +772,6 @@
                 if (element) element.classList.add(item.className);
             }, item.delay);
         });
-    }
-
-    function createBasicConfetti() {
-        const confettiContainer = elements.confettiContainer;
-        if (!confettiContainer) return;
-        
-        const colors = ['#f94144', '#f3722c', '#f8961e', '#f9c74f', '#90be6d', '#43aa8b', '#577590'];
-        const fragment = document.createDocumentFragment();
-        
-        for (let i = 0; i < 50; i++) {
-            const piece = document.createElement('div');
-            piece.className = 'confetti-piece';
-            
-            const leftPos = Math.random() * 100;
-            const animationDelay = Math.random() * 5;
-            const color = colors[Math.floor(Math.random() * colors.length)];
-            
-            piece.style.left = `${leftPos}%`;
-            piece.style.backgroundColor = color;
-            piece.style.width = `${Math.random() * 10 + 5}px`;
-            piece.style.height = `${Math.random() * 15 + 5}px`;
-            piece.style.animationDelay = `${animationDelay}s`;
-            
-            fragment.appendChild(piece);
-        }
-        
-        confettiContainer.appendChild(fragment);
     }
 
     function resetQuiz() {
