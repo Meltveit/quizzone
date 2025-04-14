@@ -1,210 +1,259 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Main Styles for QuizZone */
 
-/* Custom theme variables */
-@layer base {
-  :root {
-    /* Indigo palette in OKLCH */
-    --color-indigo-50: oklch(0.96 0.03 266.7);
-    --color-indigo-100: oklch(0.94 0.04 267.5);
-    --color-indigo-200: oklch(0.91 0.07 267.5);
-    --color-indigo-300: oklch(0.84 0.11 267.3);
-    --color-indigo-400: oklch(0.76 0.15 267.1);
-    --color-indigo-500: oklch(0.68 0.18 266.7);
-    --color-indigo-600: oklch(0.53 0.23 266.5);
-    --color-indigo-700: oklch(0.48 0.21 267.4);
-    --color-indigo-800: oklch(0.32 0.15 267.2);
-    --color-indigo-900: oklch(0.25 0.11 267.3);
-    
-    /* Gray palette */
-    --color-gray-50: oklch(0.98 0.003 0);
-    --color-gray-100: oklch(0.95 0.006 0);
-    --color-gray-200: oklch(0.92 0.009 0);
-    --color-gray-300: oklch(0.87 0.012 0);
-    --color-gray-400: oklch(0.80 0.015 0);
-    --color-gray-500: oklch(0.74 0.017 0);
-    --color-gray-600: oklch(0.66 0.017 0);
-    --color-gray-700: oklch(0.59 0.015 0);
-    --color-gray-800: oklch(0.43 0.012 0);
-    --color-gray-900: oklch(0.28 0.008 0);
-    
-    /* Success/error colors */
-    --color-green-500: oklch(0.66 0.17 155.0);
-    --color-green-600: oklch(0.55 0.21 155.0);
-    --color-red-500: oklch(0.66 0.25 27.6);
-    --color-red-600: oklch(0.61 0.26 27.7);
-    
-    /* Base spacing unit */
-    --spacing: 0.25rem;
-  }
+/* Screen Transitions */
+.screen {
+    transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
-@layer components {
-  /* Screen Transitions */
-  .screen {
-    transition: opacity 0.4s ease, transform 0.4s ease;
-  }
-
-  .screen.hidden {
+.screen.hidden {
     display: none;
     opacity: 0;
     transform: translateY(20px);
-  }
+}
 
-  .screen.active {
+.screen.active {
     display: block;
     opacity: 1;
     transform: translateY(0);
-  }
+}
 
-  /* Theme Button Styles */
-  .theme-btn {
+/* Theme Button Styles */
+.theme-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     transition: all 0.2s ease;
-  }
+}
 
-  .theme-btn:hover {
+.theme-btn:hover {
     transform: translateY(-2px);
-  }
+}
 
-  .theme-btn.selected {
-    background-color: var(--color-indigo-600);
+.theme-btn.selected {
+    background-color: #4f46e5;
     color: white;
-  }
+}
 
-  /* Player Item Styles */
-  .player-item {
-    transition: background-color 0.2s ease;
-  }
+/* Player Item Styles */
+.player-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.375rem;
+    background-color: #f3f4f6;
+}
 
-  .player-item:hover {
-    background-color: var(--color-gray-100);
-  }
+.player-item .player-name {
+    font-weight: 500;
+}
 
-  .remove-player {
-    transition: transform 0.2s ease, color 0.2s ease;
-  }
-
-  .remove-player:hover {
-    transform: scale(1.1);
-    color: var(--color-red-600);
-  }
-
-  /* Answer Option Styles */
-  .answer-option {
-    transition: all 0.2s ease;
+.player-item .remove-player {
+    color: #dc2626;
     cursor: pointer;
-  }
+    transition: transform 0.2s ease;
+}
 
-  .answer-option:hover {
-    background-color: var(--color-gray-200);
-  }
+.player-item .remove-player:hover {
+    transform: scale(1.1);
+}
 
-  .answer-option.selected {
-    background-color: var(--color-indigo-400);
+/* Answer Option Styles */
+.answer-option {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #f3f4f6;
+    text-align: left;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    margin-bottom: 0.5rem;
+}
+
+.answer-option:hover {
+    background-color: #e5e7eb;
+}
+
+.answer-option.selected {
+    background-color: #818cf8;
     color: white;
-  }
+}
 
-  .answer-option.correct {
-    background-color: var(--color-green-600);
+.answer-option.correct {
+    background-color: #10b981;
     color: white;
-  }
+}
 
-  .answer-option.incorrect {
-    background-color: var(--color-red-600);
+.answer-option.incorrect {
+    background-color: #ef4444;
     color: white;
-  }
-
-  /* Quiz Progress Bar Animation */
-  .quiz-progress-fill {
-    transition: width 0.5s ease;
-  }
 }
 
-/* Score Update Animation */
-@keyframes scoreUpdate {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.2); }
-  100% { transform: scale(1); }
+/* Score Item Styles */
+.score-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: 1px solid #e5e7eb;
 }
 
-.score-updated {
-  animation: scoreUpdate 0.5s ease;
+.score-item:last-child {
+    border-bottom: none;
 }
 
-/* Player Answer Row Styles */
-.player-answer-row {
-  transition: background-color 0.2s ease;
-}
-
-.player-answer-row:hover {
-  background-color: var(--color-gray-50);
-}
-
-/* Answer Button Animations */
-@keyframes correctAnswer {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.2); }
-  100% { transform: scale(1); }
-}
-
-@keyframes incorrectAnswer {
-  0% { transform: translateX(0); }
-  25% { transform: translateX(-5px); }
-  50% { transform: translateX(5px); }
-  75% { transform: translateX(-5px); }
-  100% { transform: translateX(0); }
-}
-
-.animate-correct {
-  animation: correctAnswer 0.5s ease;
-}
-
-.animate-incorrect {
-  animation: incorrectAnswer 0.5s ease;
+.score-item .player-score {
+    font-weight: 600;
 }
 
 /* Confetti Animation */
 @keyframes fall {
-  0% { transform: translateY(-10vh) rotate(0deg); }
-  100% { transform: translateY(100vh) rotate(360deg); }
+    0% { transform: translateY(-10vh) rotate(0deg); }
+    100% { transform: translateY(100vh) rotate(360deg); }
 }
 
 .confetti-piece {
-  position: absolute;
-  width: 10px;
-  height: 16px;
-  background-color: #fbbf24;
-  opacity: 0.8;
-  border-radius: 2px;
-  top: -20px;
-  animation: fall 8s linear infinite;
-}
-
-.animate-fall-slow {
-  animation: fall 8s linear infinite;
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    background-color: #fbbf24;
+    opacity: 0.8;
+    border-radius: 2px;
+    top: -20px;
+    animation: fall 8s linear infinite;
 }
 
 /* Results Screen Animations */
 .trophy-animation {
-  opacity: 0;
-  transform: scale(0);
-  transition: all 1s ease;
+    opacity: 0;
+    transform: scale(0);
 }
 
 .victory-title {
-  opacity: 0;
-  transform: translateY(10px);
-  transition: all 1s ease;
+    opacity: 0;
+    transform: translateY(10px);
 }
 
 .podium-container {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 1s ease;
+    opacity: 0;
+    transform: translateY(20px);
 }
 
-<<<<<<< HEAD
+.results-list {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.action-buttons {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.show-trophy {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.show-title {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.show-podium {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.show-results {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.show-buttons {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Quiz Progress Bar Animation */
+.quiz-progress-fill {
+    transition: width 0.5s ease;
+}
+
+/* Score Update Animation */
+@keyframes scoreUpdate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+.score-updated {
+    animation: scoreUpdate 0.5s ease;
+}
+
+/* Player Answer Row Styles */
+.player-answer-row {
+    transition: all 0.2s ease;
+}
+
+.player-answer-row:hover {
+    background-color: #f9fafb;
+}
+
+/* Answer Button Animations */
+@keyframes correctAnswer {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+@keyframes incorrectAnswer {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.animate-correct {
+    animation: correctAnswer 0.5s ease;
+}
+
+.animate-incorrect {
+    animation: incorrectAnswer 0.5s ease;
+}
+
+/* Check Answer Button Pulse */
+@keyframes buttonPulse {
+    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(5, 150, 105, 0.7); }
+    70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(5, 150, 105, 0); }
+    100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(5, 150, 105, 0); }
+}
+
+#check-answers-btn.pulse {
+    animation: buttonPulse 1.5s infinite;
+}
+
+/* Background transition for answer buttons */
+.answer-buttons button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.answer-buttons button:hover {
+    transform: scale(1.1);
+}
+
+/* Additional styling for player answer area */
+.player-answers {
+    border-top: 3px solid #e5e7eb;
+}
+
+.player-name {
+    position: relative;
+}
+
 .player-name.current-player::before {
     content: '→';
     position: absolute;
@@ -230,48 +279,10 @@
     .confetti-piece {
         animation: none;
     }
-=======
-.results-list {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 1s ease;
-}
-
-.action-buttons {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 1s ease;
-}
-
-.show-trophy {
-  opacity: 1;
-  transform: scale(1);
-}
-
-.show-title {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.show-podium {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.show-results {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.show-buttons {
-  opacity: 1;
-  transform: translateY(0);
->>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
 }
 
 /* Mobile optimization */
 @media (max-width: 640px) {
-<<<<<<< HEAD
     .theme-btn {
         padding: 0.75rem !important;
     }
@@ -283,40 +294,21 @@
     .trophy-animation {
         transform: scale(0.8);
     }
-=======
-  .theme-btn {
-    padding: 0.75rem !important;
-  }
-  
-  .answer-option {
-    padding: 0.75rem;
-  }
->>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
 }
 
 /* Accessibility improvements */
 button:focus, a:focus, input:focus, select:focus {
-<<<<<<< HEAD
     outline: 2px solid #4f46e5;
     outline-offset: 2px;
-=======
-  outline: 2px solid var(--color-indigo-600);
-  outline-offset: 2px;
->>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
 }
 
 button:focus:not(:focus-visible), a:focus:not(:focus-visible), 
 input:focus:not(:focus-visible), select:focus:not(:focus-visible) {
-<<<<<<< HEAD
     outline: none;
-=======
-  outline: none;
->>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
 }
 
 button:focus-visible, a:focus-visible, 
 input:focus-visible, select:focus-visible {
-<<<<<<< HEAD
     outline: 2px solid #4f46e5;
     outline-offset: 2px;
 }
@@ -363,8 +355,4 @@ input:focus-visible, select:focus-visible {
         margin: 0;
         padding: 0;
     }
-=======
-  outline: 2px solid var(--color-indigo-600);
-  outline-offset: 2px;
->>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
 }

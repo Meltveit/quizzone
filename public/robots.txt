@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Sitemap: https://quizzone.no/sitemap.xml
+
+# Disallow admin areas if they exist
+Disallow: /admin/
+Disallow: /wp-admin/
+
+# Allow all image and CSS/JS files
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
