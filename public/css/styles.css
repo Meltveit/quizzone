@@ -1,119 +1,124 @@
-/* Import Tailwind CSS */
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Custom theme variables */
-@theme {
-  /* Indigo palette in OKLCH */
-  --color-indigo-50: oklch(0.96 0.03 266.7);
-  --color-indigo-100: oklch(0.94 0.04 267.5);
-  --color-indigo-200: oklch(0.91 0.07 267.5);
-  --color-indigo-300: oklch(0.84 0.11 267.3);
-  --color-indigo-400: oklch(0.76 0.15 267.1);
-  --color-indigo-500: oklch(0.68 0.18 266.7);
-  --color-indigo-600: oklch(0.53 0.23 266.5);
-  --color-indigo-700: oklch(0.48 0.21 267.4);
-  --color-indigo-800: oklch(0.32 0.15 267.2);
-  --color-indigo-900: oklch(0.25 0.11 267.3);
-  
-  /* Gray palette */
-  --color-gray-50: oklch(0.98 0.003 0);
-  --color-gray-100: oklch(0.95 0.006 0);
-  --color-gray-200: oklch(0.92 0.009 0);
-  --color-gray-300: oklch(0.87 0.012 0);
-  --color-gray-400: oklch(0.80 0.015 0);
-  --color-gray-500: oklch(0.74 0.017 0);
-  --color-gray-600: oklch(0.66 0.017 0);
-  --color-gray-700: oklch(0.59 0.015 0);
-  --color-gray-800: oklch(0.43 0.012 0);
-  --color-gray-900: oklch(0.28 0.008 0);
-  
-  /* Success/error colors */
-  --color-green-500: oklch(0.66 0.17 155.0);
-  --color-green-600: oklch(0.55 0.21 155.0);
-  --color-red-500: oklch(0.66 0.25 27.6);
-  --color-red-600: oklch(0.61 0.26 27.7);
-  
-  /* Base spacing unit */
-  --spacing: 0.25rem;
+@layer base {
+  :root {
+    /* Indigo palette in OKLCH */
+    --color-indigo-50: oklch(0.96 0.03 266.7);
+    --color-indigo-100: oklch(0.94 0.04 267.5);
+    --color-indigo-200: oklch(0.91 0.07 267.5);
+    --color-indigo-300: oklch(0.84 0.11 267.3);
+    --color-indigo-400: oklch(0.76 0.15 267.1);
+    --color-indigo-500: oklch(0.68 0.18 266.7);
+    --color-indigo-600: oklch(0.53 0.23 266.5);
+    --color-indigo-700: oklch(0.48 0.21 267.4);
+    --color-indigo-800: oklch(0.32 0.15 267.2);
+    --color-indigo-900: oklch(0.25 0.11 267.3);
+    
+    /* Gray palette */
+    --color-gray-50: oklch(0.98 0.003 0);
+    --color-gray-100: oklch(0.95 0.006 0);
+    --color-gray-200: oklch(0.92 0.009 0);
+    --color-gray-300: oklch(0.87 0.012 0);
+    --color-gray-400: oklch(0.80 0.015 0);
+    --color-gray-500: oklch(0.74 0.017 0);
+    --color-gray-600: oklch(0.66 0.017 0);
+    --color-gray-700: oklch(0.59 0.015 0);
+    --color-gray-800: oklch(0.43 0.012 0);
+    --color-gray-900: oklch(0.28 0.008 0);
+    
+    /* Success/error colors */
+    --color-green-500: oklch(0.66 0.17 155.0);
+    --color-green-600: oklch(0.55 0.21 155.0);
+    --color-red-500: oklch(0.66 0.25 27.6);
+    --color-red-600: oklch(0.61 0.26 27.7);
+    
+    /* Base spacing unit */
+    --spacing: 0.25rem;
+  }
 }
 
-/* Screen Transitions */
-.screen {
-  transition: opacity 0.4s ease, transform 0.4s ease;
-}
+@layer components {
+  /* Screen Transitions */
+  .screen {
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
 
-.screen.hidden {
-  display: none;
-  opacity: 0;
-  transform: translateY(20px);
-}
+  .screen.hidden {
+    display: none;
+    opacity: 0;
+    transform: translateY(20px);
+  }
 
-.screen.active {
-  display: block;
-  opacity: 1;
-  transform: translateY(0);
-}
+  .screen.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
 
-/* Theme Button Styles */
-.theme-btn {
-  transition: all 0.2s ease;
-}
+  /* Theme Button Styles */
+  .theme-btn {
+    transition: all 0.2s ease;
+  }
 
-.theme-btn:hover {
-  transform: translateY(-2px);
-}
+  .theme-btn:hover {
+    transform: translateY(-2px);
+  }
 
-.theme-btn.selected {
-  background-color: var(--color-indigo-600);
-  color: white;
-}
+  .theme-btn.selected {
+    background-color: var(--color-indigo-600);
+    color: white;
+  }
 
-/* Player Item Styles */
-.player-item {
-  transition: background-color 0.2s ease;
-}
+  /* Player Item Styles */
+  .player-item {
+    transition: background-color 0.2s ease;
+  }
 
-.player-item:hover {
-  background-color: var(--color-gray-100);
-}
+  .player-item:hover {
+    background-color: var(--color-gray-100);
+  }
 
-.remove-player {
-  transition: transform 0.2s ease, color 0.2s ease;
-}
+  .remove-player {
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
 
-.remove-player:hover {
-  transform: scale(1.1);
-  color: var(--color-red-600);
-}
+  .remove-player:hover {
+    transform: scale(1.1);
+    color: var(--color-red-600);
+  }
 
-/* Answer Option Styles */
-.answer-option {
-  transition: all 0.2s ease;
-  cursor: pointer;
-}
+  /* Answer Option Styles */
+  .answer-option {
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
 
-.answer-option:hover {
-  background-color: var(--color-gray-200);
-}
+  .answer-option:hover {
+    background-color: var(--color-gray-200);
+  }
 
-.answer-option.selected {
-  background-color: var(--color-indigo-400);
-  color: white;
-}
+  .answer-option.selected {
+    background-color: var(--color-indigo-400);
+    color: white;
+  }
 
-.answer-option.correct {
-  background-color: var(--color-green-600);
-  color: white;
-}
+  .answer-option.correct {
+    background-color: var(--color-green-600);
+    color: white;
+  }
 
-.answer-option.incorrect {
-  background-color: var(--color-red-600);
-  color: white;
-}
+  .answer-option.incorrect {
+    background-color: var(--color-red-600);
+    color: white;
+  }
 
-/* Quiz Progress Bar Animation */
-.quiz-progress-fill {
-  transition: width 0.5s ease;
+  /* Quiz Progress Bar Animation */
+  .quiz-progress-fill {
+    transition: width 0.5s ease;
+  }
 }
 
 /* Score Update Animation */
