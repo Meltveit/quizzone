@@ -23,8 +23,19 @@
     <meta property="twitter:description" content="Gratis quiz-app med spørsmål for alle aldre. Velg tema, vanskelighetsgrad og spill sammen med venner og familie.">
     <meta property="twitter:image" content="https://quizzone.no/images/quizzone-preview.jpg">
     
+<<<<<<< HEAD
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" as="style">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="preload" href="js/app.js" as="script">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+=======
     <!-- Tailwind CSS -->
     <link href="css/styles.css" rel="stylesheet">
+>>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
     
     <!-- Defer loading of non-critical JavaScript -->
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
@@ -67,8 +78,13 @@
       }
     </script>
 
+<<<<<<< HEAD
+    <script defer src="https://my.rtmark.net/p.js?f=sync&lr=1&partner=e955cc05d4a884acda36acc75c5e2150b5800bd5e62521dff9c1a3ae95339f7a"></script>
+    <noscript><img src="https://my.rtmark.net/img.gif?f=sync&lr=1&partner=e955cc05d4a884acda36acc75c5e2150b5800bd5e62521dff9c1a3ae95339f7a" width="1" height="1" alt="tracking pixel" /></noscript>
+=======
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2602658229657216"
      crossorigin="anonymous"></script>
+>>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
 </head>
 <body class="bg-gray-50 min-h-screen">
     <div id="app" class="container mx-auto px-4 py-6 max-w-4xl">
@@ -85,6 +101,29 @@
             <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
                 <h2 class="text-xl font-semibold mb-4">Velg quiz-tema</h2>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+<<<<<<< HEAD
+                    <button class="theme-btn p-4 rounded-lg bg-indigo-100 hover:bg-indigo-200 transition" data-theme="easter">
+                        <span class="text-2xl mb-1" aria-hidden="true">🐣</span>
+                        <span class="block font-medium">Påske</span>
+                    </button>
+                    <button class="theme-btn p-4 rounded-lg bg-indigo-100 hover:bg-indigo-200 transition" data-theme="general">
+                        <span class="text-2xl mb-1" aria-hidden="true">🧠</span>
+                        <span class="block font-medium">Allmennkunnskap</span>
+                    </button>
+                    <button class="theme-btn p-4 rounded-lg bg-indigo-100 hover:bg-indigo-200 transition" data-theme="movies">
+                        <span class="text-2xl mb-1" aria-hidden="true">🎬</span>
+                        <span class="block font-medium">Film &amp; TV</span>
+                    </button>
+                    <button class="theme-btn p-4 rounded-lg bg-indigo-100 hover:bg-indigo-200 transition" data-theme="sports">
+                        <span class="text-2xl mb-1" aria-hidden="true">⚽</span>
+                        <span class="block font-medium">Sport</span>
+                    </button>
+                    <button class="theme-btn p-4 rounded-lg bg-indigo-100 hover:bg-indigo-200 transition" data-theme="kids">
+                        <span class="text-2xl mb-1" aria-hidden="true">👶</span>
+                        <span class="block font-medium">Barn</span>
+                    </button>
+                    <button class="theme-btn p-4 rounded-lg bg-indigo-100 hover:bg-indigo-200 transition" data-theme="mixed">
+=======
                     <button class="theme-btn p-4 rounded-lg bg-indigo-100 hover:bg-indigo-200 transition flex flex-col items-center justify-center" data-theme="easter">
                         <span class="text-2xl mb-1" aria-hidden="true">🐣</span>
                         <span class="block font-medium">Påske</span>
@@ -106,6 +145,7 @@
                         <span class="block font-medium">Barn</span>
                     </button>
                     <button class="theme-btn p-4 rounded-lg bg-indigo-100 hover:bg-indigo-200 transition flex flex-col items-center justify-center" data-theme="mixed">
+>>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
                         <span class="text-2xl mb-1" aria-hidden="true">🎲</span>
                         <span class="block font-medium">Blandet</span>
                     </button>
@@ -140,7 +180,11 @@
                 <div id="players-list" class="mb-4 space-y-2">
                     <!-- Player entries will be added here dynamically -->
                 </div>
+<<<<<<< HEAD
+                <div class="flex border rounded-md mb-4 overflow-hidden">
+=======
                 <div class="flex border rounded-md mb-4 overflow-hidden shadow-sm">
+>>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
                     <input type="text" id="new-player-name" placeholder="Legg til spiller..." class="flex-grow p-2 border-none focus:outline-none" aria-label="Spillernavn">
                     <button id="add-player-btn" class="bg-indigo-600 text-white px-4 py-2 hover:bg-indigo-700 transition">Legg til</button>
                 </div>
@@ -155,7 +199,11 @@
         <!-- Quiz Screen -->
         <section id="quiz-screen" class="screen hidden">
             <div class="mb-6 flex items-center justify-between">
+<<<<<<< HEAD
+                <button id="back-to-home" class="text-indigo-600 flex items-center">
+=======
                 <button id="back-to-home" class="text-indigo-600 flex items-center hover:text-indigo-800 transition">
+>>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
                     <i class="fas fa-arrow-left mr-2" aria-hidden="true"></i> Tilbake
                 </button>
                 <div class="quiz-progress-text text-gray-600">Spørsmål <span id="current-question">1</span>/<span id="total-questions">10</span></div>

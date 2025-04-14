@@ -204,6 +204,33 @@
   transition: all 1s ease;
 }
 
+<<<<<<< HEAD
+.player-name.current-player::before {
+    content: '→';
+    position: absolute;
+    left: -20px;
+    color: #4f46e5;
+}
+
+/* Optimized animations for mobile devices */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+    
+    .screen {
+        transition: none;
+    }
+    
+    .confetti-piece {
+        animation: none;
+    }
+=======
 .results-list {
   opacity: 0;
   transform: translateY(20px);
@@ -239,10 +266,24 @@
 .show-buttons {
   opacity: 1;
   transform: translateY(0);
+>>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
 }
 
 /* Mobile optimization */
 @media (max-width: 640px) {
+<<<<<<< HEAD
+    .theme-btn {
+        padding: 0.75rem !important;
+    }
+    
+    .answer-option {
+        padding: 0.75rem;
+    }
+    
+    .trophy-animation {
+        transform: scale(0.8);
+    }
+=======
   .theme-btn {
     padding: 0.75rem !important;
   }
@@ -250,21 +291,80 @@
   .answer-option {
     padding: 0.75rem;
   }
+>>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
 }
 
 /* Accessibility improvements */
 button:focus, a:focus, input:focus, select:focus {
+<<<<<<< HEAD
+    outline: 2px solid #4f46e5;
+    outline-offset: 2px;
+=======
   outline: 2px solid var(--color-indigo-600);
   outline-offset: 2px;
+>>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
 }
 
 button:focus:not(:focus-visible), a:focus:not(:focus-visible), 
 input:focus:not(:focus-visible), select:focus:not(:focus-visible) {
+<<<<<<< HEAD
+    outline: none;
+=======
   outline: none;
+>>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
 }
 
 button:focus-visible, a:focus-visible, 
 input:focus-visible, select:focus-visible {
+<<<<<<< HEAD
+    outline: 2px solid #4f46e5;
+    outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (forced-colors: active) {
+    .theme-btn.selected {
+        border: 2px solid;
+    }
+    
+    .answer-option.selected, 
+    .answer-option.correct, 
+    .answer-option.incorrect {
+        border: 2px solid;
+    }
+}
+
+/* Print styles */
+@media print {
+    .screen {
+        display: block !important;
+        opacity: 1 !important;
+        transform: none !important;
+    }
+    
+    button, 
+    input[type="button"], 
+    input[type="submit"] {
+        display: none;
+    }
+    
+    .player-scores, 
+    .full-results {
+        page-break-inside: avoid;
+    }
+    
+    body {
+        background: white;
+        color: black;
+    }
+    
+    .container {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+=======
   outline: 2px solid var(--color-indigo-600);
   outline-offset: 2px;
+>>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
 }

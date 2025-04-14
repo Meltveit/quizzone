@@ -24,7 +24,11 @@ const appState = {
 };
 
 // DOM elements cache
+<<<<<<< HEAD
+let elements = {};
+=======
 var elements = {};
+>>>>>>> b92ab5815183e57463b99a613c46219401c6b7e5
 
 // Ensure quizManager is available
 function ensureQuizManager() {
