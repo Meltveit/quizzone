@@ -1,0 +1,1416 @@
+[
+    {
+      "question": "Which day of Easter do we celebrate Jesus' resurrection from the dead?",
+      "correctAnswer": "Easter Sunday",
+      "incorrectAnswers": ["Good Friday", "Maundy Thursday", "Palm Sunday"],
+      "category": "Easter Traditions",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the most common color of Easter chicks?",
+      "correctAnswer": "Yellow",
+      "incorrectAnswers": ["Blue", "Red", "Green"],
+      "category": "Easter Symbols",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which candy is most popular during Easter?",
+      "correctAnswer": "Chocolate eggs",
+      "incorrectAnswers": ["Marzipan", "Liquorice allsorts", "Lollipop"],
+      "category": "Easter Food",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which biblical person betrayed Jesus?",
+      "correctAnswer": "Judas",
+      "incorrectAnswers": ["Peter", "Paul", "John"],
+      "category": "Bible History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which day of the week is Maundy Thursday always celebrated on?",
+      "correctAnswer": "Thursday",
+      "incorrectAnswers": ["Friday", "Wednesday", "Tuesday"],
+      "category": "Easter Traditions",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does the Easter bunny hide around?",
+      "correctAnswer": "Easter eggs",
+      "incorrectAnswers": ["Candy", "Toys", "Carrots"],
+      "category": "Easter Traditions",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which tree is known for its yellow 'catkins' in spring?",
+      "correctAnswer": "Willow tree",
+      "incorrectAnswers": ["Birch", "Oak", "Spruce"],
+      "category": "Nature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What do many people eat for lunch on Easter Saturday?",
+      "correctAnswer": "Scrambled eggs",
+      "incorrectAnswers": ["Pizza", "Tacos", "Sausages"],
+      "category": "Easter Food",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which day of Easter do we commemorate Jesus' Last Supper?",
+      "correctAnswer": "Maundy Thursday",
+      "incorrectAnswers": ["Good Friday", "Palm Sunday", "Ash Wednesday"],
+      "category": "Bible History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the name of the long fasting period leading up to Easter?",
+      "correctAnswer": "Lent",
+      "incorrectAnswers": ["Advent", "Pentecost", "All Saints' Day"],
+      "category": "Easter Traditions",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which bird is often depicted together with Easter chicks?",
+      "correctAnswer": "Hen",
+      "incorrectAnswers": ["Duck", "Goose", "Swan"],
+      "category": "Easter Symbols",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a common activity for children on Easter Saturday?",
+      "correctAnswer": "Easter egg hunt",
+      "incorrectAnswers": ["Building a snowman", "Barbecuing sausages", "Playing football"],
+      "category": "Easter Traditions",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which word describes the time before Easter when many people fast?",
+      "correctAnswer": "Lent",
+      "incorrectAnswers": ["Advent", "Christmas time", "Summer time"],
+      "category": "Easter Traditions",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which day of Easter was Jesus crucified?",
+      "correctAnswer": "Good Friday",
+      "incorrectAnswers": ["Maundy Thursday", "Easter Saturday", "Ash Wednesday"],
+      "category": "Bible History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is inside Kinder Eggs?",
+      "correctAnswer": "Chocolate and a toy",
+      "incorrectAnswers": ["Just chocolate", "Candy", "Nuts"],
+      "category": "Easter Food",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which flower is an early spring flower often associated with Easter?",
+      "correctAnswer": "Daffodil",
+      "incorrectAnswers": ["Rose", "Tulip", "Sunflower"],
+      "category": "Easter Symbols",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a traditional Easter dessert in many places?",
+      "correctAnswer": "Marzipan",
+      "incorrectAnswers": ["Chocolate pudding", "Apple pie", "Ice cream"],
+      "category": "Easter Food",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which day of Easter is between Good Friday and Easter Sunday?",
+      "correctAnswer": "Easter Saturday",
+      "incorrectAnswers": ["Easter Monday", "Little Easter Day", "Maundy Thursday"],
+      "category": "Easter Traditions",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which animal is often used as a symbol of fertility and new life at Easter?",
+      "correctAnswer": "Hare",
+      "incorrectAnswers": ["Cat", "Dog", "Elephant"],
+      "category": "Easter Symbols",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the name of the Sunday before Easter week starts?",
+      "correctAnswer": "Palm Sunday",
+      "incorrectAnswers": ["Shrove Sunday", "Whit Sunday", "Ascension Day"],
+      "category": "Easter Traditions",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What flavor do most yellow Easter chicks in candy have?",
+      "correctAnswer": "Banana",
+      "incorrectAnswers": ["Lemon", "Pineapple", "Vanilla"],
+      "category": "Easter Food",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What can you decorate with in the window to show that it is Easter?",
+      "correctAnswer": "Easter chicks or eggs",
+      "incorrectAnswers": ["Christmas stars", "Candles", "Flags"],
+      "category": "Easter Traditions",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What did Jesus do according to the Bible on Good Friday?",
+      "correctAnswer": "He was crucified",
+      "incorrectAnswers": ["He rode into Jerusalem", "He ate the Last Supper", "He washed the disciples' feet"],
+      "category": "Bible History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which country has a tradition of reading crime novels during Easter ('påskekrim')?",
+      "correctAnswer": "Norway",
+      "incorrectAnswers": ["Sweden", "Denmark", "Finland"],
+      "category": "Easter Traditions",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which part of an egg is usually eaten?",
+      "correctAnswer": "The yolk and the white",
+      "incorrectAnswers": ["Just the yolk", "Just the white", "The shell"],
+      "category": "Easter Food",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a 'påskekjerring'?",
+      "correctAnswer": "A person dressed up who went around on Maundy Thursday in the old days",
+      "incorrectAnswers": ["A witchcraft", "A figure of straw", "A type of cake"],
+      "category": "Easter Traditions",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What color is the egg of a bluethroat?",
+      "correctAnswer": "Blue",
+      "incorrectAnswers": ["White", "Brown", "Green"],
+      "category": "Nature",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a common drink for Easter lunch?",
+      "correctAnswer": "Juice or soda",
+      "incorrectAnswers": ["Coffee", "Tea", "Milk"],
+      "category": "Easter Food",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the opposite of resurrection?",
+      "correctAnswer": "Death",
+      "incorrectAnswers": ["Birth", "Life", "Sleep"],
+      "category": "Bible History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What material are most chocolate eggs made of?",
+      "correctAnswer": "Chocolate",
+      "incorrectAnswers": ["Plastic", "Glass", "Wood"],
+      "category": "Easter Food",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What kind of game can you play with Easter eggs (if they are hard-boiled)?",
+      "correctAnswer": "Egg rolling or egg tapping",
+      "incorrectAnswers": ["Football", "Volleyball", "Bowling"],
+      "category": "Easter Traditions",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the name of the garden where Jesus was arrested?",
+      "correctAnswer": "Gethsemane",
+      "incorrectAnswers": ["Eden", "Babylon", "Sinai"],
+      "category": "Bible History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which month does Easter usually fall in?",
+      "correctAnswer": "March or April",
+      "incorrectAnswers": ["February", "May", "June"],
+      "category": "Easter Traditions",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What can you use to color Easter eggs?",
+      "correctAnswer": "Food coloring or natural dyes",
+      "incorrectAnswers": ["Paint", "Marker", "Glue"],
+      "category": "Easter Traditions",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What shape are most Easter eggs?",
+      "correctAnswer": "Oval",
+      "incorrectAnswers": ["Round", "Square", "Triangular"],
+      "category": "Easter Symbols",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is another term for Palm Sunday?",
+      "correctAnswer": "The Entry into Jerusalem",
+      "incorrectAnswers": ["Good Friday", "Ash Wednesday", "The Ascension"],
+      "category": "Bible History",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which animal does not lay eggs but is still an Easter symbol?",
+      "correctAnswer": "The Easter Bunny",
+      "incorrectAnswers": ["Chick", "Hen", "Duck"],
+      "category": "Easter Symbols",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is a traditional dish many eat for dinner on Easter Sunday?",
+      "correctAnswer": "Lamb",
+      "incorrectAnswers": ["Chicken", "Cod", "Reindeer"],
+      "category": "Easter Food",
+      "difficulty": "easy"
+    },
+    {
+        "question": "What flavor do pink Easter chicks in candy often have?",
+        "correctAnswer": "Raspberry",
+        "incorrectAnswers": ["Strawberry", "Cherry", "Banana"],
+        "category": "Easter Food",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What can you make from many hard-boiled eggs left over after Easter?",
+        "correctAnswer": "Egg salad",
+        "incorrectAnswers": ["Omelette", "Cake", "Ice cream"],
+        "category": "Easter Food",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which apostle doubted Jesus' resurrection before he saw him?",
+        "correctAnswer": "Thomas",
+        "incorrectAnswers": ["Peter", "John", "Matthew"],
+        "category": "Bible History",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What kind of decorations can you hang on Easter birch branches?",
+        "correctAnswer": "Feathers and small Easter figures",
+        "incorrectAnswers": ["Christmas ornaments", "Lights", "Gingerbread cookies"],
+        "category": "Easter Traditions",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is another word for 'chick'?",
+        "correctAnswer": "Cheep-cheep",
+        "incorrectAnswers": ["Moo-moo", "Quack-quack", "Meow-meow"],
+        "category": "Easter Symbols",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which color is often used to symbolize mourning on Good Friday?",
+        "correctAnswer": "Black",
+        "incorrectAnswers": ["White", "Red", "Blue"],
+        "category": "Easter Traditions",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is a popular outdoor activity during Easter if the weather is nice?",
+        "correctAnswer": "Ski trip or a walk",
+        "incorrectAnswers": ["Swimming", "Cycling", "Football"],
+        "category": "Easter Traditions",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which ingredient is the main component in marzipan?",
+        "correctAnswer": "Almonds",
+        "incorrectAnswers": ["Wheat flour", "Eggs", "Milk"],
+        "category": "Easter Food",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the holiday celebrated 50 days after Easter?",
+        "correctAnswer": "Pentecost",
+        "incorrectAnswers": ["Ascension Day", "All Saints' Day", "Advent"],
+        "category": "Bible History",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What shape does the Easter bunny in chocolate often have?",
+        "correctAnswer": "A hare",
+        "incorrectAnswers": ["A cat", "A dog", "A chick"],
+        "category": "Easter Traditions",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is an 'Easter carol'?",
+        "correctAnswer": "A song about Easter",
+        "incorrectAnswers": ["A story", "A dance", "A game"],
+        "category": "Easter Traditions",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What flavor do green Easter chicks in candy often have?",
+        "correctAnswer": "Apple",
+        "incorrectAnswers": ["Lemon", "Lime", "Kiwi"],
+        "category": "Easter Food",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What can you use to decorate an Easter table?",
+        "correctAnswer": "Flowers, candles, and Easter figures",
+        "incorrectAnswers": ["Christmas cookies", "Halloween figures", "School books"],
+        "category": "Easter Traditions",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What did Jesus do according to the Bible on Maundy Thursday with his disciples?",
+        "correctAnswer": "He ate the Last Supper",
+        "incorrectAnswers": ["He was crucified", "He walked on water", "He ascended to heaven"],
+        "category": "Bible History",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which word is used to describe Jesus rising from the grave?",
+        "correctAnswer": "The Resurrection",
+        "incorrectAnswers": ["Salvation", "Rebirth", "The Ascension"],
+        "category": "Bible History",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What type of candy is often shaped like small eggs?",
+        "correctAnswer": "Jelly beans",
+        "incorrectAnswers": ["Chocolate", "Marzipan", "Caramels"],
+        "category": "Easter Food",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is a traditional Easter game where you break eggs against each other?",
+        "correctAnswer": "Egg tapping",
+        "incorrectAnswers": ["Egg throwing", "Egg war", "Egg golf"],
+        "category": "Easter Traditions",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which apostle denied knowing Jesus three times?",
+        "correctAnswer": "Peter",
+        "incorrectAnswers": ["John", "Judas", "Thomas"],
+        "category": "Bible History",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What type of tree is often used to make Easter birch?",
+        "correctAnswer": "Birch",
+        "incorrectAnswers": ["Spruce", "Pine", "Oak"],
+        "category": "Nature",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is a common breakfast during Easter?",
+        "correctAnswer": "Bread rolls with various toppings and eggs",
+        "incorrectAnswers": ["Oatmeal", "Cornflakes", "Pizza"],
+        "category": "Easter Food",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which color symbolizes purity and new life at Easter?",
+        "correctAnswer": "White",
+        "incorrectAnswers": ["Black", "Red", "Brown"],
+        "category": "Easter Symbols",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is a popular activity for many families during Easter?",
+        "correctAnswer": "Cabin trip",
+        "incorrectAnswers": ["Going to the cinema", "Shopping", "Traveling to warmer climates"],
+        "category": "Easter Traditions",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which nut is often used in marzipan eggs?",
+        "correctAnswer": "Almonds",
+        "incorrectAnswers": ["Walnuts", "Hazelnuts", "Pistachios"],
+        "category": "Easter Food",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the day when Jesus rode into Jerusalem on a donkey?",
+        "correctAnswer": "Palm Sunday",
+        "incorrectAnswers": ["Maundy Thursday", "Good Friday", "Ash Wednesday"],
+        "category": "Bible History",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which animal is known for laying eggs in nests?",
+        "correctAnswer": "Birds",
+        "incorrectAnswers": ["Snakes", "Frogs", "Fish"],
+        "category": "Nature",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is a traditional cake many bake for Easter?",
+        "correctAnswer": "Carrot cake",
+        "incorrectAnswers": ["Chocolate cake", "Apple pie", "Cheesecake"],
+        "category": "Easter Food",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What flavor do orange Easter chicks in candy often have?",
+        "correctAnswer": "Orange",
+        "incorrectAnswers": ["Mango", "Peach", "Carrot"],
+        "category": "Easter Food",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What can you use to make patterns on Easter eggs?",
+        "correctAnswer": "Stickers or drawing with markers",
+        "incorrectAnswers": ["Spray paint", "Stapler", "Hammer and nail"],
+        "category": "Easter Traditions",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What did Jesus pray for in the Garden of Gethsemane?",
+        "correctAnswer": "That he would not have to go through the suffering",
+        "incorrectAnswers": ["Food and drink", "Friendship and love", "Eternal life for all"],
+        "category": "Bible History",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What type of entertainment is popular to watch on TV during Easter in Norway?",
+        "correctAnswer": "Crime",
+        "incorrectAnswers": ["Romantic comedies", "Children's movies", "Nature documentaries"],
+        "category": "Easter Traditions",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the outermost layer of an egg?",
+        "correctAnswer": "The shell",
+        "incorrectAnswers": ["The yolk", "The white", "The membrane"],
+        "category": "Nature",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is an 'Easter lunch'?",
+        "correctAnswer": "A festive meal eaten in the middle of the day during Easter",
+        "incorrectAnswers": ["A type of cake", "A gift", "A decoration"],
+        "category": "Easter Food",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which disciple was not present when Jesus appeared to the others after the resurrection?",
+        "correctAnswer": "Thomas",
+        "incorrectAnswers": ["Peter", "John", "James"],
+        "category": "Bible History",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which part of the birch twig do you often decorate with feathers for Easter?",
+        "correctAnswer": "The end of the twig",
+        "incorrectAnswers": ["The middle of the twig", "The root", "The leaves"],
+        "category": "Easter Traditions",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is another word for a young hen?",
+        "correctAnswer": "Pullet",
+        "incorrectAnswers": ["Chick", "Egg", "Goose"],
+        "category": "Nature",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which color can symbolize joy and celebration at Easter?",
+        "correctAnswer": "Yellow",
+        "incorrectAnswers": ["Black", "Brown", "Gray"],
+        "category": "Easter Symbols",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is a fun thing to do with empty chocolate eggshells?",
+        "correctAnswer": "Make small figures or fill them with other candy",
+        "incorrectAnswers": ["Throw them away", "Eat them", "Use them as building blocks"],
+        "category": "Easter Traditions",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which Roman prefect sentenced Jesus to death?",
+        "correctAnswer": "Pontius Pilate",
+        "incorrectAnswers": ["Herod", "Caesar Augustus", "Nero"],
+        "category": "Bible History",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which type of fish is traditionally eaten on Good Friday in some cultures, as a sign of penance?",
+        "correctAnswer": "Cod",
+        "incorrectAnswers": ["Salmon", "Mackerel", "Tuna"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the hymn often sung during Easter services that is about Jesus' resurrection?",
+        "correctAnswer": "Christ the Lord Is Risen Today",
+        "incorrectAnswers": ["All Things Bright and Beautiful", "How Great Thou Art", "Up From the Grave He Arose"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which biblical place was the site of Jesus' crucifixion?",
+        "correctAnswer": "Golgotha",
+        "incorrectAnswers": ["Bethlehem", "Nazareth", "Bethany"],
+        "category": "Bible History",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which famous Easter Island has giant stone statues called 'moai'?",
+        "correctAnswer": "Easter Island",
+        "incorrectAnswers": ["Hawaii", "Fiji", "Madagascar"],
+        "category": "Geography",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which ingredient, besides eggs, is often used to make fluffy scrambled eggs?",
+        "correctAnswer": "Cream or milk",
+        "incorrectAnswers": ["Baking powder", "Sugar", "Lemon juice"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which public holiday always falls on a Monday after Easter Sunday?",
+        "correctAnswer": "Easter Monday",
+        "incorrectAnswers": ["Palm Sunday", "Ash Wednesday", "Ascension Day"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which English word for 'Easter' has given its name to a special type of hat often worn in Easter parades?",
+        "correctAnswer": "Easter",
+        "incorrectAnswers": ["Pascha", "Holy", "Resurrection"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which biblical woman was the first, according to the Gospel of John, to see the risen Jesus?",
+        "correctAnswer": "Mary Magdalene",
+        "incorrectAnswers": ["Mary (Jesus' mother)", "Martha", "Salome"],
+        "category": "Bible History",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which traditional dish, made from lamb offal, is eaten in some parts of Norway during Easter?",
+        "correctAnswer": "Skav",
+        "incorrectAnswers": ["Lutefisk", "Smalahove", "Pinnekjøtt"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What color is the egg of a robin?",
+        "correctAnswer": "Light blue with reddish-brown speckles",
+        "incorrectAnswers": ["Red", "Brown", "Green"],
+        "category": "Nature",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What type of bread did Jesus and his disciples eat during the Last Supper?",
+        "correctAnswer": "Unleavened bread",
+        "incorrectAnswers": ["Rye bread", "Sourdough bread", "Focaccia"],
+        "category": "Bible History",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the Jewish holiday that is celebrated at the same time as Easter and commemorates the Israelites' exodus from Egypt?",
+        "correctAnswer": "Passover (Pesach)",
+        "incorrectAnswers": ["Hanukkah", "Yom Kippur", "Rosh Hashanah"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What flavor do purple Easter chicks in candy often have?",
+        "correctAnswer": "Blackcurrant or licorice",
+        "incorrectAnswers": ["Grape", "Blueberry", "Violet"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What type of wood was traditionally used for Jesus' cross?",
+        "correctAnswer": "It is uncertain, but various traditions mention different types of wood",
+        "incorrectAnswers": ["Oak", "Cedar", "Olive"],
+        "category": "Bible History",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is an 'Easter flower' that comes early and has bell-shaped flowers?",
+        "correctAnswer": "Bluebell (Scilla)",
+        "incorrectAnswers": ["Tulip", "Rose", "Lily"],
+        "category": "Nature",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which ingredient gives marzipan its characteristic flavor?",
+        "correctAnswer": "Bitter almonds or almond essence",
+        "incorrectAnswers": ["Vanilla", "Lemon", "Cinnamon"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which day of Easter week is also called 'White Tuesday' in some traditions?",
+        "correctAnswer": "Tuesday of Easter week",
+        "incorrectAnswers": ["Easter Sunday", "Easter Monday", "Maundy Thursday"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which animal in Australia lays eggs and has a beak like a duck?",
+        "correctAnswer": "The platypus",
+        "incorrectAnswers": ["Kangaroo", "Koala", "Emu"],
+        "category": "Nature",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which biblical person helped Jesus carry his cross?",
+        "correctAnswer": "Simon of Cyrene",
+        "incorrectAnswers": ["John", "Paul", "Nicodemus"],
+        "category": "Bible History",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What type of candy is often shaped like small hares?",
+        "correctAnswer": "Chocolate bunnies",
+        "incorrectAnswers": ["Gummy bears", "Licorice pieces", "Licorice bunnies"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is an 'Easter wreath'?",
+        "correctAnswer": "A decorative wreath made of, for example, branches, eggs, and feathers, which is hung up",
+        "incorrectAnswers": ["A type of cake", "A type of candy", "A bouquet of flowers"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What flavor do blue Easter chicks in candy often have?",
+        "correctAnswer": "Blueberry or raspberry",
+        "incorrectAnswers": ["Lemon", "Apple", "Peach foam"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What type of cheese is popular to have on Easter bread?",
+        "correctAnswer": "Yellow cheese in various types",
+        "incorrectAnswers": ["Blue cheese", "Goat cheese", "Cream cheese"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What does the word 'passion' mean in connection with Easter?",
+        "correctAnswer": "The suffering and death of Jesus",
+        "incorrectAnswers": ["Love", "Resurrection", "Forgiveness"],
+        "category": "Bible History",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which traditional drink, made from malt, hops, and water, is enjoyed by many during Easter?",
+        "correctAnswer": "Beer",
+        "incorrectAnswers": ["Wine", "Mead", "Cider"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What color is the egg of a house sparrow?",
+        "correctAnswer": "Whitish with gray or brown speckles",
+        "incorrectAnswers": ["Completely white", "Blue", "Green"],
+        "category": "Nature",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is an 'Easter decoration' that resembles a small nest?",
+        "correctAnswer": "Easter bowls with small figures inside",
+        "incorrectAnswers": ["Easter eggs", "Easter tree", "Easter bunny"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What was the last thing Jesus said on the cross according to the Gospel of John?",
+        "correctAnswer": "It is finished!",
+        "incorrectAnswers": ["My God, my God, why have you forsaken me?", "Father, into your hands I commit my spirit", "I thirst"],
+        "category": "Bible History",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What type of crackers are popular to eat with Easter eggs?",
+        "correctAnswer": "Salt crackers or crackers with a neutral flavor",
+        "incorrectAnswers": ["Gingerbread cookies", "Chocolate chip cookies", "Oatmeal cookies"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which game, besides egg rolling, can you play with hard-boiled eggs?",
+        "correctAnswer": "Egg race (balancing an egg on a spoon)",
+        "incorrectAnswers": ["Egg toss", "Egg hide-and-seek", "Egg football"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which Roman soldier pierced Jesus' side with a spear to confirm that he was dead?",
+        "correctAnswer": "Longinus",
+        "incorrectAnswers": ["Pilate", "Herod", "Caiaphas"],
+        "category": "Bible History",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which lunar phase affects the timing of when Easter falls?",
+        "correctAnswer": "Full moon",
+        "incorrectAnswers": ["New moon", "Half moon", "No lunar phase"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What type of paper can you use to make colorful hanging 'Easter chicks'?",
+        "correctAnswer": "Crepe paper",
+        "incorrectAnswers": ["Tissue paper", "Parchment paper", "Newspaper"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What shape are Easter napkins often?",
+        "correctAnswer": "Often square, but can also be folded into fun shapes",
+        "incorrectAnswers": ["Always round", "Always oval", "Always triangular"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is a 'procession' that can take place on Palm Sunday?",
+        "correctAnswer": "A solemn walk with palm leaves",
+        "incorrectAnswers": ["A type of dance", "A song", "A cooking"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which fictional animal is sometimes confused with the Easter Bunny?",
+        "correctAnswer": "Easter Bilby",
+        "incorrectAnswers": ["Easter Dog", "Easter Cat", "Easter Rabbit"],
+        "category": "Easter Symbols",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What type of meat, besides lamb, is common on the Easter table in some families?",
+        "correctAnswer": "Turkey or ham",
+        "incorrectAnswers": ["Chicken", "Beef", "Pork"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What flavor do white Easter chicks in candy often have?",
+        "correctAnswer": "Vanilla or pineapple",
+        "incorrectAnswers": ["Coconut", "Lemon", "Apple"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What can you use to make a 'nest' for the Easter eggs?",
+        "correctAnswer": "Hay, grass, or paper strips",
+        "incorrectAnswers": ["Cotton", "Plastic", "Foam"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which city was Jesus in when he was arrested?",
+        "correctAnswer": "Jerusalem",
+        "incorrectAnswers": ["Bethlehem", "Nazareth", "Capernaum"],
+        "category": "Bible History",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What type of decoration can you make by blowing out the contents of eggs and painting the shell?",
+        "correctAnswer": "Easter egg decorations to hang up",
+        "incorrectAnswers": ["Egg cups", "Easter cakes", "Flower vases"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is another word for a young rooster?",
+        "correctAnswer": "Cockerel",
+        "incorrectAnswers": ["Hen", "Poultry", "Male bird"],
+        "category": "Nature",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which color symbolizes hope in Christianity and is also associated with Easter?",
+        "correctAnswer": "Green",
+        "incorrectAnswers": ["Red", "Blue", "Yellow"],
+        "category": "Easter Symbols",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What type of outing is popular during Easter to enjoy the spring?",
+        "correctAnswer": "Picnic",
+        "incorrectAnswers": ["Ski trips", "Swimming trips", "Boat trips"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which fruit is often used in Easter cakes to give a fresh taste?",
+        "correctAnswer": "Lemon",
+        "incorrectAnswers": ["Apple", "Banana", "Pear"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the eighth day after Easter, which in early Christianity was seen as an extension of the Easter celebration?",
+        "correctAnswer": "Low Sunday (Quasimodo Sunday)",
+        "incorrectAnswers": ["Ascension Day", "Pentecost", "Trinity Sunday"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What shape do Easter candles often have?",
+        "correctAnswer": "Candles in various shapes, sometimes like eggs or chicks",
+        "incorrectAnswers": ["Always round", "Always square", "Always triangular"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is an 'Easter greeting' you can send to someone?",
+        "correctAnswer": "A nice message or a card with Easter motifs",
+        "incorrectAnswers": ["A song", "A dance", "A poem"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What flavor do yellow Easter bunnies in candy often have?",
+        "correctAnswer": "Banana",
+        "incorrectAnswers": ["Lemon", "Pineapple", "Apple"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What can you use to make funny faces on hard-boiled eggs?",
+        "correctAnswer": "Markers or small edible eyes",
+        "incorrectAnswers": ["Buttons", "Beads", "Glue"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which disciple betrayed Jesus for 30 pieces of silver?",
+        "correctAnswer": "Judas Iscariot",
+        "incorrectAnswers": ["Peter", "Thomas", "John"],
+        "category": "Bible History",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What type of handicraft is popular to do with Easter motifs?",
+        "correctAnswer": "Knitting or crocheting Easter decorations",
+        "incorrectAnswers": ["Weaving", "Smithing", "Ceramics"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is a common ingredient in Easter candy that gives it a soft texture?",
+        "correctAnswer": "Gelatin",
+        "incorrectAnswers": ["Flour", "Baking powder", "Baking soda"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which traditional game with eggs involves rolling them down a hill?",
+        "correctAnswer": "Egg rolling",
+        "incorrectAnswers": ["Egg hunting", "Egg toss", "Egg race"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which New Testament figure was married to Pontius Pilate and had a dream about Jesus?",
+        "correctAnswer": "Pilate's wife",
+        "incorrectAnswers": ["Mary Magdalene", "Martha", "Elizabeth"],
+        "category": "Bible History",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which type of flower, besides daffodils, blooms early in spring and has a strong scent?",
+        "correctAnswer": "Hyacinth",
+        "incorrectAnswers": ["Rose", "Tulip", "Lily"],
+        "category": "Nature",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is a common activity for teenagers during Easter?",
+        "correctAnswer": "Gatherings with friends or visiting festivals",
+        "incorrectAnswers": ["Reading", "Homework", "Sleep"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which color can symbolize royalty and Jesus' divinity at Easter?",
+        "correctAnswer": "Purple",
+        "incorrectAnswers": ["Green", "Blue", "Red"],
+        "category": "Easter Symbols",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is a popular destination for an Easter vacation for many Norwegians?",
+        "correctAnswer": "The mountains for skiing",
+        "incorrectAnswers": ["Southern Europe", "Big city", "Home"],
+        "category": "Easter Traditions",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What type of nuts, besides almonds, are often used in Easter chocolate?",
+        "correctAnswer": "Hazelnuts",
+        "incorrectAnswers": ["Cashews", "Pistachios", "Walnuts"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the day Jesus was crucified?",
+        "correctAnswer": "Good Friday",
+        "incorrectAnswers": ["Maundy Thursday", "Easter Saturday", "Palm Sunday"],
+        "category": "Bible History",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which animal is known for building nests out of twigs high up in trees?",
+        "correctAnswer": "Birds such as birds of prey or storks",
+        "incorrectAnswers": ["Mice", "Squirrels", "Rabbits"],
+        "category": "Nature",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is a traditional dessert containing eggs and cream that is served cold?",
+        "correctAnswer": "Crème brûlée",
+        "incorrectAnswers": ["Carrot cake", "Gingerbread cookies", "Risalamande"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What flavor do pink Easter bunnies in candy often have?",
+        "correctAnswer": "Raspberry",
+        "incorrectAnswers": ["Strawberry", "Cherry", "Watermelon"],
+        "category": "Easter Food",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which of Jesus' disciples, according to apocryphal writings, was a woman and played an important role in the early accounts of the resurrection?",
+        "correctAnswer": "Mary Magdalene",
+        "incorrectAnswers": ["Salome", "Mary (Jesus' mother)", "Martha"],
+        "category": "Bible History",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of traditional Norwegian dish, based on dried and salted lamb, could historically have been part of the Easter meal after a long winter?",
+        "correctAnswer": "Cured leg of lamb (Fenalår)",
+        "incorrectAnswers": ["Fermented fish (Rakfisk)", "Cured sheep's head (Smalahove)", "Cured lamb ribs (Pinnekjøtt)"],
+        "category": "Easter Food",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which pigment is mainly responsible for the blue color in eggshells of some bird species?",
+        "correctAnswer": "Oocyanin",
+        "incorrectAnswers": ["Melanin", "Chlorophyll", "Anthocyanin"],
+        "category": "Natural Science",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of unleavened bread, with special ridges and holes, is traditional for Passover and has a symbolic meaning also in Christian Easter celebrations?",
+        "correctAnswer": "Matzah",
+        "incorrectAnswers": ["Pita", "Focaccia", "Naan"],
+        "category": "Easter Food",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which historical event in Jerusalem, which occurred around Easter time, led to a large influx of people and was the background for Jesus' entry?",
+        "correctAnswer": "The annual pilgrimage to Jerusalem for Passover",
+        "incorrectAnswers": ["The Roman takeover", "The rebuilding of the Temple", "A popular market day"],
+        "category": "Bible History",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which chemical compound gives licorice its characteristic flavor, which is sometimes found in purple Easter candy?",
+        "correctAnswer": "Glycyrrhizin",
+        "incorrectAnswers": ["Vanillin", "Menthol", "Anethole"],
+        "category": "Natural Science",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of wood was considered particularly sacred in ancient times and could have been used in religious ceremonies around Easter time in different cultures?",
+        "correctAnswer": "Oak",
+        "incorrectAnswers": ["Birch", "Pine", "Elm"],
+        "category": "Easter History",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which early spring flower, with a cup-shaped corona surrounded by petals, has a name that means 'narcissus' and is linked to myths of vanity and death?",
+        "correctAnswer": "Daffodil (Narcissus)",
+        "incorrectAnswers": ["Tulip", "Crocus", "Hyacinth"],
+        "category": "Easter Symbols",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which polysaccharide is the main component in almonds and contributes to marzipan's texture?",
+        "correctAnswer": "Cellulose",
+        "incorrectAnswers": ["Starch", "Pectin", "Glycogen"],
+        "category": "Natural Science",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which day of Easter week, according to some traditions, marks the memory of when Jesus cleansed the Temple in Jerusalem?",
+        "correctAnswer": "Monday of Holy Week",
+        "incorrectAnswers": ["Tuesday of Holy Week", "Wednesday of Holy Week", "Maundy Thursday"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which Australian mammal, in addition to the platypus, lays eggs?",
+        "correctAnswer": "The echidna",
+        "incorrectAnswers": ["Koala", "Kangaroo", "Tasmanian devil"],
+        "category": "Nature",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which Roman figure ordered, according to the New Testament, that Jesus' tomb be sealed and guarded?",
+        "correctAnswer": "Pontius Pilate",
+        "incorrectAnswers": ["Herod", "Tiberius", "Caiaphas"],
+        "category": "Bible History",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of confectionery, made from sugar and egg white, is often shaped like small birds or eggs for Easter?",
+        "correctAnswer": "Meringue",
+        "incorrectAnswers": ["Fudge", "Truffle", "Nougat"],
+        "category": "Easter Food",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of traditional decoration, made of colored feathers attached to birch twigs, symbolizes life and spring in many Nordic countries?",
+        "correctAnswer": "Easter twigs (Påskris)",
+        "incorrectAnswers": ["Feather wreath", "Birch cross", "Tree of life"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which pigment in blueberries gives them their characteristic color and can be found in blue Easter candy?",
+        "correctAnswer": "Anthocyanins",
+        "incorrectAnswers": ["Carotenoids", "Chlorophyll", "Flavonoids"],
+        "category": "Natural Science",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of cheese, with a mild and creamy taste, is traditionally served in some Easter breakfasts in Central Europe?",
+        "correctAnswer": "Quark or cottage cheese",
+        "incorrectAnswers": ["Brie", "Gouda", "Cheddar"],
+        "category": "Easter Food",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What does the Latin phrase 'Resurrexit sicut dixit' mean?",
+        "correctAnswer": "He has risen, just as he said",
+        "incorrectAnswers": ["He will return", "He is the savior", "He is the bread of life"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of alcoholic beverage, made from fermented fruit juice, can be part of Easter celebrations in some cultures?",
+        "correctAnswer": "Cider",
+        "incorrectAnswers": ["Sparkling wine", "Port wine", "Liqueur"],
+        "category": "Easter Food",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which mineral is the main component of bird eggshells?",
+        "correctAnswer": "Calcium carbonate",
+        "incorrectAnswers": ["Silicon dioxide", "Calcium phosphate", "Magnesium oxide"],
+        "category": "Natural Science",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the small, often colored, sugar balls used to decorate Easter cakes and candy?",
+        "correctAnswer": "Sprinkles or nonpareils",
+        "incorrectAnswers": ["Pearls", "Glitter", "Sugar drops"],
+        "category": "Easter Food",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which Aramaic word did Jesus use in Gethsemane when praying to God?",
+        "correctAnswer": "Abba",
+        "incorrectAnswers": ["Eloi", "Eli", "Adonai"],
+        "category": "Bible History",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of biscuit, often flavored with citrus or spices, is traditionally baked in some countries for Easter?",
+        "correctAnswer": "Shortbread or crisp biscuits",
+        "incorrectAnswers": ["Oatmeal cookies", "Digestives", "Salt crackers"],
+        "category": "Easter Food",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which game with hard-boiled eggs involves trying to crack other people's eggs without your own breaking?",
+        "correctAnswer": "Egg tapping",
+        "incorrectAnswers": ["Egg toss", "Egg rolling", "Egg dance"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which historical figure, mentioned in the Bible, donated the tomb in which Jesus was laid?",
+        "correctAnswer": "Joseph of Arimathea",
+        "incorrectAnswers": ["Nicodemus", "Lazarus", "Simon of Cyrene"],
+        "category": "Bible History",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which astronomical event marks the beginning of spring and is crucial for determining the date of Easter?",
+        "correctAnswer": "Vernal equinox",
+        "incorrectAnswers": ["Winter solstice", "Summer solstice", "Autumnal equinox"],
+        "category": "Astronomical",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of dye, extracted from plants, was historically used to give Easter eggs a reddish color?",
+        "correctAnswer": "Madder root",
+        "incorrectAnswers": ["Indigo", "Saffron", "Purple"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which geometric shape often features in the patterns on traditional Easter eggs in Eastern Europe, decorated with wax resist technique?",
+        "correctAnswer": "Often intricate, symmetrical patterns with symbolic meaning",
+        "incorrectAnswers": ["Random abstract shapes", "Simple circles and lines", "Realistic animal motifs"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of procession, reflecting Jesus' entry into Jerusalem, takes place in some Catholic traditions on Palm Sunday?",
+        "correctAnswer": "Palm procession",
+        "incorrectAnswers": ["Torchlight procession", "Stations of the Cross", "Candlemas"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which mythological being from Germanic folklore was sometimes associated with spring and fertility, and may have influenced the image of the Easter Bunny?",
+        "correctAnswer": "Ostara",
+        "incorrectAnswers": ["Freyja", "Frigg", "Idun"],
+        "category": "Easter History",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of meat broth, often made from lamb bones, is used in some traditional Easter dishes in the Mediterranean region?",
+        "correctAnswer": "Lamb broth or stock",
+        "incorrectAnswers": ["Chicken broth", "Veal broth", "Vegetable broth"],
+        "category": "Easter Food",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which organic acids are found in raspberries and give them their characteristic flavor, and can be found in pink Easter candy?",
+        "correctAnswer": "Citric acid and ellagic acid",
+        "incorrectAnswers": ["Acetic acid", "Ascorbic acid", "Salicylic acid"],
+        "category": "Natural Science",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of material, besides hay, can be used to make a decorative nest for Easter eggs that looks more modern?",
+        "correctAnswer": "Sisal rope or colored paper",
+        "incorrectAnswers": ["Plastic", "Metal", "Ceramics"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which high priest in Jerusalem played a central role in the trial of Jesus?",
+        "correctAnswer": "Caiaphas",
+        "incorrectAnswers": ["Annas", "Herod", "Gamaliel"],
+        "category": "Bible History",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of art form, where intricate patterns are cut into eggshells, is popular in some Eastern European countries around Easter time?",
+        "correctAnswer": "Pisanka art (cut eggshells)",
+        "incorrectAnswers": ["Egg painting", "Egg theatre", "Egg sculpture"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the scientific name for the domestic hen?",
+        "correctAnswer": "Gallus gallus domesticus",
+        "incorrectAnswers": ["Anas platyrhynchos", "Meleagris gallopavo", "Coturnix japonica"],
+        "category": "Natural Science",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which historical event in Ireland is linked to the introduction of Christianity and is celebrated around Easter time?",
+        "correctAnswer": "St. Patrick's arrival in Ireland",
+        "incorrectAnswers": ["The Battle of Clontarf", "Cromwell's invasion", "The Great Famine"],
+        "category": "Easter History",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of outdoor activity, where you look for hidden objects using clues, can be done with an Easter theme?",
+        "correctAnswer": "Easter orienteering or scavenger hunt",
+        "incorrectAnswers": ["Mountain climbing", "Ski jumping", "Rafting"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which spice, with a warm and aromatic flavor, is sometimes used in Easter baking to give a special twist?",
+        "correctAnswer": "Cardamom",
+        "incorrectAnswers": ["Ginger", "Allspice", "Nutmeg"],
+        "category": "Easter Food",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which theological term describes the ascension of Jesus into heaven, which occurred 40 days after the resurrection?",
+        "correctAnswer": "Ascension Day",
+        "incorrectAnswers": ["Transfiguration", "Incarnation", "Epiphany"],
+        "category": "Bible History",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of candle, often large and decorated, is lit during the Easter Vigil to symbolize the resurrection of Christ as the light of the world?",
+        "correctAnswer": "Paschal candle",
+        "incorrectAnswers": ["Advent candle", "Christmas star", "Candlemas candle"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of folk theatre performance, reenacting the Passion of Jesus Christ, is performed in some Catholic communities during Holy Week?",
+        "correctAnswer": "Passion play",
+        "incorrectAnswers": ["Mystery play", "Liturgical dance", "Easter Mass"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of candy, with a chewy texture and often fruit-flavored, is popular in the USA around Easter time?",
+        "correctAnswer": "Peeps",
+        "incorrectAnswers": ["Jelly Beans", "Licorice pieces", "Chocolate eggs"],
+        "category": "Easter Food",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of tool is traditionally used to crack the eggshell during egg tapping in some cultures?",
+        "correctAnswer": "A coin or a nail",
+        "incorrectAnswers": ["A knife", "A fork", "A spoon"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which of Jesus' disciples was a tax collector before being called by Jesus?",
+        "correctAnswer": "Matthew",
+        "incorrectAnswers": ["Thomas", "Peter", "John"],
+        "category": "Bible History",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of fabric is often used to create delicate Easter flowers as decoration?",
+        "correctAnswer": "Tissue paper or tulle",
+        "incorrectAnswers": ["Cotton", "Wool", "Linen"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which natural sweetener, extracted from the sap of certain trees, can be used in vegan Easter candies?",
+        "correctAnswer": "Maple syrup",
+        "incorrectAnswers": ["Honey", "Molasses", "Stevia"],
+        "category": "Easter Food",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which traditional Easter game in some countries involves throwing eggs so they land without breaking?",
+        "correctAnswer": "Egg toss",
+        "incorrectAnswers": ["Egg hunt", "Egg race", "Egg dance"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which Roman emperor made Christianity the state religion of the Roman Empire, influencing the celebration of Easter?",
+        "correctAnswer": "Theodosius I",
+        "incorrectAnswers": ["Constantine the Great", "Justinian I", "Nero"],
+        "category": "Easter History",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of early spring flower has small, blue bell-shaped flowers and often spreads in large carpets?",
+        "correctAnswer": "Wood anemone (Blåveis)",
+        "incorrectAnswers": ["Crocus", "Snowdrop", "Winter aconite"],
+        "category": "Nature",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of social gathering, focusing on good food and drinks, is common to arrange during Easter for friends and family?",
+        "correctAnswer": "Easter brunch",
+        "incorrectAnswers": ["Dinner", "Buffet", "Cocktail party"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which gemstone has a color that traditionally symbolizes passion and can be associated with Good Friday?",
+        "correctAnswer": "Ruby",
+        "incorrectAnswers": ["Sapphire", "Emerald", "Diamond"],
+        "category": "Easter Symbols",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of accommodation is popular for Easter holidays in Norway, especially for those who want to go skiing?",
+        "correctAnswer": "Cabin in the mountains",
+        "incorrectAnswers": ["Hotel", "Caravan", "Tent"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of nut oil is sometimes used in Easter baking to give a richer flavor?",
+        "correctAnswer": "Walnut oil",
+        "incorrectAnswers": ["Peanut oil", "Sesame oil", "Coconut oil"],
+        "category": "Easter Food",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the Hebrew word for 'rest' and is associated with the Sabbath, which was the day after Good Friday?",
+        "correctAnswer": "Shabbat",
+        "incorrectAnswers": ["Shalom", "Pesach", "Kiddush"],
+        "category": "Bible History",
+        "difficulty": "hard"
+      },   
+      {
+        "question": "Which insect undergoes a metamorphosis from larva to pupa to adult, and can symbolize transformation and new life in the context of Easter?",
+        "correctAnswer": "Butterfly",
+        "incorrectAnswers": ["Ant", "Fly", "Wasp"],
+        "category": "Easter Symbols",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which traditional sweet yeast dough cake, often with raisins and candied fruit, is eaten in Italy for Easter?",
+        "correctAnswer": "Colomba Pasquale",
+        "incorrectAnswers": ["Panettone", "Tiramisu", "Cannoli"],
+        "category": "Easter Food",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of berry provides a deep purple color and can be used to dye Easter candy naturally?",
+        "correctAnswer": "Blackberry",
+        "incorrectAnswers": ["Blueberry", "Blackcurrant", "Cloudberry"],
+        "category": "Easter Food",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of craft technique, where small objects are attached to a surface, can be used to decorate Easter eggs?",
+        "correctAnswer": "Decoupage",
+        "incorrectAnswers": ["Embroidery", "Weaving", "Knitting"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which biblical text tells of the Road to Emmaus, where two disciples met the resurrected Jesus without recognizing him?",
+        "correctAnswer": "Luke 24:13-35",
+        "incorrectAnswers": ["Matthew", "Mark", "John"],
+        "category": "Bible History",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which type of music is often performed during Easter services, such as Handel's 'Messiah'?",
+        "correctAnswer": "Oratorio",
+        "incorrectAnswers": ["Cantata", "Opera", "Symphony"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which part of the bird egg contains most of the fat and cholesterol?",
+        "correctAnswer": "The yolk",
+        "incorrectAnswers": ["The white", "The shell", "The membrane"],
+        "category": "Natural Science",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the silence traditionally observed in Catholic churches from Good Friday afternoon until the Easter Vigil?",
+        "correctAnswer": "The Great Silence",
+        "incorrectAnswers": ["The Great Darkness", "The Time of Sorrow", "The Lent Period"],
+        "category": "Easter Traditions",
+        "difficulty": "hard"
+      }
+    ] 

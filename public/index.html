@@ -4,20 +4,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Security-Policy" content="default-src * 'self' data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval'; script-src * 'self' data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src * 'self' data: blob: 'unsafe-inline'; img-src * 'self' data: blob: 'unsafe-inline'; frame-src * 'self' data: blob: ; style-src * 'self' data: blob: 'unsafe-inline'; font-src * 'self' data: blob: 'unsafe-inline'; worker-src * 'self' data: blob: 'unsafe-inline';">
+        
+        <!-- Dynamisk tittel og beskrivelse -->
         <title>QuizZone - Din ultimate quizopplevelse med venner, familie og kollegaer</title>
         <meta name="description" content="QuizZone er en gratis quiz-app med spørsmål for både barn og voksne. Velg tema, vanskelighetsgrad og spill sammen med venner og familie. Prøv nå!">
-        <meta name="keywords" content="quiz, quizspill, spørrekonkurranse, kunnskapsspill, norsk quiz, barnequiz, voksenquiz, påskequiz">
+        <meta name="keywords" content="quiz, quizspill, spørrekonkurranse, kunnskapsspill, norsk quiz, barnequiz, voksenquiz, påskequiz, quiz game, trivia, knowledge game, family quiz, kids quiz, adult quiz">
         <meta name="author" content="QuizZone">
         
         <!-- Favicon for browser tab -->
         <link rel="icon" type="image/x-icon" href="/assets/images/icon_east.ico">
-    
+        
         <!-- Apple Touch Icon -->
         <link rel="apple-touch-icon" href="/assets/images/icon_east.png">
-    
+        
         <!-- Microsoft Windows Tiles -->
         <meta name="msapplication-TileImage" content="/assets/images/icon_east.png">
-    
+        
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://quizzone.no/">
@@ -27,17 +29,61 @@
         <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
-    
+        
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://quizzone.no/">
         <meta property="twitter:title" content="QuizZone - Din ultimate quizopplevelse">
         <meta property="twitter:description" content="Gratis quiz-app med spørsmål for alle aldre. Velg tema, vanskelighetsgrad og spill sammen med venner og familie.">
         <meta property="twitter:image" content="https://quizzone.no/assets/images/icon_east.png">
-    
+        
+        <!-- JavaScript for å oppdatere meta-tagger basert på domene -->
+        <script>
+            (function() {
+                const hostname = window.location.hostname;
+                const isEuDomain = hostname.includes('quizzone.eu');
+                
+                // Definer språkspesifikke tekster
+                const metaData = {
+                    no: {
+                        title: 'QuizZone - Din ultimate quizopplevelse med venner, familie og kollegaer',
+                        description: 'QuizZone er en gratis quiz-app med spørsmål for både barn og voksne. Velg tema, vanskelighetsgrad og spill sammen med venner og familie. Prøv nå!',
+                        ogTitle: 'QuizZone - Din ultimate quizopplevelse',
+                        ogDescription: 'Gratis quiz-app med spørsmål for alle aldre. Velg tema, vanskelighetsgrad og spill sammen med venner og familie.',
+                        twitterTitle: 'QuizZone - Din ultimate quizopplevelse',
+                        twitterDescription: 'Gratis quiz-app med spørsmål for alle aldre. Velg tema, vanskelighetsgrad og spill sammen med venner og familie.',
+                        ogUrl: 'https://quizzone.no/',
+                        twitterUrl: 'https://quizzone.no/'
+                    },
+                    eu: {
+                        title: 'QuizZone - Your Ultimate Quiz Experience with Friends, Family, and Colleagues',
+                        description: 'QuizZone is a free quiz app with questions for both kids and adults. Choose theme, difficulty, and play with friends and family. Try now!',
+                        ogTitle: 'QuizZone - Your Ultimate Quiz Experience',
+                        ogDescription: 'Free quiz app with questions for all ages. Choose theme, difficulty, and play with friends and family.',
+                        twitterTitle: 'QuizZone - Your Ultimate Quiz Experience',
+                        twitterDescription: 'Free quiz app with questions for all ages. Choose theme, difficulty, and play with friends and family.',
+                        ogUrl: 'https://quizzone.eu/',
+                        twitterUrl: 'https://quizzone.eu/'
+                    }
+                };
+                
+                // Velg språk basert på domene
+                const selectedMeta = isEuDomain ? metaData.eu : metaData.no;
+                
+                // Oppdater meta-tagger
+                document.title = selectedMeta.title;
+                document.querySelector('meta[name="description"]').setAttribute('content', selectedMeta.description);
+                document.querySelector('meta[property="og:title"]').setAttribute('content', selectedMeta.ogTitle);
+                document.querySelector('meta[property="og:description"]').setAttribute('content', selectedMeta.ogDescription);
+                document.querySelector('meta[property="og:url"]').setAttribute('content', selectedMeta.ogUrl);
+                document.querySelector('meta[property="twitter:title"]').setAttribute('content', selectedMeta.twitterTitle);
+                document.querySelector('meta[property="twitter:description"]').setAttribute('content', selectedMeta.twitterDescription);
+                document.querySelector('meta[property="twitter:url"]').setAttribute('content', selectedMeta.twitterUrl);
+            })();
+        </script>
+        
         <!-- Critical CSS inline -->
         <style>
-            /* Critical path CSS */
             body {
                 font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
                 background-color: #f9fafb;
@@ -95,7 +141,7 @@
             .font-semibold { font-weight: 600; }
             .text-center { text-align: center; }
         </style>
-
+        
         <!-- Deferred CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" media="print" onload="this.media='all'">
         <link rel="stylesheet" href="css/styles.css" media="print" onload="this.media='all'">
@@ -110,7 +156,7 @@
         <!-- Ads script with defer -->
         <script defer src="https://pagead.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2602658229657216" crossorigin="anonymous"></script>
         
-        <!-- Internationalization module (should be loaded early) -->
+        <!-- Internationalization module -->
         <script src="js/i18n.js"></script>
         
         <!-- Defer loading of non-critical JavaScript -->
@@ -118,7 +164,6 @@
         
         <!-- Optimized Analytics loading -->
         <script>
-            // Only load Google Analytics in production
             if (window.location.hostname !== 'localhost' && 
                 window.location.hostname !== '127.0.0.1' && 
                 !window.location.protocol.includes('file:')) {
@@ -127,7 +172,6 @@
                 gtag('js', new Date());
                 gtag('config', 'G-E40HWE9G2K', {'send_page_view': false, 'anonymize_ip': true});
                 
-                // Load GA script after page load
                 window.addEventListener('load', function() {
                     setTimeout(function() {
                         const script = document.createElement('script');
@@ -135,11 +179,10 @@
                         script.async = true;
                         document.head.appendChild(script);
                         
-                        // Send pageview when script is loaded
                         script.onload = function() {
                             gtag('event', 'page_view');
                         };
-                    }, 3000); // Delay analytics load by 3 seconds
+                    }, 3000);
                 });
             }
         </script>

@@ -1,0 +1,1563 @@
+[
+    {
+        "question": "Which Scandinavian city was known as Christiania until 1925?",
+        "correctAnswer": "Oslo",
+        "incorrectAnswers": ["Stockholm", "Copenhagen", "Bergen"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which element has the chemical symbol Fe?",
+        "correctAnswer": "Iron",
+        "incorrectAnswers": ["Fluorine", "Phosphorus", "Potassium"],
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who painted 'The Scream'?",
+        "correctAnswer": "Edvard Munch",
+        "incorrectAnswers": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet"],
+        "category": "Art",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the name of the international airport outside London with the code LHR?",
+        "correctAnswer": "Heathrow",
+        "incorrectAnswers": ["Gatwick", "Stansted", "Luton"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which ocean lies between Europe and North America?",
+        "correctAnswer": "The Atlantic Ocean",
+        "incorrectAnswers": ["The Pacific Ocean", "The Indian Ocean", "The Mediterranean Sea"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the currency of Japan?",
+        "correctAnswer": "Yen",
+        "incorrectAnswers": ["Won", "Yuan", "Ringgit"],
+        "category": "Economics",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which Italian city is known for its canals and gondolas?",
+        "correctAnswer": "Venice",
+        "incorrectAnswers": ["Rome", "Milan", "Naples"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "In which year did the Battle of Stiklestad take place?",
+        "correctAnswer": "1030",
+        "incorrectAnswers": ["1066", "1014", "1130"],
+        "category": "History",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "correctAnswer": "H2O",
+        "incorrectAnswers": ["CO2", "O2", "NaCl"],
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which famous author wrote the book 'One Hundred Years of Solitude'?",
+        "correctAnswer": "Gabriel García Márquez",
+        "incorrectAnswers": ["Ernest Hemingway", "Jorge Luis Borges", "Mario Vargas Llosa"],
+        "category": "Literature",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the name of the Scottish loch that allegedly houses a famous monster?",
+        "correctAnswer": "Loch Ness",
+        "incorrectAnswers": ["Loch Lomond", "Loch Tay", "Loch Awe"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which planet in our solar system has the most moons to date?",
+        "correctAnswer": "Saturn",
+        "incorrectAnswers": ["Jupiter", "Uranus", "Neptune"],
+        "category": "Astronomy",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the name of the mountain range that stretches along the west coast of South America?",
+        "correctAnswer": "The Andes Mountains",
+        "incorrectAnswers": ["The Rocky Mountains", "The Alps", "The Himalayas"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which famous physicist formulated the theory of relativity?",
+        "correctAnswer": "Albert Einstein",
+        "incorrectAnswers": ["Isaac Newton", "Niels Bohr", "Stephen Hawking"],
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the capital of Australia?",
+        "correctAnswer": "Canberra",
+        "incorrectAnswers": ["Sydney", "Melbourne", "Perth"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which instrument is played by drawing a bow across strings?",
+        "correctAnswer": "Violin",
+        "incorrectAnswers": ["Piano", "Trumpet", "Guitar"],
+        "category": "Music",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which famous explorer led the first successful European sea voyage to India?",
+        "correctAnswer": "Vasco da Gama",
+        "incorrectAnswers": ["Christopher Columbus", "Ferdinand Magellan", "James Cook"],
+        "category": "History",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the name of the warm ocean current that affects the climate of Western Norway?",
+        "correctAnswer": "The Gulf Stream",
+        "incorrectAnswers": ["The Humboldt Current", "The Benguela Current", "The Labrador Current"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which Greek letter is often used to denote angles in mathematics?",
+        "correctAnswer": "Theta",
+        "incorrectAnswers": ["Alpha", "Beta", "Gamma"],
+        "category": "Mathematics",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who was the first woman in space?",
+        "correctAnswer": "Valentina Tereshkova",
+        "incorrectAnswers": ["Sally Ride", "Svetlana Savitskaya", "Christina Koch"],
+        "category": "History",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What are the names of the two main countries on the Iberian Peninsula?",
+        "correctAnswer": "Spain and Portugal",
+        "incorrectAnswers": ["France and Spain", "Italy and Greece", "Portugal and Morocco"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which element is most abundant in Earth's atmosphere?",
+        "correctAnswer": "Nitrogen",
+        "incorrectAnswers": ["Oxygen", "Argon", "Carbon Dioxide"],
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which American city is known for the Golden Gate Bridge?",
+        "correctAnswer": "San Francisco",
+        "incorrectAnswers": ["New York", "Los Angeles", "Chicago"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the highest mountain in Scandinavia?",
+        "correctAnswer": "Galdhøpiggen",
+        "incorrectAnswers": ["Glittertind", "Kebnekaise", "Snøhetta"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which famous painter has a style often called 'Surrealism'?",
+        "correctAnswer": "Salvador Dalí",
+        "incorrectAnswers": ["Pablo Picasso", "Henri Matisse", "Claude Monet"],
+        "category": "Art",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the name of the long river that flows through Egypt?",
+        "correctAnswer": "The Nile",
+        "incorrectAnswers": ["The Tigris", "The Euphrates", "The Amazon"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "In which year did World War II begin?",
+        "correctAnswer": "1939",
+        "incorrectAnswers": ["1938", "1940", "1941"],
+        "category": "History",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "correctAnswer": "Au",
+        "incorrectAnswers": ["Ag", "Fe", "Cu"],
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which famous British author created the character James Bond?",
+        "correctAnswer": "Ian Fleming",
+        "incorrectAnswers": ["Agatha Christie", "Arthur Conan Doyle", "Roald Dahl"],
+        "category": "Literature",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the name of the highest mountain in Africa?",
+        "correctAnswer": "Mount Kilimanjaro",
+        "incorrectAnswers": ["Mount Kenya", "Toubkal", "Ras Dashen"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which European city is known for its beer and the Grand Place?",
+        "correctAnswer": "Brussels",
+        "incorrectAnswers": ["Amsterdam", "Prague", "Munich"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which element is the main component of diamond?",
+        "correctAnswer": "Carbon",
+        "incorrectAnswers": ["Silicon", "Oxygen", "Hydrogen"],
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who gave the 'I Have a Dream' speech during the Civil Rights Movement in the USA?",
+        "correctAnswer": "Martin Luther King Jr.",
+        "incorrectAnswers": ["Malcolm X", "Rosa Parks", "Barack Obama"],
+        "category": "History",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the name of the largest lake in North America (by surface area)?",
+        "correctAnswer": "Lake Superior",
+        "incorrectAnswers": ["Lake Michigan", "Lake Huron", "Lake Erie"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which famous composer wrote 'Für Elise'?",
+        "correctAnswer": "Ludwig van Beethoven",
+        "incorrectAnswers": ["Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Frédéric Chopin"],
+        "category": "Music",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which river flows through Paris?",
+        "correctAnswer": "The Seine",
+        "incorrectAnswers": ["The Rhine", "The Rhône", "The Loire"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "In which year did Norway become independent from Sweden?",
+        "correctAnswer": "1905",
+        "incorrectAnswers": ["1814", "1884", "1945"],
+        "category": "History",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the chemical symbol for silver?",
+        "correctAnswer": "Ag",
+        "incorrectAnswers": ["Si", "Au", "Sv"],
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which famous author wrote the novel '1984'?",
+        "correctAnswer": "George Orwell",
+        "incorrectAnswers": ["Aldous Huxley", "Ray Bradbury", "H.G. Wells"],
+        "category": "Literature",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the name of the mountain range that separates Europe from Asia?",
+        "correctAnswer": "The Ural Mountains",
+        "incorrectAnswers": ["The Alps", "The Caucasus", "The Carpathians"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which city hosted the Summer Olympics in 2012?",
+        "correctAnswer": "London",
+        "incorrectAnswers": ["Beijing", "Rio de Janeiro", "Tokyo"],
+        "category": "Sport",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which element makes up the majority of the air we breathe?",
+        "correctAnswer": "Nitrogen",
+        "incorrectAnswers": ["Oxygen", "Carbon Dioxide", "Argon"],
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which American state is known for Hollywood?",
+        "correctAnswer": "California",
+        "incorrectAnswers": ["Florida", "New York", "Texas"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the name of the largest desert in the world (by area)?",
+        "correctAnswer": "Antarctica",
+        "incorrectAnswers": ["Sahara", "Gobi Desert", "Arabian Desert"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which famous musician is known as 'The King of Rock and Roll'?",
+        "correctAnswer": "Elvis Presley",
+        "incorrectAnswers": ["Michael Jackson", "Freddie Mercury", "John Lennon"],
+        "category": "Music",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which river flows through Berlin?",
+        "correctAnswer": "Spree",
+        "incorrectAnswers": ["Elbe", "Danube", "Rhine"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "In which year was the Berlin Wall torn down?",
+        "correctAnswer": "1989",
+        "incorrectAnswers": ["1979", "1991", "1995"],
+        "category": "History",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the chemical symbol for lead?",
+        "correctAnswer": "Pb",
+        "incorrectAnswers": ["Pl", "Bl", "By"],
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which famous author wrote the play 'Hamlet'?",
+        "correctAnswer": "William Shakespeare",
+        "incorrectAnswers": ["Henrik Ibsen", "Oscar Wilde", "Arthur Miller"],
+        "category": "Literature",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the name of the mountain range that stretches across North America?",
+        "correctAnswer": "Rocky Mountains",
+        "incorrectAnswers": ["Appalachian Mountains", "Sierra Nevada", "Andes Mountains"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which city is known for the Colosseum?",
+        "correctAnswer": "Rome",
+        "incorrectAnswers": ["Athens", "Naples", "Venice"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which element is essential for the formation of red blood cells?",
+        "correctAnswer": "Iron",
+        "incorrectAnswers": ["Calcium", "Sodium", "Potassium"],
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which American city is known for jazz music?",
+        "correctAnswer": "New Orleans",
+        "incorrectAnswers": ["Chicago", "New York", "Memphis"],
+        "category": "Music",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the name of the largest continent on Earth?",
+        "correctAnswer": "Asia",
+        "incorrectAnswers": ["Africa", "North America", "Europe"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which famous painter has a style with swirling stars and thick brushstrokes?",
+        "correctAnswer": "Vincent van Gogh",
+        "incorrectAnswers": ["Claude Monet", "Paul Cézanne", "Pablo Picasso"],
+        "category": "Art",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which river flows through London?",
+        "correctAnswer": "The Thames",
+        "incorrectAnswers": ["The Seine", "The Tagus", "The Po"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "In which year was the Constitution of Norway signed at Eidsvoll?",
+        "correctAnswer": "1814",
+        "incorrectAnswers": ["1905", "1762", "1821"],
+        "category": "History",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the chemical symbol for mercury?",
+        "correctAnswer": "Hg",
+        "incorrectAnswers": ["Qs", "Mg", "Km"],
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which famous author wrote the children's book 'Alice in Wonderland'?",
+        "correctAnswer": "Lewis Carroll",
+        "incorrectAnswers": ["J.K. Rowling", "Roald Dahl", "C.S. Lewis"],
+        "category": "Literature",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the name of the mountain range that forms the 'spine' of Italy?",
+        "correctAnswer": "The Apennines",
+        "incorrectAnswers": ["The Alps", "The Dolomites", "The Jura Mountains"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which city is known for the Eiffel Tower?",
+        "correctAnswer": "Paris",
+        "incorrectAnswers": ["London", "Berlin", "Rome"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which element is used in the filament of traditional light bulbs?",
+        "correctAnswer": "Tungsten",
+        "incorrectAnswers": ["Aluminum", "Copper", "Carbon"],
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which American state is known for the Grand Canyon?",
+        "correctAnswer": "Arizona",
+        "incorrectAnswers": ["Nevada", "Colorado", "Utah"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the name of the second largest continent on Earth?",
+        "correctAnswer": "Africa",
+        "incorrectAnswers": ["North America", "South America", "Europe"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which famous composer wrote the 'Hallelujah' chorus in Messiah?",
+        "correctAnswer": "George Frideric Handel",
+        "incorrectAnswers": ["Johann Sebastian Bach", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven"],
+        "category": "Music",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which river flows through Budapest?",
+        "correctAnswer": "The Danube",
+        "incorrectAnswers": ["The Rhine", "The Volga", "The Elbe"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "In which year were the Olympic Games revived in modern times?",
+        "correctAnswer": "1896",
+        "incorrectAnswers": ["1900", "1912", "1924"],
+        "category": "Sport",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the chemical symbol for tin?",
+        "correctAnswer": "Sn",
+        "incorrectAnswers": ["Ti", "Tn", "Ta"],
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which famous author wrote the novel 'Moby Dick'?",
+        "correctAnswer": "Herman Melville",
+        "incorrectAnswers": ["Mark Twain", "Ernest Hemingway", "F. Scott Fitzgerald"],
+        "category": "Literature",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the name of the mountain range that separates France from Spain?",
+        "correctAnswer": "The Pyrenees",
+        "incorrectAnswers": ["The Alps", "The Carpathians", "The Jura Mountains"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which city is known for the Acropolis?",
+        "correctAnswer": "Athens",
+        "incorrectAnswers": ["Rome", "Cairo", "Istanbul"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which element is the main component of natural gas?",
+        "correctAnswer": "Methane",
+        "incorrectAnswers": ["Propane", "Hydrogen", "Helium"],
+        "category": "Science",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which American state is known for Silicon Valley?",
+        "correctAnswer": "California",
+        "incorrectAnswers": ["Washington", "Texas", "New York"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the name of the smallest continent on Earth?",
+        "correctAnswer": "Australia",
+        "incorrectAnswers": ["Europe", "Antarctica", "South America"],
+        "category": "Geography",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which famous composer wrote the opera 'The Magic Flute'?",
+        "correctAnswer": "Wolfgang Amadeus Mozart",
+        "incorrectAnswers": ["Giuseppe Verdi", "Richard Wagner", "Giacomo Puccini"],
+        "category": "Music",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which European Union was established by the Maastricht Treaty?",
+        "correctAnswer": "The European Union (EU)",
+        "incorrectAnswers": ["The European Economic Community (EEC)", "The European Free Trade Association (EFTA)", "The Nordic Council"],
+        "category": "Politics",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the geological period when dinosaurs dominated the Earth?",
+        "correctAnswer": "Mesozoic",
+        "incorrectAnswers": ["Paleozoic", "Cenozoic", "Precambrian"],
+        "category": "Geology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Who is considered the 'father of atomic theory'?",
+        "correctAnswer": "John Dalton",
+        "incorrectAnswers": ["Ernest Rutherford", "Niels Bohr", "J.J. Thomson"],
+        "category": "Science",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which country is home to the Serengeti National Park?",
+        "correctAnswer": "Tanzania",
+        "incorrectAnswers": ["Kenya", "South Africa", "Namibia"],
+        "category": "Geography",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the Scandinavian mythology's version of heaven for fallen warriors?",
+        "correctAnswer": "Valhalla",
+        "incorrectAnswers": ["Hel", "Fólkvangr", "Asgard"],
+        "category": "Mythology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which famous novel begins with the sentence: 'It was the best of times, it was the worst of times...'?",
+        "correctAnswer": "A Tale of Two Cities",
+        "incorrectAnswers": ["Great Expectations", "David Copperfield", "Oliver Twist"],
+        "category": "Literature",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the SI unit for electric current?",
+        "correctAnswer": "Ampere",
+        "incorrectAnswers": ["Volt", "Watt", "Ohm"],
+        "category": "Science",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which instrument is central to the music genre of flamenco?",
+        "correctAnswer": "Guitar",
+        "incorrectAnswers": ["Violin", "Trumpet", "Piano"],
+        "category": "Music",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which famous scientist formulated the laws of classical mechanics and gravitation?",
+        "correctAnswer": "Isaac Newton",
+        "incorrectAnswers": ["Albert Einstein", "Galileo Galilei", "Johannes Kepler"],
+        "category": "Science",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the largest island in the Mediterranean Sea?",
+        "correctAnswer": "Sicily",
+        "incorrectAnswers": ["Crete", "Cyprus", "Sardinia"],
+        "category": "Geography",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which historical event began with the shots in Sarajevo in 1914?",
+        "correctAnswer": "World War I",
+        "incorrectAnswers": ["World War II", "The Russian Revolution", "The Balkan Wars"],
+        "category": "History",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the innermost, solid layer of the Earth?",
+        "correctAnswer": "Inner core",
+        "incorrectAnswers": ["Outer core", "The mantle", "The Earth's crust"],
+        "category": "Geology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which famous philosopher is known for the statement 'I think, therefore I am' (Cogito, ergo sum)?",
+        "correctAnswer": "René Descartes",
+        "incorrectAnswers": ["Immanuel Kant", "Friedrich Nietzsche", "Aristotle"],
+        "category": "Philosophy",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which country is known for the Terracotta Army?",
+        "correctAnswer": "China",
+        "incorrectAnswers": ["Japan", "India", "Egypt"],
+        "category": "History",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the Norse god of thunder and lightning?",
+        "correctAnswer": "Thor",
+        "incorrectAnswers": ["Odin", "Loki", "Frey"],
+        "category": "Mythology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which novel by Jane Austen deals with the sisters Elinor and Marianne Dashwood?",
+        "correctAnswer": "Sense and Sensibility",
+        "incorrectAnswers": ["Pride and Prejudice", "Emma", "Persuasion"],
+        "category": "Literature",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the SI unit for energy?",
+        "correctAnswer": "Joule",
+        "incorrectAnswers": ["Watt", "Newton", "Pascal"],
+        "category": "Science",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which musical instrument is associated with the jazz legend Louis Armstrong?",
+        "correctAnswer": "Trumpet",
+        "incorrectAnswers": ["Saxophone", "Piano", "Clarinet"],
+        "category": "Music",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which theory explains how continents have moved across the Earth's surface?",
+        "correctAnswer": "Plate tectonics",
+        "incorrectAnswers": ["Quantum mechanics", "Theory of evolution", "Theory of gravity"],
+        "category": "Geology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the largest lake in Africa?",
+        "correctAnswer": "Lake Victoria",
+        "incorrectAnswers": ["Lake Tanganyika", "Lake Malawi", "Lake Chad"],
+        "category": "Geography",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which conflict was fought between North and South Korea from 1950 to 1953?",
+        "correctAnswer": "The Korean War",
+        "incorrectAnswers": ["The Vietnam War", "The Second Sino-Japanese War", "The Cold War"],
+        "category": "History",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the outer, liquid layer of the Earth's core?",
+        "correctAnswer": "Outer core",
+        "incorrectAnswers": ["Inner core", "The mantle", "The asthenosphere"],
+        "category": "Geology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which famous psychologist developed the theory of psychoanalysis?",
+        "correctAnswer": "Sigmund Freud",
+        "incorrectAnswers": ["Carl Jung", "B.F. Skinner", "Jean Piaget"],
+        "category": "Psychology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which country is known for Machu Picchu?",
+        "correctAnswer": "Peru",
+        "incorrectAnswers": ["Mexico", "Chile", "Bolivia"],
+        "category": "Geography",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of Odin's horse in Norse mythology?",
+        "correctAnswer": "Sleipnir",
+        "incorrectAnswers": ["Fenrir", "Huginn", "Gungnir"],
+        "category": "Mythology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which novel by F. Scott Fitzgerald depicts 'The Jazz Age'?",
+        "correctAnswer": "The Great Gatsby",
+        "incorrectAnswers": ["Tender is the Night", "This Side of Paradise", "The Beautiful and Damned"],
+        "category": "Literature",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the SI unit for frequency?",
+        "correctAnswer": "Hertz",
+        "incorrectAnswers": ["Decibel", "Watt", "Farad"],
+        "category": "Science",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which musical instrument is known for its use in Irish folk music?",
+        "correctAnswer": "Fiddle",
+        "incorrectAnswers": ["Harp", "Bodhrán", "Flute"],
+        "category": "Music",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which process do plants use to convert light energy into chemical energy?",
+        "correctAnswer": "Photosynthesis",
+        "incorrectAnswers": ["Respiration", "Fermentation", "Translocation"],
+        "category": "Biology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the longest river in North America?",
+        "correctAnswer": "Missouri-Mississippi",
+        "incorrectAnswers": ["Rio Grande", "Colorado River", "Yukon River"],
+        "category": "Geography",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which historical event led to the creation of the state of Israel in 1948?",
+        "correctAnswer": "The United Nations Partition Plan for Palestine",
+        "incorrectAnswers": ["The Six-Day War", "The Yom Kippur War", "The Suez Crisis"],
+        "category": "History",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the middle layer of the Earth, located between the core and the crust?",
+        "correctAnswer": "The mantle",
+        "incorrectAnswers": ["The lithosphere", "The asthenosphere", "The mesosphere"],
+        "category": "Geology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which famous philosopher is known for his critique of pure reason?",
+        "correctAnswer": "Immanuel Kant",
+        "incorrectAnswers": ["Søren Kierkegaard", "Friedrich Nietzsche", "Jean-Jacques Rousseau"],
+        "category": "Philosophy",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which country is known for the Taj Mahal?",
+        "correctAnswer": "India",
+        "incorrectAnswers": ["Pakistan", "Iran", "Iraq"],
+        "category": "Geography",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the Norse goddess of love and fertility?",
+        "correctAnswer": "Freyja",
+        "incorrectAnswers": ["Idun", "Sif", "Frigg"],
+        "category": "Mythology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which novel by George Orwell is a satire on totalitarian regimes?",
+        "correctAnswer": "Animal Farm",
+        "incorrectAnswers": ["Nineteen Eighty-Four", "Burmese Days", "Keep the Aspidistra Flying"],
+        "category": "Literature",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the SI unit for pressure?",
+        "correctAnswer": "Pascal",
+        "incorrectAnswers": ["Newton", "Bar", "Atmosphere"],
+        "category": "Science",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which musical instrument is known for its use in classical Indian music?",
+        "correctAnswer": "Sitar",
+        "incorrectAnswers": ["Tabla", "Harmonium", "Veena"],
+        "category": "Music",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which type of radiation consists of helium nuclei?",
+        "correctAnswer": "Alpha radiation",
+        "incorrectAnswers": ["Beta radiation", "Gamma radiation", "Neutron radiation"],
+        "category": "Physics",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the highest mountain range in the world?",
+        "correctAnswer": "The Himalayas",
+        "incorrectAnswers": ["The Andes", "The Rocky Mountains", "The Alps"],
+        "category": "Geography",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which war in the mid-19th century was fought between Great Britain and China over the opium trade?",
+        "correctAnswer": "The Opium Wars",
+        "incorrectAnswers": ["The Boxer Rebellion", "The Taiping Rebellion", "The Second Sino-Japanese War"],
+        "category": "History",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the outermost, solid layer of the Earth?",
+        "correctAnswer": "The Earth's crust",
+        "incorrectAnswers": ["The lithosphere", "The mantle", "The asthenosphere"],
+        "category": "Geology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which famous economist wrote 'Das Kapital'?",
+        "correctAnswer": "Karl Marx",
+        "incorrectAnswers": ["Adam Smith", "John Maynard Keynes", "David Ricardo"],
+        "category": "Economics",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which country is known for its tulips and windmills?",
+        "correctAnswer": "The Netherlands",
+        "incorrectAnswers": ["Belgium", "Denmark", "Germany"],
+        "category": "Geography",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the Norse god of wisdom, poetry, and magic?",
+        "correctAnswer": "Odin",
+        "incorrectAnswers": ["Balder", "Heimdall", "Bragi"],
+        "category": "Mythology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which novel by Ernest Hemingway is about an aging fisherman and a large marlin?",
+        "correctAnswer": "The Old Man and the Sea",
+        "incorrectAnswers": ["A Farewell to Arms", "For Whom the Bell Tolls", "To Have and Have Not"],
+        "category": "Literature",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the SI unit for electrical resistance?",
+        "correctAnswer": "Ohm",
+        "incorrectAnswers": ["Volt", "Ampere", "Watt"],
+        "category": "Science",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which musical instrument is known for its use in reggae music?",
+        "correctAnswer": "Bass guitar",
+        "incorrectAnswers": ["Drums", "Keyboard", "Saxophone"],
+        "category": "Music",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which type of cloud is characterized by its thin, wispy appearance high in the atmosphere?",
+        "correctAnswer": "Cirrus clouds",
+        "incorrectAnswers": ["Cumulus clouds", "Stratus clouds", "Nimbus clouds"],
+        "category": "Meteorology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the largest desert in Africa?",
+        "correctAnswer": "The Sahara Desert",
+        "incorrectAnswers": ["The Kalahari Desert", "The Namib Desert", "The Nubian Desert"],
+        "category": "Geography",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which 17th-century conflict involved much of Europe and resulted in the Peace of Westphalia?",
+        "correctAnswer": "The Thirty Years' War",
+        "incorrectAnswers": ["The Hundred Years' War", "The Napoleonic Wars", "The War of the Spanish Succession"],
+        "category": "History",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the layer in the atmosphere that contains the ozone layer?",
+        "correctAnswer": "The stratosphere",
+        "incorrectAnswers": ["The troposphere", "The mesosphere", "The thermosphere"],
+        "category": "Meteorology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which famous physicist, among others, developed quantum mechanics?",
+        "correctAnswer": "Max Planck",
+        "incorrectAnswers": ["Albert Einstein", "Richard Feynman", "Paul Dirac"],
+        "category": "Physics",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which country is known for its kangaroos and koalas?",
+        "correctAnswer": "Australia",
+        "incorrectAnswers": ["New Zealand", "Indonesia", "Papua New Guinea"],
+        "category": "Geography",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What are the names of Loki's children with the giantess Angrboða in Norse mythology?",
+        "correctAnswer": "Fenrir, Jörmungandr, and Hel",
+        "incorrectAnswers": ["Sleipnir, Huginn, and Muninn", "Balder, Hod, and Hermod", "Frey, Freyja, and Njord"],
+        "category": "Mythology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which novel by Virginia Woolf explores the stream of consciousness technique?",
+        "correctAnswer": "Mrs Dalloway",
+        "incorrectAnswers": ["To the Lighthouse", "Orlando", "The Waves"],
+        "category": "Literature",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the SI unit for capacitance?",
+        "correctAnswer": "Farad",
+        "incorrectAnswers": ["Coulomb", "Henry", "Tesla"],
+        "category": "Science",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which musical instrument is known for its use in tango music?",
+        "correctAnswer": "Bandoneon",
+        "incorrectAnswers": ["Guitar", "Piano", "Violin"],
+        "category": "Music",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which type of weather phenomenon is characterized by a rotating column of air extending from a cloud to the ground?",
+        "correctAnswer": "Tornado",
+        "incorrectAnswers": ["Hurricane", "Typhoon", "Hail"],
+        "category": "Meteorology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the longest river in South America?",
+        "correctAnswer": "The Amazon River",
+        "incorrectAnswers": ["The Orinoco River", "The Paraná River", "The Río de la Plata"],
+        "category": "Geography",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which revolution in 1789 led to the abolition of the monarchy in France?",
+        "correctAnswer": "The French Revolution",
+        "incorrectAnswers": ["The American Revolution", "The Industrial Revolution", "The Russian Revolution"],
+        "category": "History",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the lowest layer of the atmosphere where most weather occurs?",
+        "correctAnswer": "The troposphere",
+        "incorrectAnswers": ["The stratosphere", "The mesosphere", "The thermosphere"],
+        "category": "Meteorology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which famous biologist formulated the theory of evolution based on natural selection?",
+        "correctAnswer": "Charles Darwin",
+        "incorrectAnswers": ["Gregor Mendel", "Louis Pasteur", "Alfred Russel Wallace"],
+        "category": "Biology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which country is known for its samurai warriors?",
+        "correctAnswer": "Japan",
+        "incorrectAnswers": ["China", "Korea", "Vietnam"],
+        "category": "History",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the Norse bridge that connects Asgard with Midgard?",
+        "correctAnswer": "Bifrost",
+        "incorrectAnswers": ["Gjallarbrú", "Yggdrasil", "Sleipnir"],
+        "category": "Mythology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which novel by Gabriel García Márquez is about the Buendía family in the fictional town of Macondo?",
+        "correctAnswer": "One Hundred Years of Solitude",
+        "incorrectAnswers": ["Love in the Time of Cholera", "No One Writes to the Colonel", "The Autumn of the Patriarch"],
+        "category": "Literature",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the SI unit for inductance?",
+        "correctAnswer": "Henry",
+        "incorrectAnswers": ["Weber", "Farad", "Ohm"],
+        "category": "Science",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which musical instrument is known for its use in Scottish folk music?",
+        "correctAnswer": "Bagpipes",
+        "incorrectAnswers": ["Fiddle", "Harp", "Bodhrán"],
+        "category": "Music",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which type of precipitation consists of ice crystals?",
+        "correctAnswer": "Snow",
+        "incorrectAnswers": ["Rain", "Hail", "Sleet"],
+        "category": "Meteorology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the largest lake in the world (by volume and depth)?",
+        "correctAnswer": "Lake Baikal",
+        "incorrectAnswers": ["The Caspian Sea", "Lake Victoria", "Lake Superior"],
+        "category": "Geography",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which conflict in the 1990s led to the dissolution of Yugoslavia?",
+        "correctAnswer": "The Yugoslav Wars",
+        "incorrectAnswers": ["The Cold War", "The Gulf War", "The Kosovo War"],
+        "category": "History",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the layer in the atmosphere above the stratosphere, where temperature increases with altitude?",
+        "correctAnswer": "The mesosphere",
+        "incorrectAnswers": ["The troposphere", "The thermosphere", "The exosphere"],
+        "category": "Meteorology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which famous chemist is known for his periodic table of elements?",
+        "correctAnswer": "Dmitri Mendeleev",
+        "incorrectAnswers": ["Marie Curie", "Antoine Lavoisier", "John Dalton"],
+        "category": "Chemistry",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which country is known for its ancient Mayan ruins like Chichén Itzá?",
+        "correctAnswer": "Mexico",
+        "incorrectAnswers": ["Peru", "Guatemala", "Honduras"],
+        "category": "Geography",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the name of the Norse world tree that connects the nine realms?",
+        "correctAnswer": "Yggdrasil",
+        "incorrectAnswers": ["Bifrost", "Gjallarhorn", "Mímir's Well"],
+        "category": "Mythology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which treaty marked the end of the First Anglo-Dutch War in 1654?",
+        "correctAnswer": "The Treaty of Westminster",
+        "incorrectAnswers": ["The Treaty of Utrecht", "The Treaty of Breda", "The Treaty of Paris"],
+        "category": "History",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the only primate species that is endemic to Europe?",
+        "correctAnswer": "Barbary macaque",
+        "incorrectAnswers": ["Macaque", "Capuchin monkey", "Lemur"],
+        "category": "Zoology",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which mathematician proved Fermat's Last Theorem?",
+        "correctAnswer": "Andrew Wiles",
+        "incorrectAnswers": ["Grigori Perelman", "Terence Tao", "Edward Witten"],
+        "category": "Mathematics",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the deepest part of the world's oceans, located in the Mariana Trench?",
+        "correctAnswer": "The Challenger Deep",
+        "incorrectAnswers": ["The Horizon Deep", "The Vityaz Deep", "The Trieste Deep"],
+        "category": "Geography",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which philosopher developed the concept of the 'Übermensch'?",
+        "correctAnswer": "Friedrich Nietzsche",
+        "incorrectAnswers": ["Immanuel Kant", "Søren Kierkegaard", "Jean-Paul Sartre"],
+        "category": "Philosophy",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the only species of bird that lacks wings?",
+        "correctAnswer": "Kiwi",
+        "incorrectAnswers": ["Ostrich", "Emu", "Penguin"],
+        "category": "Zoology",
+        "difficulty": "hard"
+    },
+    {
+        "question": "In which year was the People's Republic of China proclaimed?",
+        "correctAnswer": "1949",
+        "incorrectAnswers": ["1945", "1953", "1959"],
+        "category": "History",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the chemical reaction in which an ester is split by water?",
+        "correctAnswer": "Hydrolysis",
+        "incorrectAnswers": ["Condensation", "Esterification", "Hydrogenation"],
+        "category": "Chemistry",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which author wrote the novel 'Finnegans Wake'?",
+        "correctAnswer": "James Joyce",
+        "incorrectAnswers": ["Virginia Woolf", "Samuel Beckett", "T.S. Eliot"],
+        "category": "Literature",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the highest volcano in the world measured from its base on the ocean floor?",
+        "correctAnswer": "Mauna Kea",
+        "incorrectAnswers": ["Mount Everest", "Chimborazo", "Kilimanjaro"],
+        "category": "Geography",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which historical event is known as the 'Night of the Long Knives'?",
+        "correctAnswer": "The purge of SA leaders in Nazi Germany in 1934",
+        "incorrectAnswers": ["The St. Bartholomew's Day massacre", "Kristallnacht", "The Stockholm Bloodbath"],
+        "category": "History",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the geological period that followed the Cretaceous period and marked the beginning of the dominance of mammals?",
+        "correctAnswer": "Paleogene",
+        "incorrectAnswers": ["Neogene", "Quaternary", "Cenozoic"],
+        "category": "Geology",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which physicist formulated the principle that it is impossible to know both the position and momentum of a particle with perfect accuracy?",
+        "correctAnswer": "Werner Heisenberg",
+        "incorrectAnswers": ["Niels Bohr", "Max Planck", "Erwin Schrödinger"],
+        "category": "Physics",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the largest coral reef system in the world?",
+        "correctAnswer": "The Great Barrier Reef",
+        "incorrectAnswers": ["The Mesoamerican Barrier Reef", "The Red Sea Coral Reef", "The New Caledonia Barrier Reef"],
+        "category": "Geography",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which philosopher is known for his 'allegory of the cave'?",
+        "correctAnswer": "Plato",
+        "incorrectAnswers": ["Aristotle", "Socrates", "Heraclitus"],
+        "category": "Philosophy",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the only venomous snake species native to Northern Europe?",
+        "correctAnswer": "The common European adder",
+        "incorrectAnswers": ["The smooth snake", "The grass snake", "The rattlesnake"],
+        "category": "Zoology",
+        "difficulty": "hard"
+    },
+    {
+        "question": "In which year did the Battle of Dien Bien Phu take place?",
+        "correctAnswer": "1954",
+        "incorrectAnswers": ["1950", "1962", "1968"],
+        "category": "History",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the process where a solid changes directly into a gas without becoming a liquid?",
+        "correctAnswer": "Sublimation",
+        "incorrectAnswers": ["Evaporation", "Condensation", "Deposition"],
+        "category": "Chemistry",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which author wrote the poem 'The Waste Land'?",
+        "correctAnswer": "T.S. Eliot",
+        "incorrectAnswers": ["W.B. Yeats", "Ezra Pound", "Wallace Stevens"],
+        "category": "Literature",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the highest mountain in the Andes?",
+        "correctAnswer": "Aconcagua",
+        "incorrectAnswers": ["Huascarán", "Chimborazo", "Cotopaxi"],
+        "category": "Geography",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which historical event is known as the 'Boston Tea Party'?",
+        "correctAnswer": "The protest in Boston in 1773 against British taxation",
+        "incorrectAnswers": ["The signing of the American Declaration of Independence", "The Battles of Lexington and Concord", "The Boston Massacre"],
+        "category": "History",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the geological epoch known as the 'Ice Age'?",
+        "correctAnswer": "The Pleistocene",
+        "incorrectAnswers": ["The Holocene", "The Pliocene", "The Oligocene"],
+        "category": "Geology",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which mathematician developed the theory of game theory?",
+        "correctAnswer": "John von Neumann",
+        "incorrectAnswers": ["Alan Turing", "Kurt Gödel", "Paul Erdős"],
+        "category": "Mathematics",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the deepest point in the Atlantic Ocean?",
+        "correctAnswer": "The Puerto Rico Trench",
+        "incorrectAnswers": ["The Romanche Trench", "The South Sandwich Trench", "The Cayman Trough"],
+        "category": "Geography",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which philosopher is known for his theory of the 'four causes'?",
+        "correctAnswer": "Aristotle",
+        "incorrectAnswers": ["Plato", "Socrates", "Plotinus"],
+        "category": "Philosophy",
+        "difficulty": "hard"
+    },
+    {
+        "question": "In which year did the Soviet Union dissolve?",
+        "correctAnswer": "1991",
+        "incorrectAnswers": ["1989", "1992", "1990"],
+        "category": "History",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the chemical process in which an organic compound reacts with oxygen to produce carbon dioxide and water, releasing energy?",
+        "correctAnswer": "Combustion",
+        "incorrectAnswers": ["Respiration", "Fermentation", "Oxidation"],
+        "category": "Chemistry",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which author wrote the novel 'White Teeth'?",
+        "correctAnswer": "Zadie Smith",
+        "incorrectAnswers": ["Salman Rushdie", "Arundhati Roy", "Kazuo Ishiguro"],
+        "category": "Literature",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which historical event directly led to the United States' entry into World War II?",
+        "correctAnswer": "The attack on Pearl Harbor",
+        "incorrectAnswers": ["The Battle of Stalingrad", "D-Day", "The Battle of Midway"],
+        "category": "History",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the geological period known for the 'Cambrian explosion'?",
+        "correctAnswer": "The Cambrian",
+        "incorrectAnswers": ["The Ordovician", "The Silurian", "The Precambrian"],
+        "category": "Geology",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which physicist is known for his hypothesis on the existence of the Higgs boson?",
+        "correctAnswer": "Peter Higgs",
+        "incorrectAnswers": ["Stephen Hawking", "Richard Feynman", "Murray Gell-Mann"],
+        "category": "Physics",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the deepest point in the Indian Ocean?",
+        "correctAnswer": "The Java Trench",
+        "incorrectAnswers": ["The Diamantina Deep", "The Madagascar Basin", "The Arabian Basin"],
+        "category": "Geography",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which philosopher is known for his concept of the 'categorical imperative'?",
+        "correctAnswer": "Immanuel Kant",
+        "incorrectAnswers": ["John Stuart Mill", "David Hume", "G.W.F. Hegel"],
+        "category": "Philosophy",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the only venomous lizard species found in the United States?",
+        "correctAnswer": "The Gila monster",
+        "incorrectAnswers": ["The skink", "The chameleon", "The iguana"],
+        "category": "Zoology",
+        "difficulty": "hard"
+    },
+    {
+        "question": "In which year did the Chernobyl disaster occur?",
+        "correctAnswer": "1986",
+        "incorrectAnswers": ["1979", "1990", "1982"],
+        "category": "History",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the chemical reaction in which two or more smaller molecules combine to form a larger molecule?",
+        "correctAnswer": "Polymerization",
+        "incorrectAnswers": ["Hydrolysis", "Condensation", "Reductase"],
+        "category": "Chemistry",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which author wrote the novel 'Orlando'?",
+        "correctAnswer": "Virginia Woolf",
+        "incorrectAnswers": ["E.M. Forster", "D.H. Lawrence", "Jane Austen"],
+        "category": "Literature",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the highest mountain in Australia?",
+        "correctAnswer": "Mount Kosciuszko",
+        "incorrectAnswers": ["Mount Townsend", "Mount Bartle Frere", "Mount Bogong"],
+        "category": "Geography",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which historical event is known as the 'October Revolution'?",
+        "correctAnswer": "The Bolshevik Revolution in Russia in 1917",
+        "incorrectAnswers": ["The French Revolution", "The American Revolution", "The Industrial Revolution"],
+        "category": "History",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the geological period known for the first dinosaurs?",
+        "correctAnswer": "The Triassic",
+        "incorrectAnswers": ["The Jurassic", "The Cretaceous", "The Permian"],
+        "category": "Geology",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which mathematician is known for his contributions to information theory, particularly the concept of entropy?",
+        "correctAnswer": "Claude Shannon",
+        "incorrectAnswers": ["Alan Turing", "John Nash", "George Boole"],
+        "category": "Mathematics",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the deepest point in the Pacific Ocean (other than the Challenger Deep)?",
+        "correctAnswer": "The Sirena Deep",
+        "incorrectAnswers": ["The Vityaz Deep", "The Horizon Deep", "The Tonga Trench"],
+        "category": "Geography",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which philosopher is known for his theory of 'existentialism is humanism'?",
+        "correctAnswer": "Jean-Paul Sartre",
+        "incorrectAnswers": ["Albert Camus", "Simone de Beauvoir", "Martin Heidegger"],
+        "category": "Philosophy",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the only North American marsupial species north of Mexico?",
+        "correctAnswer": "The Virginia opossum",
+        "incorrectAnswers": ["The southern marsupial shrew", "The ringtail possum", "The northern marsupial mole"],
+        "category": "Zoology",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the chemical process in which a metallic surface reacts with oxygen to form an oxide?",
+        "correctAnswer": "Corrosion",
+        "incorrectAnswers": ["Catalysis", "Electrolysis", "Reduction"],
+        "category": "Chemistry",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which author wrote the novel 'Middlemarch'?",
+        "correctAnswer": "George Eliot",
+        "incorrectAnswers": ["Charles Dickens", "Thomas Hardy", "Jane Austen"],
+        "category": "Literature",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the highest mountain in North America?",
+        "correctAnswer": "Denali",
+        "incorrectAnswers": ["Mount Logan", "Pico de Orizaba", "Mount Saint Elias"],
+        "category": "Geography",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which historical event is known as 'The Great Depression'?",
+        "correctAnswer": "The economic crisis that affected much of the world in the 1930s",
+        "incorrectAnswers": ["The stock market crash of 1987", "The financial crisis of 2008", "The oil crisis of the 1970s"],
+        "category": "History",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the geological period known for the first flowering plants?",
+        "correctAnswer": "The Cretaceous",
+        "incorrectAnswers": ["The Jurassic", "The Triassic", "The Permian"],
+        "category": "Geology",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which physicist is known for his 'many-worlds' interpretation of quantum mechanics?",
+        "correctAnswer": "Hugh Everett III",
+        "incorrectAnswers": ["Niels Bohr", "Richard Feynman", "David Bohm"],
+        "category": "Physics",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the deepest point in the Arctic Ocean?",
+        "correctAnswer": "The Molloy Deep",
+        "incorrectAnswers": ["The Lena Trough", "The Barents Deep", "The Fram Basin"],
+        "category": "Geography",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which philosopher is known for his critique of utilitarianism in 'A Theory of Justice'?",
+        "correctAnswer": "John Rawls",
+        "incorrectAnswers": ["Robert Nozick", "Martha Nussbaum", "Peter Singer"],
+        "category": "Philosophy",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the only species in the genus Ornithorhynchus?",
+        "correctAnswer": "The platypus",
+        "incorrectAnswers": ["The echidna", "The koala", "The Tasmanian devil"],
+        "category": "Zoology",
+        "difficulty": "hard"
+    },
+    {
+        "question": "In which year did the Cuban Missile Crisis take place?",
+        "correctAnswer": "1962",
+        "incorrectAnswers": ["1959", "1965", "1972"],
+        "category": "History",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the chemical process in which an acid and a base react to form a salt and water?",
+        "correctAnswer": "Neutralization",
+        "incorrectAnswers": ["Hydrolysis", "Condensation", "Ionization"],
+        "category": "Chemistry",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which author wrote the novel 'Beloved'?",
+        "correctAnswer": "Toni Morrison",
+        "incorrectAnswers": ["Alice Walker", "Maya Angelou", "Zora Neale Hurston"],
+        "category": "Literature",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which historical event is known as 'The Industrial Revolution'?",
+        "correctAnswer": "The period of major technological, social, and economic changes that began in Great Britain in the late 18th century",
+        "incorrectAnswers": ["The invention of the steam engine", "The transition from agriculture to industry in the US", "The invention of the assembly line"],
+        "category": "History",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the geological period known for the first apes?",
+        "correctAnswer": "The Miocene",
+        "incorrectAnswers": ["The Oligocene", "The Pleistocene", "The Pliocene"],
+        "category": "Geology",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which mathematician is known for his contributions to topology, particularly the Poincaré conjecture?",
+        "correctAnswer": "Henri Poincaré",
+        "incorrectAnswers": ["Grigori Perelman", "William Thurston", "Stephen Smale"],
+        "category": "Mathematics",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the deepest point in the Southern Ocean (Antarctic Ocean)?",
+        "correctAnswer": "The South Sandwich Trench",
+        "incorrectAnswers": ["The Weddell Deep", "The Scotia Deep", "The Bellingshausen Deep"],
+        "category": "Geography",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the only known venomous primate?",
+        "correctAnswer": "The slow loris",
+        "incorrectAnswers": ["The aye-aye", "The tarsier", "The star-nosed mole"],
+        "category": "Zoology",
+        "difficulty": "hard"
+    },
+    {
+        "question": "In which year were the apartheid laws abolished in South Africa?",
+        "correctAnswer": "1991",
+        "incorrectAnswers": ["1986", "1994", "1989"],
+        "category": "History",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the chemical process in which an organic compound containing a carbon-carbon double bond or triple bond reacts and adds atoms to these bonds?",
+        "correctAnswer": "Addition reaction",
+        "incorrectAnswers": ["Substitution reaction", "Elimination reaction", "Esterification"],
+        "category": "Chemistry",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the highest mountain in Europe (if the Caucasus Mountains are considered part of Europe)?",
+        "correctAnswer": "Mount Elbrus",
+        "incorrectAnswers": ["Mont Blanc", "The Matterhorn", "Monte Rosa"],
+        "category": "Geography",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which historical event is known as 'The Cold War'?",
+        "correctAnswer": "The geopolitical tension between the United States and the Soviet Union and their respective allies from the mid-1940s to the early 1990s",
+        "incorrectAnswers": ["The Cuban Missile Crisis", "The Vietnam War", "The fall of the Berlin Wall"],
+        "category": "History",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the geological period known for the first birds?",
+        "correctAnswer": "The Jurassic",
+        "incorrectAnswers": ["The Cretaceous", "The Triassic", "The Carboniferous"],
+        "category": "Geology",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the deepest lake in the world?",
+        "correctAnswer": "Lake Baikal",
+        "incorrectAnswers": ["Lake Tanganyika", "The Caspian Sea", "Lake Vostok"],
+        "category": "Geography",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which philosopher is known for his theory of 'alienation' in capitalist society?",
+        "correctAnswer": "Karl Marx",
+        "incorrectAnswers": ["Max Weber", "Friedrich Engels", "Theodor Adorno"],
+        "category": "Philosophy",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the largest active volcano in Europe?",
+        "correctAnswer": "Etna",
+        "incorrectAnswers": ["Vesuvius", "Stromboli", "Santorini"],
+        "category": "Geography",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which physicist formulated the quantum theory of electromagnetic radiation?",
+        "correctAnswer": "Max Planck",
+        "incorrectAnswers": ["Niels Bohr", "Werner Heisenberg", "Albert Einstein"],
+        "category": "Physics",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the chemical process where carbohydrates are broken down into alcohol and carbon dioxide?",
+        "correctAnswer": "Fermentation",
+        "incorrectAnswers": ["Photosynthesis", "Distillation", "Respiration"],
+        "category": "Chemistry",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which author wrote the work 'Ulysses'?",
+        "correctAnswer": "James Joyce",
+        "incorrectAnswers": ["Virginia Woolf", "F. Scott Fitzgerald", "Ernest Hemingway"],
+        "category": "Literature",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the oldest existing written legal code?",
+        "correctAnswer": "Code of Hammurabi",
+        "incorrectAnswers": ["Magna Carta", "Law of the Twelve Tables", "Justinian's Code"],
+        "category": "History",
+        "difficulty": "hard"
+      }
+]
